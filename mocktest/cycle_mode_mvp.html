@@ -1,0 +1,1481 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Go Study Caterpillar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy: #1B2A4A;
+    --navy-deep: #101A30;
+    --ivory: #F6F2E7;
+    --paper: #FFFDF8;
+    --gold: #B8933E;
+    --gold-light: #E4CE93;
+    --gold-dim: #DCC488;
+    --ink: #20232B;
+    --slate: #6B7280;
+    --border: #E4DDC6;
+    --success: #3F7A5C;
+    --success-bg: #E8F1EA;
+    --error: #A9442F;
+    --error-bg: #FBEAE4;
+    --radius: 14px;
+  }
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background: var(--ivory);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+  .mono{ font-family: 'IBM Plex Mono', monospace; letter-spacing: 0.02em; }
+  a{ color: inherit; }
+  button{ font-family: inherit; cursor: pointer; }
+  button:disabled{ cursor: not-allowed; opacity: .45; }
+  button:focus-visible, input:focus-visible{ outline: 2px solid var(--gold); outline-offset: 2px; }
+
+  .app{ max-width: 820px; margin: 0 auto; padding: 0 20px 80px; }
+  .topbar{
+    background: linear-gradient(180deg, var(--navy) 0%, var(--navy-deep) 100%);
+    color: var(--ivory);
+    padding: 18px 20px 22px;
+    margin: 0 0 28px;
+  }
+  .topbar-inner{ max-width: 820px; margin: 0 auto; }
+  .exam-title{ font-size: 19px; font-weight: 600; margin:0; }
+  .exam-sub{ font-size: 12px; color: var(--gold-light); margin: 2px 0 0; letter-spacing: 0.06em; }
+
+  .card{
+    background: var(--paper); border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 28px 28px 26px; box-shadow: 0 1px 2px rgba(27,42,74,0.04); margin-bottom: 18px;
+  }
+  .hero h1{ font-size: 24px; margin: 0 0 8px; }
+  .hero p{ color: var(--slate); font-size: 14px; line-height: 1.7; max-width: 62ch; }
+
+  .btn{ border: none; border-radius: 8px; padding: 11px 20px; font-size: 14px; font-weight: 600; }
+  .btn-primary{ background: var(--navy); color: var(--ivory); }
+  .btn-ghost{ background: transparent; color: var(--slate); border: 1px solid var(--border); }
+  .btn-danger{ background: var(--error); color: #fff; }
+  .btn-row{ display:flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+  .link-mini{ font-size: 12px; color: var(--slate); text-decoration: underline; background:none; border:none; padding:0; }
+  .btn-mini{ background: transparent; border: 1px solid var(--border); border-radius: 6px; padding: 5px 10px; font-size: 12px; color: var(--slate); flex-shrink:0; }
+  .btn-mini:hover{ border-color: var(--gold); color: var(--navy); }
+
+  .card-header-row{ display:flex; justify-content:space-between; align-items:center; margin-bottom: 10px; }
+  .card-header-row .section-title{ margin-bottom: 0; }
+  .icon-btn-delete{
+    flex-shrink:0; width: 30px; height: 30px; border-radius: 8px;
+    background: transparent; border: 1px solid var(--border); color: var(--slate);
+    display:flex; align-items:center; justify-content:center; font-size: 14px; padding:0;
+  }
+  .icon-btn-delete:hover{ border-color: var(--error); color: var(--error); background: var(--error-bg); }
+
+  .status-card{ display:flex; justify-content: space-between; align-items:center; flex-wrap: wrap; gap: 10px; }
+  .status-card .num{ font-family:'IBM Plex Mono',monospace; font-weight:700; color: var(--navy); }
+  .pill{ display:inline-block; font-size: 11px; font-weight: 700; padding: 3px 10px; border-radius: 100px; background: var(--gold-light); color: var(--navy); margin-right: 6px; }
+
+  .section-title{ font-size: 16px; margin: 0 0 10px; }
+  .section-desc{ font-size: 12.5px; color: var(--slate); margin: 0 0 12px; }
+  .history-row{ display:flex; justify-content:space-between; align-items:center; padding: 10px 12px; border: 1px solid var(--border); border-radius: 8px; font-size: 13px; margin-bottom: 8px; gap: 10px; }
+  .history-row .meta{ color: var(--slate); font-size: 12px; }
+  .empty-note{ font-size: 13px; color: var(--slate); }
+
+  /* 「檢視」單次考試明細頁：獨立一頁、不用色塊，純白底＋黑線表格 */
+  .plain-card{ background:#fff; border: 1px solid #000; border-radius: 0; padding: 24px; margin-bottom: 18px; }
+  .plain-toolbar{ display:flex; justify-content:space-between; align-items:center; margin-bottom: 16px; gap: 10px; }
+  .plain-back{ background:none; border:none; padding:0; font-size:13px; color:#000; text-decoration:underline; }
+  .plain-download-btn{ background:#000; color:#fff; border:none; border-radius: 4px; padding: 7px 14px; font-size: 12.5px; font-weight:600; }
+  .plain-download-btn:hover{ opacity: .85; }
+  .plain-title{ font-size: 18px; font-weight:700; margin: 0 0 6px; }
+  .plain-desc{ font-size: 13px; color:#000; margin: 0 0 18px; }
+  .plain-table{ width:100%; border-collapse: collapse; }
+  .plain-table th, .plain-table td{ border: 1px solid #000; padding: 9px 12px; text-align:left; font-size: 14px; vertical-align: top; color:#000; }
+  .plain-table th{ font-weight: 700; }
+
+  /* 「檢視」頁下載 PDF：走瀏覽器列印，強制 A4、只印卡片內容 */
+  .print-only{ display:none; }
+  @media print{
+    body{ background:#fff !important; }
+    .topbar{ display:none !important; }
+    .no-print{ display:none !important; }
+    .print-only{ display:block; }
+    .app{ max-width:none; padding:0; margin:0; }
+    .card{ border:none; box-shadow:none; padding:0; border-radius:0; }
+    .plain-card{ border:none; padding:0; margin:0; }
+    table tr{ page-break-inside: avoid; }
+    thead{ display: table-header-group; }
+    /* 黑白列印：拿掉色塊，統一黑字黑線 */
+    table, th, td{ border-color:#000 !important; color:#000 !important; }
+    .tag, .pos-tag-sm, .pos-tag{ background:none !important; color:#000 !important; border:1px solid #000; }
+    .example-toggle-cell, .examples-row{ display:none !important; }
+    @page{ size: A4; margin: 18mm; }
+  }
+
+  /* quiz */
+  .quiz-progress{ font-size: 12px; color: var(--slate); margin-bottom: 10px; display:flex; justify-content:space-between; }
+  .progress-track{ height: 6px; background: var(--ivory); border-radius: 3px; overflow:hidden; margin-bottom: 22px; border:1px solid var(--border); }
+  .progress-fill{ height: 100%; background: var(--gold); }
+  .meaning-block{ margin-bottom: 26px; }
+  .meaning-line{ font-size: 19px; line-height: 1.7; margin-bottom: 8px; }
+  .pos-tag{ display:inline-block; font-family:'IBM Plex Mono',monospace; font-weight:700; color: var(--navy); background: var(--gold-light); padding: 2px 9px; border-radius: 6px; font-size: 13px; margin-right: 8px; vertical-align: 2px; }
+  .meaning-line-compact{ font-size: 13px; line-height:1.6; margin-bottom: 4px; }
+  .pos-tag-sm{ display:inline-block; font-family:'IBM Plex Mono',monospace; font-weight:700; color: var(--navy); background: var(--gold-light); padding: 1px 7px; border-radius: 5px; font-size: 11px; margin-right: 6px; }
+  .answer-input{
+    width:100%; font-size: 20px; padding: 14px 16px; border-radius: 10px;
+    border: 1.5px solid var(--border); font-family:'IBM Plex Mono',monospace;
+    background: var(--paper); color: var(--ink); letter-spacing: 0.02em;
+  }
+  .answer-input:focus{ border-color: var(--gold); }
+  .quiz-hint{ font-size: 12px; color: var(--slate); margin-top: 8px; }
+  .quiz-actions{ display:flex; justify-content:space-between; align-items:center; margin-top: 22px; }
+  .flag-btn{
+    display:flex; align-items:center; gap:5px; background: transparent; border: 1px solid var(--border);
+    border-radius: 100px; padding: 7px 13px; font-size: 12.5px; color: var(--slate);
+  }
+  .flag-btn.active{ border-color: var(--gold); color: var(--navy); background: var(--gold-light); }
+
+  /* result table */
+  table{ width:100%; border-collapse: collapse; font-size: 13px; }
+  th,td{ text-align:left; padding: 9px 8px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th{ color: var(--slate); font-weight:600; font-size: 11.5px; text-transform:uppercase; letter-spacing:.04em; }
+  .tag{ font-size: 11px; font-weight: 700; padding: 3px 8px; border-radius: 100px; display:inline-block; }
+  .tag.ok{ background: var(--success-bg); color: var(--success); }
+  .tag.no{ background: var(--error-bg); color: var(--error); }
+  .tag.flag{ background: #EFE3C8; color: #8A6A1E; margin-left: 4px; }
+  .muted{ color: var(--slate); }
+  .search-input{
+    width:100%; padding: 10px 14px; border-radius: 8px; border: 1.5px solid var(--border);
+    font-size: 14px; margin-bottom: 14px; background: var(--paper);
+  }
+  .search-input:focus{ border-color: var(--gold); }
+
+  /* 單字總表：例句 accordion */
+  .word-col{ min-width: 140px; }
+  .pagination{ display:flex; justify-content:space-between; align-items:center; gap: 10px; margin-top: 16px; flex-wrap: wrap; }
+  .pagination-info{ font-size: 12.5px; color: var(--slate); display:flex; align-items:center; gap: 4px; }
+  .page-jump-input{
+    width: 46px; padding: 4px 6px; border-radius: 6px; border: 1px solid var(--border);
+    font-size: 12.5px; text-align:center; background: var(--paper); color: var(--ink);
+  }
+  .page-jump-input:focus{ border-color: var(--gold); }
+  .example-toggle-cell{ text-align: right; white-space: nowrap; }
+  .example-toggle-btn{
+    background:none; border:none; padding: 4px; margin:0; cursor:pointer; color: var(--slate);
+    display:inline-flex; align-items:center; justify-content:center; border-radius: 6px;
+  }
+  .example-toggle-btn:hover{ background: var(--ivory); color: var(--navy); }
+  .example-toggle-btn:disabled{ opacity:.25; cursor:default; }
+  .example-toggle-btn:disabled:hover{ background:none; }
+  .example-toggle-btn .chevron{ display:inline-flex; transition: transform .15s ease; }
+  .example-toggle-btn .chevron.open{ transform: rotate(90deg); }
+  .examples-row td{ background: var(--ivory); padding: 12px 14px; }
+  .example-item{ padding: 8px 0; border-bottom: 1px dashed var(--border); }
+  .example-item:last-child{ border-bottom: none; }
+  .example-line{ display:flex; align-items:flex-start; justify-content:space-between; gap: 14px; flex-wrap: wrap; }
+  .example-en{ font-size: 13.5px; line-height: 1.6; color: #33363E; flex:1; min-width: 200px; }
+  .example-zh{ margin-top: 6px; font-size: 13px; color: #3A3D45; }
+  .eye-btn{
+    flex-shrink: 0; background: none; border: 1px solid var(--border); border-radius: 100px;
+    padding: 3px 11px; font-size: 11.5px; color: var(--slate);
+  }
+  .eye-btn:hover{ border-color: var(--gold); color: var(--navy); background: var(--ivory); }
+</style>
+</head>
+<body>
+<div class="topbar">
+  <div class="topbar-inner">
+    <p class="exam-title">Go Study Caterpillar</p>
+    <p class="exam-sub mono">CYCLE MODE</p>
+  </div>
+</div>
+<div class="app"><div id="screen"></div></div>
+
+<script>
+/* ---------------- 預設單字庫（3 個字，出題單位＝單字本身） ---------------- */
+function defaultWordBank(){
+  return [
+    {
+      id: "w1", english: "address", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vt", meaningGroups: [ ["處理","應付"], ["向…致辭","發表演說"] ] },
+        { pos: "nc", meaningGroups: [ ["地址"] ] }
+      ],
+      examples: [
+        { en:"We need to address this issue immediately.", zh:"我們需要立刻處理這個問題。" },
+        { en:"The CEO will address the shareholders tomorrow.", zh:"執行長明天將向股東致辭。" },
+        { en:"Please write your address on the form.", zh:"請在表格上填寫你的地址。" }
+      ]
+    },
+    {
+      id: "w2", english: "account", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["帳戶"] ] }
+      ],
+      examples: [
+        { en:"I opened a new bank account.", zh:"我開了一個新的銀行帳戶。" }
+      ]
+    },
+    {
+      id: "w3", english: "account for", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "phr.", meaningGroups: [ ["說明","解釋"] ] }
+      ],
+      examples: [
+        { en:"He couldn't account for the missing funds.", zh:"他無法解釋短少的資金。" }
+      ]
+    },
+    {
+      id: "w4", english: "run", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vi", meaningGroups: [ ["跑步"] ] },
+        { pos: "vt", meaningGroups: [ ["經營","管理"] ] }
+      ],
+      examples: [
+        { en:"She runs every morning.", zh:"她每天早上跑步。" },
+        { en:"He runs a small bakery.", zh:"他經營一家小麵包店。" }
+      ]
+    },
+    {
+      id: "w5", english: "budget", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["預算"] ] },
+        { pos: "vt", meaningGroups: [ ["編列預算"] ] }
+      ],
+      examples: [
+        { en:"The marketing team submitted next year's budget for approval.", zh:"行銷團隊提交了明年度的預算以待核准。" },
+        { en:"We need to budget carefully for the new office renovation.", zh:"我們需要為新辦公室的整修謹慎編列預算。" }
+      ]
+    },
+    {
+      id: "w6", english: "colleague", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["同事"] ] }
+      ],
+      examples: [
+        { en:"She discussed the proposal with her colleagues before the meeting.", zh:"她在會議前與同事討論了這項提案。" }
+      ]
+    },
+    {
+      id: "w7", english: "deadline", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["截止日期","期限"] ] }
+      ],
+      examples: [
+        { en:"The deadline for submitting the report was moved up to Friday.", zh:"提交報告的截止日期被提前到星期五。" }
+      ]
+    },
+    {
+      id: "w8", english: "efficient", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "adj", meaningGroups: [ ["有效率的","效率高的"] ] }
+      ],
+      examples: [
+        { en:"The new software made the billing process much more efficient.", zh:"新軟體讓請款流程變得有效率許多。" }
+      ]
+    },
+    {
+      id: "w9", english: "feasible", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "adj", meaningGroups: [ ["可行的"] ] }
+      ],
+      examples: [
+        { en:"The engineers concluded that the project timeline was not feasible.", zh:"工程師們判定這個專案時程並不可行。" }
+      ]
+    },
+    {
+      id: "w10", english: "inventory", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["庫存清單","盤點清單"] ] },
+        { pos: "nu", meaningGroups: [ ["存貨","庫存"] ] }
+      ],
+      examples: [
+        { en:"The warehouse staff conducted a full inventory at the end of the quarter.", zh:"倉庫人員在季末進行了完整的庫存盤點。" },
+        { en:"The store is trying to reduce excess inventory before the holidays.", zh:"這家店正試圖在假期前減少過剩的庫存。" }
+      ]
+    },
+    {
+      id: "w11", english: "logistics", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nu", meaningGroups: [ ["物流","後勤"] ] }
+      ],
+      examples: [
+        { en:"The company hired a new manager to oversee logistics and shipping.", zh:"公司聘請了一位新經理來監督物流與貨運事宜。" }
+      ]
+    },
+    {
+      id: "w12", english: "merger", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["合併案","合併"] ] }
+      ],
+      examples: [
+        { en:"The merger between the two firms was finalized last month.", zh:"這兩家公司的合併案上個月已定案。" }
+      ]
+    },
+    {
+      id: "w13", english: "negotiate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vi", meaningGroups: [ ["談判","協商"] ] },
+        { pos: "vt", meaningGroups: [ ["協商達成","談定"] ] }
+      ],
+      examples: [
+        { en:"Both sides agreed to negotiate a new contract next week.", zh:"雙方同意下週協商一份新合約。" },
+        { en:"The union representatives negotiated directly with management.", zh:"工會代表直接與資方談判。" }
+      ]
+    },
+    {
+      id: "w14", english: "outcome", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["結果","成果"] ] }
+      ],
+      examples: [
+        { en:"The outcome of the negotiation exceeded everyone's expectations.", zh:"這次談判的結果超出了所有人的預期。" }
+      ]
+    },
+    {
+      id: "w15", english: "proficient", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "adj", meaningGroups: [ ["熟練的","精通的"] ] }
+      ],
+      examples: [
+        { en:"Applicants must be proficient in both English and Mandarin.", zh:"應徵者必須精通英文與中文。" }
+      ]
+    },
+    {
+      id: "w16", english: "quarterly", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "adj", meaningGroups: [ ["每季的","季度的"] ] },
+        { pos: "adv", meaningGroups: [ ["每季地","以季為單位地"] ] }
+      ],
+      examples: [
+        { en:"The board holds a quarterly review of company performance.", zh:"董事會每季召開一次公司績效檢討會議。" },
+        { en:"Dividends are paid out quarterly to shareholders.", zh:"股息每季發放給股東。" }
+      ]
+    },
+    {
+      id: "w17", english: "reimburse", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vt", meaningGroups: [ ["償還","報銷"] ] }
+      ],
+      examples: [
+        { en:"The company will reimburse employees for approved travel expenses.", zh:"公司將報銷員工核准的差旅費用。" }
+      ]
+    },
+    {
+      id: "w18", english: "supervise", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vt", meaningGroups: [ ["監督","督導","管理"] ] }
+      ],
+      examples: [
+        { en:"She was promoted to supervise the entire customer service team.", zh:"她被升職去監督整個客服團隊。" }
+      ]
+    },
+    {
+      id: "w19", english: "thorough", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "adj", meaningGroups: [ ["徹底的","全面的","仔細的"] ] }
+      ],
+      examples: [
+        { en:"The auditors conducted a thorough review of the financial records.", zh:"審計人員對財務紀錄進行了徹底的審查。" }
+      ]
+    },
+    {
+      id: "w20", english: "undergo", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vt", meaningGroups: [ ["經歷","接受","經受"] ] }
+      ],
+      examples: [
+        { en:"The building will undergo renovation starting next month.", zh:"這棟建築將從下個月開始進行整修。" }
+      ]
+    },
+    {
+      id: "w21", english: "vendor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["供應商","廠商"] ] }
+      ],
+      examples: [
+        { en:"The company switched to a new vendor for office supplies.", zh:"公司換了新的辦公用品供應商。" }
+      ]
+    },
+    {
+      id: "w22", english: "warranty", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["保固","保固書","保證書"] ] }
+      ],
+      examples: [
+        { en:"The laptop comes with a two-year warranty.", zh:"這台筆電附有兩年保固。" }
+      ]
+    },
+    {
+      id: "w23", english: "yield", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vi", meaningGroups: [ ["讓步","屈服"] ] },
+        { pos: "vt", meaningGroups: [ ["產生","出產","帶來"] ] },
+        { pos: "nc", meaningGroups: [ ["產量","收益","殖利率"] ] }
+      ],
+      examples: [
+        { en:"The negotiators refused to yield on the pricing issue.", zh:"談判代表在定價問題上拒絕讓步。" },
+        { en:"The new marketing strategy yielded a significant increase in sales.", zh:"新的行銷策略帶來了顯著的銷售成長。" },
+        { en:"Investors are attracted by the fund's high yield.", zh:"投資人被這檔基金的高收益率吸引。" }
+      ]
+    },
+    {
+      id: "w24", english: "zeal", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nu", meaningGroups: [ ["熱忱","熱情","熱誠"] ] }
+      ],
+      examples: [
+        { en:"The new intern approached every task with great zeal.", zh:"這位新實習生對每項任務都充滿熱忱。" }
+      ]
+    },
+    {
+      id: "w25", english: "a game of cat and mouse", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "phr.", meaningGroups: [ ["貓捉老鼠的把戲","互相追逐周旋的局面"] ] } ],
+      examples: [ { en:"The negotiations turned into a game of cat and mouse between the two companies.", zh:"這場談判變成兩家公司之間貓捉老鼠般的角力。" } ]
+    },
+    {
+      id: "w26", english: "a leap of faith", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "phr.", meaningGroups: [ ["憑信念放手一搏","不顧風險的嘗試"] ] } ],
+      examples: [ { en:"Investing in the startup was a leap of faith for the founders.", zh:"投資這家新創公司對創辦人來說是一場憑信念的放手一搏。" } ]
+    },
+    {
+      id: "w27", english: "aboard", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "prep", meaningGroups: [ ["在（船、飛機、火車等）上"] ] } ],
+      examples: [ { en:"All passengers must be aboard before the gate closes.", zh:"所有乘客必須在登機門關閉前登機。" } ]
+    },
+    {
+      id: "w28", english: "absolutely", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adv", meaningGroups: [ ["絕對地","完全地"] ] } ],
+      examples: [ { en:"The manager was absolutely certain the deal would close by Friday.", zh:"經理絕對確信這筆交易會在星期五前完成。" } ]
+    },
+    {
+      id: "w29", english: "accident", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["意外","事故"] ] } ],
+      examples: [ { en:"The factory reported no accidents during the safety audit.", zh:"工廠在安全稽核期間沒有回報任何意外事故。" } ]
+    },
+    {
+      id: "w30", english: "accomplishment", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["成就","成果"] ] } ],
+      examples: [ { en:"Winning the industry award was a major accomplishment for the team.", zh:"贏得業界獎項對這個團隊來說是一項重大成就。" } ]
+    },
+    {
+      id: "w31", english: "accurate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["準確的","精確的"] ] } ],
+      examples: [ { en:"Please make sure the figures in the report are accurate.", zh:"請確保報告中的數字是準確的。" } ]
+    },
+    {
+      id: "w32", english: "achieve", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["達成","實現"] ] } ],
+      examples: [ { en:"The sales team achieved its quarterly target ahead of schedule.", zh:"業務團隊提前達成了季度目標。" } ]
+    },
+    {
+      id: "w33", english: "acre", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["英畝"] ] } ],
+      examples: [ { en:"The company purchased twenty acres of land for the new warehouse.", zh:"公司購買了二十英畝的土地來興建新倉庫。" } ]
+    },
+    {
+      id: "w34", english: "action", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["行動","措施"] ] } ],
+      examples: [ { en:"Management took immediate action to fix the production delay.", zh:"管理層立即採取行動解決生產延誤問題。" } ]
+    },
+    {
+      id: "w35", english: "activity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["活動"] ] } ],
+      examples: [ { en:"The HR department organizes team-building activities every quarter.", zh:"人資部門每一季都會舉辦團隊建立活動。" } ]
+    },
+    {
+      id: "w36", english: "adapt", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vi", meaningGroups: [ ["適應"] ] },
+        { pos: "vt", meaningGroups: [ ["使…適應","改編"] ] }
+      ],
+      examples: [
+        { en:"New employees usually need a few weeks to adapt to the company culture.", zh:"新進員工通常需要幾週時間才能適應公司文化。" },
+        { en:"The manual was adapted for first-time users.", zh:"這本手冊經過調整以適合初次使用者。" }
+      ]
+    },
+    {
+      id: "w37", english: "additional", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["額外的","附加的"] ] } ],
+      examples: [ { en:"Additional charges may apply for express shipping.", zh:"快遞可能會產生額外費用。" } ]
+    },
+    {
+      id: "w38", english: "admission", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["承認","招認"], ["入場許可","准入"] ] } ],
+      examples: [
+        { en:"His admission of the mistake surprised the whole team.", zh:"他承認錯誤讓整個團隊都感到意外。" },
+        { en:"General admission tickets go on sale next Monday.", zh:"普通入場券將於下週一開賣。" }
+      ]
+    },
+    {
+      id: "w39", english: "admit", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["承認"], ["准許進入","允許加入"] ] } ],
+      examples: [ { en:"She admitted that the report contained an error.", zh:"她承認報告裡有一個錯誤。" } ]
+    },
+    {
+      id: "w40", english: "adopt", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["採用","採納"] ] } ],
+      examples: [ { en:"The company decided to adopt a new accounting system next year.", zh:"公司決定明年採用一套新的會計系統。" } ]
+    },
+    {
+      id: "w41", english: "advance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vi", meaningGroups: [ ["前進","進展"] ] },
+        { pos: "nc", meaningGroups: [ ["預付款"] ] }
+      ],
+      examples: [
+        { en:"Negotiations advanced quickly once both sides agreed on price.", zh:"雙方一旦就價格達成共識，談判便迅速進展。" },
+        { en:"Employees can request a cash advance for business travel.", zh:"員工可以申請差旅現金預付款。" }
+      ]
+    },
+    {
+      id: "w42", english: "advancement", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["進步","晉升"] ] } ],
+      examples: [ { en:"The new training program supports career advancement.", zh:"這項新的培訓計畫有助於職涯晉升。" } ]
+    },
+    {
+      id: "w43", english: "adventure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["冒險","奇遇"] ] } ],
+      examples: [ { en:"Starting the business was quite an adventure for the two partners.", zh:"創業對這兩位合夥人來說是一場相當大的冒險。" } ]
+    },
+    {
+      id: "w44", english: "advertising", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nu", meaningGroups: [ ["廣告業","廣告活動"] ] } ],
+      examples: [ { en:"The company increased its advertising budget for the holiday season.", zh:"公司增加了假期季的廣告預算。" } ]
+    },
+    {
+      id: "w45", english: "advise", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["建議","勸告"] ] } ],
+      examples: [ { en:"The consultant advised the client to diversify their investments.", zh:"顧問建議客戶要分散投資。" } ]
+    },
+    {
+      id: "w46", english: "affiliate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["附屬機構","分支機構"] ] },
+        { pos: "vt", meaningGroups: [ ["使隸屬","使加盟"] ] }
+      ],
+      examples: [
+        { en:"The product is distributed through a local affiliate.", zh:"這項產品是透過當地的分支機構經銷的。" },
+        { en:"The university affiliated its research center with a leading tech firm.", zh:"這所大學讓其研究中心與一家領先的科技公司建立合作關係。" }
+      ]
+    },
+    {
+      id: "w47", english: "affordable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["負擔得起的","價格合理的"] ] } ],
+      examples: [ { en:"The startup offers an affordable pricing plan for small businesses.", zh:"這家新創公司為小型企業提供價格合理的方案。" } ]
+    },
+    {
+      id: "w48", english: "agent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["代理人","經紀人"] ] } ],
+      examples: [ { en:"Contact your insurance agent before filing a claim.", zh:"申請理賠前請先聯絡你的保險代理人。" } ]
+    },
+    {
+      id: "w49", english: "aggressive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["積極進取的","有企圖心的"] ] } ],
+      examples: [ { en:"The firm set an aggressive growth target for next year.", zh:"這家公司為明年設定了積極的成長目標。" } ]
+    },
+    {
+      id: "w50", english: "agriculture", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nu", meaningGroups: [ ["農業"] ] } ],
+      examples: [ { en:"The region's economy depends heavily on agriculture.", zh:"這個地區的經濟高度仰賴農業。" } ]
+    },
+    {
+      id: "w51", english: "aid", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["援助","補助"] ] },
+        { pos: "vt", meaningGroups: [ ["幫助","援助"] ] }
+      ],
+      examples: [
+        { en:"The government provided financial aid to affected businesses.", zh:"政府向受影響的企業提供了財務援助。" },
+        { en:"The new software aids employees in tracking their expenses.", zh:"這套新軟體有助於員工追蹤他們的支出。" }
+      ]
+    },
+    {
+      id: "w52", english: "airline", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["航空公司"] ] } ],
+      examples: [ { en:"The airline announced a new direct route to Tokyo.", zh:"這家航空公司宣布了一條飛往東京的新直飛航線。" } ]
+    },
+    {
+      id: "w53", english: "alarming", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["令人擔憂的","驚人的"] ] } ],
+      examples: [ { en:"The report revealed an alarming drop in customer satisfaction.", zh:"報告顯示顧客滿意度出現令人擔憂的下滑。" } ]
+    },
+    {
+      id: "w54", english: "alcoholic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["含酒精的"] ] } ],
+      examples: [ { en:"The hotel bar serves both alcoholic and non-alcoholic beverages.", zh:"這間飯店酒吧供應含酒精與不含酒精的飲料。" } ]
+    },
+    {
+      id: "w55", english: "alien", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "nc", meaningGroups: [ ["外籍人士"] ] },
+        { pos: "adj", meaningGroups: [ ["陌生的","格格不入的"] ] }
+      ],
+      examples: [ { en:"The company sponsors work visas for resident aliens.", zh:"公司為外籍居民員工申請工作簽證。" } ]
+    },
+    {
+      id: "w56", english: "aluminum", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nu", meaningGroups: [ ["鋁"] ] } ],
+      examples: [ { en:"The packaging was redesigned using recyclable aluminum.", zh:"包裝使用可回收的鋁重新設計。" } ]
+    },
+    {
+      id: "w57", english: "amateur", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["業餘愛好者"] ] }, { pos: "adj", meaningGroups: [ ["業餘的"] ] } ],
+      examples: [ { en:"The photography contest is open to both amateurs and professionals.", zh:"這項攝影比賽開放給業餘愛好者與專業人士參加。" } ]
+    },
+    {
+      id: "w58", english: "amaze", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["使驚訝","使驚奇"] ] } ],
+      examples: [ { en:"The rapid sales growth amazed even the company's founders.", zh:"快速的銷售成長連公司創辦人都感到驚訝。" } ]
+    },
+    {
+      id: "w59", english: "ambitious", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["有野心的","雄心勃勃的"] ] } ],
+      examples: [ { en:"The CEO announced an ambitious plan to double revenue in three years.", zh:"執行長宣布了一項要在三年內讓營收翻倍的雄心勃勃計畫。" } ]
+    },
+    {
+      id: "w60", english: "amount", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["數量","金額"] ] } ],
+      examples: [ { en:"Please verify the amount before submitting the invoice.", zh:"提交發票前請先確認金額。" } ]
+    },
+    {
+      id: "w61", english: "amusement", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nu", meaningGroups: [ ["娛樂","消遣"] ] } ],
+      examples: [ { en:"The company organized an amusement park trip for employees.", zh:"公司為員工安排了一趟遊樂園之旅。" } ]
+    },
+    {
+      id: "w62", english: "analyze", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["分析"] ] } ],
+      examples: [ { en:"The team analyzed customer feedback to improve the product.", zh:"團隊分析顧客回饋以改善產品。" } ]
+    },
+    {
+      id: "w63", english: "ancestor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["祖先"] ] } ],
+      examples: [ { en:"She researched her ancestors' history for the family reunion.", zh:"她為了家族聚會研究了她祖先的歷史。" } ]
+    },
+    {
+      id: "w64", english: "ancient", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["古老的","古代的"] ] } ],
+      examples: [ { en:"The exhibit features artifacts from an ancient civilization.", zh:"這場展覽展出了古代文明的文物。" } ]
+    },
+    {
+      id: "w65", english: "announcement", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["公告","宣布"] ] } ],
+      examples: [ { en:"The company made an official announcement about the merger.", zh:"公司針對這次合併發表了正式公告。" } ]
+    },
+    {
+      id: "w66", english: "annoy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["使惱怒","使煩躁"] ] } ],
+      examples: [ { en:"Frequent system errors annoyed the customer service staff.", zh:"頻繁的系統錯誤讓客服人員感到惱怒。" } ]
+    },
+    {
+      id: "w67", english: "anxiously", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adv", meaningGroups: [ ["焦急地","憂慮地"] ] } ],
+      examples: [ { en:"Investors waited anxiously for the earnings report.", zh:"投資人焦急地等待財報公布。" } ]
+    },
+    {
+      id: "w68", english: "apparent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["明顯的","顯而易見的"] ] } ],
+      examples: [ { en:"It became apparent that the deadline would not be met.", zh:"很明顯這個截止日期無法如期達成。" } ]
+    },
+    {
+      id: "w69", english: "appeal", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vi", meaningGroups: [ ["吸引","有吸引力"] ] },
+        { pos: "nc", meaningGroups: [ ["申訴"] ] }
+      ],
+      examples: [
+        { en:"The new design appeals to younger consumers.", zh:"這項新設計吸引了年輕消費者。" },
+        { en:"The company filed an appeal against the tax ruling.", zh:"公司針對這項稅務裁決提出了申訴。" }
+      ]
+    },
+    {
+      id: "w70", english: "appearance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["外觀","外表"], ["出現","露面"] ] } ],
+      examples: [ { en:"First impressions often depend on a candidate's appearance.", zh:"第一印象往往取決於應徵者的外表。" } ]
+    },
+    {
+      id: "w71", english: "apply", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vi", meaningGroups: [ ["申請","適用"] ] },
+        { pos: "vt", meaningGroups: [ ["應用","運用"] ] }
+      ],
+      examples: [
+        { en:"Candidates must apply online before the deadline.", zh:"應徵者必須在截止日期前上網申請。" },
+        { en:"The team applied the new strategy to all departments.", zh:"團隊將這項新策略應用到所有部門。" }
+      ]
+    },
+    {
+      id: "w72", english: "appropriate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["適當的","合適的"] ] } ],
+      examples: [ { en:"Please wear appropriate attire for the client meeting.", zh:"請穿著適當的服裝出席客戶會議。" } ]
+    },
+    {
+      id: "w73", english: "approval", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nu", meaningGroups: [ ["核准","批准","贊同"] ] } ],
+      examples: [ { en:"The budget is still awaiting approval from senior management.", zh:"這項預算仍在等待高層管理核准。" } ]
+    },
+    {
+      id: "w74", english: "area", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["區域","領域"] ] } ],
+      examples: [ { en:"Customer service is an area that needs improvement.", zh:"客戶服務是一個需要改善的領域。" } ]
+    },
+    {
+      id: "w75", english: "arguably", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adv", meaningGroups: [ ["可以說","按理來說"] ] } ],
+      examples: [ { en:"This is arguably the company's most successful product launch.", zh:"這可以說是公司最成功的一次產品上市。" } ]
+    },
+    {
+      id: "w76", english: "armed", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["武裝的"], ["配備的","具備的（資訊、工具等）"] ] } ],
+      examples: [ { en:"Armed with the latest sales data, the manager revised the forecast.", zh:"掌握了最新的銷售數據後，經理修正了預測。" } ]
+    },
+    {
+      id: "w77", english: "arouse", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["引起","激起"] ] } ],
+      examples: [ { en:"The advertisement aroused strong interest among younger shoppers.", zh:"這則廣告引起了年輕購物者的強烈興趣。" } ]
+    },
+    {
+      id: "w78", english: "arrest", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["逮捕"] ] } ],
+      examples: [ { en:"Police arrested the suspect for fraud.", zh:"警方以詐欺罪逮捕了嫌疑人。" } ]
+    },
+    {
+      id: "w79", english: "article", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["文章"], ["（合約）條款"] ] } ],
+      examples: [
+        { en:"She wrote an article about workplace productivity.", zh:"她寫了一篇關於職場生產力的文章。" },
+        { en:"Article 5 of the contract outlines the payment terms.", zh:"合約第五條說明了付款條件。" }
+      ]
+    },
+    {
+      id: "w80", english: "ash", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nu", meaningGroups: [ ["灰燼"] ] } ],
+      examples: [ { en:"The factory fire left nothing but ash.", zh:"這場工廠大火只留下一片灰燼。" } ]
+    },
+    {
+      id: "w81", english: "aspect", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["方面","層面"] ] } ],
+      examples: [ { en:"Every aspect of the proposal was reviewed by the board.", zh:"董事會審查了這份提案的每一個層面。" } ]
+    },
+    {
+      id: "w82", english: "assemble", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["組裝","集合"] ] } ],
+      examples: [ { en:"Workers assemble the final product on the main production line.", zh:"工人在主要生產線上組裝最終產品。" } ]
+    },
+    {
+      id: "w83", english: "assembly", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nu", meaningGroups: [ ["裝配","組裝"] ] }, { pos: "nc", meaningGroups: [ ["集會","大會"] ] } ],
+      examples: [ { en:"The assembly line was upgraded to increase efficiency.", zh:"裝配線經過升級以提高效率。" } ]
+    },
+    {
+      id: "w84", english: "assist", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["協助","幫助"] ] } ],
+      examples: [ { en:"The new hire will assist the marketing team with research.", zh:"這位新進員工將協助行銷團隊進行研究。" } ]
+    },
+    {
+      id: "w85", english: "associate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [
+        { pos: "vt", meaningGroups: [ ["聯想","使有關連"] ] },
+        { pos: "nc", meaningGroups: [ ["同事","夥伴"] ] }
+      ],
+      examples: [
+        { en:"Customers associate the brand with high quality.", zh:"顧客將這個品牌與高品質聯想在一起。" },
+        { en:"She works as a sales associate at the downtown branch.", zh:"她在市中心分店擔任銷售專員。" }
+      ]
+    },
+    {
+      id: "w86", english: "atmosphere", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["氣氛","氛圍"] ] } ],
+      examples: [ { en:"The office renovation created a more relaxed atmosphere.", zh:"辦公室整修營造出更輕鬆的氛圍。" } ]
+    },
+    {
+      id: "w87", english: "attempt", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["嘗試"] ] }, { pos: "nc", meaningGroups: [ ["嘗試","企圖"] ] } ],
+      examples: [ { en:"The company made another attempt to enter the Asian market.", zh:"公司再次嘗試進軍亞洲市場。" } ]
+    },
+    {
+      id: "w88", english: "attend", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["出席","參加"] ] } ],
+      examples: [ { en:"All department heads are required to attend the meeting.", zh:"所有部門主管都必須出席這場會議。" } ]
+    },
+    {
+      id: "w89", english: "attitude", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["態度"] ] } ],
+      examples: [ { en:"Her positive attitude impressed the interview panel.", zh:"她積極的態度令面試官印象深刻。" } ]
+    },
+    {
+      id: "w90", english: "attract", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "vt", meaningGroups: [ ["吸引"] ] } ],
+      examples: [ { en:"The discount campaign attracted many new customers.", zh:"這項折扣活動吸引了許多新顧客。" } ]
+    },
+    {
+      id: "w91", english: "author", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nc", meaningGroups: [ ["作者"] ] } ],
+      examples: [ { en:"The author of the report will present the findings tomorrow.", zh:"這份報告的作者明天將發表研究結果。" } ]
+    },
+    {
+      id: "w92", english: "authority", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "nu", meaningGroups: [ ["權威","權力"] ] }, { pos: "nc", meaningGroups: [ ["當局","主管機關"] ] } ],
+      examples: [
+        { en:"She has the authority to approve expenses up to $5,000.", zh:"她有權核准最高五千美元的支出。" },
+        { en:"The local authority issued a new business permit requirement.", zh:"當地主管機關發布了新的營業許可規定。" }
+      ]
+    },
+    {
+      id: "w93", english: "automatic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["自動的"] ] } ],
+      examples: [ { en:"The system generates automatic reminders for overdue invoices.", zh:"系統會為逾期發票自動產生提醒通知。" } ]
+    },
+    {
+      id: "w94", english: "available", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["可得到的","有空的"] ] } ],
+      examples: [ { en:"The manager is available for a call after 3 p.m.", zh:"經理下午三點後有空可以通話。" } ]
+    },
+    {
+      id: "w95", english: "average", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["平均的"] ] }, { pos: "nc", meaningGroups: [ ["平均值"] ] } ],
+      examples: [ { en:"The average delivery time improved by two days.", zh:"平均送貨時間縮短了兩天。" } ]
+    },
+    {
+      id: "w96", english: "aware", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+      posGroups: [ { pos: "adj", meaningGroups: [ ["察覺到的","知道的"] ] } ],
+      examples: [ { en:"Employees should be aware of the updated safety policy.", zh:"員工應該要知道最新的安全政策。" } ]
+    }
+  ];
+}
+
+/* ---------------- 儲存 / 讀取 ---------------- */
+const STORAGE_KEY = "toeic_cycle_state_v2";
+
+function loadState(){
+  try{
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if(raw){ return JSON.parse(raw); }
+  }catch(e){ console.warn("讀取失敗，使用預設資料", e); }
+  return {
+    wordBank: defaultWordBank(),
+    history: [],
+    activeCycle: null,
+    lastEndedRecord: null,
+    screen: "home"
+  };
+}
+function saveState(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(state)); }
+  catch(e){ console.warn("儲存失敗", e); }
+}
+
+let state = loadState();
+
+/* 單字總表「例句」accordion 的展開狀態：純畫面狀態，不存進 localStorage，每次重新整理都預設收合 */
+const expandedExampleWords = new Set();
+const revealedExampleZh = new Set();
+
+/* 單字總表分頁：單字庫可能持續變大，畫面一次只渲染一頁，避免整批 DOM 拖垮效能；
+   分頁只影響畫面顯示，下載 PDF 一律輸出「目前搜尋篩選後」的全部單字，不受分頁限制 */
+const MASTER_TABLE_PAGE_SIZE = 30;
+let masterTablePage = 1;
+function changeMasterTablePage(delta){
+  masterTablePage += delta;
+  renderMasterTable();
+}
+function jumpToMasterTablePage(value){
+  const n = parseInt(value, 10);
+  if(Number.isFinite(n)) masterTablePage = n;
+  renderMasterTable();
+}
+function toggleWordExamples(wordId){
+  if(expandedExampleWords.has(wordId)) expandedExampleWords.delete(wordId);
+  else expandedExampleWords.add(wordId);
+  renderMasterTable();
+}
+function toggleExampleZh(key){
+  if(revealedExampleZh.has(key)) revealedExampleZh.delete(key);
+  else revealedExampleZh.add(key);
+  renderMasterTable();
+}
+
+/* ---------------- 工具函式 ---------------- */
+function now(){ return new Date().toISOString(); }
+function genId(prefix){ return prefix + "_" + Date.now().toString(36) + Math.random().toString(36).slice(2,7); }
+function shuffle(arr){
+  const a = arr.slice();
+  for(let i=a.length-1;i>0;i--){
+    const j = Math.floor(Math.random()*(i+1));
+    [a[i],a[j]] = [a[j],a[i]];
+  }
+  return a;
+}
+function getAllWordIds(){ return state.wordBank.map(w => w.id); }
+function findWord(wordId){ return state.wordBank.find(w => w.id === wordId) || null; }
+function deleteIconSvg(){
+  return `<svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/></svg>`;
+}
+function chevronIconSvg(){
+  return `<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>`;
+}
+function fmtDate(iso){
+  if(!iso) return "—";
+  const d = new Date(iso);
+  const pad = n => String(n).padStart(2, "0");
+  return `${d.getFullYear()}/${pad(d.getMonth()+1)}/${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+/* 中文意思顯示規則：同群組(同義詞)用「；」，同詞性下不同義項用數字編號，不同詞性逐行列出 */
+function formatMeaningLines(word){
+  return word.posGroups.map(pg => {
+    const body = pg.meaningGroups.length > 1
+      ? pg.meaningGroups.map((g,i) => `${i+1}. ${g.join('；')}`).join('　')
+      : pg.meaningGroups[0].join('；');
+    return { pos: pg.pos, text: body };
+  });
+}
+function meaningLinesHtml(word, opts){
+  const compact = opts && opts.compact;
+  const lineClass = compact ? "meaning-line-compact" : "meaning-line";
+  const tagClass = compact ? "pos-tag-sm" : "pos-tag";
+  return formatMeaningLines(word).map(l =>
+    `<div class="${lineClass}"><span class="${tagClass} mono">(${l.pos})</span>${l.text}</div>`
+  ).join("");
+}
+
+/* 單字總表 accordion 展開後的例句列表；中文預設隱藏，按「顯示中文」才打開（各例句各自獨立） */
+function examplesHtml(word){
+  return word.examples.map((ex, idx) => {
+    const key = word.id + ":" + idx;
+    const revealed = revealedExampleZh.has(key);
+    return `
+      <div class="example-item">
+        <div class="example-line">
+          <div class="example-en">${ex.en}</div>
+          <button class="eye-btn" onclick="toggleExampleZh('${key}')">${revealed ? "隱藏中文" : "顯示中文"}</button>
+        </div>
+        ${revealed ? `<div class="example-zh">${ex.zh}</div>` : ""}
+      </div>
+    `;
+  }).join("");
+}
+
+/* ---------------- 循環邏輯 ---------------- */
+function startCycle(){
+  state.activeCycle = {
+    id: genId("cycle"), startedAt: now(), roundIndex: 1,
+    errorPool: [], flags: [], roundHistory: [], currentRound: null, initialWordCount: 0
+  };
+  startRound();
+  state.screen = "quiz";
+  saveState(); renderAll();
+}
+
+function startRound(){
+  const c = state.activeCycle;
+  const pool = c.roundIndex === 1 ? getAllWordIds() : c.errorPool.slice();
+  c.currentRound = { queue: shuffle(pool), index: 0, answers: [], startedAt: now() };
+  if(c.roundIndex === 1){ c.initialWordCount = c.currentRound.queue.length; }
+}
+
+function toggleFlag(wordId){
+  const c = state.activeCycle;
+  const i = c.flags.indexOf(wordId);
+  if(i === -1) c.flags.push(wordId); else c.flags.splice(i,1);
+  saveState(); renderAll();
+}
+
+function submitCurrent(rawValue){
+  const c = state.activeCycle;
+  const r = c.currentRound;
+  const wordId = r.queue[r.index];
+  const word = findWord(wordId);
+  const val = (rawValue||"").trim();
+  const correct = val.length>0 && val.toLowerCase() === word.english.toLowerCase();
+  r.answers.push({ wordId, userInput: val, correct });
+  r.index += 1;
+  if(r.index >= r.queue.length){
+    finishRound();
+  } else {
+    saveState(); renderAll();
+  }
+}
+
+function finishRound(){
+  const c = state.activeCycle;
+  const r = c.currentRound;
+  const roundIndex = c.roundIndex;
+
+  r.answers.forEach(a => {
+    const word = findWord(a.wordId);
+    if(!word) return;
+    word.stats = { lastResult: a.correct ? "correct" : "wrong", lastTestedAt: now() };
+    if(!a.correct) word.wrongCount += 1;
+  });
+
+  const newPool = [];
+  r.answers.forEach(a => {
+    const flagged = c.flags.includes(a.wordId);
+    if(!a.correct || flagged) newPool.push(a.wordId);
+  });
+  c.errorPool = [...new Set(newPool)];
+
+  c.roundHistory.push({
+    roundIndex, results: r.answers, startedAt: r.startedAt, endedAt: now(),
+    remaining: c.errorPool.length, total: c.initialWordCount
+  });
+  c.currentRound = null;
+  c.roundIndex += 1;
+
+  state.screen = "roundResult";
+  saveState(); renderAll();
+}
+
+function nextRound(){
+  startRound();
+  state.screen = "quiz";
+  saveState(); renderAll();
+}
+
+function endCycle(){
+  if(!confirm("確定要結束這個循環嗎？結束後這個循環的錯誤題庫會清空（不影響單字的歷史累計錯誤次數）。")) return;
+  const c = state.activeCycle;
+  const initialCount = c.initialWordCount;
+  const remaining = c.errorPool.length;
+  const record = {
+    id: c.id, startedAt: c.startedAt, endedAt: now(),
+    totalRounds: c.roundHistory.length,
+    initialWordCount: initialCount,
+    finalMasteredCount: initialCount - remaining,
+    remainingUnmasteredCount: remaining,
+    endedReason: remaining === 0 ? "pool_empty" : "user_terminated",
+    roundBreakdown: c.roundHistory.map(h => ({ roundIndex: h.roundIndex, remaining: h.remaining, total: h.total, endedAt: h.endedAt, results: h.results }))
+  };
+  state.history.unshift(record);
+  state.lastEndedRecord = record;
+  state.activeCycle = null;
+  state.screen = "cycleEnd";
+  saveState(); renderAll();
+}
+
+function goHome(){ state.screen = "home"; saveState(); renderAll(); }
+function goMasterTable(){ state.screen = "masterTable"; saveState(); renderAll(); }
+function resumeActiveCycle(){
+  const c = state.activeCycle;
+  state.screen = c.currentRound ? "quiz" : "roundResult";
+  saveState(); renderAll();
+}
+function viewHistoryDetail(id){
+  state._viewHistoryId = id;
+  state.screen = "historyDetail";
+  saveState(); renderAll();
+}
+function resetDemoData(){
+  const count = defaultWordBank().length;
+  if(!confirm(`確定要清空所有資料並還原成預設的 ${count} 個單字嗎？此動作無法復原。`)) return;
+  state = { wordBank: defaultWordBank(), history: [], activeCycle: null, lastEndedRecord: null, screen: "home" };
+  saveState(); renderAll();
+}
+
+/* 「檢視」導覽：sourceKey 標記這次考試紀錄要去哪裡找（進行中循環，或某個已結束循環的歷史） */
+function viewAttempt(sourceKey, roundIndex){
+  state._viewAttempt = { sourceKey, roundIndex };
+  state._viewAttemptFrom = state.screen;
+  state.screen = "attemptDetail";
+  saveState(); renderAll();
+}
+function resolveAttempt(sourceKey, roundIndex){
+  if(sourceKey === "active"){
+    return state.activeCycle ? state.activeCycle.roundHistory.find(h => h.roundIndex === roundIndex) : null;
+  }
+  if(sourceKey && sourceKey.indexOf("history:") === 0){
+    const id = sourceKey.slice("history:".length);
+    const rec = state.history.find(h => h.id === id);
+    return rec ? rec.roundBreakdown.find(h => h.roundIndex === roundIndex) : null;
+  }
+  return null;
+}
+function goBackFromAttempt(){
+  state.screen = state._viewAttemptFrom || "home";
+  saveState(); renderAll();
+}
+/* 瀏覽器列印表頭/表尾（日期、網址）由瀏覽器自己的「頁首及頁尾」設定控制，
+   網頁本身無法強制關閉；把 document.title 暫時清空，至少讓頁首中間的標題欄不顯示網站標題。 */
+function printWithBlankTitle(){
+  const originalTitle = document.title;
+  document.title = "";
+  const restoreTitle = () => {
+    document.title = originalTitle;
+    window.removeEventListener("afterprint", restoreTitle);
+  };
+  window.addEventListener("afterprint", restoreTitle);
+  window.print();
+  setTimeout(restoreTitle, 4000);
+}
+function downloadAttemptPdf(){ printWithBlankTitle(); }
+function downloadMasterTablePdf(){ printWithBlankTitle(); }
+
+/* 每次考試「還剩幾個不熟單字 / 交卷時間」列表，home／roundResult／cycleEnd／historyDetail 共用；
+   sourceKey 供每列的「檢視」按鈕導覽到單獨的明細頁 */
+function roundBreakdownHtml(entries, sourceKey){
+  if(!entries || entries.length === 0) return '<p class="empty-note">尚無考試紀錄。</p>';
+  return entries.slice().reverse().map(e => `
+    <div class="history-row">
+      <div>第 ${e.roundIndex} 次 · <span class="num mono">${e.remaining}</span><span class="mono">/${e.total}</span></div>
+      <div style="display:flex; align-items:center; gap:10px;">
+        <span class="meta">${fmtDate(e.endedAt)}</span>
+        <button class="btn-mini" onclick="viewAttempt('${sourceKey}', ${e.roundIndex})">檢視</button>
+      </div>
+    </div>
+  `).join("");
+}
+
+/* 純文字版的詞性／中文意思（供「檢視」明細頁使用，不帶顏色色塊） */
+function plainMeaningLines(word){
+  return formatMeaningLines(word).map(l => `(${l.pos}) ${l.text}`).join("<br>");
+}
+
+/* ---------------- 畫面渲染 ---------------- */
+const screenEl = document.getElementById("screen");
+
+function renderAll(){
+  if(state.screen === "quiz") renderQuiz();
+  else if(state.screen === "roundResult") renderRoundResult();
+  else if(state.screen === "cycleEnd") renderCycleEnd();
+  else if(state.screen === "masterTable") renderMasterTable();
+  else if(state.screen === "historyDetail") renderHistoryDetail();
+  else if(state.screen === "attemptDetail") renderAttemptDetail();
+  else renderHome();
+}
+
+function renderAttemptDetail(){
+  const v = state._viewAttempt || {};
+  const entry = resolveAttempt(v.sourceKey, v.roundIndex);
+  if(!entry){ goHome(); return; }
+
+  const wrongWords = (entry.results || [])
+    .filter(a => !a.correct)
+    .map(a => findWord(a.wordId))
+    .filter(Boolean);
+
+  const rows = wrongWords.length
+    ? wrongWords.map(w => `<tr><td>${w.english}</td><td>${plainMeaningLines(w)}</td></tr>`).join("")
+    : `<tr><td colspan="2">這次考試全部答對，沒有答錯的單字。</td></tr>`;
+
+  screenEl.innerHTML = `
+    <div class="plain-card">
+      <div class="plain-toolbar no-print">
+        <button class="plain-back" onclick="goBackFromAttempt()">← 返回</button>
+        <button class="plain-download-btn" onclick="downloadAttemptPdf()">下載 PDF</button>
+      </div>
+      <p class="plain-title">${entry.roundIndex} Round</p>
+      <p class="plain-desc">${fmtDate(entry.endedAt)}</p>
+      <table class="plain-table">
+        <thead><tr><th>英文</th><th>詞性</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
+function renderHome(){
+  const totalWords = state.wordBank.length;
+  let html = `
+    <div class="card hero">
+      <h1>循環模式</h1>
+      <p>目前單字庫：<b>${totalWords}</b> 個單字。每次考試只考「上一次答錯或標記 flag」的字，直到你判斷已經記熟、手動結束循環為止。</p>
+    </div>
+  `;
+
+  if(state.activeCycle){
+    const c = state.activeCycle;
+    const inProgress = !!c.currentRound;
+    const poolEmpty = c.errorPool.length === 0;
+    html += `<div class="card">`;
+    html += `<div class="card-header-row"><p class="section-title">循環</p>`;
+    if(!inProgress){
+      html += `<button class="icon-btn-delete" onclick="endCycle()" title="結束循環">${deleteIconSvg()}</button>`;
+    }
+    html += `</div>`;
+    html += `<p class="section-desc">這個循環已進行 <b>${c.roundHistory.length}</b> 次考試，錯誤題庫剩 <b>${c.errorPool.length}</b> 題${inProgress ? '（有一次考試進行到一半，尚未交卷）' : ''}。</p>`;
+    html += roundBreakdownHtml(c.roundHistory, "active");
+    if(inProgress){
+      html += `<div class="btn-row"><button class="btn btn-primary" onclick="resumeActiveCycle()">繼續這次考試</button></div>`;
+    } else if(!poolEmpty){
+      html += `<div class="btn-row"><button class="btn btn-primary" onclick="nextRound()">開始下一次考試（${c.errorPool.length} 題）</button></div>`;
+    }
+    if(!inProgress && poolEmpty){
+      html += `<p class="quiz-hint" style="margin-top:12px;">錯誤題庫已清空，這個循環的字都至少答對且沒被標記 flag，可以按右上角的圖示結束循環了。</p>`;
+    }
+    html += `</div>`;
+  } else {
+    html += `<div class="card">`;
+    html += `<p class="section-title">循環</p>`;
+    html += `<p class="section-desc">開始後，第一次考試會用單字庫「目前」的全部 ${totalWords} 個單字出題，之後每次只考錯誤／flag 的部分。這是第幾個循環，可從下方「循環歷史」查看。</p>`;
+    html += `<button class="btn btn-primary" onclick="startCycle()">開始循環</button>`;
+    html += `</div>`;
+  }
+
+  html += `
+    <div class="card">
+      <p class="section-title">單字總表</p>
+      <p class="section-desc">查看每個字的歷史錯誤次數、目前循環狀態、最近測驗結果，可搜尋。</p>
+      <button class="btn btn-ghost" onclick="goMasterTable()">開啟總表</button>
+    </div>
+  `;
+
+  html += `<div class="card"><p class="section-title">循環歷史</p>`;
+  if(state.history.length === 0){
+    html += `<p class="empty-note">尚未完成過任何循環。</p>`;
+  } else {
+    state.history.forEach(rec => {
+      const reasonLabel = rec.endedReason === "pool_empty" ? "自然完成（錯誤題庫清空）" : "手動結束";
+      html += `
+      <div class="history-row">
+        <div>
+          <div>共 ${rec.totalRounds} 次考試 · 精熟 ${rec.finalMasteredCount}/${rec.initialWordCount}</div>
+          <div class="meta">${fmtDate(rec.startedAt)} ~ ${fmtDate(rec.endedAt)} · ${reasonLabel}</div>
+        </div>
+        <button class="btn-mini" onclick="viewHistoryDetail('${rec.id}')">查看各次紀錄</button>
+      </div>`;
+    });
+  }
+  html += `</div>`;
+
+  html += `<button class="link-mini" onclick="resetDemoData()">重置所有資料（還原成預設 ${defaultWordBank().length} 個單字，測試用）</button>`;
+
+  screenEl.innerHTML = html;
+}
+
+function renderQuiz(){
+  const c = state.activeCycle;
+  const r = c.currentRound;
+  const wordId = r.queue[r.index];
+  const word = findWord(wordId);
+  const isFlagged = c.flags.includes(wordId);
+  const pct = Math.round((r.index / r.queue.length) * 100);
+
+  screenEl.innerHTML = `
+    <div class="card">
+      <div class="quiz-progress">
+        <span>第 ${c.roundIndex} 次考試 · 第 ${r.index+1} / ${r.queue.length} 題</span>
+        <span>錯誤題庫（測驗後更新）：${c.errorPool.length} 題</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" style="width:${pct}%"></div></div>
+
+      <div class="meaning-block">${meaningLinesHtml(word)}</div>
+
+      <input id="answerInput" class="answer-input mono" type="text" autocomplete="off"
+        autocapitalize="off" autocorrect="off" spellcheck="false"
+        placeholder="輸入英文原形…" />
+      <p class="quiz-hint">按 <b>Enter</b> 送出（不記得可直接按 Enter 跳過，視為答錯）</p>
+
+      <div class="quiz-actions">
+        <button class="flag-btn ${isFlagged?'active':''}" onclick="toggleFlag('${wordId}')">
+          ${isFlagged ? '★ 已標記' : '☆ 標記 flag'}
+        </button>
+        <div style="display:flex;gap:10px;">
+          <button class="btn btn-ghost" onclick="goHome()">暫停（回首頁）</button>
+          <button class="btn btn-primary" onclick="submitFromInput()">送出</button>
+        </div>
+      </div>
+    </div>
+  `;
+  const input = document.getElementById("answerInput");
+  input.focus();
+  input.onkeydown = (e) => { if(e.key === "Enter"){ e.preventDefault(); submitFromInput(); } };
+}
+function submitFromInput(){
+  const input = document.getElementById("answerInput");
+  submitCurrent(input ? input.value : "");
+}
+
+function renderRoundResult(){
+  const c = state.activeCycle;
+  const round = c.roundHistory[c.roundHistory.length - 1];
+  let rows = "";
+  round.results.forEach(a => {
+    const word = findWord(a.wordId);
+    const flagged = c.flags.includes(a.wordId);
+    rows += `
+      <tr>
+        <td class="mono"><b>${word.english}</b></td>
+        <td>${meaningLinesHtml(word, {compact:true})}</td>
+        <td class="mono">${a.userInput ? a.userInput : '<span class="muted">（跳過）</span>'}</td>
+        <td>
+          <span class="tag ${a.correct?'ok':'no'}">${a.correct?'正確':'錯誤'}</span>
+          ${flagged ? '<span class="tag flag">flag</span>' : ''}
+        </td>
+      </tr>`;
+  });
+
+  const poolEmpty = c.errorPool.length === 0;
+
+  screenEl.innerHTML = `
+    <div class="card">
+      <div class="card-header-row">
+        <p class="section-title">第 ${round.roundIndex} 次考試結果</p>
+        <button class="icon-btn-delete" onclick="endCycle()" title="結束循環">${deleteIconSvg()}</button>
+      </div>
+      <p class="section-desc">
+        這次考試 ${round.results.length} 題，答對 ${round.results.filter(a=>a.correct).length} 題。
+        更新後仍不熟：<b>${round.remaining}/${round.total}</b>。
+      </p>
+      <table>
+        <thead><tr><th>英文</th><th>詞性／中文意思</th><th>你的作答</th><th>結果</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div class="btn-row">
+        <button class="btn btn-primary" onclick="nextRound()" ${poolEmpty ? 'disabled' : ''}>
+          開始下一次考試（${c.errorPool.length} 題）
+        </button>
+        <button class="btn btn-ghost" onclick="goHome()">回首頁（稍後繼續）</button>
+      </div>
+      ${poolEmpty ? '<p class="quiz-hint" style="margin-top:12px;">錯誤題庫已清空，這個循環的字都至少答對且沒被標記 flag，可以按右上角的圖示結束循環了。</p>' : ''}
+    </div>
+    <div class="card">
+      <p class="section-title">本循環歷次考試紀錄</p>
+      <p class="section-desc">每次交卷後還剩幾個不熟單字，以及交卷時間。</p>
+      ${roundBreakdownHtml(c.roundHistory, "active")}
+    </div>
+  `;
+}
+
+function renderCycleEnd(){
+  const rec = state.lastEndedRecord;
+  const reasonLabel = rec.endedReason === "pool_empty" ? "錯誤題庫自然清空" : "手動結束";
+  screenEl.innerHTML = `
+    <div class="card">
+      <p class="section-title">循環結束</p>
+      <table>
+        <tbody>
+          <tr><th>總考試次數</th><td>${rec.totalRounds}</td></tr>
+          <tr><th>第一次題數</th><td>${rec.initialWordCount}</td></tr>
+          <tr><th>精熟題數</th><td>${rec.finalMasteredCount}</td></tr>
+          <tr><th>未精熟（結束時仍在錯誤題庫）</th><td>${rec.remainingUnmasteredCount}</td></tr>
+          <tr><th>結束原因</th><td>${reasonLabel}</td></tr>
+          <tr><th>時間</th><td>${fmtDate(rec.startedAt)} ~ ${fmtDate(rec.endedAt)}</td></tr>
+        </tbody>
+      </table>
+      <div class="btn-row">
+        <button class="btn btn-primary" onclick="goHome()">回首頁</button>
+        <button class="btn btn-ghost" onclick="goMasterTable()">查看單字總表</button>
+      </div>
+    </div>
+    <div class="card">
+      <p class="section-title">各次考試紀錄</p>
+      ${roundBreakdownHtml(rec.roundBreakdown, "history:" + rec.id)}
+    </div>
+  `;
+}
+
+function renderHistoryDetail(){
+  const rec = state.history.find(h => h.id === state._viewHistoryId);
+  if(!rec){ goHome(); return; }
+  const reasonLabel = rec.endedReason === "pool_empty" ? "錯誤題庫自然清空" : "手動結束";
+  screenEl.innerHTML = `
+    <div class="card">
+      <button class="link-mini" style="margin-bottom:14px;" onclick="goHome()">← 回首頁</button>
+      <p class="section-title">循環紀錄</p>
+      <table>
+        <tbody>
+          <tr><th>總考試次數</th><td>${rec.totalRounds}</td></tr>
+          <tr><th>第一次題數</th><td>${rec.initialWordCount}</td></tr>
+          <tr><th>精熟題數</th><td>${rec.finalMasteredCount}</td></tr>
+          <tr><th>未精熟</th><td>${rec.remainingUnmasteredCount}</td></tr>
+          <tr><th>結束原因</th><td>${reasonLabel}</td></tr>
+          <tr><th>時間</th><td>${fmtDate(rec.startedAt)} ~ ${fmtDate(rec.endedAt)}</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <p class="section-title">各次考試紀錄</p>
+      ${roundBreakdownHtml(rec.roundBreakdown || [], "history:" + rec.id)}
+    </div>
+  `;
+}
+
+function renderMasterTable(){
+  const q = (state._searchQuery || "").trim().toLowerCase();
+  const filteredWords = state.wordBank.filter(w => {
+    const hay = (w.english + " " + w.posGroups.map(pg => pg.pos + " " + pg.meaningGroups.map(g=>g.join(" ")).join(" ")).join(" ")).toLowerCase();
+    return !q || hay.includes(q);
+  });
+
+  const totalPages = Math.max(1, Math.ceil(filteredWords.length / MASTER_TABLE_PAGE_SIZE));
+  if(masterTablePage < 1) masterTablePage = 1;
+  if(masterTablePage > totalPages) masterTablePage = totalPages;
+  const pageStart = (masterTablePage - 1) * MASTER_TABLE_PAGE_SIZE;
+  const pageWords = filteredWords.slice(pageStart, pageStart + MASTER_TABLE_PAGE_SIZE);
+
+  let rows = "";
+  pageWords.forEach(w => {
+    const lastResult = w.stats ? (w.stats.lastResult === "correct" ? "對" : "錯") : "尚未測過";
+    const hasExamples = w.examples && w.examples.length > 0;
+    const isOpen = expandedExampleWords.has(w.id);
+
+    rows += `
+      <tr>
+        <td class="mono word-col"><b>${w.english}</b></td>
+        <td>${meaningLinesHtml(w, {compact:true})}</td>
+        <td class="mono">${w.wrongCount}</td>
+        <td><span class="tag ${lastResult==='對'?'ok':(lastResult==='錯'?'no':'')}">${lastResult}</span></td>
+        <td class="example-toggle-cell">
+          <button class="example-toggle-btn" onclick="toggleWordExamples('${w.id}')" ${hasExamples ? "" : "disabled"} title="${hasExamples ? "展開例句" : "沒有例句"}">
+            <span class="chevron ${isOpen ? "open" : ""}">${chevronIconSvg()}</span>
+          </button>
+        </td>
+      </tr>`;
+    if(isOpen && hasExamples){
+      rows += `<tr class="examples-row"><td colspan="5">${examplesHtml(w)}</td></tr>`;
+    }
+  });
+  if(!rows) rows = `<tr><td colspan="5" class="empty-note">沒有符合的結果。</td></tr>`;
+
+  /* 列印用的簡化版：跟「檢視」考試錯誤頁同一種格式，只有英文＋詞性兩欄，不帶色塊 */
+  const printRows = filteredWords.length
+    ? filteredWords.map(w => `<tr><td>${w.english}</td><td>${plainMeaningLines(w)}</td></tr>`).join("")
+    : `<tr><td colspan="2">沒有符合的結果。</td></tr>`;
+
+  screenEl.innerHTML = `
+    <div class="card no-print">
+      <div class="plain-toolbar">
+        <button class="link-mini" onclick="goHome()">← 回首頁</button>
+        <button class="plain-download-btn" onclick="downloadMasterTablePdf()">下載 PDF</button>
+      </div>
+      <p class="section-title">單字總表</p>
+      <input id="searchInput" class="search-input" type="text" placeholder="搜尋英文或中文意思…" value="${state._searchQuery || ''}" />
+      <table>
+        <thead>
+          <tr><th class="word-col">英文</th><th>詞性／中文意思</th><th>錯誤次數</th><th>最近結果</th><th class="example-toggle-cell"></th></tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div class="pagination">
+        <button class="btn-mini" onclick="changeMasterTablePage(-1)" ${masterTablePage <= 1 ? "disabled" : ""}>← 上一頁</button>
+        <span class="pagination-info">
+          第 <input class="page-jump-input mono" type="number" min="1" max="${totalPages}" value="${masterTablePage}"
+            onchange="jumpToMasterTablePage(this.value)" /> / ${totalPages} 頁　共 ${filteredWords.length} 個字
+        </span>
+        <button class="btn-mini" onclick="changeMasterTablePage(1)" ${masterTablePage >= totalPages ? "disabled" : ""}>下一頁 →</button>
+      </div>
+    </div>
+    <div class="plain-card print-only">
+      <p class="plain-title">單字總表</p>
+      <table class="plain-table">
+        <thead><tr><th>英文</th><th>詞性</th></tr></thead>
+        <tbody>${printRows}</tbody>
+      </table>
+    </div>
+  `;
+  const searchInput = document.getElementById("searchInput");
+  searchInput.oninput = (e) => { state._searchQuery = e.target.value; masterTablePage = 1; renderMasterTable(); };
+  searchInput.focus();
+  searchInput.setSelectionRange(searchInput.value.length, searchInput.value.length);
+}
+
+renderAll();
+</script>
+</body>
+</html>
