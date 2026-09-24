@@ -243,6 +243,15 @@ CycleRecord {
 
 - 循環模式的單字庫，與模考模式（Part 1-7）目前的題庫（`QUESTIONS` / `AUDIO_DATA`）是**兩個獨立的資料集**，不互相依賴，但建議放在同一個網站（同一個 app）裡，用選單切換「模考模式」/「循環模式」。
 
+### 6.2a 網站進入點（`index.html`）與「回到首頁」
+
+- Repo 根目錄的 `index.html` 是**整個網站的進入點**（GitHub Pages 的預設首頁），內容只是一個轉址頁：把使用者導向 `mocktest/cycle_mode_mvp.html#home`。
+- `cycle_mode_mvp.html` 平常會把 `state.screen` 存進 `localStorage`，重新整理或直接用網址列打開這個檔案時，會**恢復到使用者上次離開時所在的畫面**（例如單字總表、測驗中）——這是刻意設計的「暫停可以繼續」行為（見 4.3）。
+- 但如果是**從根目錄 `index.html` 這個進入點**點進來的，網址列會帶 `#home` 這個 hash；`cycle_mode_mvp.html` 載入時若偵測到 `location.hash === "#home"`，會強制把畫面顯示成「循環模式主頁」，**不去恢復 localStorage 裡可能停在別的畫面的狀態**。
+  - 這個強制只影響**當次要顯示哪個畫面**，不會覆寫 `localStorage` 裡實際存的 `state.screen`（沒有呼叫 `saveState()`）：如果使用者手上還有進行中的循環或測驗，資料完全不受影響，首頁的「循環」卡片一樣看得到、能繼續。
+  - 沒有帶 `#home` 的一般網址（例如使用者自己把 `mocktest/cycle_mode_mvp.html` 加書籤、或重新整理），行為維持原樣，照常恢復到上次離開的畫面。
+- 這個機制解決的實際問題：使用者上次測試時剛好停在「單字總表」，之後從網站首頁（根網址）重新進來，卻直接看到單字總表而不是循環模式主頁，體驗上很奇怪——所以進入點特地強制先顯示主頁。
+
 ### 6.3 視覺風格通則
 
 - **全站不使用襯線字體（serif）**，統一用無襯線的黑體字型（`IBM Plex Sans` / `PingFang TC` / `Microsoft JhengHei` 這個 sans-serif 字型堆疊）。原本標題、詞義展示區用了 `Source Serif 4` 襯線字體營造「正式感」，使用者回饋不要有襯線字體，已經整個拿掉（包含 Google Fonts 的引入），全站文字改成單一字型風格，不分標題/內文。
