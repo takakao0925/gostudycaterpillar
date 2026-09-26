@@ -4,7 +4,7 @@
 > 修改流程：先在這份 md 裡加字／改字 → 再把對應的 JS 物件貼進 `cycle_mode_mvp.html` 的 `defaultWordBank()` 陣列裡。這份 md **不會被網頁直接讀取**，單純是給人與其他 AI 編輯、對照用的。
 > 加字前請先讀 [vocab-bank-guidelines.md](vocab-bank-guidelines.md)，裡面是格式規則。
 
-目前共 **2115 個字**，最後使用的 id 是 `w2329`（下一個新字從序號更大的 id 開始，請先確認目前最大值）。
+目前共 **2116 個字**，最後使用的 id 是 `w2330`（下一個新字從 `w2331` 開始）。
 
 ---
 
@@ -2127,6 +2127,7 @@
 | diminish | (vt) 減少；縮小　(vi) 減少；變小 |
 | adherence | (nu) 堅持；遵守 |
 | resonate | (vi) 引起共鳴；產生迴響 |
+| intermittent | (adj) 間歇的；斷斷續續的 |
 
 ---
 
@@ -17430,6 +17431,15 @@
     ],
     examples: [
       { en:"The company's new slogan resonated well with younger customers.", zh:"這家公司的新標語很能引起年輕顧客的共鳴。" }
+    ]
+  },
+  {
+    id: "w2330", english: "intermittent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["間歇的","斷斷續續的"] ] }
+    ],
+    examples: [
+      { en:"The factory experienced intermittent power outages throughout the week.", zh:"這家工廠整週經歷了間歇性的停電。" }
     ]
   }
 ]
