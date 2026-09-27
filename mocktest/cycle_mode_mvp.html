@@ -47,8 +47,18 @@
     margin: 0 0 28px;
   }
   .topbar-inner{ max-width: 820px; margin: 0 auto; }
+  .topbar-row{ display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap: 12px; }
   .exam-title{ font-size: 19px; font-weight: 600; margin:0; }
   .exam-sub{ font-size: 12px; color: var(--gold-light); margin: 2px 0 0; letter-spacing: 0.06em; }
+
+  .mode-tabs{ display:flex; gap: 6px; }
+  .mode-tab{
+    font-size: 11.5px; font-weight: 600; letter-spacing: 0.03em; padding: 5px 12px;
+    border-radius: 100px; border: 1px solid rgba(228,206,147,0.35); color: var(--gold-light);
+    text-decoration: none; transition: all .15s ease;
+  }
+  .mode-tab:hover{ border-color: var(--gold-light); color: var(--ivory); }
+  .mode-tab.active{ background: var(--gold); border-color: var(--gold); color: var(--navy-deep); }
 
   .card{
     background: var(--paper); border: 1px solid var(--border); border-radius: var(--radius);
@@ -189,8 +199,16 @@
 <body>
 <div class="topbar">
   <div class="topbar-inner">
-    <p class="exam-title">Go Study Caterpillar</p>
-    <p class="exam-sub mono">CYCLE MODE</p>
+    <div class="topbar-row">
+      <div>
+        <p class="exam-title">Go Study Caterpillar</p>
+        <p class="exam-sub mono">CYCLE MODE</p>
+      </div>
+      <div class="mode-tabs no-print">
+        <a class="mode-tab active" href="cycle_mode_mvp.html#home">循環模式</a>
+        <a class="mode-tab" href="toeic_mock_exam_mvp.html">模擬考模式</a>
+      </div>
+    </div>
   </div>
 </div>
 <div class="app"><div id="screen"></div></div>
