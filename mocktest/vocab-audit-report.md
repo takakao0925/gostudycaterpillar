@@ -1,15 +1,27 @@
 # 單字庫稽核報告(比對劍橋詞典)
 
-稽核日期:2026-09-26
-稽核範圍:w1 ~ w100(第一批,依 id 順序;後續批次待續)
+稽核日期:2026-09-26 ~ 2026-09-28
 稽核來源:劍橋詞典英漢(繁體) https://dictionary.cambridge.org/dictionary/english-chinese-traditional/
 
+稽核範圍:
+- 第一批:w1 ~ w100(原始 2115 字，依 id 順序;後續 w101 起待續)
+- 第二批:w2331 ~ w2398(2026-09-27 新增的 68 個字，全部稽核完成)
+
 ## 摘要(隨批次更新)
-- 目前已稽核:100 個字(w1~w96、w97~w100)
+
+**第一批 w1~w100**
+- 已稽核:100 個字
 - ✅ 一致:44 個
 - ⚠️ 需要修正:8 個
 - ❓ 劍橋查不到:1 個
 - ➕ 有缺漏義項:47 個
+
+**第二批 w2331~w2398(新增字，已全部完成)**
+- 已稽核:68 個字
+- ✅ 一致:35 個
+- ⚠️ 需要修正:4 個(balance、benefit、quote 已於 2026-09-28 修正完成，見下方對應條目;keep up 分組較籠統，次要，未修正)
+- ❓ 劍橋查不到:11 個
+- ➕ 有缺漏義項:18 個
 
 ---
 
@@ -444,3 +456,241 @@
 - 現有:`(phr.) 貓捉老鼠的把戲；互相追逐周旋的局面`
 - 說明:劍橋詞典**沒有**「a game of cat and mouse」這個詞條,查詢會被導到拼字建議頁。劍橋收錄的是動詞片語 **`play cat and mouse`**(玩貓捉老鼠的遊戲；耍弄——意指「用計謀讓對方出錯藉此佔上風」),意思跟現有收錄的「互相追逐周旋的局面」相近但不完全相同,詞性也不同(劍橋是動詞片語,不是名詞片語)。「a cat-and-mouse game」作為名詞用法在一般英文中也算常見,但劍橋詞典沒有單獨收錄這個名詞形式的詞條。建議人工確認:要不要把 `english` 改成劍橋實際收錄的 `play cat and mouse`,或保留現有名詞用法但註明劍橋查無此確切詞條
 - 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=a%20game%20of%20cat%20and%20mouse (查無,自動導向拼字建議) 、 https://dictionary.cambridge.org/dictionary/english-chinese-traditional/play-cat-and-mouse (劍橋實際收錄的相近詞條)
+
+---
+
+# 第二批次:w2331 ~ w2398(2026-09-27 新增的 68 個新字，全部稽核完成)
+
+稽核日期:2026-09-28
+說明:這 68 個字(w2331~w2398)是在第一批稽核完成後才新增進 `vocab-bank.md` 的，id 編號接續在原本 2115 字之後。分兩次稽核完成:先做 w2331~w2380(前 50 個)，再做 w2381~w2398(後 18 個)，以下結果已合併。
+
+## ⚠️ 需要修正
+
+### w2342 balance
+- 現有:`(nc) 帳戶餘額；結餘` `(vt) 使平衡；權衡`
+- 劍橋顯示:劍橋把 balance 的名詞義項分成三組，排序第一、最基本的義項是 `noun (EQUAL STATE) [S or U]` **「平衡」**(物理或抽象意義上的平衡狀態，如 "lost his balance" 失去平衡、"strike a balance" 取得平衡)——這個最核心、最常用的意思**完全沒有收錄**，現有條目只收了 `noun (MONEY) [C usually singular]` 「結存，結餘」這個較窄的商務義項。
+- 另外動詞部分，劍橋把「（使）平衡」`[I or T]`(物理站立不倒)、「權衡，斟酌」`[T]`(給予同等重要性)、「使收支平衡」`[T]`(帳目)拆成三個略有差異的義項，我們的 `vt` 群組「使平衡；權衡」把前兩者合併在一起，分組較籠統，但不算錯。
+- 建議:優先補上最基本的「平衡」這個名詞義項(EQUAL STATE)，這是 TOEIC / 日常英文中 balance 最常出現的用法。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/balance
+- **✅ 已於 2026-09-28 修正**:在 `vocab-bank.md` 與 `cycle_mode_mvp.html` 補上 `{ pos: "nu", meaningGroups: [ ["平衡"] ] }` 並新增對應例句。
+
+### w2344 benefit
+- 現有:`(nc) 福利；津貼` `(vi) 獲益`
+- 劍橋顯示:劍橋名詞排序第一、最基本的義項是 `noun (ADVANTAGE) [C or U]` **「利益，好處；優勢」**(如 "the benefits of foreign travel")——這個最核心的意思**完全沒有收錄**，現有條目只收了 `[C, usually plural]`「（僱主為員工提供的）福利政策」這個較窄的商務義項(對應「福利，津貼」)。
+- 動詞 `verb [I or T]` B2「得益，受惠」對應「獲益」一致(劍橋顯示及物不及物皆可，我們只收 vi 不算錯)。
+- 另有 `noun (MONEY FROM GOVERNMENT)` UK「（政府）補助金，救濟金」、`noun (EVENT)`「義演、義賣」未收錄，較次要。
+- 建議:優先補上最基本的「利益，好處」這個名詞義項，這比「福利」更常見、更基礎。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/benefit
+- **✅ 已於 2026-09-28 修正**:在 `vocab-bank.md` 與 `cycle_mode_mvp.html` 的 `nc` 群組補上 `["利益","好處"]` 作為第一義項，並新增對應例句。
+
+### w2379 quote
+- 現有:`(nc) 報價` `(vt) 報價`
+- 劍橋顯示:劍橋動詞排序第一、最基本的義項是 `verb (SAY) [I or T]` C1 **「引用，引述，援引」**(如 "He's always quoting from the Bible.")——這個最核心、最常用的意思**完全沒有收錄**，現有條目只收了 `verb (GIVE PRICE) [T]` C2「報價」這個較窄的商務義項。
+- 名詞 `noun (PRICE) [C]` C2「報價」對應現有「報價」一致。
+- 另有 `noun (SYMBOLS)` "quotes"「引號」未收錄，較次要。
+- 建議:優先補上「引用，引述」這個動詞義項，這是 quote 最基本、最常見的用法。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/quote
+- **✅ 已於 2026-09-28 修正**:在 `vocab-bank.md` 與 `cycle_mode_mvp.html` 的 `vt` 群組補上 `["引用","引述","援引"]` 作為第一義項，並新增對應例句。
+
+### w2395 keep up(次要)
+- 現有:`(phr.) 跟上,維持`
+- 劍橋顯示:劍橋把 keep up 相關的片語動詞拆成好幾個不同詞條，包括不及物的 `keep up` B2「跟上（變化、形勢等）」，以及及物的 `keep something up` B1「使不下降；使保持在高水準」和 `keep (something) up` B1「（使）繼續下去，不停止」。我們把「跟上」和「維持」當同義詞放在同一個 meaningGroup 裡，但這其實對應劍橋不同及物性的片語動詞，語意上有微妙差異(不算錯，但分組可以更精確)，跟第一批 w19 thorough 的情況類似。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=keep%20up
+
+---
+
+## ➕ 有缺漏義項
+
+### w2336 application
+- 現有:`(nc) 申請書；申請表`
+- 現有義項與劍橋 `application noun (REQUEST) [C or U]` B1「（通常指書面的）申請，請求」一致。但 application 是高度多義字，劍橋還有大量常見義項完全沒收錄:
+  - `noun (COMPUTER) [C]` B2 **「應用軟體」**(如 "spreadsheet applications")——這在辦公室/科技情境中非常常見，優先度高
+  - `noun (USE) [C or U]` C2「用途，用法;應用」
+  - `noun (HARD WORK) [U]`「勤奮；努力；專心致志」
+  - `noun (PUTTING ON) [C or U]`「塗抹;敷用」(乳液、油漆等)
+  - `noun (RELATION TO) [C or U]`「（法律，規定等的）適用」
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/application
+
+### w2337 appointment
+- 現有:`(nc) 預約；約定`
+- 現有義項與劍橋 `appointment noun (ARRANGEMENT)` A2「約會;預約;約定」一致。但劍橋還有 `appointment noun (JOB) [C or U]` C2「任命，委派」完全沒收錄(如 "the appointment of Julia Lewis as head of sales")，這在商務英文中也很常見。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/appointment
+
+### w2338 arrangement(次要)
+- 現有:`(nc) 安排；準備事宜`
+- 現有義項與劍橋 `arrangement noun (PLAN)`「安排；籌劃；準備（工作）」一致。劍橋另有 `noun (POSITION) [C]`「排列，安排」(物品擺放方式，如插花)及 `noun (MUSIC) [C]`「改編曲」完全沒收錄，較次要。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/arrangement
+
+### w2339 assistant(次要)
+- 現有:`(nc) 助理`
+- 現有義項與劍橋 `noun [C]` B1「助手；幫手；助理」一致。劍橋另有 A2 UK「店員；營業員；售貨員」("a sales/shop assistant")完全沒收錄，較次要。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/assistant
+
+### w2345 board
+- 現有:`(nc) 董事會` `(vt) 登上（交通工具）`
+- 現有義項對應劍橋 `board noun (PEOPLE)`「董事會;理事會;委員會」與 `board verb (GET ON)`「（使）上（船、火車或飛機）」，皆一致。但 board 是高度多義字，劍橋還有很多基本義項完全沒收錄，包括 `noun (WOOD) [C]`「（有特定用途的）薄木板;板;牌子」(黑板、棋盤、佈告欄、跳板等都屬於這個義項下的細分)及 `noun (MEALS) [U]`「（住宿處提供的）伙食，膳食」(常見於 "room and board")。因為單字庫是商務情境導向，可能是刻意只收商務相關意思，建議使用者確認是否要保持現狀。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/board
+
+### w2347 bonus(次要)
+- 現有:`(nc) 獎金；紅利`
+- 現有義項與劍橋 `noun [C]` B2「奬金；花紅；紅利；津貼」一致。劍橋另有第二義項 B2「另外的優點;額外的好處」(pleasant extra thing)完全沒收錄，較次要。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/bonus
+
+### w2350 capacity
+- 現有:`(nu) 產能；容量`
+- 現有義項與劍橋 `capacity noun (AMOUNT) [U or C]` B2「容積，容量;生產能力;（尤指某人或某組織的）辦事能力」一致。但劍橋另有 `capacity noun (POSITION) [S]` formal C1「職位;工作;角色」(如 "in her capacity as...")完全沒收錄，這在正式商務文書中相當常見。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/capacity
+
+### w2351 catalog(次要)
+- 現有:`(nc) 商品目錄`
+- 劍橋以英式拼法 catalogue 為主詞條(catalog 為美式拼法)。現有義項與 `catalogue noun (LIST) [C]` B2「（商品）目錄冊」一致。劍橋另有「（某處書籍、繪畫作品等的）目錄」、`noun (BAD EVENTS) [S]`「一連串（壞事情）」、動詞「紀錄；編入目錄」完全沒收錄，較次要。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/catalog
+
+### w2353 certificate(次要)
+- 現有:`(nc) 證書；證明書`
+- 現有義項與劍橋兩個名詞義項「證書;證明」、「成績合格證書;畢業證書」皆一致。劍橋另有 `certificate verb [T]` UK「證書;證明」(提供官方文件證明某事)完全沒收錄動詞用法，較次要。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/certificate
+
+### w2354 client(次要)
+- 現有:`(nc) 客戶`
+- 現有義項與劍橋 `client noun [C] (CUSTOMER)` B2「客戶;顧客，主顧;委託人」一致。劍橋另有 `client noun [C] (COMPUTER)`「（連接在伺服器上的）客戶機」完全沒收錄，屬電腦術語，較次要。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/client
+
+### w2362 discount
+- 現有:`(nc) 折扣` `(vt) 給予折扣`
+- 現有義項對應劍橋 `noun [C]`「減價，打折」與 `discount verb (REDUCE) [T often passive]`「減價，打折」皆一致。但劍橋動詞還有另一個完全獨立、且相當常見的義項 `discount verb (NOT CONSIDER) [T]`「忽視，忽略，不理會」(如 "You shouldn't discount the possibility of him coming back.")完全沒收錄，這個意思跟「打折」完全不同，屬於重要缺漏。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/discount
+
+### w2364 departure(次要)
+- 現有:`(nc) 啟程；出發`
+- 現有義項與劍橋 `departure noun (LEAVING) [C]` B1「（人、交通工具等）離開;啟程，出發」一致。劍橋同一義項下還包含「離職，辭職」的用法(如 "Graham's sudden departure")，以及獨立的 `departure noun (CHANGE)`「偏離，背離，脫離」未特別收錄，較次要，但「離職」這個延伸用法在商務新聞中不少見。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/departure
+
+### w2366 facility(次要)
+- 現有:`(nc) 設施`
+- 現有義項與劍橋 `facility noun (BUILDING) [C]` B1「（尤指包含多個建築物，有特定用途的）場所」及複數 facilities「設施」一致。劍橋另有 `facility noun (ABILITY) [C or U]` B2「天資，才能」及「（產品的）功能」(如 "overdraft facility" 透支額度)完全沒收錄，較次要但「功能」義項在產品說明情境中也算常見。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/facility
+
+### w2372 interview(次要)
+- 現有:`(nc) 面試` `(vt) 面試（某人）`
+- 現有義項與劍橋「面試;面談」及對應動詞用法一致。劍橋名詞另有「採訪」(新聞媒體)及「訊問」(警方偵訊)兩個義項完全沒收錄，較次要。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/interview
+
+### w2377 partner(次要)
+- 現有:`(nc) 合夥人；合作夥伴`
+- 現有義項與劍橋「一般夥伴，同伴」及 B2「（公司的）合夥人」一致。劍橋另有 B1「配偶；情人；性伴侶」、A2「舞伴」及動詞用法「（在運動/舞蹈中）與…搭檔」、「與…合夥」完全沒收錄，較次要(與商務情境關聯度較低)。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/partner
+
+### w2378 qualification(次要)
+- 現有:`(nc) 資格；合格證明`
+- 現有義項與劍橋 `qualification noun (TRAINING)`「合格證書，資格證明」及「資歷，資格;條件」一致。劍橋另有 `noun (COMPETITION) [U]` C1「（取得）比賽資格」及 `noun (LIMIT) [C]`「（附加的）限制條件」(如 "with the qualification that...")完全沒收錄，較次要，但後者在正式文書中偶爾出現。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/qualification
+
+### w2380 rental(次要)
+- 現有:`(nc) 租金；租賃`
+- 現有義項與劍橋 `[C or U]`「出租，租賃，租借；租金，租費」一致。劍橋另有 `[C]` mainly US「租用的物品（如房屋、汽車、單車等）」(如 "Is that your car or is it a rental?")完全沒收錄，較次要。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/rental
+
+### w2387 tax(次要)
+- 現有:`(nc) 稅金,稅款`
+- 現有義項與劍橋 `noun [C or U]` B1「稅;稅款」一致。但完全沒收錄動詞用法:`tax verb (MONEY) [T]` C1「對…徵稅，對…課稅」(如 "Husbands and wives may be taxed jointly.")，這在商務/報稅情境也算常見；另有 `tax verb (NEED EFFORT)`「使負重擔；使大傷腦筋」較次要冷僻。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/tax
+
+---
+
+## ✅ 一致
+
+- w2331 mess up — `(phr.) 搞砸,弄糟` 與劍橋 `phrasal verb with mess` informal B2「搞砸，弄糟」一致
+- w2332 batch — `(nc) 一批,批次` 與劍橋 `noun [C]`「一批，一組」一致
+- w2334 accountant — `(nc) 會計師` 與劍橋 `noun [C]` B1「會計;會計師」一致
+- w2335 advertisement — `(nc) 廣告` 與劍橋 `noun [C]` A2「廣告;啟事」一致
+- w2340 assistance — `(nu) 協助,援助` 與劍橋 `noun [U]` B2「幫助；協助；援助」一致
+- w2341 attendance — `(nu) 出席,出席人數` 與劍橋 `attendance noun (BEING PRESENT)`「出席，參加」與「出席人數」皆一致
+- w2343 banquet — `(nc) 宴會,晚宴` 與劍橋 `noun [C]`「（正式的）宴會」一致
+- w2346 boarding pass — `(nc) 登機證` 與劍橋 `noun [C]`「登機證;登船證」一致
+- w2348 briefing — `(nc) 簡報,說明會` 與劍橋 `noun [C or U]`「簡報，簡要介紹；簡明指示；簡報會」一致
+- w2352 CEO — `(nc) 執行長` 與劍橋 `noun [C]`「執行長（chief executive officer的縮寫）」完全吻合
+- w2355 committee — `(nc) 委員會` 與劍橋 `noun [C, + sing/pl verb]` B2「（代表較大的組織決策或搜集資訊的）委員會」一致
+- w2358 credit card — `(nc) 信用卡` 與劍橋 `noun [C]` A1「信用卡」一致
+- w2359 customer — `(nc) 顧客,客戶` 與劍橋 `noun [C]` A2「顧客，主顧，客戶」一致
+- w2360 deposit — `(nc) 訂金,押金` `(vt) 存放,支付訂金` 與劍橋 `deposit noun (MONEY)`「預繳費用，定金」/「押金」及 `deposit verb (MONEY)`「存放，儲存」/「支付押金、訂金」一致(劍橋另把一般性「留下」的意思獨立列為 `deposit verb (LEAVE)`，我們的 vt 群組只涵蓋金錢相關用法，不算錯，只是分組較籠統)
+- w2361 description — `(nc) 說明,描述` 與劍橋 `noun [C or U]` B1「描述，描寫，描繪」一致
+- w2363 duty — `(nc) 職責,責任` `(nu) 關稅` 與劍橋 `duty noun (RESPONSIBILITY) [C or U]`「責任；義務」及 `duty noun (TAX) [C or U]`「稅;（尤指進口）關稅」一致(劍橋兩個義項都是 [C or U]，我們各自只選一種不算錯)
+- w2365 employee — `(nc) 員工` 與劍橋 `noun [C]` B1「受僱者，僱員，員工」一致
+- w2367 fee — `(nc) 費用` 與劍橋 `noun [C]` B1「報酬;服務費;費用」一致
+- w2368 file — `(nc) 檔案` `(vt) 歸檔,提交` 與劍橋 `file noun (COMPUTER)`「（電腦的）檔案，文檔」/`file noun (CONTAINER)`「文件箱，文件夾」及 `file verb (STORE/RECORD INFORMATION)`「把…歸檔」/`file verb (LAW)`「（法庭）提出（訴訟）」一致
+- w2369 floor plan — `(nc) 樓層平面圖` 與劍橋 `noun [C]`「（建築物的）平面圖」一致
+- w2371 headset — `(nc) 耳機（含麥克風）` 與劍橋 `noun [C]`「（尤指帶有話筒的）一副耳機」一致
+- w2373 logo — `(nc) 商標,標誌` 與劍橋 `noun [C]` B1「（公司的）標誌，標識」一致
+- w2381 salesperson — `(nc) 業務員,銷售員` 與劍橋 `noun [C]` A2「售貨員；推銷員」一致
+- w2383 software — `(nu) 軟體` 與劍橋 `noun [U]` A2「（電腦）軟體」一致
+- w2384 staff — `(nu) 員工（總稱）` 與劍橋 `staff noun (PEOPLE) [S, +sing/pl verb]` A2「全體員工，全體僱員」語意一致(劍橋標記為特殊的單數集合用法，不是典型的不可數名詞，但我們歸類為 nu 不算錯)
+- w2385 stationery — `(nu) 文具` 與劍橋 `noun [U]`「文具」一致
+- w2386 survey — `(nc) 調查` `(vt) 調查` 與劍橋 `survey noun (QUESTIONS) [C]` B2「調查」及 `survey verb (QUESTIONS) [T]` C1「調查」一致
+- w2388 whiteboard — `(nc) 白板` 與劍橋 `noun [C]`「白色書寫板」/「手寫板（電子設備）」一致
+- w2389 zone — `(nc) 區域` 與劍橋 `noun [C]` B1「（尤指有不同特徵或用途的）地帶，地區」一致
+- w2391 fill out — `(phr.) 填寫` 與劍橋 `fill something in/out` A2「填寫（正式文件）」一致(注意:劍橋把「fill out」單獨列為不及物用法時意思是「發福，長胖」，我們對應的其實是及物的「fill something in/out」詞條，查詢時要用完整詞條名稱才查得到正確翻譯，但我們收錄的中文意思本身是對的)
+- w2393 look forward to — `(phr.) 期待` 與劍橋 `look forward to something` B1「盼望，期盼」一致
+- w2394 narrow down — `(phr.) 縮小範圍` 與劍橋 `narrow something down` C2「把…縮減，壓縮」一致
+- w2396 sign up — `(phr.) 報名,註冊` 與劍橋 `sign up` B1「報名參加（某項有組織的活動）」一致
+- w2397 take place — `(phr.) 舉行,發生` 與劍橋 `place` 詞條下的 idiom `take place` B1「舉行」一致
+- w2398 on time — `(phr.) 準時` 與劍橋 `time` 詞條下的文法說明及相關片語 `(right/dead/bang) on time`「極為準時」一致(劍橋沒有把「on time」單獨列為一個詞條，但文法說明明確定義「on time = at the scheduled time」，語意吻合)
+
+---
+
+## ❓ 劍橋查不到
+
+### w2333 intended recipient
+- 現有:`(nc) 預定收件人,指定收件人`
+- 說明:劍橋英漢繁體詞典查無「intended recipient」這個詞條，搜尋會導向拼字建議頁（只顯示 "intended recipient collocation" 建議連結，點進去也無詞條內容）。這是 intended(形容詞) + recipient(名詞) 組成的自由片語，語意合理常見(常見於商用信件的免責聲明)，但並非劍橋收錄的獨立詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=intended%20recipient
+
+### w2349 business trip
+- 現有:`(nc) 商務出差`
+- 說明:劍橋英漢繁體詞典查無「business trip」的中文對照詞條，查詢會自動導向純英文版(English Dictionary / Business English Dictionary)，只給英文釋義「a journey taken for business purposes」，沒有中文翻譯頁面。語意上與「商務出差」完全吻合，只是劍橋的英漢雙語版沒有收錄這個複合詞的翻譯詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=business%20trip (導向純英文版 https://dictionary.cambridge.org/dictionary/english/business-trip)
+
+### w2356 conference room
+- 現有:`(nc) 會議室`
+- 說明:劍橋英漢繁體詞典完全查無此詞條，連英文版也沒有，搜尋只導向拼字建議頁(建議 conference call 等不相關詞)。這是自由片語(conference + room)，語意合理常見，但非劍橋收錄詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=conference%20room
+
+### w2357 copy machine
+- 現有:`(nc) 影印機`
+- 說明:劍橋詞典完全查無此詞條，搜尋建議頁甚至沒有相關的 collocation 建議連結(比 conference room 更徹底查無)。劍橋詞典收錄的對應詞是 `photocopier`，沒有「copy machine」這個美式口語複合詞的獨立詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=copy%20machine
+
+### w2370 front desk
+- 現有:`(nc) 櫃檯`
+- 說明:劍橋英漢繁體詞典查無中文對照詞條，查詢導向純英文版 Business English Dictionary，釋義「a desk near the entrance to a hotel, office building, etc.」，語意與「櫃檯」完全吻合，只是英漢雙語版沒有收錄這個詞條的翻譯。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=front%20desk (導向純英文版 https://dictionary.cambridge.org/dictionary/english/front-desk)
+
+### w2374 lunch meeting
+- 現有:`(nc) 午餐會議`
+- 說明:劍橋詞典完全查無此詞條(連英文版也沒有)，搜尋建議頁沒有相關 collocation 連結。這是自由片語(lunch + meeting)，語意合理，但非劍橋收錄詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=lunch%20meeting
+
+### w2375 main branch
+- 現有:`(nc) 總行,總公司`
+- 說明:劍橋詞典查無此詞條，搜尋只建議 "main branch collocation"(點進去無內容)及一些不相關詞(olive branch 等)。這是自由片語(main + branch)，語意合理常見於銀行業情境，但非劍橋收錄詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=main%20branch
+
+### w2376 meeting room
+- 現有:`(nc) 會議室`
+- 說明:劍橋英漢繁體詞典查無中文對照詞條，查詢導向純英文版 Business English Dictionary，釋義「a room that is used for meetings」，語意與「會議室」完全吻合，只是英漢雙語版沒有收錄這個詞條的翻譯。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=meeting%20room (導向純英文版 https://dictionary.cambridge.org/dictionary/english/meeting-room)
+
+### w2382 shuttle bus
+- 現有:`(nc) 接駁車`
+- 說明:劍橋詞典查無此詞條，搜尋只建議 "shuttle bus collocation"(點進去無內容)。這是自由片語(shuttle + bus)，語意合理常見，但非劍橋收錄詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=shuttle%20bus
+
+### w2390 apply for
+- 現有:`(phr.) 申請`
+- 說明:劍橋英漢繁體詞典查無中文對照詞條，查詢導向純英文版 Cambridge Advanced Learner's Dictionary，釋義「If you apply for something, you request it, usually officially, especially in writing or by sending in a form」，語意與「申請」完全吻合，只是英漢雙語版沒有收錄這個詞條的翻譯。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=apply%20for (導向純英文版 https://dictionary.cambridge.org/dictionary/english/apply-for)
+
+### w2392 get in touch with
+- 現有:`(phr.) 與…取得聯繫`
+- 說明:劍橋詞典查無此詞條(連英文版也沒有)，搜尋建議頁沒有相關 collocation 連結，只建議一些拼字相近但不相關的詞(get it over with 等)。這是自由片語(get + in touch + with)，語意合理常見，但非劍橋收錄詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=get%20in%20touch%20with
