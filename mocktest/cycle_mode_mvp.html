@@ -7944,7 +7944,7 @@ function defaultWordBank(){
     posGroups: [ { pos: "adj", meaningGroups: [ ["有義務的","受約束的"] ] } ],
     examples: [ { en:"Under the contract, the supplier is bound to deliver the goods within thirty days.", zh:"根據合約，供應商有義務在三十天內交貨。" } ] },
   { id: "w879", english: "by all means", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "phr.", meaningGroups: [ ["當然可以","務必"] ] } ],
+    posGroups: [ { pos: "phr.", meaningGroups: [ ["當然可以"] ] } ],
     examples: [ { en:"\"Could I reschedule our meeting?\" \"By all means, just let me know a time that works.\"", zh:"「我可以重新安排會議時間嗎？」「當然可以，告訴我方便的時間就好。」" } ] },
   { id: "w880", english: "circumscribe", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "vt", meaningGroups: [ ["限制","約束"] ] } ],
@@ -8007,7 +8007,7 @@ function defaultWordBank(){
     posGroups: [ { pos: "adj", meaningGroups: [ ["司法的"] ] } ],
     examples: [ { en:"The dispute will be settled through judicial proceedings.", zh:"這項爭議將透過司法程序解決。" } ] },
   { id: "w896", english: "keenly", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "adv", meaningGroups: [ ["熱切地","敏銳地"] ] } ],
+    posGroups: [ { pos: "adv", meaningGroups: [ ["熱切地","迫切地"] ] } ],
     examples: [ { en:"Investors are keenly watching the central bank's next interest rate decision.", zh:"投資人正密切關注央行下一次的利率決定。" } ] },
   { id: "w897", english: "legitimate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "adj", meaningGroups: [ ["合法的","正當合理的"] ] } ],
@@ -8105,9 +8105,9 @@ function defaultWordBank(){
   { id: "w928", english: "strew", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "vt", meaningGroups: [ ["散置","散落"] ] } ],
     examples: [ { en:"Papers were strewn across the desk after the meeting.", zh:"會議結束後，文件散落在桌上。" } ] },
-  { id: "w929", english: "take initiative", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+  { id: "w929", english: "take the initiative", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "phr.", meaningGroups: [ ["主動採取行動"] ] } ],
-    examples: [ { en:"New employees are encouraged to take initiative rather than wait for instructions.", zh:"公司鼓勵新員工主動採取行動，而不是等待指示。" } ] },
+    examples: [ { en:"New employees are encouraged to take the initiative rather than wait for instructions.", zh:"公司鼓勵新員工主動採取行動，而不是等待指示。" } ] },
   { id: "w930", english: "telecommute", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "vi", meaningGroups: [ ["遠端工作","居家辦公"] ] } ],
     examples: [ { en:"Many employees now telecommute two or three days a week.", zh:"現在許多員工每週有兩三天居家遠端工作。" } ] },
@@ -8166,8 +8166,11 @@ function defaultWordBank(){
     posGroups: [ { pos: "vi", meaningGroups: [ ["向後靠","斜躺"] ] } ],
     examples: [ { en:"Business-class seats allow passengers to recline almost flat.", zh:"商務艙座位讓乘客幾乎可以完全躺平。" } ] },
   { id: "w949", english: "repository", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["儲藏處","存放地"] ] } ],
-    examples: [ { en:"The shared drive serves as a repository for all department reports.", zh:"這個共用磁碟機作為所有部門報告的存放處。" } ] },
+    posGroups: [ { pos: "nc", meaningGroups: [ ["儲藏處","存放地"], ["知識寶庫","智囊"] ] } ],
+    examples: [
+      { en:"The shared drive serves as a repository for all department reports.", zh:"這個共用磁碟機作為所有部門報告的存放處。" },
+      { en:"Our senior engineer is a repository of knowledge about the company's legacy systems.", zh:"我們的資深工程師是公司舊系統知識的寶庫。" }
+    ] },
   { id: "w950", english: "seamless", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "adj", meaningGroups: [ ["無縫的","順暢無阻的"] ] } ],
     examples: [ { en:"The new system ensures a seamless transition between the old and new software.", zh:"這套新系統確保新舊軟體之間能順暢無阻地轉換。" } ] },
@@ -8202,7 +8205,7 @@ function defaultWordBank(){
     posGroups: [ { pos: "nc", meaningGroups: [ ["隔間","分隔的小空間"] ] } ],
     examples: [ { en:"Important documents are kept in a locked compartment in the filing cabinet.", zh:"重要文件放在檔案櫃中一個上鎖的隔間裡。" } ] },
   { id: "w961", english: "contingency", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["應變措施","意外事件"] ] } ],
+    posGroups: [ { pos: "nc", meaningGroups: [ ["可能發生的意外事件","不測之事"] ] } ],
     examples: [ { en:"The project manager prepared a contingency plan in case of supplier delays.", zh:"專案經理準備了一份應變計畫，以防供應商延誤。" } ] },
   { id: "w962", english: "customary", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "adj", meaningGroups: [ ["慣例的","習慣上的"] ] } ],
@@ -8292,8 +8295,11 @@ function defaultWordBank(){
     posGroups: [ { pos: "vt", meaningGroups: [ ["緊握","牢牢抓住"] ] } ],
     examples: [ { en:"Make sure to grip the railing tightly when walking down the stairs.", zh:"走下樓梯時務必緊握扶手。" } ] },
   { id: "w991", english: "head for", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "vi", meaningGroups: [ ["朝某方向前進","前往"] ] } ],
-    examples: [ { en:"After the meeting, the delegates headed for the airport.", zh:"會議結束後，代表們前往機場。" } ] },
+    posGroups: [ { pos: "vi", meaningGroups: [ ["朝某方向前進","前往"], ["很可能招致(不好的結果)","即將面臨"] ] } ],
+    examples: [
+      { en:"After the meeting, the delegates headed for the airport.", zh:"會議結束後，代表們前往機場。" },
+      { en:"Without cost cuts, the division is heading for a serious loss this quarter.", zh:"若不削減成本，該部門本季恐將面臨嚴重虧損。" }
+    ] },
   { id: "w992", english: "intermission", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "nc", meaningGroups: [ ["中場休息"] ] } ],
     examples: [ { en:"Refreshments will be available in the lobby during intermission.", zh:"中場休息時，大廳將提供茶點。" } ] },
@@ -8340,8 +8346,11 @@ function defaultWordBank(){
       { en:"The gardener raked the fallen leaves into a large pile.", zh:"園丁把落葉耙成一大堆。" }
     ] },
   { id: "w1003", english: "rally", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["拉力賽"] ] } ],
-    examples: [ { en:"The automaker sponsors a team in the annual desert rally.", zh:"這家汽車製造商每年都贊助一支車隊參加沙漠拉力賽。" } ] },
+    posGroups: [ { pos: "nc", meaningGroups: [ ["群眾集會","造勢活動"], ["拉力賽"] ] } ],
+    examples: [
+      { en:"Thousands of supporters attended the campaign rally downtown.", zh:"數千名支持者參加了市中心的造勢集會。" },
+      { en:"The automaker sponsors a team in the annual desert rally.", zh:"這家汽車製造商每年都贊助一支車隊參加沙漠拉力賽。" }
+    ] },
   { id: "w1004", english: "roam around", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "vi", meaningGroups: [ ["漫遊","四處走動"] ] } ],
     examples: [ { en:"During the layover, we roamed around the airport's duty-free shops.", zh:"轉機期間，我們在機場的免稅商店裡四處逛逛。" } ] },
@@ -8449,8 +8458,14 @@ function defaultWordBank(){
   examples: [ { en:"Overseas sales constitute nearly half of the company's total revenue.", zh:"海外銷售額幾乎占公司總營收的一半。" } ]
 },
   { id: "w1057", english: "contend", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-  posGroups: [ { pos: "vi", meaningGroups: [ ["競爭","爭奪"] ] } ],
-  examples: [ { en:"Three vendors are contending for the government contract.", zh:"三家廠商正在競爭這份政府合約。" } ]
+  posGroups: [
+    { pos: "vi", meaningGroups: [ ["競爭","爭奪"] ] },
+    { pos: "vt", meaningGroups: [ ["主張","聲稱"] ] }
+  ],
+  examples: [
+    { en:"Three vendors are contending for the government contract.", zh:"三家廠商正在競爭這份政府合約。" },
+    { en:"The consultant contended that the delays were caused by poor planning.", zh:"這位顧問主張延誤是因規劃不當所造成。" }
+  ]
 },
   { id: "w1058", english: "definite", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [ { pos: "adj", meaningGroups: [ ["明確的","確定的"] ] } ],
@@ -8631,8 +8646,14 @@ function defaultWordBank(){
   examples: [ { en:"In defiance of the new policy, some staff continued to work from home.", zh:"有些員工不顧新政策，仍然在家工作以示反抗。" } ]
 },
   { id: "w1101", english: "deliberate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-  posGroups: [ { pos: "adj", meaningGroups: [ ["故意的","蓄意的"] ] } ],
-  examples: [ { en:"It was a deliberate decision to delay the announcement until after the audit.", zh:"延後到審計之後才公布，是一項刻意的決定。" } ]
+  posGroups: [
+    { pos: "adj", meaningGroups: [ ["故意的","蓄意的"] ] },
+    { pos: "vi", meaningGroups: [ ["慎重考慮","仔細討論"] ] }
+  ],
+  examples: [
+    { en:"It was a deliberate decision to delay the announcement until after the audit.", zh:"延後到審計之後才公布，是一項刻意的決定。" },
+    { en:"The committee deliberated for hours before approving the budget.", zh:"委員會慎重討論了數小時後才通過這項預算。" }
+  ]
 },
   { id: "w1102", english: "depict", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [ { pos: "vt", meaningGroups: [ ["描繪","描述"] ] } ],
@@ -8956,8 +8977,14 @@ function defaultWordBank(){
   examples: [ { en:"The bakery renovated its storefront to attract more foot traffic.", zh:"這家麵包店翻修了店面以吸引更多人流。" } ]
 },
   { id: "w1180", english: "tailor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-  posGroups: [ { pos: "nc", meaningGroups: [ ["裁縫師","裁縫"] ] } ],
-  examples: [ { en:"The tailor adjusted the sleeves of the new uniform overnight.", zh:"裁縫師一夜之間就把新制服的袖子改好了。" } ]
+  posGroups: [
+    { pos: "nc", meaningGroups: [ ["裁縫師","裁縫"] ] },
+    { pos: "vt", meaningGroups: [ ["專門製作","使適應特定需求"] ] }
+  ],
+  examples: [
+    { en:"The tailor adjusted the sleeves of the new uniform overnight.", zh:"裁縫師一夜之間就把新制服的袖子改好了。" },
+    { en:"The firm tailors its training programs to each client's specific needs.", zh:"這家公司會根據每位客戶的特定需求量身打造培訓課程。" }
+  ]
 },
   { id: "w1181", english: "take an order", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [ { pos: "phr.", meaningGroups: [ ["受理訂單","幫忙點餐"] ] } ],
@@ -9197,7 +9224,7 @@ function defaultWordBank(){
     posGroups: [ { pos: "phr.", meaningGroups: [ ["公開","公布"] ] } ],
     examples: [ { en:"The company will make the quarterly results public next Monday.", zh:"公司將在下週一公開這份季報結果。" } ] },
   { id: "w1257", english: "makeup", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["組成","構成方式"] ] } ],
+    posGroups: [ { pos: "nu", meaningGroups: [ ["組成","構成方式"] ] } ],
     examples: [ { en:"The board's makeup does not reflect the diversity of the workforce.", zh:"董事會的成員組成並未反映員工的多元性。" } ] },
   { id: "w1258", english: "miniature", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "adj", meaningGroups: [ ["微型的","縮小的"] ] } ],
@@ -9375,7 +9402,7 @@ function defaultWordBank(){
     examples: [ { en:"He buttoned up his jacket before walking into the meeting.", zh:"他扣好外套鈕釦後才走進會議室。" } ] },
   { id: "w1302", english: "censure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [
-      { pos: "nc", meaningGroups: [ ["嚴厲批評","譴責"] ] },
+      { pos: "nu", meaningGroups: [ ["嚴厲批評","譴責"] ] },
       { pos: "vt", meaningGroups: [ ["正式譴責"] ] }
     ],
     examples: [
@@ -9689,8 +9716,11 @@ function defaultWordBank(){
     posGroups: [ { pos: "prep", meaningGroups: [ ["除非","若非(發生某事)"] ] } ],
     examples: [ { en:"Barring any delays, the shipment should arrive on Monday.", zh:"除非有延誤，這批貨應該會在星期一送達。" } ] },
   { id: "w1393", english: "barter", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "vt", meaningGroups: [ ["以物易物","用…交換"] ] } ],
-    examples: [ { en:"Some small businesses still barter goods for services.", zh:"有些小型企業仍以物品換取服務。" } ] },
+    posGroups: [ { pos: "vt", meaningGroups: [ ["以物易物","用…交換"] ] }, { pos: "nu", meaningGroups: [ ["以物易物","易貨貿易"] ] } ],
+    examples: [
+      { en:"Some small businesses still barter goods for services.", zh:"有些小型企業仍以物品換取服務。" },
+      { en:"When currency becomes unstable, barter often becomes the preferred way of doing business.", zh:"當貨幣變得不穩定時，以物易物常常成為做生意的首選方式。" }
+    ] },
   { id: "w1394", english: "capitalize on", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "phr.", meaningGroups: [ ["利用","憑藉…獲利"] ] } ],
     examples: [ { en:"The firm capitalized on the market trend to boost its sales.", zh:"這家公司利用了市場趨勢來提升銷售額。" } ] },
@@ -9701,10 +9731,11 @@ function defaultWordBank(){
     posGroups: [ { pos: "phr.", meaningGroups: [ ["掌權","上臺執政"] ] } ],
     examples: [ { en:"The new management came to power after the board vote.", zh:"新的管理層在董事會投票後掌權。" } ] },
   { id: "w1397", english: "constituency", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["(某地區的)選民"], ["選區"] ] } ],
+    posGroups: [ { pos: "nc", meaningGroups: [ ["(某地區的)選民"], ["選區"], ["支持者群體","擁護者"] ] } ],
     examples: [
       { en:"The senator angered his constituency by voting against the bill.", zh:"這位參議員因為投票反對這項法案而激怒了他的選民。" },
-      { en:"The candidate visited every town in her constituency before the election.", zh:"這位候選人在選舉前拜訪了她選區內的每個城鎮。" }
+      { en:"The candidate visited every town in her constituency before the election.", zh:"這位候選人在選舉前拜訪了她選區內的每個城鎮。" },
+      { en:"The proposal has a strong constituency among small business owners.", zh:"這項提案在小企業主之中擁有廣大的支持者群體。" }
     ] },
   { id: "w1398", english: "contend with", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "phr.", meaningGroups: [ ["應付","處理(困難的情況)"] ] } ],
@@ -9746,22 +9777,26 @@ function defaultWordBank(){
     posGroups: [ { pos: "adv", meaningGroups: [ ["深切地","極其"] ] } ],
     examples: [ { en:"We are profoundly grateful for the team's dedication this year.", zh:"我們對團隊今年的付出深感感激。" } ] },
   { id: "w1410", english: "protocol", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["(國際間的)協議","公約"] ] } ],
-    examples: [ { en:"The trade protocol was signed by representatives from both countries.", zh:"這項貿易協議由兩國代表簽署。" } ] },
+    posGroups: [ { pos: "nc", meaningGroups: [ ["(國際間的)協議","公約"] ] }, { pos: "nu", meaningGroups: [ ["禮儀","禮節"] ] } ],
+    examples: [
+      { en:"The trade protocol was signed by representatives from both countries.", zh:"這項貿易協議由兩國代表簽署。" },
+      { en:"Visiting dignitaries must follow strict diplomatic protocol.", zh:"來訪的政要必須遵守嚴格的外交禮儀。" }
+    ] },
   { id: "w1411", english: "reasonably priced", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "phr.", meaningGroups: [ ["價格合理的"] ] } ],
     examples: [ { en:"The hotel offers reasonably priced rooms for business travelers.", zh:"這間飯店為商務旅客提供價格合理的房間。" } ] },
   { id: "w1412", english: "scarcity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["缺乏","不足"] ] } ],
+    posGroups: [ { pos: "nu", meaningGroups: [ ["缺乏","不足"] ] } ],
     examples: [ { en:"There is a scarcity of skilled workers in the manufacturing sector.", zh:"製造業中出現技術工人短缺的情況。" } ] },
   { id: "w1413", english: "step down", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "phr.", meaningGroups: [ ["辭職","卸下職位"] ] } ],
     examples: [ { en:"The CEO announced plans to step down at the end of the year.", zh:"執行長宣布將於年底辭去職位。" } ] },
   { id: "w1414", english: "surrender", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "vi", meaningGroups: [ ["投降","屈服"], ["屈服於(誘惑、情感)"] ] } ],
+    posGroups: [ { pos: "vi", meaningGroups: [ ["投降","屈服"], ["屈服於(誘惑、情感)"] ] }, { pos: "vt", meaningGroups: [ ["(被迫)交出","放棄"] ] } ],
     examples: [
       { en:"The company refused to surrender to its competitor's pressure.", zh:"這家公司拒絕向競爭對手的壓力屈服。" },
-      { en:"He finally surrendered to the temptation and signed the risky deal.", zh:"他最終屈服於誘惑，簽下了這筆高風險的交易。" }
+      { en:"He finally surrendered to the temptation and signed the risky deal.", zh:"他最終屈服於誘惑，簽下了這筆高風險的交易。" },
+      { en:"The tenant must surrender the premises at the end of the lease.", zh:"承租人必須在租約期滿時交還房屋。" }
     ] },
   { id: "w1415", english: "take inventory", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "phr.", meaningGroups: [ ["盤點存貨"] ] } ],
@@ -9810,9 +9845,10 @@ function defaultWordBank(){
   },
   {
     id: "w1448", english: "diplomat", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["外交官"] ] } ],
+    posGroups: [ { pos: "nc", meaningGroups: [ ["外交官"], ["圓融的人","善於社交的人"] ] } ],
     examples: [
-      { en:"The diplomat negotiated a new trade deal on behalf of her country.", zh:"這位外交官代表她的國家談判了一項新貿易協議。" }
+      { en:"The diplomat negotiated a new trade deal on behalf of her country.", zh:"這位外交官代表她的國家談判了一項新貿易協議。" },
+      { en:"She's a real diplomat when it comes to handling client complaints.", zh:"在處理客戶抱怨方面，她真的很圓融善於應對。" }
     ]
   },
   {
@@ -9863,9 +9899,10 @@ function defaultWordBank(){
   },
   {
     id: "w1455", english: "inaugurate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "vt", meaningGroups: [ ["為…舉行就職典禮"] ] } ],
+    posGroups: [ { pos: "vt", meaningGroups: [ ["為…舉行就職典禮"], ["(正式)啟用","啟動"] ] } ],
     examples: [
-      { en:"The new CEO will be inaugurated at a ceremony next Monday.", zh:"新任執行長將於下週一舉行就職典禮。" }
+      { en:"The new CEO will be inaugurated at a ceremony next Monday.", zh:"新任執行長將於下週一舉行就職典禮。" },
+      { en:"The council inaugurated the city's first high-speed rail line last month.", zh:"市議會上個月正式啟用了這座城市的第一條高速鐵路線。" }
     ]
   },
   {
@@ -9920,8 +9957,9 @@ function defaultWordBank(){
   },
   {
     id: "w1462", english: "pier", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["支柱","橋墩"] ] } ],
+    posGroups: [ { pos: "nc", meaningGroups: [ ["(伸入海中供人行走或泊船的)碼頭","突堤"], ["支柱","橋墩"] ] } ],
     examples: [
+      { en:"Tourists gathered on the pier to watch the sunset.", zh:"遊客聚集在碼頭上欣賞日落。" },
       { en:"Engineers reinforced the bridge's piers to withstand stronger typhoons.", zh:"工程師強化了橋樑的支柱，以承受更強的颱風。" }
     ]
   },
@@ -10192,9 +10230,11 @@ function defaultWordBank(){
   },
   {
     id: "w1500", english: "spoil", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "vi", meaningGroups: [ ["變質","腐壞"] ] } ],
+    posGroups: [ { pos: "vi", meaningGroups: [ ["變質","腐壞"] ] }, { pos: "vt", meaningGroups: [ ["破壞","糟蹋"], ["寵愛","寵壞"] ] } ],
     examples: [
-      { en:"The seafood will spoil quickly if it isn't refrigerated.", zh:"海鮮如果沒有冷藏很快就會變質。" }
+      { en:"The seafood will spoil quickly if it isn't refrigerated.", zh:"海鮮如果沒有冷藏很快就會變質。" },
+      { en:"The sudden rain spoiled the outdoor launch event.", zh:"突如其來的大雨破壞了戶外的發表會。" },
+      { en:"The hotel spoils its guests with complimentary upgrades.", zh:"這家飯店以免費升等款待寵愛旗下的房客。" }
     ]
   },
   {
@@ -10227,9 +10267,10 @@ function defaultWordBank(){
   },
   {
     id: "w1505", english: "unpack", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "vt", meaningGroups: [ ["打開（行李、包裹）","拆封"] ] } ],
+    posGroups: [ { pos: "vt", meaningGroups: [ ["打開（行李、包裹）","拆封"], ["詳細解釋","剖析(觀點或議題)"] ] } ],
     examples: [
-      { en:"Please unpack the new equipment and check it against the inventory list.", zh:"請將新設備拆封並依照庫存清單核對。" }
+      { en:"Please unpack the new equipment and check it against the inventory list.", zh:"請將新設備拆封並依照庫存清單核對。" },
+      { en:"Let's take a moment to unpack what this policy change really means for the team.", zh:"讓我們花點時間剖析一下這項政策變動對團隊真正的意義。" }
     ]
   },
   {
@@ -10241,9 +10282,10 @@ function defaultWordBank(){
   },
   {
     id: "w1507", english: "agile", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "adj", meaningGroups: [ ["敏捷的","靈活的"] ] } ],
+    posGroups: [ { pos: "adj", meaningGroups: [ ["敏捷的","靈活的"], ["(工作方式)見機行事的","反應快速的"] ] } ],
     examples: [
-      { en:"The startup's agile approach allows it to adapt quickly to market changes.", zh:"這家新創公司靈活的做法讓它能迅速適應市場變化。" }
+      { en:"The startup's agile approach allows it to adapt quickly to market changes.", zh:"這家新創公司靈活的做法讓它能迅速適應市場變化。" },
+      { en:"The team adopted an agile workflow to respond to changing client requirements.", zh:"團隊採用了見機行事的敏捷工作流程，以因應不斷變化的客戶需求。" }
     ]
   },
   {
@@ -10330,9 +10372,10 @@ function defaultWordBank(){
   },
   {
     id: "w1519", english: "harsh", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "adj", meaningGroups: [ ["嚴厲的","嚴苛的"] ] } ],
+    posGroups: [ { pos: "adj", meaningGroups: [ ["嚴厲的","嚴苛的"], ["刺眼的","刺耳的,過於強烈的"] ] } ],
     examples: [
-      { en:"Employees felt the new attendance policy was overly harsh.", zh:"員工們覺得新的出勤規定過於嚴苛。" }
+      { en:"Employees felt the new attendance policy was overly harsh.", zh:"員工們覺得新的出勤規定過於嚴苛。" },
+      { en:"The harsh fluorescent lighting in the office gave her a headache.", zh:"辦公室裡刺眼的日光燈讓她頭痛。" }
     ]
   },
   {
@@ -10368,9 +10411,10 @@ function defaultWordBank(){
   },
   {
     id: "w1524", english: "loosely", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "adv", meaningGroups: [ ["鬆散地","不緊密地"] ] } ],
+    posGroups: [ { pos: "adv", meaningGroups: [ ["鬆散地","不緊密地"], ["大致地","大概"] ] } ],
     examples: [
-      { en:"The proposal was only loosely based on last year's budget plan.", zh:"這份提案只是鬆散地參考了去年的預算計畫。" }
+      { en:"The proposal was only loosely based on last year's budget plan.", zh:"這份提案只是鬆散地參考了去年的預算計畫。" },
+      { en:"The new slogan can be loosely translated as \"progress together.\"", zh:"這句新口號大致可以翻譯為「共同進步」。" }
     ]
   },
   {
@@ -10584,11 +10628,12 @@ function defaultWordBank(){
     id: "w1554", english: "liability", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [
       { pos: "nu", meaningGroups: [ ["責任","法律責任"] ] },
-      { pos: "nc", meaningGroups: [ ["負債"] ] }
+      { pos: "nc", meaningGroups: [ ["負債"], ["麻煩的人(或事物)","累贅"] ] }
     ],
     examples: [
       { en:"The contractor denied any liability for the delayed shipment.", zh:"承包商否認對這次延遲出貨負有任何責任。" },
-      { en:"The company's liabilities exceeded its assets by year end.", zh:"到年底時，這家公司的負債已超過其資產。" }
+      { en:"The company's liabilities exceeded its assets by year end.", zh:"到年底時，這家公司的負債已超過其資產。" },
+      { en:"A manager who can't make decisions quickly becomes a liability to the team.", zh:"無法迅速做決策的經理會變成團隊的累贅。" }
     ]
   },
   {
@@ -10967,10 +11012,11 @@ function defaultWordBank(){
   {
     id: "w1629", english: "biweekly", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [
-      { pos: "adv", meaningGroups: [ ["每兩週一次地"] ] }
+      { pos: "adv", meaningGroups: [ ["每兩週一次地","每週兩次地"] ] }
     ],
     examples: [
-      { en:"The newsletter is distributed biweekly to all employees.", zh:"這份電子報每兩週發送一次給所有員工。" }
+      { en:"The newsletter is distributed biweekly to all employees.", zh:"這份電子報每兩週發送一次給所有員工。" },
+      { en:"The cleaning crew visits the office biweekly, every Monday and Thursday.", zh:"清潔團隊每週兩次造訪辦公室，分別在星期一和星期四。" }
     ]
   },
   {
@@ -11270,10 +11316,11 @@ function defaultWordBank(){
   {
     id: "w1662", english: "goodwill", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [
-      { pos: "nu", meaningGroups: [ ["善意","友好態度"] ] }
+      { pos: "nu", meaningGroups: [ ["善意","友好態度"], ["商譽"] ] }
     ],
     examples: [
-      { en:"The donation was seen as a gesture of goodwill toward the community.", zh:"這筆捐款被視為對社區展現善意的舉動。" }
+      { en:"The donation was seen as a gesture of goodwill toward the community.", zh:"這筆捐款被視為對社區展現善意的舉動。" },
+      { en:"The company's assets are worth $200 million, plus goodwill.", zh:"這家公司資產價值兩億美元，再加上商譽。" }
     ]
   },
   {
@@ -13145,10 +13192,12 @@ function defaultWordBank(){
   {
   id: "w1890", english: "tap", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [
-    { pos: "nc", meaningGroups: [ ["水龍頭"] ] }
+    { pos: "nc", meaningGroups: [ ["水龍頭"] ] },
+    { pos: "vt", meaningGroups: [ ["輕拍","輕觸"], ["開發","著手利用"] ] }
   ],
   examples: [
-    { en:"Turn off the tap tightly to avoid wasting water.", zh:"請把水龍頭關緊以免浪費水。" }
+    { en:"Turn off the tap tightly to avoid wasting water.", zh:"請把水龍頭關緊以免浪費水。" },
+    { en:"The company is tapping into new overseas markets this year.", zh:"該公司今年正著手開發新的海外市場。" }
   ]
 },
   {
@@ -13266,11 +13315,12 @@ function defaultWordBank(){
   {
   id: "w1903", english: "fertile", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [
-    { pos: "adj", meaningGroups: [ ["肥沃的","豐產的"], ["能生育的","多產的"] ] }
+    { pos: "adj", meaningGroups: [ ["肥沃的","豐產的"], ["能生育的","多產的"], ["想像力豐富的","點子多的"] ] }
   ],
   examples: [
     { en:"The region is known for its fertile farmland.", zh:"這個地區以肥沃的農地聞名。" },
-    { en:"Fertile soil combined with a mild climate makes this area ideal for agriculture.", zh:"肥沃的土壤加上溫和的氣候，使這個地區非常適合農業發展。" }
+    { en:"Fertile soil combined with a mild climate makes this area ideal for agriculture.", zh:"肥沃的土壤加上溫和的氣候，使這個地區非常適合農業發展。" },
+    { en:"Her fertile imagination produced dozens of ideas for the campaign.", zh:"她想像力豐富的腦袋為這次宣傳活動想出了好幾十個點子。" }
   ]
 },
   {
@@ -13295,11 +13345,13 @@ function defaultWordBank(){
   id: "w1906", english: "hail", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [
     { pos: "nu", meaningGroups: [ ["冰雹"] ] },
-    { pos: "vi", meaningGroups: [ ["下冰雹"] ] }
+    { pos: "vi", meaningGroups: [ ["下冰雹"] ] },
+    { pos: "vt", meaningGroups: [ ["招呼","呼喊"] ] }
   ],
   examples: [
     { en:"Hail damaged several cars in the parking lot.", zh:"冰雹損壞了停車場裡好幾輛車。" },
-    { en:"It hailed heavily during the outdoor event.", zh:"戶外活動期間下起了猛烈的冰雹。" }
+    { en:"It hailed heavily during the outdoor event.", zh:"戶外活動期間下起了猛烈的冰雹。" },
+    { en:"He stepped outside to hail a taxi.", zh:"他走到外面招呼計程車。" }
   ]
 },
   {
@@ -13386,11 +13438,12 @@ function defaultWordBank(){
   {
   id: "w1916", english: "nurture", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [
-    { pos: "vt", meaningGroups: [ ["養育","照顧尤指兒童或植物"], ["培育","扶植計畫或人才"] ] }
+    { pos: "vt", meaningGroups: [ ["養育","照顧尤指兒童或植物"], ["培育","扶植計畫或人才"], ["長期懷有","抱有"] ] }
   ],
   examples: [
     { en:"She wants to stay home to nurture her children.", zh:"她想待在家裡養育照顧她的孩子。" },
-    { en:"Good managers nurture the talent within their teams.", zh:"優秀的主管會培育團隊內部的人才。" }
+    { en:"Good managers nurture the talent within their teams.", zh:"優秀的主管會培育團隊內部的人才。" },
+    { en:"He has long nurtured hopes of becoming a partner at the firm.", zh:"他長期以來一直懷有成為公司合夥人的願望。" }
   ]
 },
   {
@@ -13571,11 +13624,13 @@ function defaultWordBank(){
   id: "w1936", english: "stream", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [
     { pos: "nc", meaningGroups: [ ["小溪","水流"] ] },
-    { pos: "vi", meaningGroups: [ ["源源不斷地流出","湧入"] ] }
+    { pos: "vi", meaningGroups: [ ["源源不斷地流出","湧入"] ] },
+    { pos: "vt", meaningGroups: [ ["線上播放","串流播送"] ] }
   ],
   examples: [
     { en:"A small stream runs behind the office park.", zh:"一條小溪流經辦公園區的後方。" },
-    { en:"Customers streamed into the store during the sale.", zh:"促銷期間顧客源源不絕地湧入商店。" }
+    { en:"Customers streamed into the store during the sale.", zh:"促銷期間顧客源源不絕地湧入商店。" },
+    { en:"The company streams all of its training videos online.", zh:"這家公司將所有的培訓影片都線上播放。" }
   ]
 },
   {
@@ -13640,10 +13695,11 @@ function defaultWordBank(){
   {
   id: "w1943", english: "trunk", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [
-    { pos: "nc", meaningGroups: [ ["樹的主幹","血管或神經的主幹"] ] }
+    { pos: "nc", meaningGroups: [ ["樹的主幹","血管或神經的主幹"], ["汽車後行李箱"], ["大型旅行箱"] ] }
   ],
   examples: [
-    { en:"The old oak's trunk was over a meter wide.", zh:"這棵老橡樹的樹幹寬度超過一公尺。" }
+    { en:"The old oak's trunk was over a meter wide.", zh:"這棵老橡樹的樹幹寬度超過一公尺。" },
+    { en:"He put the suitcases in the trunk before leaving for the airport.", zh:"他出發去機場前把行李箱放進了汽車後行李箱。" }
   ]
 },
   {
@@ -13771,11 +13827,12 @@ function defaultWordBank(){
   {
   id: "w1957", english: "hiccup", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [
-    { pos: "nc", meaningGroups: [ ["打嗝"] ] },
+    { pos: "nc", meaningGroups: [ ["打嗝"], ["（造成短暫延誤或中斷的）小問題","小插曲"] ] },
     { pos: "vi", meaningGroups: [ ["打嗝"] ] }
   ],
   examples: [
-    { en:"She couldn't stop hiccupping during the interview.", zh:"她在面試過程中一直打嗝停不下來。" }
+    { en:"She couldn't stop hiccupping during the interview.", zh:"她在面試過程中一直打嗝停不下來。" },
+    { en:"The project launch went smoothly apart from a few technical hiccups.", zh:"除了幾個技術上的小問題之外，這項計畫的啟動進行得很順利。" }
   ]
 },
   {
@@ -13882,10 +13939,11 @@ function defaultWordBank(){
   {
   id: "w1969", english: "paralysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [
-    { pos: "nu", meaningGroups: [ ["麻痺","癱瘓"] ] }
+    { pos: "nu", meaningGroups: [ ["麻痺","癱瘓"], ["（行動或決策的）癱瘓,停頓"] ] }
   ],
   examples: [
-    { en:"The accident left him with partial paralysis in his left leg.", zh:"這場意外讓他的左腿部分癱瘓。" }
+    { en:"The accident left him with partial paralysis in his left leg.", zh:"這場意外讓他的左腿部分癱瘓。" },
+    { en:"Disagreement among the board members led to months of organizational paralysis.", zh:"董事會成員間的意見分歧導致了長達數月的組織運作癱瘓。" }
   ]
 },
   {
@@ -13992,11 +14050,12 @@ function defaultWordBank(){
   id: "w1982", english: "terminal", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
   posGroups: [
     { pos: "adj", meaningGroups: [ ["末期的","無法治癒的"] ] },
-    { pos: "nc", meaningGroups: [ ["航廈","終點站"] ] }
+    { pos: "nc", meaningGroups: [ ["航廈","終點站"], ["電腦終端機"] ] }
   ],
   examples: [
     { en:"The patient was diagnosed with a terminal illness.", zh:"這名病患被診斷出患有末期疾病。" },
-    { en:"International flights depart from Terminal 2.", zh:"國際航班從第二航廈起飛。" }
+    { en:"International flights depart from Terminal 2.", zh:"國際航班從第二航廈起飛。" },
+    { en:"Each employee has a computer terminal connected to the central server.", zh:"每位員工都有一台連接中央伺服器的電腦終端機。" }
   ]
 },
   {
@@ -14096,8 +14155,8 @@ function defaultWordBank(){
     posGroups: [ { pos: "adj", meaningGroups: [ ["激烈的","極端的"] ] } ],
     examples: [ { en:"The company took drastic measures to cut costs after two years of losses.", zh:"公司在連續兩年虧損後採取了激烈的削減成本措施。" } ] },
   { id: "w2035", english: "fairly", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "adv", meaningGroups: [ ["相當地","還算"] ] } ],
-    examples: [ { en:"The proposal was fairly well received by the board of directors.", zh:"這項提案獲得董事會相當不錯的評價。" } ] },
+    posGroups: [ { pos: "adv", meaningGroups: [ ["相當地","還算"], ["公平地","公正地"] ] } ],
+    examples: [ { en:"The proposal was fairly well received by the board of directors.", zh:"這項提案獲得董事會相當不錯的評價。" }, { en:"Managers should treat all employees fairly, regardless of seniority.", zh:"主管應該公平對待所有員工，不論其資歷深淺。" } ] },
   { id: "w2036", english: "favorably", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "adv", meaningGroups: [ ["正面地","順利地"] ] } ],
     examples: [ { en:"Investors reacted favorably to the company's quarterly earnings report.", zh:"投資人對該公司的季度財報反應正面。" } ] },
@@ -14120,8 +14179,8 @@ function defaultWordBank(){
     posGroups: [ { pos: "nc", meaningGroups: [ ["鍵盤","按鍵盤"] ] } ],
     examples: [ { en:"Enter your access code on the keypad to unlock the office door.", zh:"在鍵盤上輸入你的通行碼以解鎖辦公室的門。" } ] },
   { id: "w2044", english: "lightly", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "adv", meaningGroups: [ ["輕輕地"], ["(烹調)簡單地","稍微地"] ] } ],
-    examples: [ { en:"She tapped lightly on the manager's door before entering.", zh:"她進去前先輕輕地敲了經理的門。" }, { en:"The chicken should be lightly seasoned before grilling.", zh:"雞肉在烤之前應該稍微調味一下。" } ] },
+    posGroups: [ { pos: "adv", meaningGroups: [ ["輕輕地"], ["(烹調)簡單地","稍微地"], ["輕鬆地","不嚴肅地"] ] } ],
+    examples: [ { en:"She tapped lightly on the manager's door before entering.", zh:"她進去前先輕輕地敲了經理的門。" }, { en:"The chicken should be lightly seasoned before grilling.", zh:"雞肉在烤之前應該稍微調味一下。" }, { en:"A decision to lay off staff should never be made lightly.", zh:"裁員的決定絕不應該輕率做出。" } ] },
   { id: "w2045", english: "log on", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "phr.", meaningGroups: [ ["登入"] ] } ],
     examples: [ { en:"Employees must log on with a secure password before accessing the database.", zh:"員工必須用安全密碼登入才能存取資料庫。" } ] },
@@ -14297,8 +14356,8 @@ function defaultWordBank(){
     posGroups: [ { pos: "phr.", meaningGroups: [ ["以寄售方式"] ] } ],
     examples: [ { en:"The boutique sells several designers' clothes on consignment.", zh:"這家精品店以寄售方式銷售好幾位設計師的服裝。" } ] },
   { id: "w2104", english: "outgoing", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "adj", meaningGroups: [ ["即將離職的","外發的"] ] } ],
-    examples: [ { en:"The outgoing manager spent her final week training her replacement.", zh:"即將離職的經理在她最後一週訓練她的接任者。" } ] },
+    posGroups: [ { pos: "adj", meaningGroups: [ ["開朗的","外向的","友好的"], ["即將離職的","外發的"] ] } ],
+    examples: [ { en:"The outgoing manager spent her final week training her replacement.", zh:"即將離職的經理在她最後一週訓練她的接任者。" }, { en:"Her outgoing personality makes her a natural fit for the sales team.", zh:"她開朗外向的個性讓她天生適合加入業務團隊。" } ] },
   { id: "w2105", english: "perishable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "adj", meaningGroups: [ ["易腐壞的"] ] } ],
     examples: [ { en:"Perishable goods must be shipped in refrigerated containers.", zh:"易腐壞的商品必須用冷藏貨櫃運送。" } ] },
@@ -14498,8 +14557,8 @@ function defaultWordBank(){
     posGroups: [ { pos: "nc", meaningGroups: [ ["污染物"] ] } ],
     examples: [ { en:"The factory installed new filters to reduce harmful pollutants in its emissions.", zh:"這家工廠安裝了新的濾網來減少排放中的有害污染物。" } ] },
   { id: "w2171", english: "premium", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
-    posGroups: [ { pos: "nc", meaningGroups: [ ["保險費"] ] } ],
-    examples: [ { en:"Monthly insurance premiums will increase by ten percent next year.", zh:"每月的保險費明年將上漲百分之十。" } ] },
+    posGroups: [ { pos: "nc", meaningGroups: [ ["保險費"], ["加價","額外費用"] ] }, { pos: "adj", meaningGroups: [ ["高級的","優質的"] ] } ],
+    examples: [ { en:"Monthly insurance premiums will increase by ten percent next year.", zh:"每月的保險費明年將上漲百分之十。" }, { en:"Customers are willing to pay a premium for same-day delivery.", zh:"顧客願意為當日送達服務多付一筆額外費用。" }, { en:"The store specializes in premium coffee beans imported from Brazil.", zh:"這家店專門販售從巴西進口的優質咖啡豆。" } ] },
   { id: "w2172", english: "preside over", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [ { pos: "phr.", meaningGroups: [ ["主持(會議、儀式等)"] ] } ],
     examples: [ { en:"The chairman will preside over tomorrow's shareholder meeting.", zh:"董事長將主持明天的股東會議。" } ] },
@@ -15936,7 +15995,7 @@ function defaultWordBank(){
   {
     id: "w2402", english: "impasse", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
     posGroups: [
-      { pos: "nc", meaningGroups: [ ["僵局"] ] }
+      { pos: "nu", meaningGroups: [ ["僵局"] ] }
     ],
     examples: [
       { en:"Negotiations reached an impasse after both sides refused to lower their price.", zh:"雙方都不願降價，談判陷入了僵局。" }
@@ -15985,6 +16044,140 @@ function defaultWordBank(){
     ],
     examples: [
       { en:"As a ten-year veteran of the sales department, she trains all new hires.", zh:"身為業務部門十年資歷的資深人士，她負責訓練所有新進員工。" }
+    ]
+  },
+  {
+    id: "w2408", english: "curriculum", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["課程","教學課程內容"] ] }
+    ],
+    examples: [
+      { en:"The training department redesigned the onboarding curriculum for new hires.", zh:"訓練部門重新設計了新進員工的職前訓練課程。" }
+    ]
+  },
+  {
+    id: "w2409", english: "accreditation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["認證","認可"] ] }
+    ],
+    examples: [
+      { en:"The institute received accreditation from the national quality board.", zh:"該機構獲得了國家品質委員會的認證。" }
+    ]
+  },
+  {
+    id: "w2410", english: "faculty", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["全體教職員"] ] },
+      { pos: "nc", meaningGroups: [ ["（大學的）學院"] ] }
+    ],
+    examples: [
+      { en:"The business school's faculty includes several former Fortune 500 executives.", zh:"這所商學院的全體教職員中包括幾位前財星500大企業的高階主管。" },
+      { en:"She teaches in the faculty of engineering.", zh:"她在工學院任教。" }
+    ]
+  },
+  {
+    id: "w2411", english: "viability", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["可行性"] ] }
+    ],
+    examples: [
+      { en:"The team conducted a feasibility study to assess the viability of the new product line.", zh:"團隊進行了可行性研究，以評估這條新產品線的可行性。" }
+    ]
+  },
+  {
+    id: "w2412", english: "breach", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["違反","違約"] ] },
+      { pos: "vt", meaningGroups: [ ["違反","破壞（協議、規定等）"] ] }
+    ],
+    examples: [
+      { en:"The supplier was sued for breach of contract after missing the delivery deadline.", zh:"這家供應商因錯過交貨期限而被控告違約。" },
+      { en:"The company breached the confidentiality agreement by sharing client data.", zh:"這家公司透過分享客戶資料違反了保密協議。" }
+    ]
+  },
+  {
+    id: "w2413", english: "revision", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["修訂（版）","修改"] ] }
+    ],
+    examples: [
+      { en:"Please review the latest revision of the contract before signing.", zh:"請在簽署前審閱合約的最新修訂版。" }
+    ]
+  },
+  {
+    id: "w2414", english: "peripheral", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["次要的","邊緣性的"] ] },
+      { pos: "nc", meaningGroups: [ ["（電腦）周邊設備"] ] }
+    ],
+    examples: [
+      { en:"The committee decided to focus on core objectives rather than peripheral issues.", zh:"委員會決定專注於核心目標，而非次要議題。" },
+      { en:"The IT department ordered new peripherals, including keyboards and monitors.", zh:"資訊部門訂購了新的周邊設備，包括鍵盤和螢幕。" }
+    ]
+  },
+  {
+    id: "w2415", english: "clinician", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["臨床醫生","臨床工作者"] ] }
+    ],
+    examples: [
+      { en:"The pharmaceutical company consulted with clinicians before finalizing the drug's dosage guidelines.", zh:"這家製藥公司在定案藥物劑量指南前先諮詢了臨床醫生的意見。" }
+    ]
+  },
+  {
+    id: "w2416", english: "impediment", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["障礙","阻礙"] ] }
+    ],
+    examples: [
+      { en:"Lack of qualified staff remains the main impediment to expansion.", zh:"缺乏合格人員仍是擴張的主要障礙。" }
+    ]
+  },
+  {
+    id: "w2417", english: "consecutive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["連續的","接連的"] ] }
+    ],
+    examples: [
+      { en:"The company reported profit growth for the fifth consecutive quarter.", zh:"該公司連續第五季公布獲利成長。" }
+    ]
+  },
+  {
+    id: "w2418", english: "intricate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["錯綜複雜的","精細的"] ] }
+    ],
+    examples: [
+      { en:"The contract contains intricate legal terms that require careful review.", zh:"這份合約包含錯綜複雜的法律條款，需要仔細審閱。" }
+    ]
+  },
+  {
+    id: "w2419", english: "headcount", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["員工人數","人員編制"] ] }
+    ],
+    examples: [
+      { en:"The department froze its headcount until the next fiscal year.", zh:"該部門凍結了人員編制，直到下一個會計年度。" }
+    ]
+  },
+  {
+    id: "w2420", english: "radiologist", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["放射科醫師"] ] }
+    ],
+    examples: [
+      { en:"The radiologist reviewed the patient's X-rays and sent the report to the surgeon.", zh:"放射科醫師檢視了病患的X光片，並將報告送交外科醫師。" }
+    ]
+  },
+  {
+    id: "w2421", english: "bloat", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["臃腫","冗贅"] ] },
+      { pos: "vt", meaningGroups: [ ["使膨脹","使臃腫"] ] }
+    ],
+    examples: [
+      { en:"Bureaucratic bloat has slowed the company's decision-making process.", zh:"官僚體系的臃腫拖慢了公司的決策流程。" },
+      { en:"Too many unnecessary features can bloat the software and slow it down.", zh:"太多不必要的功能會使軟體變得臃腫並拖慢速度。" }
     ]
   }
   ];
