@@ -30,6 +30,7 @@ Word {
   english: string,         // 英文原形，例如 "address"
   createdAt: string,       // ISO timestamp，新增時間
   wrongCount: number,      // 這個字累計答錯幾次（跨所有循環加總，永久保存）
+  note?: string,           // 選填：縮寫的英文全稱等註解。考試作答畫面不顯示，只在單字總表與考後結果／檢視頁顯示
   posGroups: PosGroup[],   // 至少 1 個，同一個字的不同詞性
   examples: Example[]      // 例句，可 0 個或多個，屬於整個字
 }

@@ -20,6 +20,7 @@
   createdAt: new Date().toISOString(),// 固定寫法，照抄
   wrongCount: 0,                      // 固定 0，程式執行期才會累加
   stats: null,                        // 固定 null，程式執行期才會寫入
+  note: "Request for Quotation",       // 選填，只有縮寫等需要註解英文全稱時才寫，見第 9 點
   posGroups: [                        // 至少 1 個，見第 2 點
     { pos: "vt", meaningGroups: [ ["償還","報銷"] ] }
   ],
@@ -88,6 +89,13 @@
 - 不要自己發明新的資料欄位或改變既有欄位名稱（`id` / `english` / `createdAt` / `wrongCount` / `stats` / `posGroups` / `pos` / `meaningGroups` / `examples` / `en` / `zh` 這幾個名字要完全照抄）。
 - 不要只更新 `vocab-bank.md` 就以為完成了——這份 md 不會被網頁讀取，實際要生效還需要有人把新的物件貼進 `cycle_mode_mvp.html` 的 `defaultWordBank()` 陣列裡（如果你有能力編輯這個檔案，兩邊都要同步更新；如果沒有，就只要把新字的 JS 物件產出來交給使用者或下一個負責整合的 AI）。
 
+## 9. 縮寫與 `note` 欄位（選填）
+
+- 縮寫（如 PM、EV、WBS、RFQ）可以收，`english` 直接寫縮寫本身（大小寫照慣用寫法）。
+- 縮寫的**英文全稱**寫進選填欄位 `note`（字串），例：`note: "Work Breakdown Structure"`。**不要**寫進 `meaningGroups`（中文意思不可含英文）。
+- `note` 只在「單字總表」與「考後結果／檢視頁」顯示，**考試作答畫面（renderQuiz）絕對不顯示**，否則等於洩題。
+- 一般單字不需要 `note`，不要拿它塞英文解釋。
+
 ## 8. 交付檢查清單（自己對一次）
 
 - [ ] 每個新字的 `id` 沒有跟現有的重複，且接續現有最大編號
@@ -98,3 +106,4 @@
 - [ ] 每個字至少 1 句例句，中文是繁體
 - [ ] `pos` 用的是精細縮寫（vt/vi/nc/nu/adj/adv/prep/conj/phr.），不是籠統的 n./v.
 - [ ] 選字方向是 TOEIC 900+ 商業／職場詞彙，不是基礎單字
+- [ ] 縮寫有寫 `note`（英文全稱），且 `meaningGroups` 沒有英文

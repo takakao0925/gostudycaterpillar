@@ -17702,7 +17702,7 @@
     ]
   },
   {
-    id: "w2352", english: "CEO", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    id: "w2352", english: "CEO", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Chief Executive Officer",
     posGroups: [
       { pos: "nc", meaningGroups: [ ["執行長"] ] }
     ],
@@ -18355,6 +18355,7592 @@
     examples: [
       { en:"Bureaucratic bloat has slowed the company's decision-making process.", zh:"官僚體系的臃腫拖慢了公司的決策流程。" },
       { en:"Too many unnecessary features can bloat the software and slow it down.", zh:"太多不必要的功能會使軟體變得臃腫並拖慢速度。" }
+    ]
+  },
+  {
+    id: "w2422", english: "pitfall", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["陷阱","潛在的風險"] ] }
+    ],
+    examples: [
+      { en:"One common pitfall in project planning is underestimating the time required for testing.", zh:"專案規劃中常見的陷阱之一，是低估測試所需的時間。" }
+    ]
+  },
+  {
+    id: "w2423", english: "surplus", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["剩餘","盈餘"] ] },
+      { pos: "adj", meaningGroups: [ ["過剩的","多餘的"] ] }
+    ],
+    examples: [
+      { en:"The company used its budget surplus to fund new training programs.", zh:"公司利用預算盈餘來資助新的培訓計畫。" },
+      { en:"Surplus inventory will be sold at a discount at the end of the quarter.", zh:"過剩的庫存將於季末折價出售。" }
+    ]
+  },
+  {
+    id: "w2424", english: "sign off", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "phr.", meaningGroups: [ ["簽核","批准"], ["（信件、廣播等）結尾署名","結束"] ] }
+    ],
+    examples: [
+      { en:"The director must sign off on the budget before the project can start.", zh:"專案開始前，主管必須先簽核這份預算。" },
+      { en:"She signed off the email with \"Best regards.\"", zh:"她以「祝好」作為這封電子郵件的結尾署名。" }
+    ]
+  },
+  {
+    id: "w2425", english: "nonconformance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["不符合","不合格"] ] }
+    ],
+    examples: [
+      { en:"The quality audit identified several nonconformances in the production process.", zh:"品質稽核發現生產流程中有數項不符合規定之處。" }
+    ]
+  },
+  {
+    id: "w2426", english: "activity list", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["活動清單"] ] }
+    ],
+    examples: [
+      { en:"The project manager updated the activity list after the scope change.", zh:"專案經理在範疇變更後更新了活動清單。" }
+    ]
+  },
+  {
+    id: "w2427", english: "critical path method", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["關鍵路徑法","要徑法"] ] }
+    ],
+    examples: [
+      { en:"The team used the critical path method to determine the shortest possible project duration.", zh:"團隊使用關鍵路徑法來確定專案最短可能的工期。" }
+    ]
+  },
+  {
+    id: "w2428", english: "derive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["獲得","取得"] ] },
+      { pos: "vi", meaningGroups: [ ["源自","衍生"] ] }
+    ],
+    examples: [
+      { en:"Many employees derive satisfaction from solving complex problems.", zh:"許多員工從解決複雜問題中獲得滿足感。" },
+      { en:"The company's revenue derives mainly from subscription fees.", zh:"公司的收入主要來自訂閱費用。" }
+    ]
+  },
+  {
+    id: "w2429", english: "derived", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["衍生的","派生的"] ] }
+    ],
+    examples: [
+      { en:"Derived data should be clearly separated from the original source data.", zh:"衍生資料應與原始來源資料明確區分。" }
+    ]
+  },
+  {
+    id: "w2430", english: "RFQ", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Request for Quotation",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["詢價單"] ] }
+    ],
+    examples: [
+      { en:"We sent an RFQ (request for quotation) to three suppliers to compare prices.", zh:"我們向三家供應商發出詢價單以比較價格。" }
+    ]
+  },
+  {
+    id: "w2431", english: "WBS", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Work Breakdown Structure",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["工作分解結構"] ] }
+    ],
+    examples: [
+      { en:"The WBS (work breakdown structure) breaks the project down into smaller work packages.", zh:"工作分解結構將專案拆解成較小的工作包。" }
+    ]
+  },
+  {
+    id: "w2432", english: "SLA", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Service Level Agreement",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["服務水準協定"] ] }
+    ],
+    examples: [
+      { en:"The SLA (service level agreement) guarantees a response to every support ticket within four hours.", zh:"服務水準協定保證每張客服工單都會在四小時內得到回應。" }
+    ]
+  },
+  {
+    id: "w2433", english: "MQL", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Marketing Qualified Lead",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["行銷合格潛在客戶"] ] }
+    ],
+    examples: [
+      { en:"Marketing passes each MQL (marketing qualified lead) to the sales team for follow-up.", zh:"行銷部門會把每位行銷合格潛在客戶轉交給業務團隊跟進。" }
+    ]
+  },
+  {
+    id: "w2434", english: "inbound", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["入境的","進站的"], ["集客式的","吸引客戶主動上門的"] ] }
+    ],
+    examples: [
+      { en:"Inbound flights were delayed because of the storm.", zh:"因暴風雨，入境班機延誤了。" },
+      { en:"Inbound marketing attracts customers through useful content rather than cold calls.", zh:"集客式行銷透過有價值的內容吸引客戶，而非陌生電話推銷。" }
+    ]
+  },
+  {
+    id: "w2435", english: "SOW", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Statement of Work",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["工作說明書"] ] }
+    ],
+    examples: [
+      { en:"The vendor signed the SOW (statement of work) detailing deliverables and deadlines.", zh:"供應商簽署了詳述交付成果與期限的工作說明書。" }
+    ]
+  },
+  {
+    id: "w2436", english: "decompose", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["分解","拆解"] ] },
+      { pos: "vi", meaningGroups: [ ["腐爛","分解（有機物）"] ] }
+    ],
+    examples: [
+      { en:"The manager asked the team to decompose the project into smaller work packages.", zh:"經理要求團隊把專案拆解成較小的工作包。" },
+      { en:"Organic waste decomposes faster in warm conditions.", zh:"有機廢棄物在溫暖的環境下分解得更快。" }
+    ]
+  },
+  {
+    id: "w2437", english: "MoSCoW", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Must have / Should have / Could have / Won't have",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["需求優先順序排序法"] ] }
+    ],
+    examples: [
+      { en:"The team used the MoSCoW method to rank features as must have, should have, could have, or won't have.", zh:"團隊使用優先順序排序法，把功能分成必須有、應該有、可以有或這次不要。" }
+    ]
+  },
+  {
+    id: "w2438", english: "elaboration", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["詳細說明","闡述"], ["精心製作"] ] }
+    ],
+    examples: [
+      { en:"The proposal requires further elaboration before the board can approve it.", zh:"這項提案需要進一步詳細說明，董事會才能批准。" }
+    ]
+  },
+  {
+    id: "w2439", english: "consumable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["消耗性的","可消耗的"] ] },
+      { pos: "nc", meaningGroups: [ ["消耗品"] ] }
+    ],
+    examples: [
+      { en:"Printer ink is a consumable item that the office must restock regularly.", zh:"印表機墨水是辦公室必須定期補貨的消耗性物品。" },
+      { en:"The project budget includes lab consumables such as gloves and test strips.", zh:"專案預算包含手套和試紙等實驗室消耗品。" }
+    ]
+  },
+  {
+    id: "w2440", english: "resuscitate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["使復甦","施行心肺復甦"], ["使重振","使恢復活力"] ] }
+    ],
+    examples: [
+      { en:"The paramedics managed to resuscitate the patient before reaching the hospital.", zh:"急救人員在抵達醫院前成功讓病患恢復了生命跡象。" },
+      { en:"The new CEO hopes to resuscitate the struggling brand with a bold marketing campaign.", zh:"新任執行長希望藉由大膽的行銷活動讓陷入困境的品牌重振旗鼓。" }
+    ]
+  },
+  {
+    id: "w2441", english: "tracheostomy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["氣管造口術","氣切手術"] ] }
+    ],
+    examples: [
+      { en:"The surgeon performed an emergency tracheostomy to help the patient breathe.", zh:"外科醫師為病患進行了緊急氣管造口術，協助他呼吸。" }
+    ]
+  },
+  {
+    id: "w2442", english: "euthanasia", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["安樂死"] ] }
+    ],
+    examples: [
+      { en:"The legislature is debating whether to legalize euthanasia for terminally ill patients.", zh:"立法機關正在辯論是否讓末期病患的安樂死合法化。" }
+    ]
+  },
+  {
+    id: "w2443", english: "tumultuous", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["動盪的","混亂的"] ] }
+    ],
+    examples: [
+      { en:"The company survived a tumultuous year marked by leadership changes and falling sales.", zh:"公司撐過了領導層更替與銷售下滑交織的動盪一年。" }
+    ]
+  },
+  {
+    id: "w2444", english: "discretion", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自行裁量權","判斷權"], ["謹慎","保密"] ] }
+    ],
+    examples: [
+      { en:"Managers have the discretion to approve small expenses without prior authorization.", zh:"主管有權自行裁量，無需事先授權即可核准小額支出。" },
+      { en:"Employees handling payroll data must use discretion and keep it confidential.", zh:"處理薪資資料的員工必須謹慎行事並保密。" }
+    ]
+  },
+  {
+    id: "w2445", english: "adjuster", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["理賠員","保險公估人"] ] }
+    ],
+    examples: [
+      { en:"The insurance adjuster inspected the damaged warehouse before approving the claim.", zh:"保險理賠員在核准理賠申請前，先檢查了受損的倉庫。" }
+    ]
+  },
+  {
+    id: "w2446", english: "stakeholder", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["利害關係人"] ] }
+    ],
+    examples: [
+      { en:"The project manager met each key stakeholder to confirm their expectations.", zh:"專案經理與每位關鍵利害關係人會面，確認他們的期望。" }
+    ]
+  },
+  {
+    id: "w2447", english: "scope", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["範疇","範圍"] ] }
+    ],
+    examples: [
+      { en:"Any change to the project scope must go through formal change control.", zh:"專案範疇的任何變更都必須經過正式的變更控制。" }
+    ]
+  },
+  {
+    id: "w2448", english: "sponsor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["發起人","贊助人"] ] },
+      { pos: "vt", meaningGroups: [ ["贊助","資助"] ] }
+    ],
+    examples: [
+      { en:"The sponsor approved the additional funding for the project.", zh:"發起人核准了專案的追加資金。" },
+      { en:"The company will sponsor the annual industry conference.", zh:"該公司將贊助年度產業研討會。" }
+    ]
+  },
+  {
+    id: "w2449", english: "baseline", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["基準","基準計畫"] ] }
+    ],
+    examples: [
+      { en:"The project manager compared actual costs against the approved cost baseline.", zh:"專案經理把實際成本與核准的成本基準做比較。" }
+    ]
+  },
+  {
+    id: "w2450", english: "sprint", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["衝刺","衝刺週期"] ] }
+    ],
+    examples: [
+      { en:"The team committed to completing twelve user stories during the two-week sprint.", zh:"團隊承諾在為期兩週的衝刺中完成十二個使用者故事。" }
+    ]
+  },
+  {
+    id: "w2451", english: "deliverable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["可交付成果","交付項目"] ] }
+    ],
+    examples: [
+      { en:"The team handed over the final deliverable to the sponsor on Friday.", zh:"團隊於週五把最終可交付成果交給發起人。" }
+    ]
+  },
+  {
+    id: "w2452", english: "register", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["登記冊","登記簿"] ] },
+      { pos: "vi", meaningGroups: [ ["登記","註冊"] ] }
+    ],
+    examples: [
+      { en:"The project manager added the newly identified threat to the risk register.", zh:"專案經理把新識別出的威脅加進風險登記冊。" },
+      { en:"All attendees must register at the front desk before the workshop begins.", zh:"所有與會者須在工作坊開始前到櫃檯登記。" }
+    ]
+  },
+  {
+    id: "w2453", english: "escalate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["呈報","上報"] ] },
+      { pos: "vi", meaningGroups: [ ["升級","惡化"] ] }
+    ],
+    examples: [
+      { en:"The project manager escalated the resource conflict to the steering committee.", zh:"專案經理把資源衝突呈報給指導委員會。" },
+      { en:"The dispute escalated quickly once both sides stopped communicating.", zh:"雙方停止溝通後，爭執迅速升級。" }
+    ]
+  },
+  {
+    id: "w2454", english: "risk register", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險登錄表","風險登記冊"] ] }
+    ],
+    examples: [
+      { en:"Every identified risk was logged in the risk register with an owner and a response plan.", zh:"每項已識別的風險都記錄在風險登錄表中，並指定了負責人與因應計畫。" }
+    ]
+  },
+  {
+    id: "w2455", english: "backlog", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["待辦事項清單"], ["積壓的工作","積案"] ] }
+    ],
+    examples: [
+      { en:"The product owner reprioritized the backlog before the next sprint planning meeting.", zh:"產品負責人在下次衝刺規劃會議前重新排定了待辦事項清單的優先順序。" },
+      { en:"A staffing shortage created a large backlog of customer orders.", zh:"人力短缺造成大量客戶訂單積壓。" }
+    ]
+  },
+  {
+    id: "w2456", english: "governance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["治理","管理機制"] ] }
+    ],
+    examples: [
+      { en:"Clear project governance defines who can approve changes and release funds.", zh:"明確的專案治理機制界定了誰能核准變更與撥款。" }
+    ]
+  },
+  {
+    id: "w2457", english: "change request", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["變更請求","變更申請"] ] }
+    ],
+    examples: [
+      { en:"The team opened a change request to evaluate moving the work in house.", zh:"團隊提出變更請求，以評估將工作移回內部執行。" },
+      { en:"Any use of the management reserve requires a formal change request.", zh:"動用管理準備金都必須提出正式的變更請求。" }
+    ]
+  },
+  {
+    id: "w2458", english: "critical path", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["要徑","關鍵路徑"] ] }
+    ],
+    examples: [
+      { en:"Any delay on the critical path will push back the project end date.", zh:"要徑上的任何延誤都會使專案結束日期往後延。" }
+    ]
+  },
+  {
+    id: "w2459", english: "EV", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Earned Value",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["實獲值","已完成工作的價值"] ] }
+    ],
+    examples: [
+      { en:"The team calculated the EV (earned value) at the status date.", zh:"團隊在狀態日期計算了實獲值。" }
+    ]
+  },
+  {
+    id: "w2460", english: "AC", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Actual Cost",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["實際成本"] ] }
+    ],
+    examples: [
+      { en:"The team recorded the AC (actual cost) of $40,000 at the status date.", zh:"團隊在狀態日期記錄了四萬美元的實際成本。" }
+    ]
+  },
+  {
+    id: "w2461", english: "compliance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["法規遵循","合規"], ["遵守","服從"] ] }
+    ],
+    examples: [
+      { en:"Skipping the regulatory compliance review would expose the company to serious legal risk.", zh:"跳過法規遵循審查會讓公司面臨嚴重的法律風險。" }
+    ]
+  },
+  {
+    id: "w2462", english: "product owner", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["產品負責人"] ] }
+    ],
+    examples: [
+      { en:"The product owner reprioritized the backlog before the next sprint planning.", zh:"產品負責人在下次衝刺規劃前重新排定了待辦清單的優先順序。" }
+    ]
+  },
+  {
+    id: "w2463", english: "regulatory", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["法規的","監管的"] ] }
+    ],
+    examples: [
+      { en:"The new system must satisfy all regulatory requirements before it goes live.", zh:"新系統上線前必須符合所有法規要求。" }
+    ]
+  },
+  {
+    id: "w2464", english: "reserve", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["準備金","預備資源"] ] },
+      { pos: "vt", meaningGroups: [ ["預留","保留"] ] }
+    ],
+    examples: [
+      { en:"The team set aside a contingency reserve to cover identified risks.", zh:"團隊預留了應變準備金，以因應已識別的風險。" },
+      { en:"Please reserve the conference room for Friday morning.", zh:"請預訂週五上午的會議室。" }
+    ]
+  },
+  {
+    id: "w2465", english: "project charter", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["專案章程"] ] }
+    ],
+    examples: [
+      { en:"The sponsor signed the project charter, which formally authorized the project.", zh:"發起人簽署了專案章程，正式授權該專案。" }
+    ]
+  },
+  {
+    id: "w2466", english: "scrum", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["敏捷開發框架","史克蘭姆"] ] }
+    ],
+    examples: [
+      { en:"The scrum team holds a short review with stakeholders at the end of every sprint.", zh:"史克蘭姆團隊在每次衝刺結束時都會與利害關係人舉行簡短的審查。" }
+    ]
+  },
+  {
+    id: "w2467", english: "change control", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["變更控制"] ] }
+    ],
+    examples: [
+      { en:"Every scope adjustment must go through the change control process.", zh:"每項範疇調整都必須經過變更控制流程。" }
+    ]
+  },
+  {
+    id: "w2468", english: "predictive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["預測型的","預測性的"] ] }
+    ],
+    examples: [
+      { en:"The company uses a predictive approach because the requirements are fixed.", zh:"由於需求已固定，公司採用預測型方法。" }
+    ]
+  },
+  {
+    id: "w2469", english: "project sponsor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["專案發起人","專案贊助者"] ] }
+    ],
+    examples: [
+      { en:"The project sponsor must sign the charter before any work begins.", zh:"專案發起人必須在開工前簽署專案章程。" }
+    ]
+  },
+  {
+    id: "w2470", english: "contingency reserve", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["應變準備金","應急準備"] ] }
+    ],
+    examples: [
+      { en:"The team drew on the contingency reserve to cover a risk that had already been identified.", zh:"團隊動用應變準備金，來支應一項已識別的風險。" }
+    ]
+  },
+  {
+    id: "w2471", english: "prioritize", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["排定優先順序","優先處理"] ] }
+    ],
+    examples: [
+      { en:"We need to prioritize the most urgent client requests this week.", zh:"我們這週必須優先處理最緊急的客戶需求。" }
+    ]
+  },
+  {
+    id: "w2472", english: "product backlog", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["產品待辦清單","產品需求清單"] ] }
+    ],
+    examples: [
+      { en:"The product owner reprioritizes the product backlog before every sprint.", zh:"產品負責人在每次衝刺前都會重新排定產品待辦清單的優先順序。" }
+    ]
+  },
+  {
+    id: "w2473", english: "exceed", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["超過","超出"] ] }
+    ],
+    examples: [
+      { en:"The project should be rejected because costs exceed benefits.", zh:"由於成本超過效益，該專案應予否決。" },
+      { en:"Actual spending must not exceed the approved budget.", zh:"實際支出不得超出核准預算。" }
+    ]
+  },
+  {
+    id: "w2474", english: "work package", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["工作包"] ] }
+    ],
+    examples: [
+      { en:"Each work package was assigned to one team member who is accountable for its completion.", zh:"每個工作包都指派給一位團隊成員，由其負責完成。" }
+    ]
+  },
+  {
+    id: "w2475", english: "acceptance criteria", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["驗收標準","接受標準"] ] }
+    ],
+    examples: [
+      { en:"The client will sign off once the deliverable meets all acceptance criteria.", zh:"交付成果符合所有驗收標準後，客戶才會簽收。" }
+    ]
+  },
+  {
+    id: "w2476", english: "cost baseline", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本基準"] ] }
+    ],
+    examples: [
+      { en:"Any approved change must be reflected in the updated cost baseline.", zh:"任何核准的變更都必須反映在更新後的成本基準中。" }
+    ]
+  },
+  {
+    id: "w2477", english: "CPI", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Cost Performance Index",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本績效指標"] ] }
+    ],
+    examples: [
+      { en:"The team calculated the CPI (Cost Performance Index) by dividing earned value by actual cost.", zh:"團隊以實獲值除以實際成本，算出成本績效指標。" }
+    ]
+  },
+  {
+    id: "w2478", english: "iteration", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["迭代","反覆"] ] }
+    ],
+    examples: [
+      { en:"Each iteration lasts two weeks and ends with a working increment.", zh:"每次迭代為期兩週，並以一個可運作的增量作結。" },
+      { en:"After several iterations, the design finally met the client's needs.", zh:"經過數次反覆修改，設計終於符合客戶的需求。" }
+    ]
+  },
+  {
+    id: "w2479", english: "scope baseline", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["範疇基準"] ] }
+    ],
+    examples: [
+      { en:"Adding this feature requires a formal change to the scope baseline.", zh:"新增這項功能需要正式變更範疇基準。" }
+    ]
+  },
+  {
+    id: "w2480", english: "facilitate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["促進","使順利進行"], ["主持引導"] ] }
+    ],
+    examples: [
+      { en:"A new online portal will facilitate communication between departments.", zh:"新的線上入口網站將促進各部門之間的溝通。" },
+      { en:"The project manager will facilitate the workshop on cost trade-offs.", zh:"專案經理將主持引導有關成本取捨的工作坊。" }
+    ]
+  },
+  {
+    id: "w2481", english: "defect", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["缺陷","瑕疵"] ] }
+    ],
+    examples: [
+      { en:"The testers logged a critical defect before the product was released.", zh:"測試人員在產品發布前記錄了一項嚴重缺陷。" }
+    ]
+  },
+  {
+    id: "w2482", english: "PV", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Planned Value",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["計畫價值","規劃價值"] ] }
+    ],
+    examples: [
+      { en:"The PV (planned value) at the status date was $60,000, but only $54,000 of work was completed.", zh:"截至狀態日期，計畫價值為六萬美元，但只完成了價值五萬四千美元的工作。" }
+    ]
+  },
+  {
+    id: "w2483", english: "root cause", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["根本原因","根因"] ] }
+    ],
+    examples: [
+      { en:"We used a fishbone diagram to find the root cause of the defect spike.", zh:"我們用魚骨圖找出缺陷暴增的根本原因。" }
+    ]
+  },
+  {
+    id: "w2484", english: "stakeholder engagement", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["利害關係人參與"] ] }
+    ],
+    examples: [
+      { en:"Strong stakeholder engagement helped the team secure early approval for the design.", zh:"良好的利害關係人參與協助團隊及早取得設計核准。" }
+    ]
+  },
+  {
+    id: "w2485", english: "validate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["驗證","確認"] ] }
+    ],
+    examples: [
+      { en:"The PM validated the operations team's readiness before the handoff.", zh:"專案經理在移交前確認了營運團隊已準備就緒。" }
+    ]
+  },
+  {
+    id: "w2486", english: "variance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["差異","偏差"] ] }
+    ],
+    examples: [
+      { en:"The cost variance showed that the project was running over budget.", zh:"成本差異顯示專案已經超出預算。" }
+    ]
+  },
+  {
+    id: "w2487", english: "business case", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["商業論證","商業個案"] ] }
+    ],
+    examples: [
+      { en:"The business case shows that the project will pay for itself within two years.", zh:"商業論證顯示這個專案兩年內即可回收成本。" }
+    ]
+  },
+  {
+    id: "w2488", english: "adaptive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["適應性的","彈性調整的"] ] }
+    ],
+    examples: [
+      { en:"An adaptive approach suits projects whose requirements change frequently.", zh:"適應型方法適合需求經常變動的專案。" }
+    ]
+  },
+  {
+    id: "w2489", english: "crash", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["趕工"] ] },
+      { pos: "vi", meaningGroups: [ ["當機","崩潰"] ] }
+    ],
+    examples: [
+      { en:"To recover the delay, the manager decided to crash the critical path by adding resources.", zh:"為了追回進度，經理決定增派資源，對要徑進行趕工。" },
+      { en:"The production server crashed yesterday and caused three hours of data loss.", zh:"正式環境的伺服器昨天當機，造成三小時的資料遺失。" }
+    ]
+  },
+  {
+    id: "w2490", english: "status date", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["狀態日期","報告基準日"] ] }
+    ],
+    examples: [
+      { en:"All cost and schedule figures in this report are calculated as of the status date.", zh:"本報告中的所有成本與時程數據都是以狀態日期為基準計算的。" }
+    ]
+  },
+  {
+    id: "w2491", english: "total float", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["總浮時"] ] }
+    ],
+    examples: [
+      { en:"Task B has five days of total float, so it can slip without delaying the project.", zh:"任務 B 有五天的總浮時，因此延後也不會拖延專案。" }
+    ]
+  },
+  {
+    id: "w2492", english: "expertise", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["專業知識","專長"] ] }
+    ],
+    examples: [
+      { en:"The sponsor asked for the team's technical expertise before setting the budget.", zh:"發起人在制定預算前先徵詢團隊的專業意見。" }
+    ]
+  },
+  {
+    id: "w2493", english: "BAC", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Budget at Completion",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工預算","總預算"] ] }
+    ],
+    examples: [
+      { en:"The BAC (Budget at Completion) for the project is $500,000.", zh:"這個專案的完工預算為五十萬美元。" }
+    ]
+  },
+  {
+    id: "w2494", english: "steering committee", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["指導委員會","督導委員會"] ] }
+    ],
+    examples: [
+      { en:"The resource conflict was escalated to the steering committee for a final decision.", zh:"資源衝突被呈報給指導委員會做最終決定。" }
+    ]
+  },
+  {
+    id: "w2495", english: "constraint", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["限制","制約因素"] ] }
+    ],
+    examples: [
+      { en:"Budget is the biggest constraint on this year's expansion plan.", zh:"預算是今年擴張計畫最大的限制。" }
+    ]
+  },
+  {
+    id: "w2496", english: "milestone", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["里程碑","重要階段點"] ] }
+    ],
+    examples: [
+      { en:"The team celebrated after reaching the final milestone on schedule.", zh:"團隊在準時達成最後一個里程碑後舉杯慶祝。" }
+    ]
+  },
+  {
+    id: "w2497", english: "mitigate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["減輕","緩解"] ] }
+    ],
+    examples: [
+      { en:"The team plans to mitigate the delivery risk by qualifying a second supplier.", zh:"團隊打算透過評選第二家供應商來減輕交貨風險。" }
+    ]
+  },
+  {
+    id: "w2498", english: "oversee", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["監督","監管"] ] }
+    ],
+    examples: [
+      { en:"The project manager oversees the manufacturing process to ensure quality standards are met.", zh:"專案經理負責監督製造流程，以確保符合品質標準。" }
+    ]
+  },
+  {
+    id: "w2499", english: "forecast", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["預測","預報"] ] },
+      { pos: "vt", meaningGroups: [ ["預測","預估"] ] }
+    ],
+    examples: [
+      { en:"The cost forecast shows we will exceed the budget by ten percent.", zh:"成本預測顯示我們將超出預算百分之十。" },
+      { en:"Analysts forecast that demand will rise sharply next quarter.", zh:"分析師預測下一季需求將大幅成長。" }
+    ]
+  },
+  {
+    id: "w2500", english: "lessons learned", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["經驗教訓"] ] }
+    ],
+    examples: [
+      { en:"The team documented the lessons learned at the end of each phase.", zh:"團隊在每個階段結束時記錄經驗教訓。" }
+    ]
+  },
+  {
+    id: "w2501", english: "validate scope", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["確認範疇"] ] }
+    ],
+    examples: [
+      { en:"Validate Scope is the process of getting formal acceptance of completed deliverables from the customer.", zh:"確認範疇是讓客戶正式驗收已完成之可交付成果的過程。" }
+    ]
+  },
+  {
+    id: "w2502", english: "align", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["使一致","使對齊"] ] },
+      { pos: "vi", meaningGroups: [ ["符合","保持一致"] ] }
+    ],
+    examples: [
+      { en:"The manager worked to align the project goals with the company strategy.", zh:"經理努力讓專案目標與公司策略一致。" },
+      { en:"Our incentives must align with the long-term goals of the organization.", zh:"我們的獎勵措施必須與組織的長期目標相符。" }
+    ]
+  },
+  {
+    id: "w2503", english: "audit", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["稽核","審計"] ] },
+      { pos: "vt", meaningGroups: [ ["稽核","查帳"] ] }
+    ],
+    examples: [
+      { en:"The internal audit revealed several gaps in our expense reporting process.", zh:"內部稽核發現我們的費用報銷流程有幾處缺漏。" },
+      { en:"An outside firm will audit the company's financial statements next month.", zh:"一家外部事務所下個月將查核公司的財務報表。" }
+    ]
+  },
+  {
+    id: "w2504", english: "change control board", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["變更控制委員會"] ] }
+    ],
+    examples: [
+      { en:"The change control board rejected the request because it exceeded the budget.", zh:"變更控制委員會因請求超出預算而予以駁回。" }
+    ]
+  },
+  {
+    id: "w2505", english: "EMV", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Expected Monetary Value",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["預期貨幣價值"] ] }
+    ],
+    examples: [
+      { en:"The team calculated the EMV (expected monetary value) of the risk as negative twenty thousand dollars.", zh:"團隊算出該風險的預期貨幣價值為負兩萬美元。" }
+    ]
+  },
+  {
+    id: "w2506", english: "issue log", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["議題日誌","問題紀錄表"] ] }
+    ],
+    examples: [
+      { en:"Every unresolved problem is recorded in the issue log along with its owner and due date.", zh:"每個尚未解決的問題都會連同負責人與到期日記錄在議題日誌中。" }
+    ]
+  },
+  {
+    id: "w2507", english: "management reserve", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["管理準備金"] ] }
+    ],
+    examples: [
+      { en:"Only the sponsor can approve the use of the management reserve.", zh:"只有發起人能核准動用管理準備金。" }
+    ]
+  },
+  {
+    id: "w2508", english: "scope statement", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["範疇說明書"] ] }
+    ],
+    examples: [
+      { en:"The scope statement lists the deliverables, assumptions, and exclusions of the project.", zh:"範疇說明書列出專案的可交付成果、假設與排除項目。" }
+    ]
+  },
+  {
+    id: "w2509", english: "scrum master", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["敏捷流程教練","敏捷團隊推動者"] ] }
+    ],
+    examples: [
+      { en:"The Scrum Master removes blockers so the team can focus on the sprint goal.", zh:"敏捷流程教練排除阻礙，讓團隊專注於衝刺目標。" }
+    ]
+  },
+  {
+    id: "w2510", english: "stakeholder register", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["利害關係人登錄表","利害關係人登記冊"] ] }
+    ],
+    examples: [
+      { en:"The analyst updated the stakeholder register after the new vendor joined the project.", zh:"新廠商加入專案後，分析師更新了利害關係人登錄表。" }
+    ]
+  },
+  {
+    id: "w2511", english: "functional manager", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["職能經理","部門主管"] ] }
+    ],
+    examples: [
+      { en:"You should negotiate with the functional manager before assigning her staff to the project.", zh:"在指派她的人員參與專案前，你應該先與職能經理協商。" }
+    ]
+  },
+  {
+    id: "w2512", english: "authorize", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["授權","批准"] ] }
+    ],
+    examples: [
+      { en:"Only the director can authorize expenses above ten thousand dollars.", zh:"只有主任能批准超過一萬美元的支出。" }
+    ]
+  },
+  {
+    id: "w2513", english: "earned value", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["實獲值","贏得值"] ] }
+    ],
+    examples: [
+      { en:"The analyst calculated the earned value (EV) at the status date.", zh:"分析師計算了報告基準日當天的實獲值。" }
+    ]
+  },
+  {
+    id: "w2514", english: "schedule baseline", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["時程基準"] ] }
+    ],
+    examples: [
+      { en:"Changes to the approved schedule baseline require a formal change request.", zh:"變更已核准的時程基準需要提出正式的變更請求。" }
+    ]
+  },
+  {
+    id: "w2515", english: "specification", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["規格","規格書"] ] }
+    ],
+    examples: [
+      { en:"The component did not meet the agreed specification and had to be reworked.", zh:"該元件不符合約定的規格，必須重做。" }
+    ]
+  },
+  {
+    id: "w2516", english: "SPI", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Schedule Performance Index",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["時程績效指標"] ] }
+    ],
+    examples: [
+      { en:"An SPI (schedule performance index) below 1.0 means the project is behind schedule.", zh:"時程績效指標低於一，代表專案進度落後。" }
+    ]
+  },
+  {
+    id: "w2517", english: "threshold", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["門檻","臨界值"] ] }
+    ],
+    examples: [
+      { en:"Any cost variance beyond the control threshold must be reported to the sponsor.", zh:"任何超過管制門檻的成本差異都必須向發起人報告。" }
+    ]
+  },
+  {
+    id: "w2518", english: "velocity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["速率","速度"] ] }
+    ],
+    examples: [
+      { en:"The team's velocity has stayed stable at 24 story points per sprint.", zh:"團隊的速率穩定維持在每個衝刺 24 個故事點。" }
+    ]
+  },
+  {
+    id: "w2519", english: "allocate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["分配","撥付","配置"] ] }
+    ],
+    examples: [
+      { en:"The finance team will allocate additional funds to the marketing campaign.", zh:"財務團隊將撥付更多經費給行銷活動。" }
+    ]
+  },
+  {
+    id: "w2520", english: "reassign", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["重新指派","調派"] ] }
+    ],
+    examples: [
+      { en:"Management decided to reassign two engineers to the urgent project.", zh:"管理階層決定把兩名工程師調派到緊急專案。" }
+    ]
+  },
+  {
+    id: "w2521", english: "compromise", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["妥協","折衷方案"] ] },
+      { pos: "vi", meaningGroups: [ ["妥協","讓步"] ] }
+    ],
+    examples: [
+      { en:"Both directors accepted a compromise on how to classify the costs.", zh:"兩位主管都接受了成本分類上的折衷方案。" },
+      { en:"Neither party was willing to compromise on the delivery date.", zh:"雙方都不願在交付日期上讓步。" }
+    ]
+  },
+  {
+    id: "w2522", english: "escalation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["呈報","逐級上報"] ] }
+    ],
+    examples: [
+      { en:"The plan defines clear escalation paths for issues that the team cannot resolve.", zh:"計畫中為團隊無法解決的問題訂定了明確的呈報途徑。" }
+    ]
+  },
+  {
+    id: "w2523", english: "kanban", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["看板","看板方法"] ] }
+    ],
+    examples: [
+      { en:"Our team uses a kanban board to visualize work in progress.", zh:"我們團隊使用看板來呈現進行中的工作。" }
+    ]
+  },
+  {
+    id: "w2524", english: "PMO", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Project Management Office",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["專案管理辦公室"] ] }
+    ],
+    examples: [
+      { en:"The PMO (project management office) provides templates and governance for all projects.", zh:"專案管理辦公室為所有專案提供範本與治理規範。" }
+    ]
+  },
+  {
+    id: "w2525", english: "probability and impact", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["機率與衝擊"] ] }
+    ],
+    examples: [
+      { en:"The team scored each risk using probability and impact before ranking it.", zh:"團隊先以機率與衝擊替每項風險評分，再進行排序。" }
+    ]
+  },
+  {
+    id: "w2526", english: "story point", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["故事點","故事點數"] ] }
+    ],
+    examples: [
+      { en:"The team assigned five story points to the login feature.", zh:"團隊給登入功能估了五個故事點。" }
+    ]
+  },
+  {
+    id: "w2527", english: "unknown-unknown", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["未知的未知風險","無法預見的風險"] ] }
+    ],
+    examples: [
+      { en:"Management reserve is set aside to cover an unknown-unknown that no one could foresee.", zh:"管理準備金是用來因應沒有人能預見的未知的未知風險。" }
+    ]
+  },
+  {
+    id: "w2528", english: "accommodate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["容納","配合","遷就"] ] }
+    ],
+    examples: [
+      { en:"We can adjust the schedule to accommodate the client's request.", zh:"我們可以調整時程以配合客戶的要求。" }
+    ]
+  },
+  {
+    id: "w2529", english: "closure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["結案","收尾"] ] }
+    ],
+    examples: [
+      { en:"The team completed all closure activities before releasing the resources.", zh:"團隊在釋出人力之前完成了所有結案作業。" }
+    ]
+  },
+  {
+    id: "w2530", english: "mandatory", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["強制的","必須的"] ] }
+    ],
+    examples: [
+      { en:"Attendance at the data-security training session is mandatory for all committee members.", zh:"所有委員都必須出席資料安全訓練課程。" }
+    ]
+  },
+  {
+    id: "w2531", english: "resource leveling", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["資源撫平","資源平衡"] ] }
+    ],
+    examples: [
+      { en:"Resource leveling extended the schedule because key staff were overbooked.", zh:"由於關鍵人員工作量超載，資源撫平使時程延長。" }
+    ]
+  },
+  {
+    id: "w2532", english: "sprint planning", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["衝刺規劃","衝刺規劃會議"] ] }
+    ],
+    examples: [
+      { en:"The product owner joined sprint planning to clarify the top backlog items.", zh:"產品負責人參加衝刺規劃，釐清優先度最高的待辦項目。" }
+    ]
+  },
+  {
+    id: "w2533", english: "sprint review", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["衝刺審查會議","衝刺成果檢視會議"] ] }
+    ],
+    examples: [
+      { en:"Stakeholders gave feedback on the new feature during the sprint review.", zh:"利害關係人在衝刺審查會議上對新功能提出回饋。" }
+    ]
+  },
+  {
+    id: "w2534", english: "monetary", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["貨幣的","金錢的"] ] }
+    ],
+    examples: [
+      { en:"The report estimates the monetary value of each identified risk.", zh:"這份報告估算了每項已識別風險的金錢價值。" }
+    ]
+  },
+  {
+    id: "w2535", english: "postpone", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["延後","推遲"] ] }
+    ],
+    examples: [
+      { en:"The committee decided to postpone the vote until all data is available.", zh:"委員會決定將表決延後，等所有資料到齊再進行。" }
+    ]
+  },
+  {
+    id: "w2536", english: "communications management plan", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["溝通管理計畫"] ] }
+    ],
+    examples: [
+      { en:"The communications management plan specifies how often reports are sent to stakeholders.", zh:"溝通管理計畫規定了多久向利害關係人發送一次報告。" }
+    ]
+  },
+  {
+    id: "w2537", english: "control chart", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["管制圖"] ] }
+    ],
+    examples: [
+      { en:"The quality engineer used a control chart to monitor the defect rate over time.", zh:"品管工程師使用管制圖來追蹤缺陷率的變化。" }
+    ]
+  },
+  {
+    id: "w2538", english: "dependency", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["相依關係","依存關係"] ] },
+      { pos: "nu", meaningGroups: [ ["依賴","仰賴"] ] }
+    ],
+    examples: [
+      { en:"The foundation must cure before the walls go up, which is a hard dependency.", zh:"地基必須先養護完成才能砌牆，這是一種強制性的相依關係。" },
+      { en:"The company's heavy dependency on a single supplier increases its supply chain risk.", zh:"公司對單一供應商的高度依賴增加了供應鏈風險。" }
+    ]
+  },
+  {
+    id: "w2539", english: "EAC", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Estimate at Completion",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工估算","完工時總成本預估"] ] }
+    ],
+    examples: [
+      { en:"The EAC (estimate at completion) rose to $625,000 after the latest report.", zh:"最新報告後，完工估算升至六十二萬五千美元。" }
+    ]
+  },
+  {
+    id: "w2540", english: "expected monetary value", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["預期貨幣價值"] ] }
+    ],
+    examples: [
+      { en:"The expected monetary value of the risk is its probability multiplied by its impact.", zh:"該風險的預期貨幣價值等於其發生機率乘以影響金額。" }
+    ]
+  },
+  {
+    id: "w2541", english: "project scope statement", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["專案範疇說明書"] ] }
+    ],
+    examples: [
+      { en:"The project scope statement lists the deliverables, assumptions, and constraints.", zh:"專案範疇說明書列出了可交付成果、假設與限制條件。" }
+    ]
+  },
+  {
+    id: "w2542", english: "RACI", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Responsible, Accountable, Consulted, Informed",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["責任分派矩陣","權責矩陣"] ] }
+    ],
+    examples: [
+      { en:"The RACI (Responsible, Accountable, Consulted, Informed) chart clarified who signs off on each deliverable.", zh:"這份責任分派矩陣釐清了每項可交付成果由誰簽核。" }
+    ]
+  },
+  {
+    id: "w2543", english: "resource smoothing", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["資源平滑化","資源平順化"] ] }
+    ],
+    examples: [
+      { en:"Resource smoothing adjusts activities only within their float, so the end date stays unchanged.", zh:"資源平滑化只在浮時範圍內調整活動，因此完工日期不會改變。" }
+    ]
+  },
+  {
+    id: "w2544", english: "rework", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["重工","返工"] ] },
+      { pos: "vt", meaningGroups: [ ["重新加工","返工修正"] ] }
+    ],
+    examples: [
+      { en:"Poor requirements often lead to costly rework late in the project.", zh:"需求不佳往往會導致專案後期耗費成本的重工。" },
+      { en:"The team had to rework the component to meet the specification.", zh:"團隊必須重新加工該元件以符合規格。" }
+    ]
+  },
+  {
+    id: "w2545", english: "risk management plan", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險管理計畫"] ] }
+    ],
+    examples: [
+      { en:"The risk management plan defines how risks will be identified, analyzed, and monitored.", zh:"風險管理計畫定義了如何識別、分析與監控風險。" }
+    ]
+  },
+  {
+    id: "w2546", english: "risk response", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險因應","風險回應"] ] }
+    ],
+    examples: [
+      { en:"The team reassessed the risk response plan after the threat's probability increased.", zh:"在威脅發生機率上升後，團隊重新評估了風險因應計畫。" }
+    ]
+  },
+  {
+    id: "w2547", english: "waterfall", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["瀑布式開發","瀑布式"] ] },
+      { pos: "nc", meaningGroups: [ ["瀑布"] ] }
+    ],
+    examples: [
+      { en:"A waterfall approach suits projects whose requirements are fixed upfront.", zh:"需求預先確定的專案適合採用瀑布式方法。" },
+      { en:"The hotel is famous for the waterfall in its garden.", zh:"這間飯店以花園裡的瀑布聞名。" }
+    ]
+  },
+  {
+    id: "w2548", english: "metric", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["指標","衡量標準"] ] }
+    ],
+    examples: [
+      { en:"Customer satisfaction is the key metric we use to evaluate the support team.", zh:"客戶滿意度是我們評估客服團隊的關鍵指標。" }
+    ]
+  },
+  {
+    id: "w2549", english: "hybrid", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["混合式的","混合型的"] ] },
+      { pos: "nc", meaningGroups: [ ["混合體","混合型"] ] }
+    ],
+    examples: [
+      { en:"The team adopted a hybrid approach that combines predictive planning with agile iterations.", zh:"團隊採用結合預測式規劃與敏捷迭代的混合式做法。" },
+      { en:"The new delivery model is a hybrid of waterfall and agile practices.", zh:"這個新的交付模式是傳統瀑布式與敏捷做法的混合體。" }
+    ]
+  },
+  {
+    id: "w2550", english: "node", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["節點","結點"] ] }
+    ],
+    examples: [
+      { en:"Each node in the network diagram represents a single project activity.", zh:"網路圖中的每個節點代表一項專案活動。" }
+    ]
+  },
+  {
+    id: "w2551", english: "organizational process asset", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["組織程序資產"] ] }
+    ],
+    examples: [
+      { en:"Lessons learned and templates are common organizational process assets.", zh:"經驗教訓與範本都是常見的組織程序資產。" }
+    ]
+  },
+  {
+    id: "w2552", english: "project management plan", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["專案管理計畫"] ] }
+    ],
+    examples: [
+      { en:"The project management plan was updated after the change was approved.", zh:"變更獲准後，專案管理計畫隨之更新。" }
+    ]
+  },
+  {
+    id: "w2553", english: "trade-off", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["取捨","權衡"] ] }
+    ],
+    examples: [
+      { en:"The manager presented the trade-offs between scope, schedule, and budget to the sponsor.", zh:"經理向發起人說明範疇、時程與預算之間的取捨。" }
+    ]
+  },
+  {
+    id: "w2554", english: "work breakdown structure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["工作分解結構"] ] }
+    ],
+    examples: [
+      { en:"The team decomposed the project scope into a detailed work breakdown structure.", zh:"團隊將專案範疇分解成詳細的工作分解結構。" }
+    ]
+  },
+  {
+    id: "w2555", english: "terminate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["終止","解除（合約）"] ] },
+      { pos: "vi", meaningGroups: [ ["終止","結束"] ] }
+    ],
+    examples: [
+      { en:"The client may terminate the contract if the vendor misses the deadline.", zh:"若供應商錯過期限，客戶可以終止合約。" },
+      { en:"The agreement will terminate automatically at the end of the year.", zh:"該協議將於年底自動終止。" }
+    ]
+  },
+  {
+    id: "w2556", english: "upfront", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["預付的","前期的"] ] },
+      { pos: "adv", meaningGroups: [ ["預先","事先"] ] }
+    ],
+    examples: [
+      { en:"The finance committee questioned the large upfront cost of the upgrade.", zh:"財務委員會質疑這次升級龐大的前期成本。" },
+      { en:"The vendor requires payment upfront before delivering the equipment.", zh:"供應商要求在交付設備前先付款。" }
+    ]
+  },
+  {
+    id: "w2557", english: "assumption", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["假設","假定"] ] }
+    ],
+    examples: [
+      { en:"Every key assumption should be documented and validated early in the project.", zh:"每項關鍵假設都應在專案初期記錄並加以驗證。" }
+    ]
+  },
+  {
+    id: "w2558", english: "bottom-up", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["由下而上的"] ] },
+      { pos: "adv", meaningGroups: [ ["由下而上地"] ] }
+    ],
+    examples: [
+      { en:"The bottom-up estimate was built from the cost of each work package.", zh:"這份由下而上的估算是依每個工作包的成本逐項累加而成。" },
+      { en:"The team estimated the project bottom-up to improve accuracy.", zh:"團隊以由下而上的方式估算專案，以提高準確度。" }
+    ]
+  },
+  {
+    id: "w2559", english: "corrective", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["矯正的","糾正性的"] ] }
+    ],
+    examples: [
+      { en:"The manager took corrective action as soon as costs began trending upward.", zh:"成本一開始呈上升趨勢，經理便立刻採取矯正措施。" }
+    ]
+  },
+  {
+    id: "w2560", english: "corrective action", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["矯正措施","糾正行動"] ] }
+    ],
+    examples: [
+      { en:"The manager took corrective action to bring the project back on schedule.", zh:"經理採取矯正措施，讓專案回到預定進度。" }
+    ]
+  },
+  {
+    id: "w2561", english: "decomposition", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["分解"] ] }
+    ],
+    examples: [
+      { en:"Decomposition of the deliverables into work packages made the estimates more reliable.", zh:"把可交付成果分解為工作包，讓估算更可靠。" }
+    ]
+  },
+  {
+    id: "w2562", english: "enterprise environmental factor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["事業環境因素"] ] }
+    ],
+    examples: [
+      { en:"Government regulations are an enterprise environmental factor that the project cannot control.", zh:"政府法規是專案無法掌控的事業環境因素。" }
+    ]
+  },
+  {
+    id: "w2563", english: "gold plating", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["鍍金","過度加工"] ] }
+    ],
+    examples: [
+      { en:"Adding unrequested features is gold plating and wastes the team's time.", zh:"加入未被要求的功能就是鍍金，只會浪費團隊時間。" }
+    ]
+  },
+  {
+    id: "w2564", english: "NPV", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Net Present Value",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["淨現值"] ] }
+    ],
+    examples: [
+      { en:"The NPV (net present value) of the project is positive, so it is worth pursuing.", zh:"該專案的淨現值為正，因此值得推動。" }
+    ]
+  },
+  {
+    id: "w2565", english: "PMBOK", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Project Management Body of Knowledge",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["專案管理知識體系"] ] }
+    ],
+    examples: [
+      { en:"The PMBOK (Project Management Body of Knowledge) provides a common framework for project professionals.", zh:"專案管理知識體系為專案專業人員提供共通的架構。" }
+    ]
+  },
+  {
+    id: "w2566", english: "regulatory compliance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["法規遵循","法規遵從"] ] }
+    ],
+    examples: [
+      { en:"The sponsor cannot ask the team to skip the regulatory compliance review.", zh:"發起人不能要求團隊略過法規遵循審查。" }
+    ]
+  },
+  {
+    id: "w2567", english: "threat", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["威脅","負面風險"] ] }
+    ],
+    examples: [
+      { en:"A key supplier's financial instability is a serious threat to our delivery schedule.", zh:"關鍵供應商的財務不穩定對我們的交貨時程是嚴重威脅。" }
+    ]
+  },
+  {
+    id: "w2568", english: "trigger", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["觸發條件","預警徵兆"] ] },
+      { pos: "vt", meaningGroups: [ ["觸發","引發"] ] }
+    ],
+    examples: [
+      { en:"A supplier delay is a trigger that signals the schedule risk may occur.", zh:"供應商延誤是預示時程風險可能發生的觸發徵兆。" },
+      { en:"Any loss above the limit will trigger an escalation to senior management.", zh:"任何超過上限的損失都會觸發向高階管理層的呈報。" }
+    ]
+  },
+  {
+    id: "w2569", english: "absorb", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["吸收","承擔"] ] }
+    ],
+    examples: [
+      { en:"The remaining contingency was too small to absorb the budget cut.", zh:"剩餘的應變準備金太少，無法吸收這次預算刪減。" }
+    ]
+  },
+  {
+    id: "w2570", english: "communication channels", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["溝通管道"] ] }
+    ],
+    examples: [
+      { en:"Adding new team members greatly increases the number of communication channels.", zh:"新增團隊成員會大幅增加溝通管道的數量。" }
+    ]
+  },
+  {
+    id: "w2571", english: "conflict resolution", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["衝突解決","衝突化解"] ] }
+    ],
+    examples: [
+      { en:"Effective conflict resolution kept the project on track.", zh:"有效的衝突解決讓專案維持在軌道上。" }
+    ]
+  },
+  {
+    id: "w2572", english: "cost variance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本偏差"] ] }
+    ],
+    examples: [
+      { en:"A negative cost variance shows that the project is over budget.", zh:"成本偏差為負，表示專案超出預算。" }
+    ]
+  },
+  {
+    id: "w2573", english: "governance framework", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["治理架構","治理框架"] ] }
+    ],
+    examples: [
+      { en:"The governance framework defines who approves changes and escalated issues.", zh:"治理架構明訂由誰核准變更與呈報的問題。" }
+    ]
+  },
+  {
+    id: "w2574", english: "initiate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["啟動","發起"] ] }
+    ],
+    examples: [
+      { en:"The project manager initiated a change request when the reserves ran out.", zh:"當準備金用盡時，專案經理提出了變更請求。" }
+    ]
+  },
+  {
+    id: "w2575", english: "kickoff", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["啟動會議","開工會議"] ] }
+    ],
+    examples: [
+      { en:"The team agreed on ground rules at the project kickoff.", zh:"團隊在專案啟動會議上議定了基本規範。" }
+    ]
+  },
+  {
+    id: "w2576", english: "known-unknown", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["已知的未知","已識別但不確定的風險"] ] }
+    ],
+    examples: [
+      { en:"A known-unknown risk is identified but its outcome remains uncertain.", zh:"已知的未知風險雖已識別，但其結果仍不確定。" }
+    ]
+  },
+  {
+    id: "w2577", english: "performance domain", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["績效領域"] ] }
+    ],
+    examples: [
+      { en:"Planning is one of the performance domains described in the guide.", zh:"規劃是該指南所描述的績效領域之一。" }
+    ]
+  },
+  {
+    id: "w2578", english: "portfolio", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["專案組合","投資組合"] ] }
+    ],
+    examples: [
+      { en:"The steering committee reviews the project portfolio each quarter to rebalance priorities.", zh:"指導委員會每季檢視專案組合，以重新平衡優先順序。" }
+    ]
+  },
+  {
+    id: "w2579", english: "RBS", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Risk Breakdown Structure",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險分解結構"] ] }
+    ],
+    examples: [
+      { en:"The team grouped the risks by category in the RBS (risk breakdown structure).", zh:"團隊在風險分解結構中依類別將風險分組。" }
+    ]
+  },
+  {
+    id: "w2580", english: "requirements traceability matrix", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["需求追溯矩陣"] ] }
+    ],
+    examples: [
+      { en:"The project manager checked the requirements traceability matrix to assess the impact of the change.", zh:"專案經理查閱需求追溯矩陣，以評估該變更的影響。" }
+    ]
+  },
+  {
+    id: "w2581", english: "return on investment", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["投資報酬率","投資回報"] ] }
+    ],
+    examples: [
+      { en:"The proposed upgrade offers a strong return on investment within two years.", zh:"這項升級提案在兩年內可帶來可觀的投資報酬。" }
+    ]
+  },
+  {
+    id: "w2582", english: "risk threshold", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險門檻","風險臨界值"] ] }
+    ],
+    examples: [
+      { en:"Total risk exposure has now exceeded the organization's risk threshold.", zh:"總風險曝險現在已超過組織的風險門檻。" }
+    ]
+  },
+  {
+    id: "w2583", english: "scope creep", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["範疇潛變","範圍蔓延"] ] }
+    ],
+    examples: [
+      { en:"Uncontrolled requests from the client led to scope creep and a missed deadline.", zh:"客戶不受控制的需求造成範圍蔓延，也使期限落空。" }
+    ]
+  },
+  {
+    id: "w2584", english: "servant leadership", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["僕人式領導","服務型領導"] ] }
+    ],
+    examples: [
+      { en:"Servant leadership focuses on removing obstacles so the team can work effectively.", zh:"僕人式領導著重於排除障礙，讓團隊能有效工作。" }
+    ]
+  },
+  {
+    id: "w2585", english: "spike", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["激增","驟升"] ] },
+      { pos: "vi", meaningGroups: [ ["激增","暴漲"] ] }
+    ],
+    examples: [
+      { en:"A defect spike after the release triggered a root cause analysis.", zh:"發布後缺陷數激增，引發了根本原因分析。" },
+      { en:"Complaint volume tends to spike right after a service outage.", zh:"服務中斷後，客訴量往往會暴增。" }
+    ]
+  },
+  {
+    id: "w2586", english: "stakeholder engagement plan", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["利害關係人參與計畫"] ] }
+    ],
+    examples: [
+      { en:"The stakeholder engagement plan defines how each key stakeholder will be involved.", zh:"利害關係人參與計畫規定了每位關鍵利害關係人將如何參與。" }
+    ]
+  },
+  {
+    id: "w2587", english: "three-point", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["三點的","三點式的"] ] }
+    ],
+    examples: [
+      { en:"The team used three-point estimates to account for uncertainty in the cost.", zh:"團隊使用三點估算來反映成本的不確定性。" }
+    ]
+  },
+  {
+    id: "w2588", english: "timebox", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["時間盒","固定時限"] ] },
+      { pos: "vt", meaningGroups: [ ["限定時間","設定時間盒"] ] }
+    ],
+    examples: [
+      { en:"The daily meeting follows a strict 15-minute timebox.", zh:"每日會議嚴格遵守十五分鐘的時間盒。" },
+      { en:"We decided to timebox the discussion to avoid running over schedule.", zh:"我們決定限定討論時間，以免進度超時。" }
+    ]
+  },
+  {
+    id: "w2589", english: "traceability", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["可追溯性","追溯能力"] ] }
+    ],
+    examples: [
+      { en:"A traceability matrix links each requirement to its related deliverable and test case.", zh:"追溯矩陣把每項需求連結到相關的可交付成果與測試案例。" }
+    ]
+  },
+  {
+    id: "w2590", english: "distinguish", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["區分","辨別"] ] },
+      { pos: "vi", meaningGroups: [ ["區別","分辨"] ] }
+    ],
+    examples: [
+      { en:"It is important to distinguish a minimum viable product from a finished one.", zh:"區分最小可行產品與完成品是很重要的。" },
+      { en:"New hires must learn to distinguish between urgent and routine requests.", zh:"新進員工必須學會分辨緊急與例行的請求。" }
+    ]
+  },
+  {
+    id: "w2591", english: "hierarchy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["階層","層級體系"] ] }
+    ],
+    examples: [
+      { en:"In a strict corporate hierarchy, decisions often take weeks to reach the right people.", zh:"在嚴格的公司階層制度下，決策往往要花數週才能送到對的人手中。" }
+    ]
+  },
+  {
+    id: "w2592", english: "morale", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["士氣"] ] }
+    ],
+    examples: [
+      { en:"Constant overtime has lowered morale across the entire team.", zh:"持續加班已使整個團隊的士氣低落。" }
+    ]
+  },
+  {
+    id: "w2593", english: "accountable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["負責的","須負責的"] ] }
+    ],
+    examples: [
+      { en:"The project manager is accountable for delivering the project on time.", zh:"專案經理須對準時交付專案負責。" }
+    ]
+  },
+  {
+    id: "w2594", english: "contractor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["承包商","承攬商"] ] }
+    ],
+    examples: [
+      { en:"The paint contractor was required to post a performance bond before starting work.", zh:"油漆承包商在開工前被要求提供履約保證金。" }
+    ]
+  },
+  {
+    id: "w2595", english: "CV", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Cost Variance",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本差異"] ] }
+    ],
+    examples: [
+      { en:"A negative CV (cost variance) means the project is over budget.", zh:"成本差異為負值，代表專案已超出預算。" }
+    ]
+  },
+  {
+    id: "w2596", english: "deviation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["偏差","偏離"] ] }
+    ],
+    examples: [
+      { en:"Any deviation from the approved plan must be reported to the project manager.", zh:"任何偏離核准計畫的情況都必須回報給專案經理。" }
+    ]
+  },
+  {
+    id: "w2597", english: "estimate at completion", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工估算","完工預估成本"] ] }
+    ],
+    examples: [
+      { en:"The estimate at completion rose after the team's costs exceeded the plan.", zh:"團隊成本超出計畫後，完工估算隨之上升。" }
+    ]
+  },
+  {
+    id: "w2598", english: "fast-track", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["快速跟進","加速推進"] ] }
+    ],
+    examples: [
+      { en:"To meet the deadline, the team decided to fast-track the testing and development phases.", zh:"為了趕上期限，團隊決定讓測試與開發階段快速跟進。" }
+    ]
+  },
+  {
+    id: "w2599", english: "incremental", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["漸進式的","增量的"] ] }
+    ],
+    examples: [
+      { en:"The team prefers incremental delivery so that customers can give feedback early.", zh:"團隊偏好漸進式交付，讓客戶能及早提供意見。" }
+    ]
+  },
+  {
+    id: "w2600", english: "iterative", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["反覆的","迭代的"] ] }
+    ],
+    examples: [
+      { en:"An iterative process lets the team refine the product after each cycle.", zh:"迭代式流程讓團隊能在每個週期後精進產品。" }
+    ]
+  },
+  {
+    id: "w2601", english: "overrun", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["超支","超出"] ] },
+      { pos: "vi", meaningGroups: [ ["超支","超時"] ] }
+    ],
+    examples: [
+      { en:"The project faces a fifteen percent budget overrun and a three-week delay.", zh:"該專案面臨百分之十五的預算超支，以及三週的延誤。" },
+      { en:"If testing overruns, the launch date will have to move.", zh:"若測試時間超時，上線日期就得往後延。" }
+    ]
+  },
+  {
+    id: "w2602", english: "payback period", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["投資回收期","回本期"] ] }
+    ],
+    examples: [
+      { en:"The project has a payback period of four years, so the initial investment is recovered slowly.", zh:"這個專案的投資回收期為四年，因此初期投資回收得很慢。" }
+    ]
+  },
+  {
+    id: "w2603", english: "QA", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Quality Assurance",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["品質保證","品保"] ] }
+    ],
+    examples: [
+      { en:"The QA (quality assurance) team reviewed the process before release.", zh:"品質保證團隊在發布前審查了流程。" }
+    ]
+  },
+  {
+    id: "w2604", english: "risk breakdown structure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險分解結構"] ] }
+    ],
+    examples: [
+      { en:"The team used the risk breakdown structure to group risks by source.", zh:"團隊使用風險分解結構依來源將風險分類。" }
+    ]
+  },
+  {
+    id: "w2605", english: "rolling wave planning", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["滾動式規劃"] ] }
+    ],
+    examples: [
+      { en:"Rolling wave planning lets the team detail near-term work while keeping later phases high level.", zh:"滾動式規劃讓團隊細化近期工作，並讓後續階段維持較概略的層次。" }
+    ]
+  },
+  {
+    id: "w2606", english: "tacit", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["隱性的","默示的"] ] }
+    ],
+    examples: [
+      { en:"Tacit knowledge is hard to document because it comes from personal experience.", zh:"隱性知識來自個人經驗，因此很難以文件記錄。" }
+    ]
+  },
+  {
+    id: "w2607", english: "tolerance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["容許偏差","容許度"] ] },
+      { pos: "nu", meaningGroups: [ ["容忍","寬容"] ] }
+    ],
+    examples: [
+      { en:"Cost variance beyond the agreed tolerance must be reported to the steering committee.", zh:"超出約定容許偏差的成本差異必須回報給指導委員會。" },
+      { en:"The company has zero tolerance for safety violations.", zh:"公司對違反安全規定零容忍。" }
+    ]
+  },
+  {
+    id: "w2608", english: "uncertainty", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["不確定性"] ] },
+      { pos: "nc", meaningGroups: [ ["不確定的事"] ] }
+    ],
+    examples: [
+      { en:"Market uncertainty made it hard to estimate the final cost.", zh:"市場的不確定性使最終成本難以估算。" }
+    ]
+  },
+  {
+    id: "w2609", english: "virtual team", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["虛擬團隊"] ] }
+    ],
+    examples: [
+      { en:"Building trust is harder in a virtual team spread across several countries.", zh:"在分散於多國的虛擬團隊中，建立信任更為困難。" }
+    ]
+  },
+  {
+    id: "w2610", english: "cumulative", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["累積的","累計的"] ] }
+    ],
+    examples: [
+      { en:"The cumulative cost chart shows actual spending exceeding the planned budget.", zh:"累計成本圖顯示實際支出超過了計畫預算。" }
+    ]
+  },
+  {
+    id: "w2611", english: "halt", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["使停止","中止"] ] },
+      { pos: "vi", meaningGroups: [ ["停止","暫停"] ] },
+      { pos: "nc", meaningGroups: [ ["停止","中斷"] ] }
+    ],
+    examples: [
+      { en:"The manager decided to halt production until the defect was fixed.", zh:"經理決定在缺陷修復前暫停生產。" },
+      { en:"Construction came to a halt after the permit was revoked.", zh:"許可證被撤銷後，工程陷入停擺。" }
+    ]
+  },
+  {
+    id: "w2612", english: "infrastructure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["基礎建設","基礎設施"] ] }
+    ],
+    examples: [
+      { en:"The government will invest heavily in transport infrastructure over the next decade.", zh:"政府未來十年將大量投資交通基礎建設。" }
+    ]
+  },
+  {
+    id: "w2613", english: "reinforce", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["強化","加強"], ["增援","補強"] ] }
+    ],
+    examples: [
+      { en:"The sponsor should reinforce the company's commitment to sustainability.", zh:"發起人應該強化公司對永續發展的承諾。" }
+    ]
+  },
+  {
+    id: "w2614", english: "benchmark", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["基準","標竿"] ] },
+      { pos: "vt", meaningGroups: [ ["對標","與標竿比較"] ] }
+    ],
+    examples: [
+      { en:"The industry average serves as a benchmark for our defect rate.", zh:"產業平均值是我們缺陷率的比較基準。" },
+      { en:"We benchmarked our service times against those of our top competitors.", zh:"我們將服務時間與主要競爭對手做了對標比較。" }
+    ]
+  },
+  {
+    id: "w2615", english: "CCB", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Change Control Board",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["變更控制委員會"] ] }
+    ],
+    examples: [
+      { en:"The CCB (Change Control Board) approved the revised design on Friday.", zh:"變更控制委員會週五核准了修訂後的設計。" }
+    ]
+  },
+  {
+    id: "w2616", english: "cost overrun", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本超支","預算超支"] ] }
+    ],
+    examples: [
+      { en:"Unexpected material prices caused a significant cost overrun.", zh:"意外上漲的材料價格造成了嚴重的成本超支。" }
+    ]
+  },
+  {
+    id: "w2617", english: "cycle time", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["週期時間","循環時間"] ] }
+    ],
+    examples: [
+      { en:"Limiting work in progress usually shortens the average cycle time.", zh:"限制進行中的工作量通常能縮短平均週期時間。" }
+    ]
+  },
+  {
+    id: "w2618", english: "decision tree", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["決策樹"] ] }
+    ],
+    examples: [
+      { en:"The analyst used a decision tree to compare the expected value of each option.", zh:"分析師用決策樹來比較各個方案的期望值。" }
+    ]
+  },
+  {
+    id: "w2619", english: "EEF", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Enterprise Environmental Factors",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["事業環境因素"] ] }
+    ],
+    examples: [
+      { en:"Government regulations are a typical EEF (enterprise environmental factor).", zh:"政府法規是典型的事業環境因素。" }
+    ]
+  },
+  {
+    id: "w2620", english: "escalation path", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["呈報路徑","上報管道"] ] }
+    ],
+    examples: [
+      { en:"The charter defines a clear escalation path for issues beyond the project manager's authority.", zh:"專案章程為超出專案經理權限的問題訂定明確的呈報路徑。" }
+    ]
+  },
+  {
+    id: "w2621", english: "facilitator", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["引導者","主持人"] ] }
+    ],
+    examples: [
+      { en:"The facilitator guided the workshop so every department could share its views.", zh:"引導者主持工作坊，讓每個部門都能表達意見。" }
+    ]
+  },
+  {
+    id: "w2622", english: "ground rules", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["基本規則","團隊公約"] ] }
+    ],
+    examples: [
+      { en:"The team agreed on ground rules for meetings at the project kickoff.", zh:"團隊在專案啟動時就會議的基本規則達成共識。" }
+    ]
+  },
+  {
+    id: "w2623", english: "IRR", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Internal Rate of Return",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["內部報酬率"] ] }
+    ],
+    examples: [
+      { en:"The IRR (internal rate of return) of 15% exceeds our required return of 8%.", zh:"百分之十五的內部報酬率高於我們要求的百分之八報酬率。" }
+    ]
+  },
+  {
+    id: "w2624", english: "lessons learned register", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["經驗教訓登錄冊"] ] }
+    ],
+    examples: [
+      { en:"The team recorded the supplier issue in the lessons learned register.", zh:"團隊把供應商問題記錄在經驗教訓登錄冊中。" }
+    ]
+  },
+  {
+    id: "w2625", english: "matrix organization", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["矩陣式組織"] ] }
+    ],
+    examples: [
+      { en:"In a weak matrix organization, the project manager has little formal authority.", zh:"在弱矩陣式組織中，專案經理幾乎沒有正式職權。" }
+    ]
+  },
+  {
+    id: "w2626", english: "mitigation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["減緩","減輕"] ] }
+    ],
+    examples: [
+      { en:"The team developed a mitigation strategy to reduce the impact of sponsor interference.", zh:"團隊擬定了減緩策略，以降低發起人干預帶來的影響。" }
+    ]
+  },
+  {
+    id: "w2627", english: "net present value", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["淨現值"] ] }
+    ],
+    examples: [
+      { en:"A positive net present value means the investment is worth pursuing.", zh:"淨現值為正，代表這項投資值得進行。" }
+    ]
+  },
+  {
+    id: "w2628", english: "OPA", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Organizational Process Assets",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["組織流程資產"] ] }
+    ],
+    examples: [
+      { en:"Templates and past project files are examples of OPA (organizational process assets).", zh:"範本與過往專案檔案都是組織流程資產的例子。" }
+    ]
+  },
+  {
+    id: "w2629", english: "present value", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["現值"] ] }
+    ],
+    examples: [
+      { en:"The present value of the future cash inflows exceeds the initial investment.", zh:"未來現金流入的現值超過了初始投資。" }
+    ]
+  },
+  {
+    id: "w2630", english: "prototype", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["原型","雛形"] ] }
+    ],
+    examples: [
+      { en:"The designers showed the client a working prototype before full production.", zh:"在全面生產前，設計師向客戶展示了可運作的原型。" }
+    ]
+  },
+  {
+    id: "w2631", english: "qualitative", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["定性的","質化的"] ] }
+    ],
+    examples: [
+      { en:"The team ranked each risk by probability and impact during qualitative analysis.", zh:"團隊在定性分析時依發生機率與影響程度為各項風險排序。" }
+    ]
+  },
+  {
+    id: "w2632", english: "quality control", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["品質控制","品管"] ] }
+    ],
+    examples: [
+      { en:"Quality control inspectors check every batch before shipment.", zh:"品管檢驗人員在出貨前檢查每一批產品。" }
+    ]
+  },
+  {
+    id: "w2633", english: "risk owner", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險負責人","風險責任人"] ] }
+    ],
+    examples: [
+      { en:"Each risk in the register is assigned to a risk owner who monitors it.", zh:"風險登記冊中的每項風險都指派給一位風險負責人來監控。" }
+    ]
+  },
+  {
+    id: "w2634", english: "root cause analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["根本原因分析"] ] }
+    ],
+    examples: [
+      { en:"We performed a root cause analysis after the defect spike to prevent a recurrence.", zh:"瑕疵數量激增後，我們進行了根本原因分析，以防止再次發生。" }
+    ]
+  },
+  {
+    id: "w2635", english: "scrum team", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["敏捷衝刺團隊","敏捷開發團隊"] ] }
+    ],
+    examples: [
+      { en:"The scrum team demonstrated the new feature at the sprint review.", zh:"該敏捷衝刺團隊在衝刺審查會議上展示了新功能。" }
+    ]
+  },
+  {
+    id: "w2636", english: "simulation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["模擬","模擬演練"] ] }
+    ],
+    examples: [
+      { en:"A Monte Carlo simulation showed that the budget reserve was inadequate.", zh:"蒙地卡羅模擬顯示預算準備金並不足夠。" }
+    ]
+  },
+  {
+    id: "w2637", english: "tacit knowledge", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["隱性知識","默會知識"] ] }
+    ],
+    examples: [
+      { en:"Tacit knowledge is hard to document, so mentoring sessions help transfer it.", zh:"隱性知識難以文件化，因此需要藉由輔導來傳承。" }
+    ]
+  },
+  {
+    id: "w2638", english: "TCPI", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "To-Complete Performance Index",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工尚需績效指數"] ] }
+    ],
+    examples: [
+      { en:"The TCPI (To-Complete Performance Index) of 1.25 means the team must work much more efficiently.", zh:"完工尚需績效指數為 1.25，代表團隊必須大幅提高工作效率。" }
+    ]
+  },
+  {
+    id: "w2639", english: "trend analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["趨勢分析"] ] }
+    ],
+    examples: [
+      { en:"Trend analysis of monthly sales data revealed a steady decline in repeat orders.", zh:"每月銷售資料的趨勢分析顯示回購訂單持續下滑。" }
+    ]
+  },
+  {
+    id: "w2640", english: "acknowledge", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["承認","正視"], ["確認收到","致謝"] ] }
+    ],
+    examples: [
+      { en:"The manager acknowledged the team's concerns about the workload.", zh:"經理正視團隊對工作量的擔憂。" },
+      { en:"Please acknowledge receipt of this email by end of day.", zh:"請在今天下班前回覆確認收到這封電子郵件。" }
+    ]
+  },
+  {
+    id: "w2641", english: "compensation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["補償","賠償"], ["薪酬"] ] }
+    ],
+    examples: [
+      { en:"The company paid warranty compensation to customers affected by the defect.", zh:"公司對受該缺陷影響的客戶支付了保固補償。" },
+      { en:"The compensation package includes a base salary and an annual bonus.", zh:"薪酬方案包含底薪與年終獎金。" }
+    ]
+  },
+  {
+    id: "w2642", english: "consensus", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["共識","一致同意"] ] }
+    ],
+    examples: [
+      { en:"After a long discussion, the board finally reached a consensus on the new budget.", zh:"經過冗長的討論，董事會終於對新預算達成共識。" }
+    ]
+  },
+  {
+    id: "w2643", english: "disrupt", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["擾亂","中斷"] ] }
+    ],
+    examples: [
+      { en:"A system outage could disrupt critical business operations.", zh:"系統當機可能擾亂關鍵的業務運作。" }
+    ]
+  },
+  {
+    id: "w2644", english: "incorporate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["納入","併入"] ] }
+    ],
+    examples: [
+      { en:"We will incorporate the client's feedback into the next release.", zh:"我們會把客戶的意見納入下一次發行版本。" }
+    ]
+  },
+  {
+    id: "w2645", english: "norms", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["規範","常規"] ] }
+    ],
+    examples: [
+      { en:"The team agreed on communication norms, including expected response times.", zh:"團隊就溝通規範達成共識，包括預期的回覆時間。" }
+    ]
+  },
+  {
+    id: "w2646", english: "reallocate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["重新分配","重新調撥"] ] }
+    ],
+    examples: [
+      { en:"Management decided to reallocate funds from the delayed project to a new initiative.", zh:"管理階層決定把延誤專案的經費重新調撥給一項新的計畫。" }
+    ]
+  },
+  {
+    id: "w2647", english: "autocratic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["獨裁的","專制的"] ] }
+    ],
+    examples: [
+      { en:"His autocratic style discouraged team members from sharing ideas.", zh:"他專制的作風讓團隊成員不敢分享想法。" }
+    ]
+  },
+  {
+    id: "w2648", english: "beta distribution", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["貝他分配","貝他分布"] ] }
+    ],
+    examples: [
+      { en:"The PERT formula assumes a beta distribution for the activity duration.", zh:"計畫評核術公式假設活動工期服從貝他分配。" }
+    ]
+  },
+  {
+    id: "w2649", english: "budget at completion", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工預算"] ] }
+    ],
+    examples: [
+      { en:"The budget at completion (BAC) for the project is five hundred thousand dollars.", zh:"該專案的完工預算為五十萬美元。" }
+    ]
+  },
+  {
+    id: "w2650", english: "cost performance index", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本績效指標","成本績效指數"] ] }
+    ],
+    examples: [
+      { en:"A cost performance index below 1.0 means the project is over budget.", zh:"成本績效指標低於一，表示專案已超出預算。" }
+    ]
+  },
+  {
+    id: "w2651", english: "data migration", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["資料遷移"] ] }
+    ],
+    examples: [
+      { en:"The data migration must be completed before the new system goes live.", zh:"資料遷移必須在新系統上線前完成。" }
+    ]
+  },
+  {
+    id: "w2652", english: "exploit", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["開拓","充分利用"], ["剝削","濫用"] ] }
+    ],
+    examples: [
+      { en:"To exploit the opportunity, the team assigned its best engineers to the early launch.", zh:"為了開拓這個機會，團隊派出最優秀的工程師投入提前上市。" },
+      { en:"Hackers could exploit this security flaw to steal customer data.", zh:"駭客可能利用這個安全漏洞竊取客戶資料。" }
+    ]
+  },
+  {
+    id: "w2653", english: "feasibility", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["可行性"] ] }
+    ],
+    examples: [
+      { en:"The team confirmed the feasibility of the fast-tracking plan before committing.", zh:"團隊在做出承諾前，先確認了快速跟進計畫的可行性。" }
+    ]
+  },
+  {
+    id: "w2654", english: "go-live", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["上線","正式啟用"] ] }
+    ],
+    examples: [
+      { en:"Any further delay in testing will push out the go-live date.", zh:"測試若再有任何延誤，就會讓上線日期往後延。" }
+    ]
+  },
+  {
+    id: "w2655", english: "laissez-faire", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["放任的","放任式的"] ] }
+    ],
+    examples: [
+      { en:"A laissez-faire manager gives the team freedom but offers little guidance.", zh:"放任式的主管給予團隊自由，卻很少提供指引。" }
+    ]
+  },
+  {
+    id: "w2656", english: "lump sum", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["總付金額","一次付清的款項"] ] }
+    ],
+    examples: [
+      { en:"The contractor agreed to complete the work for a lump sum of fifty thousand dollars.", zh:"承包商同意以五萬美元的總價完成這項工作。" }
+    ]
+  },
+  {
+    id: "w2657", english: "Monte Carlo simulation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["蒙地卡羅模擬"] ] }
+    ],
+    examples: [
+      { en:"The analyst ran a Monte Carlo simulation to estimate the range of final project costs.", zh:"分析師執行蒙地卡羅模擬，以估計專案最終成本的範圍。" }
+    ]
+  },
+  {
+    id: "w2658", english: "parametric", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["參數的","參數式的"] ] }
+    ],
+    examples: [
+      { en:"The estimator used parametric estimating based on the cost per square meter.", zh:"估算人員依據每平方公尺的成本進行參數估算。" }
+    ]
+  },
+  {
+    id: "w2659", english: "PERT", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Program Evaluation and Review Technique",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["計畫評核術","專案評核技術"] ] }
+    ],
+    examples: [
+      { en:"We applied PERT (Program Evaluation and Review Technique) to calculate the expected duration.", zh:"我們運用計畫評核術來計算預期工期。" }
+    ]
+  },
+  {
+    id: "w2660", english: "quality assurance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["品質保證"] ] }
+    ],
+    examples: [
+      { en:"Quality assurance focuses on preventing defects by improving the process.", zh:"品質保證著重於透過改善流程來預防缺陷。" }
+    ]
+  },
+  {
+    id: "w2661", english: "quantitative risk analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["定量風險分析","量化風險分析"] ] }
+    ],
+    examples: [
+      { en:"Quantitative risk analysis estimates the overall effect of risks on the project schedule and budget.", zh:"定量風險分析估算風險對專案時程與預算的整體影響。" }
+    ]
+  },
+  {
+    id: "w2662", english: "rate of return", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["報酬率","收益率"] ] }
+    ],
+    examples: [
+      { en:"The project should be accepted only if its rate of return exceeds the cost of capital.", zh:"只有在報酬率高於資金成本時，這個專案才應被接受。" }
+    ]
+  },
+  {
+    id: "w2663", english: "reconciliation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["調節","核對調整"], ["和解","調停"] ] }
+    ],
+    examples: [
+      { en:"Monthly bank reconciliation helps the accounting team catch recording errors.", zh:"每月的銀行對帳調節能幫助會計團隊發現記錄錯誤。" },
+      { en:"The two departments reached a reconciliation after weeks of dispute.", zh:"兩個部門在爭執數週後達成和解。" }
+    ]
+  },
+  {
+    id: "w2664", english: "risk response strategy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險因應策略","風險回應策略"] ] }
+    ],
+    examples: [
+      { en:"The team chose mitigation as the risk response strategy for the supplier delay.", zh:"團隊選擇減輕作為供應商延誤的風險因應策略。" }
+    ]
+  },
+  {
+    id: "w2665", english: "ROI", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Return on Investment",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["投資報酬率"] ] }
+    ],
+    examples: [
+      { en:"The ROI (return on investment) of the project turned out to be negative.", zh:"該專案的投資報酬率最後是負值。" }
+    ]
+  },
+  {
+    id: "w2666", english: "schedule variance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["時程差異","時程變異"] ] }
+    ],
+    examples: [
+      { en:"A negative schedule variance indicates the project is behind its planned schedule.", zh:"負的時程差異表示專案進度落後於計畫。" }
+    ]
+  },
+  {
+    id: "w2667", english: "sensitivity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["敏感度","敏感性"] ] }
+    ],
+    examples: [
+      { en:"A sensitivity analysis shows which variables most affect project cost.", zh:"敏感度分析顯示哪些變數對專案成本影響最大。" }
+    ]
+  },
+  {
+    id: "w2668", english: "successor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["接任者","繼任者"], ["後續活動"] ] }
+    ],
+    examples: [
+      { en:"The retiring manager trained her successor for three months.", zh:"即將退休的經理花了三個月訓練她的接任者。" },
+      { en:"Testing is the successor of coding in this finish-to-start relationship.", zh:"在這個完成到開始的關係中，測試是編碼的後續活動。" }
+    ]
+  },
+  {
+    id: "w2669", english: "SV", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Schedule Variance",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["時程差異","進度差異"] ] }
+    ],
+    examples: [
+      { en:"A positive SV (Schedule Variance) shows the project is ahead of schedule.", zh:"時程差異為正值，代表專案進度超前。" }
+    ]
+  },
+  {
+    id: "w2670", english: "team charter", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["團隊章程"] ] }
+    ],
+    examples: [
+      { en:"The team co-created a team charter that set out its values and working agreements.", zh:"團隊共同擬定了一份團隊章程，列出價值觀與工作協議。" }
+    ]
+  },
+  {
+    id: "w2671", english: "throughput", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["產出量","吞吐量"] ] }
+    ],
+    examples: [
+      { en:"Adding a second assembly line doubled the plant's daily throughput.", zh:"增設第二條組裝線使工廠的每日產出量倍增。" }
+    ]
+  },
+  {
+    id: "w2672", english: "validation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["確認","驗證","核實"] ] }
+    ],
+    examples: [
+      { en:"The customer's validation confirmed that the deliverable met their needs.", zh:"客戶的驗證確認了可交付成果符合他們的需求。" }
+    ]
+  },
+  {
+    id: "w2673", english: "WIP", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Work in Progress",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["在製品","進行中的工作"] ] }
+    ],
+    examples: [
+      { en:"The Kanban team set a WIP (work in progress) limit of five items per column.", zh:"看板團隊把每一欄的在製品上限設為五項。" }
+    ]
+  },
+  {
+    id: "w2674", english: "work performance data", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["工作績效資料"] ] }
+    ],
+    examples: [
+      { en:"Raw work performance data, such as actual start dates and costs, is collected during execution.", zh:"執行期間會蒐集原始的工作績效資料，例如實際開始日期與成本。" }
+    ]
+  },
+  {
+    id: "w2675", english: "applicable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["適用的","適當的"] ] }
+    ],
+    examples: [
+      { en:"Please follow all applicable accounting standards when classifying the costs.", zh:"分類成本時，請遵循所有適用的會計準則。" }
+    ]
+  },
+  {
+    id: "w2676", english: "compile", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["彙整","編製"] ] }
+    ],
+    examples: [
+      { en:"The analyst compiled the sales figures into a summary report.", zh:"分析師把銷售數字彙整成一份摘要報告。" }
+    ]
+  },
+  {
+    id: "w2677", english: "disruption", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["中斷","干擾"], ["混亂","擾亂"] ] }
+    ],
+    examples: [
+      { en:"The new review steps caused minimal disruption to the shipping workflow.", zh:"新的審查步驟對出貨流程造成的干擾降到最低。" }
+    ]
+  },
+  {
+    id: "w2678", english: "methodology", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["方法論","方法"] ] }
+    ],
+    examples: [
+      { en:"The company adopted an agile methodology for all of its software projects.", zh:"公司的所有軟體專案都採用敏捷方法論。" }
+    ]
+  },
+  {
+    id: "w2679", english: "sustainability", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["永續性","永續發展"] ] }
+    ],
+    examples: [
+      { en:"The company has made sustainability a key criterion in selecting suppliers.", zh:"公司已將永續性列為遴選供應商的重要標準。" }
+    ]
+  },
+  {
+    id: "w2680", english: "acquisition", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["取得","獲得"] ] },
+      { pos: "nc", meaningGroups: [ ["收購","併購"] ] }
+    ],
+    examples: [
+      { en:"Resource acquisition began once the project charter was signed.", zh:"專案章程簽署後便開始取得資源。" },
+      { en:"The firm announced its acquisition of a smaller competitor.", zh:"該公司宣布收購一家規模較小的競爭對手。" }
+    ]
+  },
+  {
+    id: "w2681", english: "appetite", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險偏好","意願"], ["胃口","食慾"] ] }
+    ],
+    examples: [
+      { en:"The board defined the company's appetite for risk at the portfolio level.", zh:"董事會在投資組合層級界定了公司的風險偏好。" },
+      { en:"After the long hike, everyone had a hearty appetite.", zh:"長途健行後，大家都胃口大開。" }
+    ]
+  },
+  {
+    id: "w2682", english: "base of power", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["權力基礎","權力來源"] ] }
+    ],
+    examples: [
+      { en:"Her deep technical expertise is the base of power that earns her the team's trust.", zh:"她深厚的專業技術是贏得團隊信任的權力基礎。" }
+    ]
+  },
+  {
+    id: "w2683", english: "bias", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["偏見","偏誤"] ] },
+      { pos: "vt", meaningGroups: [ ["使存有偏見","影響…的判斷"] ] }
+    ],
+    examples: [
+      { en:"Anchoring bias led the team to underestimate the workload.", zh:"錨定偏誤使團隊低估了工作量。" },
+      { en:"Do not let early opinions bias the stakeholder feedback.", zh:"別讓先入為主的意見影響利害關係人的回饋。" }
+    ]
+  },
+  {
+    id: "w2684", english: "buffer", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["緩衝","緩衝時間"] ] }
+    ],
+    examples: [
+      { en:"The schedule includes a two-week buffer in case of supplier delays.", zh:"時程中預留了兩週緩衝，以防供應商延誤。" }
+    ]
+  },
+  {
+    id: "w2685", english: "burndown", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["燃盡圖","工作量遞減趨勢"] ] }
+    ],
+    examples: [
+      { en:"The burndown chart shows how much work remains in the sprint.", zh:"燃盡圖顯示衝刺中還剩下多少工作。" }
+    ]
+  },
+  {
+    id: "w2686", english: "cash inflow", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["現金流入","資金流入"] ] }
+    ],
+    examples: [
+      { en:"The project is expected to generate a steady cash inflow after launch.", zh:"專案在上市後預期會帶來穩定的現金流入。" }
+    ]
+  },
+  {
+    id: "w2687", english: "critical chain", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["關鍵鏈"] ] }
+    ],
+    examples: [
+      { en:"The critical chain method adds shared buffers to protect the project end date.", zh:"關鍵鏈法加入共用緩衝來保護專案的完工日期。" }
+    ]
+  },
+  {
+    id: "w2688", english: "critical chain method", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["要徑鏈法","關鍵鏈法"] ] }
+    ],
+    examples: [
+      { en:"The critical chain method adds buffers to protect the project end date.", zh:"關鍵鏈法加入緩衝以保護專案完工日期。" }
+    ]
+  },
+  {
+    id: "w2689", english: "early start", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["最早開始時間"] ] }
+    ],
+    examples: [
+      { en:"The early start of the next activity determines how much free float remains.", zh:"下一項活動的最早開始時間決定了還剩多少自由浮時。" }
+    ]
+  },
+  {
+    id: "w2690", english: "engagement assessment matrix", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["參與評估矩陣","參與度評估矩陣"] ] }
+    ],
+    examples: [
+      { en:"The engagement assessment matrix shows the gap between current and desired stakeholder involvement.", zh:"參與評估矩陣顯示了利害關係人目前與期望參與程度之間的差距。" }
+    ]
+  },
+  {
+    id: "w2691", english: "estimation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["估算","估計"] ] }
+    ],
+    examples: [
+      { en:"Delays often stem from errors in estimation rather than poor execution.", zh:"延誤往往源自估算錯誤，而非執行不力。" }
+    ]
+  },
+  {
+    id: "w2692", english: "ETC", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Estimate to Complete",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工尚須估算"] ] }
+    ],
+    examples: [
+      { en:"The team calculated the ETC (estimate to complete) based on current cost performance.", zh:"團隊依目前的成本績效計算完工尚須估算。" }
+    ]
+  },
+  {
+    id: "w2693", english: "FF", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Finish-to-Finish",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完成到完成"] ] }
+    ],
+    examples: [
+      { en:"In an FF (Finish-to-Finish) relationship, the successor cannot finish until the predecessor finishes.", zh:"在完成到完成的關係中，後續活動須等前置活動完成才能完成。" }
+    ]
+  },
+  {
+    id: "w2694", english: "finish-to-start", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完成到開始","完成後開始"] ] }
+    ],
+    examples: [
+      { en:"In a finish-to-start relationship, the successor cannot begin until the predecessor is complete.", zh:"在完成到開始的關係中，後續活動必須等前置活動完成才能開始。" }
+    ]
+  },
+  {
+    id: "w2695", english: "FS", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Finish-to-Start",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完成到開始"] ] }
+    ],
+    examples: [
+      { en:"In an FS (finish-to-start) relationship, the successor cannot begin until the predecessor is complete.", zh:"在完成到開始的關係中，後續活動必須等前置活動完成後才能開始。" }
+    ]
+  },
+  {
+    id: "w2696", english: "histogram", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["直方圖","長條分布圖"] ] }
+    ],
+    examples: [
+      { en:"The resource histogram shows when the team is overloaded.", zh:"資源直方圖顯示團隊何時工作量過載。" }
+    ]
+  },
+  {
+    id: "w2697", english: "incentive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["獎勵","激勵措施","誘因"] ] }
+    ],
+    examples: [
+      { en:"The contract includes an incentive for completing the work ahead of schedule.", zh:"合約中包含提前完工的獎勵條款。" }
+    ]
+  },
+  {
+    id: "w2698", english: "inflow", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["現金流入","流入"] ] }
+    ],
+    examples: [
+      { en:"The project is expected to generate annual cash inflows of $60,000 over four years.", zh:"預計這個專案在四年內每年會產生六萬美元的現金流入。" }
+    ]
+  },
+  {
+    id: "w2699", english: "integrated change control", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["整合變更控制"] ] }
+    ],
+    examples: [
+      { en:"All proposed changes are evaluated through integrated change control.", zh:"所有提出的變更都經由整合變更控制來評估。" }
+    ]
+  },
+  {
+    id: "w2700", english: "kanban board", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["看板"] ] }
+    ],
+    examples: [
+      { en:"Each task moves across the Kanban board as work progresses.", zh:"隨著工作進展，每項任務會在看板上逐欄移動。" }
+    ]
+  },
+  {
+    id: "w2701", english: "laissez-faire leadership", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["放任式領導"] ] }
+    ],
+    examples: [
+      { en:"Laissez-faire leadership gives the team near-total autonomy with little direct supervision.", zh:"放任式領導給予團隊幾乎完全的自主權，直接監督很少。" }
+    ]
+  },
+  {
+    id: "w2702", english: "lifecycle", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["生命週期"] ] }
+    ],
+    examples: [
+      { en:"The business case estimates the benefits over the full product lifecycle.", zh:"商業個案估算的是整個產品生命週期內的效益。" }
+    ]
+  },
+  {
+    id: "w2703", english: "network diagram", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["網路圖","網絡圖"] ] }
+    ],
+    examples: [
+      { en:"The network diagram shows how each task depends on the others.", zh:"網路圖顯示每項任務如何相互依存。" }
+    ]
+  },
+  {
+    id: "w2704", english: "onboard", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["使新進人員熟悉融入","迎新培訓"] ] }
+    ],
+    examples: [
+      { en:"We need to onboard the new developers before the sprint starts.", zh:"我們必須在衝刺開始前讓新進開發人員熟悉並融入團隊。" }
+    ]
+  },
+  {
+    id: "w2705", english: "phase-gate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["階段關卡","階段審查"] ] }
+    ],
+    examples: [
+      { en:"The steering committee reviewed the business case at the phase-gate.", zh:"指導委員會在階段關卡審查了商業論證。" }
+    ]
+  },
+  {
+    id: "w2706", english: "positive risk", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["正面風險","機會"] ] }
+    ],
+    examples: [
+      { en:"The team chose to exploit the positive risk to finish the project ahead of schedule.", zh:"團隊選擇利用這項正面風險，讓專案提前完工。" }
+    ]
+  },
+  {
+    id: "w2707", english: "precedence", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["優先順序","先後順序"] ] }
+    ],
+    examples: [
+      { en:"Each precedence relationship defines how one activity depends on another.", zh:"每種先後順序關係定義了一項活動如何依賴另一項活動。" }
+    ]
+  },
+  {
+    id: "w2708", english: "qualitative risk analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["定性風險分析"] ] }
+    ],
+    examples: [
+      { en:"Qualitative risk analysis ranks risks by probability and impact.", zh:"定性風險分析依據機率與影響對風險排序。" }
+    ]
+  },
+  {
+    id: "w2709", english: "refine", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["細化","精進"], ["改良","精煉"] ] }
+    ],
+    examples: [
+      { en:"The product owner refines the backlog before each sprint planning session.", zh:"產品負責人在每次衝刺規劃會議前細化待辦事項清單。" }
+    ]
+  },
+  {
+    id: "w2710", english: "requirements documentation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["需求文件","需求說明文件"] ] }
+    ],
+    examples: [
+      { en:"The analyst finalized the requirements documentation and sent it to the sponsor for approval.", zh:"分析師完成需求文件，並送交發起人核准。" }
+    ]
+  },
+  {
+    id: "w2711", english: "resource calendar", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["資源行事曆"] ] }
+    ],
+    examples: [
+      { en:"The resource calendar shows when each engineer is on leave or fully booked.", zh:"資源行事曆顯示每位工程師何時休假或排滿工作。" }
+    ]
+  },
+  {
+    id: "w2712", english: "risk appetite", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["風險胃納","風險偏好"] ] }
+    ],
+    examples: [
+      { en:"The board defines the organization's risk appetite for new ventures.", zh:"董事會訂定組織對新事業的風險胃納。" }
+    ]
+  },
+  {
+    id: "w2713", english: "risk exposure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["風險曝險","風險暴露程度"] ] }
+    ],
+    examples: [
+      { en:"The risk exposure increased after a key deliverable slipped by two weeks.", zh:"一項關鍵交付項目延誤兩週後，風險曝險隨之升高。" }
+    ]
+  },
+  {
+    id: "w2714", english: "risk tolerance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["風險容忍度"] ] }
+    ],
+    examples: [
+      { en:"The sponsor's low risk tolerance means any threat to the launch date must be addressed.", zh:"發起人的風險容忍度很低，因此任何威脅上市日期的風險都必須處理。" }
+    ]
+  },
+  {
+    id: "w2715", english: "roadmap", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["路線圖","藍圖"] ] }
+    ],
+    examples: [
+      { en:"The roadmap outlines the major releases planned for this year.", zh:"路線圖概述了今年規劃的主要版本發布。" }
+    ]
+  },
+  {
+    id: "w2716", english: "schedule performance index", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["時程績效指標"] ] }
+    ],
+    examples: [
+      { en:"The schedule performance index is the earned value divided by the planned value.", zh:"時程績效指標等於實獲值除以計畫值。" }
+    ]
+  },
+  {
+    id: "w2717", english: "self-organizing", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["自我組織的","自主管理的"] ] }
+    ],
+    examples: [
+      { en:"A self-organizing team decides for itself how to divide and sequence the work.", zh:"自我組織的團隊自行決定如何拆分工作並排定順序。" }
+    ]
+  },
+  {
+    id: "w2718", english: "sensitivity analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["敏感度分析","敏感性分析"] ] }
+    ],
+    examples: [
+      { en:"A sensitivity analysis showed which cost items posed the greatest uncertainty.", zh:"敏感度分析顯示出哪些成本項目帶來最大的不確定性。" }
+    ]
+  },
+  {
+    id: "w2719", english: "sign-off", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["正式簽核","簽字核准"] ] }
+    ],
+    examples: [
+      { en:"We cannot close the phase without the customer's written sign-off.", zh:"沒有客戶的書面簽核，我們就無法結束這個階段。" }
+    ]
+  },
+  {
+    id: "w2720", english: "sprint goal", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["衝刺目標"] ] }
+    ],
+    examples: [
+      { en:"The team selected tasks that best support the sprint goal.", zh:"團隊挑選了最能支持衝刺目標的任務。" }
+    ]
+  },
+  {
+    id: "w2721", english: "stakeholder engagement assessment", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["利害關係人參與度評估"] ] }
+    ],
+    examples: [
+      { en:"The team updated the stakeholder engagement assessment matrix after each review.", zh:"團隊在每次檢討後更新利害關係人參與度評估矩陣。" }
+    ]
+  },
+  {
+    id: "w2722", english: "stand-up", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["站立會議","每日站會"] ] }
+    ],
+    examples: [
+      { en:"The team holds a fifteen-minute stand-up every morning to stay aligned.", zh:"團隊每天早上舉行十五分鐘的站立會議以保持步調一致。" }
+    ]
+  },
+  {
+    id: "w2723", english: "subcontractor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["分包商","轉包商"] ] }
+    ],
+    examples: [
+      { en:"The subcontractor is responsible for installing the electrical system.", zh:"分包商負責安裝電力系統。" }
+    ]
+  },
+  {
+    id: "w2724", english: "sunk cost", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["沉沒成本"] ] }
+    ],
+    examples: [
+      { en:"Sunk cost should not influence the decision to continue the project.", zh:"沉沒成本不應影響是否繼續專案的決策。" }
+    ]
+  },
+  {
+    id: "w2725", english: "withdraw", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["撤回","撤銷"], ["提領"] ] },
+      { pos: "vi", meaningGroups: [ ["撤退","退出"], ["迴避"] ] }
+    ],
+    examples: [
+      { en:"The vendor withdrew its proposal before the deadline.", zh:"供應商在截止日前撤回了提案。" },
+      { en:"He chose to withdraw from the debate to avoid further tension.", zh:"他選擇退出爭論，以免緊張情勢升高。" }
+    ]
+  },
+  {
+    id: "w2726", english: "zero float", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["零浮時","零時差"] ] }
+    ],
+    examples: [
+      { en:"Activities on the critical path have zero float, so any delay affects the finish date.", zh:"要徑上的活動浮時為零，因此任何延誤都會影響完工日期。" }
+    ]
+  },
+  {
+    id: "w2727", english: "convene", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["召集","召開"] ] },
+      { pos: "vi", meaningGroups: [ ["集會","聚集開會"] ] }
+    ],
+    examples: [
+      { en:"The director will convene an emergency meeting to discuss the data breach.", zh:"主任將召開緊急會議討論資料外洩事件。" },
+      { en:"The board will convene next Monday to review the annual budget.", zh:"董事會將於下週一集會審議年度預算。" }
+    ]
+  },
+  {
+    id: "w2728", english: "course of action", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "phr.", meaningGroups: [ ["行動方針","處理方式"] ] }
+    ],
+    examples: [
+      { en:"After reviewing the findings, we agreed on the best course of action.", zh:"檢視調查結果後，我們同意了最佳的行動方針。" }
+    ]
+  },
+  {
+    id: "w2729", english: "defer", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["延後","暫緩"] ] }
+    ],
+    examples: [
+      { en:"The change control board decided to defer the request until the next phase.", zh:"變更控制委員會決定將該請求延後到下一階段。" }
+    ]
+  },
+  {
+    id: "w2730", english: "designate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["指派","指定"] ] }
+    ],
+    examples: [
+      { en:"The sponsor designated a business owner to manage the benefits after project closure.", zh:"發起人指派了一位業務負責人，在專案結案後管理效益。" }
+    ]
+  },
+  {
+    id: "w2731", english: "enacted", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["制定（法律）","頒布"] ] }
+    ],
+    examples: [
+      { en:"A new zoning law was enacted last month and affects our building plans.", zh:"一項新的分區法規上個月頒布，影響了我們的建築計畫。" }
+    ]
+  },
+  {
+    id: "w2732", english: "explicit", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["明確的","清楚表達的"] ] }
+    ],
+    examples: [
+      { en:"The client gave explicit instructions about the delivery date.", zh:"客戶對交貨日期給出了明確的指示。" }
+    ]
+  },
+  {
+    id: "w2733", english: "outright", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adv", meaningGroups: [ ["斷然地","直接地"], ["完全地","徹底地"] ] }
+    ],
+    examples: [
+      { en:"The board rejected the budget request outright.", zh:"董事會直接駁回了預算申請。" }
+    ]
+  },
+  {
+    id: "w2734", english: "reconcile", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["調和","化解"], ["核對","對帳"] ] }
+    ],
+    examples: [
+      { en:"The project manager tried to reconcile the conflicting views of the two departments.", zh:"專案經理設法調和兩個部門互相衝突的看法。" },
+      { en:"Finance must reconcile the vendor invoices with the purchase orders each month.", zh:"財務部必須每月將廠商發票與採購單核對。" }
+    ]
+  },
+  {
+    id: "w2735", english: "unauthorized", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["未經授權的","未經核准的"] ] }
+    ],
+    examples: [
+      { en:"Unauthorized access to customer records is strictly prohibited.", zh:"嚴禁未經授權存取客戶記錄。" }
+    ]
+  },
+  {
+    id: "w2736", english: "analogous", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["類似的","可類比的"] ] }
+    ],
+    examples: [
+      { en:"Analogous estimating uses data from a similar past project.", zh:"類比估算利用類似過往專案的資料。" }
+    ]
+  },
+  {
+    id: "w2737", english: "backlog refinement", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["待辦事項清單精煉","待辦事項梳理"] ] }
+    ],
+    examples: [
+      { en:"The team holds backlog refinement every week to clarify upcoming stories.", zh:"團隊每週進行待辦事項清單精煉，以釐清接下來的使用者故事。" }
+    ]
+  },
+  {
+    id: "w2738", english: "backward pass", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["逆推","逆向推算"] ] }
+    ],
+    examples: [
+      { en:"The scheduler performed a backward pass to determine the late start and late finish dates.", zh:"排程人員以逆推法算出最晚開始與最晚完成日期。" }
+    ]
+  },
+  {
+    id: "w2739", english: "blocker", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["阻礙事項","障礙"] ] }
+    ],
+    examples: [
+      { en:"The Scrum Master spends the day removing blockers for the team.", zh:"Scrum Master 整天都在為團隊排除阻礙事項。" }
+    ]
+  },
+  {
+    id: "w2740", english: "bottleneck", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["瓶頸"] ] }
+    ],
+    examples: [
+      { en:"The approval process has become a bottleneck for the whole workflow.", zh:"核准流程已成為整個工作流程的瓶頸。" }
+    ]
+  },
+  {
+    id: "w2741", english: "business value", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["商業價值","業務價值"] ] }
+    ],
+    examples: [
+      { en:"The product owner orders the backlog by business value.", zh:"產品負責人依商業價值排列待辦事項清單的優先順序。" }
+    ]
+  },
+  {
+    id: "w2742", english: "clause", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["條款","條文"] ] }
+    ],
+    examples: [
+      { en:"The contract includes a clause that allows early termination by the customer.", zh:"這份合約包含一項允許客戶提前終止的條款。" }
+    ]
+  },
+  {
+    id: "w2743", english: "coercive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["強制的","脅迫的"] ] }
+    ],
+    examples: [
+      { en:"Coercive tactics may force short-term compliance but damage long-term trust.", zh:"脅迫式手段或許能換來短期服從，卻會損害長期信任。" }
+    ]
+  },
+  {
+    id: "w2744", english: "compression", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["壓縮","趕工縮短工期"] ] }
+    ],
+    examples: [
+      { en:"Schedule compression can shorten the duration without changing the scope.", zh:"時程壓縮可在不改變範疇的情況下縮短工期。" }
+    ]
+  },
+  {
+    id: "w2745", english: "configuration management", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["配置管理","組態管理"] ] }
+    ],
+    examples: [
+      { en:"Configuration management tracks every revision of the project documents.", zh:"配置管理會追蹤專案文件的每一次修訂。" }
+    ]
+  },
+  {
+    id: "w2746", english: "cost of quality", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["品質成本"] ] }
+    ],
+    examples: [
+      { en:"The cost of quality includes both prevention expenses and the cost of fixing defects.", zh:"品質成本包括預防費用以及修正瑕疵的成本。" }
+    ]
+  },
+  {
+    id: "w2747", english: "crowdfunding", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["群眾募資"] ] }
+    ],
+    examples: [
+      { en:"The startup raised its initial capital through crowdfunding.", zh:"這家新創公司透過群眾募資籌得第一筆資金。" }
+    ]
+  },
+  {
+    id: "w2748", english: "daily stand-up", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["每日站立會議"] ] }
+    ],
+    examples: [
+      { en:"The team holds a daily stand-up every morning to share progress and obstacles.", zh:"團隊每天早上召開每日站立會議，分享進度與障礙。" }
+    ]
+  },
+  {
+    id: "w2749", english: "directive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["指令","指示"] ] },
+      { pos: "adj", meaningGroups: [ ["指令式的","指導性的"] ] }
+    ],
+    examples: [
+      { en:"The manager issued a directive requiring all staff to complete the training.", zh:"經理發出指令，要求所有員工完成訓練。" },
+      { en:"A directive leadership style tells the team exactly what to do.", zh:"指令式領導風格會明確告訴團隊該做什麼。" }
+    ]
+  },
+  {
+    id: "w2750", english: "discretionary", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可自行決定的","自由裁量的"] ] }
+    ],
+    examples: [
+      { en:"The team set the order of these tasks as a discretionary dependency based on best practice.", zh:"團隊依最佳實務，將這些工作的順序訂為可自行決定的依存關係。" }
+    ]
+  },
+  {
+    id: "w2751", english: "early finish", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["最早完成時間"] ] }
+    ],
+    examples: [
+      { en:"The early finish of this activity is Day 10, based on the forward pass.", zh:"根據順推法，這項活動的最早完成時間是第十天。" }
+    ]
+  },
+  {
+    id: "w2752", english: "EF", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Early Finish",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["最早完成時間"] ] }
+    ],
+    examples: [
+      { en:"The EF (early finish) of Activity M is Day 10.", zh:"活動 M 的最早完成時間是第 10 天。" }
+    ]
+  },
+  {
+    id: "w2753", english: "elicitation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["需求引導","引出"] ] }
+    ],
+    examples: [
+      { en:"The analyst used prototypes during requirements elicitation to gather feedback.", zh:"分析師在需求引導過程中使用原型來蒐集回饋。" }
+    ]
+  },
+  {
+    id: "w2754", english: "ES", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Early Start",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["最早開始時間"] ] }
+    ],
+    examples: [
+      { en:"Activity K has an ES (early start) of Day 5 and takes six days to complete.", zh:"活動 K 的最早開始時間為第五天，需要六天才能完成。" }
+    ]
+  },
+  {
+    id: "w2755", english: "EVM", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Earned Value Management",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["實獲值管理"] ] }
+    ],
+    examples: [
+      { en:"EVM (earned value management) integrates scope, schedule, and cost data.", zh:"實獲值管理整合了範疇、時程與成本資料。" }
+    ]
+  },
+  {
+    id: "w2756", english: "fishbone", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["魚骨圖"] ] }
+    ],
+    examples: [
+      { en:"The quality team drew a fishbone diagram to trace the root cause of the defects.", zh:"品管團隊畫出魚骨圖，追查缺陷的根本原因。" }
+    ]
+  },
+  {
+    id: "w2757", english: "fixed-price", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["固定價格的","總價承包的"] ] }
+    ],
+    examples: [
+      { en:"The client signed a fixed-price contract for the website redesign.", zh:"客戶簽下網站改版的固定價格合約。" }
+    ]
+  },
+  {
+    id: "w2758", english: "free float", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自由浮時","自由時差"] ] }
+    ],
+    examples: [
+      { en:"Activity M has four days of free float before it delays its successor.", zh:"活動 M 在延誤其後續活動之前，有四天的自由浮時。" }
+    ]
+  },
+  {
+    id: "w2759", english: "funding limit reconciliation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["撥款限制調節","資金限制調節"] ] }
+    ],
+    examples: [
+      { en:"Funding limit reconciliation spreads the work over time so spending stays within the annual cap.", zh:"資金限制調節會把工作分散在不同時間，使支出維持在年度上限內。" }
+    ]
+  },
+  {
+    id: "w2760", english: "indicator", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["指標","指示器"] ] }
+    ],
+    examples: [
+      { en:"Schedule variance is a useful indicator of project health.", zh:"時程差異是衡量專案健康狀況的有用指標。" }
+    ]
+  },
+  {
+    id: "w2761", english: "information radiator", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["資訊發射器","資訊看板"] ] }
+    ],
+    examples: [
+      { en:"The team posted a task board as an information radiator so progress stays visible.", zh:"團隊張貼任務看板作為資訊發射器，讓進度對所有人保持透明。" }
+    ]
+  },
+  {
+    id: "w2762", english: "iteration review", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["迭代審查","迭代檢討會"] ] }
+    ],
+    examples: [
+      { en:"Stakeholders were invited to the iteration review to see a demo of the new features.", zh:"利害關係人受邀參加迭代審查，觀看新功能的展示。" }
+    ]
+  },
+  {
+    id: "w2763", english: "kano model", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["狩野模型","卡諾模型"] ] }
+    ],
+    examples: [
+      { en:"The team used the Kano model to classify features by customer satisfaction.", zh:"團隊用狩野模型依客戶滿意度對功能分類。" }
+    ]
+  },
+  {
+    id: "w2764", english: "kickoff meeting", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["啟動會議"] ] }
+    ],
+    examples: [
+      { en:"The sponsor opened the kickoff meeting by explaining the project goals.", zh:"發起人在啟動會議開場時說明專案目標。" }
+    ]
+  },
+  {
+    id: "w2765", english: "lead time", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["前置時間","交貨前置期"] ] }
+    ],
+    examples: [
+      { en:"The supplier's lead time for custom parts is six weeks.", zh:"供應商客製零件的前置時間為六週。" }
+    ]
+  },
+  {
+    id: "w2766", english: "lean", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["精實的","精簡的"] ] }
+    ],
+    examples: [
+      { en:"The company adopted a lean approach to eliminate waste in its processes.", zh:"公司採用精實方法，以消除流程中的浪費。" }
+    ]
+  },
+  {
+    id: "w2767", english: "Little's law", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["利特爾法則"] ] }
+    ],
+    examples: [
+      { en:"Little's law links work in progress, throughput, and cycle time.", zh:"利特爾法則將在製品數量、產出量與週期時間連結起來。" }
+    ]
+  },
+  {
+    id: "w2768", english: "logical relationship", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["邏輯關係","活動間相依關係"] ] }
+    ],
+    examples: [
+      { en:"A finish-to-start logical relationship means the successor waits for the predecessor.", zh:"完成到開始的邏輯關係表示後續活動要等前置活動完成。" }
+    ]
+  },
+  {
+    id: "w2769", english: "make-or-buy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["自製或外購"] ] }
+    ],
+    examples: [
+      { en:"The team performed a make-or-buy analysis before choosing a sourcing strategy.", zh:"團隊在選定採購策略之前先進行了自製或外購分析。" }
+    ]
+  },
+  {
+    id: "w2770", english: "make-or-buy analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自製或外購分析"] ] }
+    ],
+    examples: [
+      { en:"A make-or-buy analysis showed that outsourcing the component would cost less than producing it.", zh:"自製或外購分析顯示，把這個零件外包的成本比自行生產更低。" }
+    ]
+  },
+  {
+    id: "w2771", english: "multi-criteria", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["多準則的","多重標準的"] ] }
+    ],
+    examples: [
+      { en:"We chose the vendor using a multi-criteria decision analysis.", zh:"我們以多準則決策分析來選定供應商。" }
+    ]
+  },
+  {
+    id: "w2772", english: "multi-criteria decision analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["多準則決策分析"] ] }
+    ],
+    examples: [
+      { en:"The committee used multi-criteria decision analysis to compare the three vendors.", zh:"委員會運用多準則決策分析來比較三家供應商。" }
+    ]
+  },
+  {
+    id: "w2773", english: "over-allocation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["過度分配","資源超載"] ] }
+    ],
+    examples: [
+      { en:"The histogram makes over-allocation of key engineers easy to spot.", zh:"直方圖讓關鍵工程師的資源超載一目了然。" }
+    ]
+  },
+  {
+    id: "w2774", english: "PDM", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Precedence Diagramming Method",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["前置圖法","優先順序圖示法"] ] }
+    ],
+    examples: [
+      { en:"The PDM (Precedence Diagramming Method) places activities on nodes and links them with arrows.", zh:"前置圖法把活動放在節點上，並以箭頭連接。" }
+    ]
+  },
+  {
+    id: "w2775", english: "phase gate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["階段關卡","階段審查點"] ] }
+    ],
+    examples: [
+      { en:"The steering committee reviews the project at each phase gate before releasing more funding.", zh:"指導委員會在每個階段關卡審查專案後，才會釋出更多經費。" }
+    ]
+  },
+  {
+    id: "w2776", english: "precedence diagramming method", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["前置圖法","先行順序圖法"] ] }
+    ],
+    examples: [
+      { en:"The precedence diagramming method uses nodes to represent activities.", zh:"前置圖法以節點代表各項活動。" }
+    ]
+  },
+  {
+    id: "w2777", english: "probability distribution", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["機率分布"] ] }
+    ],
+    examples: [
+      { en:"The simulation produced a probability distribution of the final project cost.", zh:"模擬產生了專案最終成本的機率分布。" }
+    ]
+  },
+  {
+    id: "w2778", english: "product scope", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["產品範疇"] ] }
+    ],
+    examples: [
+      { en:"The product scope specifies that the app must support biometric login.", zh:"產品範疇明訂該應用程式必須支援生物辨識登入。" }
+    ]
+  },
+  {
+    id: "w2779", english: "progressive elaboration", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["漸進明細","逐步細化"] ] }
+    ],
+    examples: [
+      { en:"Progressive elaboration lets the team refine the plan as more details become known.", zh:"漸進明細讓團隊能隨著更多細節明朗而逐步調整計畫。" }
+    ]
+  },
+  {
+    id: "w2780", english: "resource histogram", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["資源直方圖"] ] }
+    ],
+    examples: [
+      { en:"The resource histogram shows that the testers are overallocated in March.", zh:"資源直方圖顯示測試人員在三月份被過度分派工作。" }
+    ]
+  },
+  {
+    id: "w2781", english: "risk report", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險報告"] ] }
+    ],
+    examples: [
+      { en:"The risk report summarizes overall project risk and the status of key risks.", zh:"風險報告摘要說明整體專案風險及主要風險的狀態。" }
+    ]
+  },
+  {
+    id: "w2782", english: "RTM", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Requirements Traceability Matrix",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["需求追溯矩陣","需求可追溯性矩陣"] ] }
+    ],
+    examples: [
+      { en:"The RTM (Requirements Traceability Matrix) helped the team assess the impact of the requested change.", zh:"需求追溯矩陣幫助團隊評估所提變更的影響。" }
+    ]
+  },
+  {
+    id: "w2783", english: "salience", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["顯著性","突出程度"] ] }
+    ],
+    examples: [
+      { en:"Stakeholder salience depends on their power, urgency, and legitimacy.", zh:"利害關係人的顯著性取決於其權力、急迫性與正當性。" }
+    ]
+  },
+  {
+    id: "w2784", english: "salience model", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["顯著性模型","利害關係人顯著性模式"] ] }
+    ],
+    examples: [
+      { en:"We used the salience model to rank stakeholders by power, urgency, and legitimacy.", zh:"我們用顯著性模型依權力、急迫性與正當性替利害關係人排序。" }
+    ]
+  },
+  {
+    id: "w2785", english: "scope management plan", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["範疇管理計畫"] ] }
+    ],
+    examples: [
+      { en:"Adding the feature without approval would violate the scope management plan.", zh:"未經核准就新增該功能，將違反範疇管理計畫。" }
+    ]
+  },
+  {
+    id: "w2786", english: "SF", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Start-to-Finish",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["開始到完成關係","開始至完成"] ] }
+    ],
+    examples: [
+      { en:"In an SF (start-to-finish) relationship, the successor must start before the predecessor can finish.", zh:"在開始到完成關係中，後續活動必須先開始，前置活動才能完成。" }
+    ]
+  },
+  {
+    id: "w2787", english: "sprint velocity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["衝刺速率","衝刺速度"] ] }
+    ],
+    examples: [
+      { en:"The team's sprint velocity has stabilized at thirty story points.", zh:"團隊的衝刺速率已穩定在三十個故事點。" }
+    ]
+  },
+  {
+    id: "w2788", english: "SS", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Start-to-Start",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["開始到開始"] ] }
+    ],
+    examples: [
+      { en:"In an SS (start-to-start) relationship, the successor can begin once the predecessor starts.", zh:"在開始到開始的關係中，後續活動可在前置活動開始後隨即展開。" }
+    ]
+  },
+  {
+    id: "w2789", english: "technical spike", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["技術探索","技術預研"] ] }
+    ],
+    examples: [
+      { en:"The team ran a short technical spike to test whether the new framework was feasible.", zh:"團隊進行了一次簡短的技術探索，測試新框架是否可行。" }
+    ]
+  },
+  {
+    id: "w2790", english: "transactional", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["交易型的","交易的"] ] }
+    ],
+    examples: [
+      { en:"A transactional leader motivates the team through clear rewards and structure.", zh:"交易型領導者透過明確的獎勵與架構來激勵團隊。" }
+    ]
+  },
+  {
+    id: "w2791", english: "transactional leadership", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["交易型領導"] ] }
+    ],
+    examples: [
+      { en:"Transactional leadership relies on clear targets and rewards for meeting them.", zh:"交易型領導倚賴明確的目標與達標後的獎勵。" }
+    ]
+  },
+  {
+    id: "w2792", english: "utilization", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["利用率","使用率"] ] }
+    ],
+    examples: [
+      { en:"Equipment utilization dropped sharply after the production line closed.", zh:"生產線關閉後，設備利用率大幅下降。" }
+    ]
+  },
+  {
+    id: "w2793", english: "VAC", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Variance at Completion",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工變異"] ] }
+    ],
+    examples: [
+      { en:"The VAC (variance at completion) shows we expect to finish over budget.", zh:"完工變異顯示我們預期會超出預算完工。" }
+    ]
+  },
+  {
+    id: "w2794", english: "variance analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["差異分析"] ] }
+    ],
+    examples: [
+      { en:"Variance analysis compares planned results against actual results to find performance gaps.", zh:"差異分析會比較計畫結果與實際結果，以找出績效落差。" }
+    ]
+  },
+  {
+    id: "w2795", english: "autonomy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自主性","自主權"] ] }
+    ],
+    examples: [
+      { en:"Giving employees more autonomy can improve their motivation.", zh:"給予員工更多自主權可以提高他們的工作動機。" }
+    ]
+  },
+  {
+    id: "w2796", english: "disbursement", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["撥款","支付款項"] ] }
+    ],
+    examples: [
+      { en:"The final disbursement will be released after the milestone is approved.", zh:"最後一筆撥款將在里程碑獲得核准後發放。" }
+    ]
+  },
+  {
+    id: "w2797", english: "disciplinary", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["紀律的","懲戒的"] ] }
+    ],
+    examples: [
+      { en:"HR opened a disciplinary review after repeated policy violations.", zh:"在多次違反規定後，人資部門展開了懲戒審查。" }
+    ]
+  },
+  {
+    id: "w2798", english: "discrepancy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["差異","不一致"] ] }
+    ],
+    examples: [
+      { en:"The auditor found a discrepancy between the invoice and the delivery record.", zh:"稽核人員發現發票與交貨紀錄之間有差異。" }
+    ]
+  },
+  {
+    id: "w2799", english: "dismiss", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["漠視","不予理會","駁回"], ["解僱","開除"] ] }
+    ],
+    examples: [
+      { en:"The executive tended to dismiss any concerns raised by the project team.", zh:"那位主管習慣漠視專案團隊提出的任何疑慮。" },
+      { en:"The firm dismissed him for repeated policy violations.", zh:"公司因他一再違反規定而將他解僱。" }
+    ]
+  },
+  {
+    id: "w2800", english: "emergent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["新興的","突發出現的"] ] }
+    ],
+    examples: [
+      { en:"Emergent risks appear only after the project is already underway.", zh:"突發的風險要等專案開始進行後才會浮現。" }
+    ]
+  },
+  {
+    id: "w2801", english: "granular", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["細粒度的","精細的"] ] }
+    ],
+    examples: [
+      { en:"A work package should be granular enough to estimate and track reliably.", zh:"工作包的粒度應細到足以可靠地估算與追蹤。" }
+    ]
+  },
+  {
+    id: "w2802", english: "hierarchical", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["階層式的","分層的"] ] }
+    ],
+    examples: [
+      { en:"The company has a hierarchical structure with several layers of management.", zh:"這家公司採階層式結構，設有數個管理層級。" }
+    ]
+  },
+  {
+    id: "w2803", english: "incurred", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["已發生的","已產生的"] ] }
+    ],
+    examples: [
+      { en:"The project paid for all expenses incurred during the testing phase.", zh:"專案支付了測試階段所發生的一切費用。" }
+    ]
+  },
+  {
+    id: "w2804", english: "justification", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["正當理由","合理說明"] ] }
+    ],
+    examples: [
+      { en:"The manager asked for a written justification for the extra budget.", zh:"經理要求對額外預算提出書面的正當理由。" }
+    ]
+  },
+  {
+    id: "w2805", english: "leverage", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["善用","充分利用"] ] },
+      { pos: "nu", meaningGroups: [ ["影響力","槓桿作用"] ] }
+    ],
+    examples: [
+      { en:"We should leverage existing company guidelines before building new governance structures.", zh:"在建立新的治理架構之前，我們應該善用公司既有的指引。" },
+      { en:"Having multiple bidders gives the buyer more leverage in negotiations.", zh:"有多家投標者讓買方在談判中更具影響力。" }
+    ]
+  },
+  {
+    id: "w2806", english: "likelihood", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["可能性","機率"] ] }
+    ],
+    examples: [
+      { en:"Switching suppliers will reduce the likelihood of further delivery delays.", zh:"更換供應商會降低再度延遲交貨的可能性。" }
+    ]
+  },
+  {
+    id: "w2807", english: "materialize", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["成為事實","發生","實現"] ] }
+    ],
+    examples: [
+      { en:"If the supply risk materializes, we will switch to our backup vendor.", zh:"如果供應風險成真，我們就改用備用供應商。" }
+    ]
+  },
+  {
+    id: "w2808", english: "override", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["推翻","凌駕","否決"] ] }
+    ],
+    examples: [
+      { en:"The director chose to override the committee's decision.", zh:"主任決定推翻委員會的決議。" }
+    ]
+  },
+  {
+    id: "w2809", english: "periodic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["定期的","週期性的"] ] }
+    ],
+    examples: [
+      { en:"The team conducts periodic reviews to re-evaluate the priority of open risks.", zh:"團隊定期進行檢討，重新評估未結風險的優先順序。" }
+    ]
+  },
+  {
+    id: "w2810", english: "reassess", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["重新評估","再評估"] ] }
+    ],
+    examples: [
+      { en:"We will reassess the staffing plan once real workload data becomes available.", zh:"等取得實際工作量資料後，我們會重新評估人力配置計畫。" }
+    ]
+  },
+  {
+    id: "w2811", english: "unforeseen", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["未預見的","意料之外的"] ] }
+    ],
+    examples: [
+      { en:"An unforeseen delay in delivery pushed the launch back two weeks.", zh:"一次意料之外的交貨延誤使上市日期延後兩週。" }
+    ]
+  },
+  {
+    id: "w2812", english: "viable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可行的","行得通的"] ] }
+    ],
+    examples: [
+      { en:"The team concluded that the proposal was not commercially viable.", zh:"團隊判斷該提案在商業上並不可行。" }
+    ]
+  },
+  {
+    id: "w2813", english: "warrant", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["使有必要","值得"], ["為…提供正當理由"] ] }
+    ],
+    examples: [
+      { en:"The project's small scale does not warrant a formal risk plan.", zh:"這個專案規模很小，不需要正式的風險計畫。" }
+    ]
+  },
+  {
+    id: "w2814", english: "affinity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["親和性","相似性"], ["喜好","親近感"] ] }
+    ],
+    examples: [
+      { en:"The team used affinity estimating to group similar stories by relative size.", zh:"團隊用親和估算法，依相對大小將類似的故事歸成一組。" },
+      { en:"She has a natural affinity for working with data.", zh:"她天生就喜歡處理資料。" }
+    ]
+  },
+  {
+    id: "w2815", english: "analogous estimating", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["類比估算"] ] }
+    ],
+    examples: [
+      { en:"Analogous estimating uses the actual cost of a similar past project as the basis.", zh:"類比估算以過去類似專案的實際成本作為依據。" }
+    ]
+  },
+  {
+    id: "w2816", english: "appraisal cost", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["鑑定成本","評鑑成本"] ] }
+    ],
+    examples: [
+      { en:"Inspection and testing are typical examples of appraisal cost.", zh:"檢驗與測試是鑑定成本的典型例子。" }
+    ]
+  },
+  {
+    id: "w2817", english: "assumption log", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["假設日誌"] ] }
+    ],
+    examples: [
+      { en:"Every key assumption was recorded in the assumption log and reviewed monthly.", zh:"每項關鍵假設都記錄在假設日誌中，並每月檢視。" }
+    ]
+  },
+  {
+    id: "w2818", english: "benefits management plan", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["效益管理計畫"] ] }
+    ],
+    examples: [
+      { en:"The benefits management plan explains how and when the expected benefits will be measured.", zh:"效益管理計畫說明了預期效益將如何以及何時衡量。" }
+    ]
+  },
+  {
+    id: "w2819", english: "board of directors", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["董事會"] ] }
+    ],
+    examples: [
+      { en:"The board of directors approved the annual budget on Monday.", zh:"董事會於週一核准了年度預算。" }
+    ]
+  },
+  {
+    id: "w2820", english: "bottom-up estimating", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["由下而上估算"] ] }
+    ],
+    examples: [
+      { en:"Bottom-up estimating gives a more accurate total by summing the costs of individual work packages.", zh:"由下而上估算透過加總各工作包的成本，得出較精確的總額。" }
+    ]
+  },
+  {
+    id: "w2821", english: "breakeven", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["損益兩平","收支平衡"] ] }
+    ],
+    examples: [
+      { en:"The product is expected to reach breakeven within eighteen months of launch.", zh:"預計這項產品會在上市後十八個月內達到損益兩平。" }
+    ]
+  },
+  {
+    id: "w2822", english: "burndown chart", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["燃盡圖","工作燃盡圖"] ] }
+    ],
+    examples: [
+      { en:"The burndown chart shows how much work remains in the current sprint.", zh:"燃盡圖顯示目前衝刺中還剩多少工作。" }
+    ]
+  },
+  {
+    id: "w2823", english: "cadence", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["節奏","固定步調"] ] }
+    ],
+    examples: [
+      { en:"The team keeps a steady cadence of two-week sprints and daily stand-ups.", zh:"團隊維持每兩週一次衝刺與每日站立會議的穩定節奏。" }
+    ]
+  },
+  {
+    id: "w2824", english: "capitalize", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["資本化","列為資本支出"], ["以大寫字母書寫","大寫"], ["提供資金"] ] },
+      { pos: "vi", meaningGroups: [ ["利用","趁機獲利"] ] }
+    ],
+    examples: [
+      { en:"The firm chose to capitalize the software development costs.", zh:"公司選擇將軟體開發成本資本化。" },
+      { en:"We should capitalize on the rising demand for green products.", zh:"我們應該利用綠色產品需求上升的機會。" }
+    ]
+  },
+  {
+    id: "w2825", english: "cash flow", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["現金流量","現金流"] ] }
+    ],
+    examples: [
+      { en:"The vendor asked for earlier payment because of cash flow problems.", zh:"供應商因現金流問題要求提早付款。" }
+    ]
+  },
+  {
+    id: "w2826", english: "change log", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["變更日誌","變更紀錄"] ] }
+    ],
+    examples: [
+      { en:"Every approved and rejected change request is recorded in the change log.", zh:"每一項核准與駁回的變更請求都會記錄在變更日誌中。" }
+    ]
+  },
+  {
+    id: "w2827", english: "change management", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["變更管理"] ] }
+    ],
+    examples: [
+      { en:"Good change management helps employees adapt to the new system.", zh:"良好的變更管理能幫助員工適應新系統。" }
+    ]
+  },
+  {
+    id: "w2828", english: "co-located", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["集中辦公的","同地辦公的"] ] }
+    ],
+    examples: [
+      { en:"The co-located team solves problems quickly because everyone sits on the same floor.", zh:"集中辦公的團隊因為成員都在同一樓層，解決問題很迅速。" }
+    ]
+  },
+  {
+    id: "w2829", english: "co-location", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["集中辦公","同地辦公"] ] }
+    ],
+    examples: [
+      { en:"Co-location puts the whole team in one room to improve communication.", zh:"集中辦公讓整個團隊待在同一個空間，以改善溝通。" }
+    ]
+  },
+  {
+    id: "w2830", english: "COCOMO", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Constructive Cost Model",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["建構成本模型"] ] }
+    ],
+    examples: [
+      { en:"The estimator used COCOMO (Constructive Cost Model) to predict the effort needed for the software.", zh:"估算人員使用建構成本模型來預測軟體所需的工作量。" }
+    ]
+  },
+  {
+    id: "w2831", english: "coercive power", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["強制權力","懲罰權力"] ] }
+    ],
+    examples: [
+      { en:"Relying on coercive power, such as threatening penalties, often damages morale.", zh:"倚賴威脅處分之類的強制權力，往往會損害士氣。" }
+    ]
+  },
+  {
+    id: "w2832", english: "control threshold", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["管制門檻","控制門檻"] ] }
+    ],
+    examples: [
+      { en:"A variance beyond the control threshold must be reported to the sponsor.", zh:"超出管制門檻的差異必須向發起人報告。" }
+    ]
+  },
+  {
+    id: "w2833", english: "cost of conformance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["符合成本"] ] }
+    ],
+    examples: [
+      { en:"Training and inspections are typical examples of the cost of conformance.", zh:"培訓與檢驗是符合成本的典型例子。" }
+    ]
+  },
+  {
+    id: "w2834", english: "cost plus", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["成本加成","成本加酬"] ] }
+    ],
+    examples: [
+      { en:"The client agreed to a cost plus contract that reimburses expenses and adds a fixed fee.", zh:"客戶同意採用成本加酬合約，補償實際支出並另加固定費用。" }
+    ]
+  },
+  {
+    id: "w2835", english: "CPIF", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Cost Plus Incentive Fee",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本加獎勵費用合約","成本加激勵費用"] ] }
+    ],
+    examples: [
+      { en:"Under a CPIF (cost plus incentive fee) contract, the seller shares the savings with the buyer.", zh:"在成本加獎勵費用合約下，賣方與買方分享節省的成本。" }
+    ]
+  },
+  {
+    id: "w2836", english: "CPM", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Critical Path Method",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["要徑法","要徑分析法"] ] }
+    ],
+    examples: [
+      { en:"The planner used CPM (critical path method) to find the shortest possible project duration.", zh:"規劃人員使用要徑法找出專案最短可能工期。" }
+    ]
+  },
+  {
+    id: "w2837", english: "decode", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["解碼","解讀"] ] }
+    ],
+    examples: [
+      { en:"The receiver must decode the message to understand what the sender meant.", zh:"接收者必須解讀訊息，才能理解發送者的意思。" }
+    ]
+  },
+  {
+    id: "w2838", english: "discount rate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["折現率","貼現率"] ] }
+    ],
+    examples: [
+      { en:"The finance team applied a discount rate of 10 percent to the future cash flows.", zh:"財務團隊對未來的現金流量採用百分之十的折現率。" }
+    ]
+  },
+  {
+    id: "w2839", english: "discretionary dependency", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["選擇性依賴關係","軟邏輯"] ] }
+    ],
+    examples: [
+      { en:"The team chose a discretionary dependency based on best practice, so it can be changed if needed.", zh:"團隊依最佳實務選擇了選擇性依賴關係，因此必要時可以調整。" }
+    ]
+  },
+  {
+    id: "w2840", english: "earned value analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["實獲值分析","贏得值分析"] ] }
+    ],
+    examples: [
+      { en:"Earned value analysis integrates scope, schedule, and cost performance.", zh:"實獲值分析整合了範疇、時程與成本績效。" }
+    ]
+  },
+  {
+    id: "w2841", english: "emotional intelligence", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["情緒智商","情緒智能"] ] }
+    ],
+    examples: [
+      { en:"A manager with high emotional intelligence can sense when a team member is struggling.", zh:"情緒智商高的經理能察覺團隊成員何時陷入困境。" }
+    ]
+  },
+  {
+    id: "w2842", english: "estimate to complete", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工尚需成本估算","剩餘成本估算"] ] }
+    ],
+    examples: [
+      { en:"The estimate to complete shows how much more money is needed to finish the project.", zh:"完工尚需成本估算顯示還需要多少經費才能完成專案。" }
+    ]
+  },
+  {
+    id: "w2843", english: "expected value", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["期望值"] ] }
+    ],
+    examples: [
+      { en:"The expected value of the risk is its probability multiplied by its impact.", zh:"該風險的期望值是其發生機率乘以影響程度。" }
+    ]
+  },
+  {
+    id: "w2844", english: "expert power", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["專家權力"] ] }
+    ],
+    examples: [
+      { en:"The lead engineer influences the team through expert power, not formal authority.", zh:"這位首席工程師靠專家權力而非正式職權來影響團隊。" }
+    ]
+  },
+  {
+    id: "w2845", english: "explicit knowledge", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["顯性知識","明確知識"] ] }
+    ],
+    examples: [
+      { en:"Explicit knowledge, such as manuals and reports, can be easily documented and shared.", zh:"手冊與報告之類的顯性知識可輕易記錄與分享。" }
+    ]
+  },
+  {
+    id: "w2846", english: "external dependency", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["外部依存關係","外部相依性"] ] }
+    ],
+    examples: [
+      { en:"Approval from the city council is an external dependency that could delay construction.", zh:"市議會的核准是一項外部依存關係，可能延誤施工。" }
+    ]
+  },
+  {
+    id: "w2847", english: "external failure cost", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["外部失敗成本"] ] }
+    ],
+    examples: [
+      { en:"Product recalls and warranty claims are examples of external failure cost.", zh:"產品回收與保固求償都是外部失敗成本的例子。" }
+    ]
+  },
+  {
+    id: "w2848", english: "extreme programming", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["極限編程","極限程式設計"] ] }
+    ],
+    examples: [
+      { en:"Extreme programming emphasizes pair programming and frequent releases.", zh:"極限編程強調結對編程與頻繁發布。" }
+    ]
+  },
+  {
+    id: "w2849", english: "FDD", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Feature-Driven Development",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["特徵驅動開發"] ] }
+    ],
+    examples: [
+      { en:"The team adopted FDD (feature-driven development) to deliver client-valued features in short cycles.", zh:"團隊採用特徵驅動開發，以短週期交付客戶重視的功能。" }
+    ]
+  },
+  {
+    id: "w2850", english: "feature-driven development", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["功能驅動開發"] ] }
+    ],
+    examples: [
+      { en:"The software team adopted feature-driven development to deliver small, client-valued features.", zh:"軟體團隊採用功能驅動開發，以交付小型且對客戶有價值的功能。" }
+    ]
+  },
+  {
+    id: "w2851", english: "finish-to-finish", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["完成到完成","結束到結束"] ] }
+    ],
+    examples: [
+      { en:"In a finish-to-finish relationship, the successor cannot finish before the predecessor does.", zh:"在完成到完成的關係中，後續活動不能早於前置活動完成。" }
+    ]
+  },
+  {
+    id: "w2852", english: "firm fixed price", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["固定總價"] ] }
+    ],
+    examples: [
+      { en:"Under a firm fixed price contract, the seller bears the risk of cost overruns.", zh:"在固定總價合約下，由賣方承擔成本超支的風險。" }
+    ]
+  },
+  {
+    id: "w2853", english: "fixed price contract", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["固定價格合約","總價合約"] ] }
+    ],
+    examples: [
+      { en:"Under a fixed price contract, the seller bears the risk of cost overruns.", zh:"在固定價格合約下，成本超支的風險由賣方承擔。" }
+    ]
+  },
+  {
+    id: "w2854", english: "Herzberg's two-factor theory", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["赫茲伯格雙因子理論","激勵保健理論"] ] }
+    ],
+    examples: [
+      { en:"According to Herzberg's two-factor theory, better pay prevents dissatisfaction but does not motivate people.", zh:"依據赫茲伯格雙因子理論，較高的薪資能防止不滿，卻無法激勵員工。" }
+    ]
+  },
+  {
+    id: "w2855", english: "hurdle rate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["最低要求報酬率","門檻報酬率"] ] }
+    ],
+    examples: [
+      { en:"Projects whose return falls below the hurdle rate will not be funded.", zh:"報酬低於最低要求報酬率的專案不會獲得資金。" }
+    ]
+  },
+  {
+    id: "w2856", english: "incentive fee", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["獎勵費用","績效獎金"] ] }
+    ],
+    examples: [
+      { en:"The vendor earned an incentive fee for finishing ahead of schedule.", zh:"供應商因提前完工而獲得獎勵費用。" }
+    ]
+  },
+  {
+    id: "w2857", english: "internal failure cost", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["內部失敗成本"] ] }
+    ],
+    examples: [
+      { en:"Rework found before shipment counts as an internal failure cost.", zh:"出貨前發現的重工屬於內部失敗成本。" }
+    ]
+  },
+  {
+    id: "w2858", english: "known unknown", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["已知的未知"] ] }
+    ],
+    examples: [
+      { en:"The exact extent of the groundwater problem was a known unknown at the planning stage.", zh:"在規劃階段，地下水問題的確切範圍是一項已知的未知。" }
+    ]
+  },
+  {
+    id: "w2859", english: "known-known", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["已知的已知"] ] }
+    ],
+    examples: [
+      { en:"A known-known is a risk we have identified and understand well.", zh:"已知的已知是指我們已經識別且充分了解的風險。" }
+    ]
+  },
+  {
+    id: "w2860", english: "lease", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["租賃","出租"] ] },
+      { pos: "nc", meaningGroups: [ ["租約","租賃契約"] ] }
+    ],
+    examples: [
+      { en:"The company decided to lease the equipment instead of buying it.", zh:"公司決定租用這批設備，而不是購買。" },
+      { en:"The office lease expires at the end of the year.", zh:"辦公室租約將於年底到期。" }
+    ]
+  },
+  {
+    id: "w2861", english: "legitimate power", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["合法權力","職位權力"] ] }
+    ],
+    examples: [
+      { en:"Her legitimate power comes from her formally assigned position as director.", zh:"她的合法權力來自正式任命的主任職位。" }
+    ]
+  },
+  {
+    id: "w2862", english: "LF", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Late Finish",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["最晚完成時間","最晚結束時間"] ] }
+    ],
+    examples: [
+      { en:"The LF (Late Finish) of the activity is Day 25, so it can slip without delaying the project.", zh:"該活動的最晚完成時間是第 25 天，因此稍有延遲也不會拖累專案。" }
+    ]
+  },
+  {
+    id: "w2863", english: "life-cycle costing", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["生命週期成本計算"] ] }
+    ],
+    examples: [
+      { en:"Life-cycle costing includes maintenance and disposal costs, not just the purchase price.", zh:"生命週期成本計算包含維護與報廢成本，而不只是購買價格。" }
+    ]
+  },
+  {
+    id: "w2864", english: "non-conformance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["不符合","不合格"] ] },
+      { pos: "nc", meaningGroups: [ ["不符合項"] ] }
+    ],
+    examples: [
+      { en:"The audit found several cases of non-conformance with safety standards.", zh:"稽核發現數起不符合安全標準的情形。" }
+    ]
+  },
+  {
+    id: "w2865", english: "norming", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["規範期","規範階段"] ] }
+    ],
+    examples: [
+      { en:"During norming, team members settle into a shared way of working.", zh:"在規範期，團隊成員逐漸形成共同的工作方式。" }
+    ]
+  },
+  {
+    id: "w2866", english: "opportunity cost", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["機會成本"] ] }
+    ],
+    examples: [
+      { en:"Choosing Project A has a high opportunity cost because we must give up the more profitable Project B.", zh:"選擇專案甲的機會成本很高，因為我們得放棄獲利更高的專案乙。" }
+    ]
+  },
+  {
+    id: "w2867", english: "overallocation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["資源過度分配","超額分派"] ] }
+    ],
+    examples: [
+      { en:"Overallocation of the lead engineer caused the schedule to slip.", zh:"主任工程師被過度分配工作，導致時程延誤。" }
+    ]
+  },
+  {
+    id: "w2868", english: "overhead", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["間接費用","管理費用"] ] }
+    ],
+    examples: [
+      { en:"Overhead such as rent and utilities is allocated across all projects.", zh:"租金與水電等間接費用會分攤到所有專案。" }
+    ]
+  },
+  {
+    id: "w2869", english: "parametric estimating", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["參數估算"] ] }
+    ],
+    examples: [
+      { en:"Parametric estimating multiplies a unit rate by the quantity of work to derive the cost.", zh:"參數估算以單位費率乘以工作量來推算成本。" }
+    ]
+  },
+  {
+    id: "w2870", english: "Parkinson's law", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["帕金森定律"] ] }
+    ],
+    examples: [
+      { en:"Parkinson's law explains why a task tends to take as long as the time allowed.", zh:"帕金森定律說明了為什麼工作往往會拖到時限用完才完成。" }
+    ]
+  },
+  {
+    id: "w2871", english: "performing organization", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["執行組織"] ] }
+    ],
+    examples: [
+      { en:"The performing organization provides the staff and facilities needed to deliver the project.", zh:"執行組織提供交付專案所需的人員與設施。" }
+    ]
+  },
+  {
+    id: "w2872", english: "planned value", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["計畫價值","預定完成工作價值"] ] }
+    ],
+    examples: [
+      { en:"The planned value (PV) at the status date was two hundred thousand dollars.", zh:"在狀態日期當天，計畫價值為二十萬美元。" }
+    ]
+  },
+  {
+    id: "w2873", english: "planning poker", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["規劃撲克"] ] }
+    ],
+    examples: [
+      { en:"The team used planning poker to reach consensus on story point estimates.", zh:"團隊用規劃撲克就故事點估算達成共識。" }
+    ]
+  },
+  {
+    id: "w2874", english: "prevention cost", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["預防成本"] ] }
+    ],
+    examples: [
+      { en:"Employee training is a prevention cost that helps avoid defects later.", zh:"員工訓練是一項預防成本，有助於避免日後出現瑕疵。" }
+    ]
+  },
+  {
+    id: "w2875", english: "product roadmap", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["產品路線圖"] ] }
+    ],
+    examples: [
+      { en:"The product roadmap shows the planned releases for the next two years.", zh:"產品路線圖列出了未來兩年規劃的版本發布。" }
+    ]
+  },
+  {
+    id: "w2876", english: "project buffer", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["專案緩衝"] ] }
+    ],
+    examples: [
+      { en:"The critical chain method places a project buffer at the end of the schedule.", zh:"關鍵鏈法會在時程尾端設置專案緩衝。" }
+    ]
+  },
+  {
+    id: "w2877", english: "projectized", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["專案型的","專案導向的"] ] }
+    ],
+    examples: [
+      { en:"In a projectized organization, the project manager has full authority over resources.", zh:"在專案型組織中，專案經理對資源擁有完整的職權。" }
+    ]
+  },
+  {
+    id: "w2878", english: "psychological safety", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["心理安全感","心理安全"] ] }
+    ],
+    examples: [
+      { en:"Psychological safety lets team members raise risks without fear of blame.", zh:"心理安全感讓團隊成員能不怕被究責地提出風險。" }
+    ]
+  },
+  {
+    id: "w2879", english: "push communication", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["推播式溝通"] ] }
+    ],
+    examples: [
+      { en:"Emailing the weekly status report is a form of push communication.", zh:"以電子郵件寄送每週狀況報告就是推播式溝通的一種。" }
+    ]
+  },
+  {
+    id: "w2880", english: "QC", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Quality Control",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["品質管制","品管"] ] }
+    ],
+    examples: [
+      { en:"The QC (quality control) team rejected the batch for failing inspection.", zh:"品管團隊因檢驗不合格而退回該批產品。" }
+    ]
+  },
+  {
+    id: "w2881", english: "referent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["參照的"] ] }
+    ],
+    examples: [
+      { en:"The director's referent power comes from the admiration her team feels for her.", zh:"主管的參照權力來自團隊對她的敬佩。" }
+    ]
+  },
+  {
+    id: "w2882", english: "referent power", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["參照權力","敬仰權"] ] }
+    ],
+    examples: [
+      { en:"The director's referent power comes from the personal admiration her team feels for her.", zh:"這位主管的參照權力來自團隊對她的個人敬仰。" }
+    ]
+  },
+  {
+    id: "w2883", english: "reimbursable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可報銷的","可償付的"] ] }
+    ],
+    examples: [
+      { en:"Travel costs are reimbursable under the cost-reimbursable contract.", zh:"依成本補償合約，差旅費用可以報銷。" }
+    ]
+  },
+  {
+    id: "w2884", english: "residual", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["殘餘的","剩餘的"] ] }
+    ],
+    examples: [
+      { en:"Some residual risk remains even after the mitigation plan is carried out.", zh:"即使執行了減輕計畫，仍會留下一些殘餘風險。" }
+    ]
+  },
+  {
+    id: "w2885", english: "residual risk", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["殘餘風險"] ] }
+    ],
+    examples: [
+      { en:"Some residual risk remains even after the mitigation plan is carried out.", zh:"即使執行了減緩計畫，仍會留下一些殘餘風險。" }
+    ]
+  },
+  {
+    id: "w2886", english: "resource breakdown structure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["資源分解結構","資源分解架構"] ] }
+    ],
+    examples: [
+      { en:"The resource breakdown structure organizes team members and equipment by category.", zh:"資源分解結構依類別組織團隊成員與設備。" }
+    ]
+  },
+  {
+    id: "w2887", english: "resource management plan", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["資源管理計畫"] ] }
+    ],
+    examples: [
+      { en:"The resource management plan describes how team members will be acquired and released.", zh:"資源管理計畫說明團隊成員將如何取得與釋出。" }
+    ]
+  },
+  {
+    id: "w2888", english: "resource-constrained", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["資源受限的","資源有限的"] ] }
+    ],
+    examples: [
+      { en:"A resource-constrained schedule must account for limited staff availability.", zh:"資源受限的時程必須考量有限的人力供應。" }
+    ]
+  },
+  {
+    id: "w2889", english: "reward power", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["獎賞權力"] ] }
+    ],
+    examples: [
+      { en:"A manager with reward power can grant bonuses and promotions.", zh:"擁有獎賞權力的經理可以核發獎金與給予晉升。" }
+    ]
+  },
+  {
+    id: "w2890", english: "risk audit", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險稽核"] ] }
+    ],
+    examples: [
+      { en:"An external consultant conducted a risk audit to check whether the response plans were effective.", zh:"外部顧問進行了風險稽核，以檢查因應計畫是否有效。" }
+    ]
+  },
+  {
+    id: "w2891", english: "risk trigger", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["風險觸發條件","風險預警訊號"] ] }
+    ],
+    examples: [
+      { en:"A missed milestone is a risk trigger that calls for immediate action.", zh:"錯過里程碑是需要立即採取行動的風險觸發條件。" }
+    ]
+  },
+  {
+    id: "w2892", english: "roles and responsibilities", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["角色與職責"] ] }
+    ],
+    examples: [
+      { en:"The kickoff meeting clarified the roles and responsibilities of every team member.", zh:"啟動會議釐清了每位團隊成員的角色與職責。" }
+    ]
+  },
+  {
+    id: "w2893", english: "schedule network", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["時程網絡圖","進度網路圖"] ] }
+    ],
+    examples: [
+      { en:"The schedule network shows the logical relationships among project activities.", zh:"時程網絡圖顯示專案各活動之間的邏輯關係。" }
+    ]
+  },
+  {
+    id: "w2894", english: "self-actualization", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自我實現"] ] }
+    ],
+    examples: [
+      { en:"According to Maslow, self-actualization is the highest level of human needs.", zh:"依據馬斯洛的理論，自我實現是人類需求的最高層次。" }
+    ]
+  },
+  {
+    id: "w2895", english: "self-organization", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自我組織","自主運作"] ] }
+    ],
+    examples: [
+      { en:"Self-organization lets agile teams decide how to divide the work among themselves.", zh:"自我組織讓敏捷團隊能自行決定如何分工。" }
+    ]
+  },
+  {
+    id: "w2896", english: "severity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["嚴重性","嚴重程度"] ] }
+    ],
+    examples: [
+      { en:"The team rated the risk by its likelihood and severity.", zh:"團隊依發生可能性與嚴重程度來評估該風險。" }
+    ]
+  },
+  {
+    id: "w2897", english: "SMART", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Specific, Measurable, Achievable, Relevant, Time-bound",
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["符合目標設定原則的"] ] }
+    ],
+    examples: [
+      { en:"Each team set SMART objectives (specific, measurable, achievable, relevant, time-bound) for defect reduction.", zh:"每個團隊都為減少缺陷訂定了符合目標設定原則的目標。" }
+    ]
+  },
+  {
+    id: "w2898", english: "stage-gate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["階段關卡","階段閘門"] ] }
+    ],
+    examples: [
+      { en:"The steering committee decides at each stage-gate whether the project may move on.", zh:"指導委員會在每個階段關卡決定專案是否可以繼續推進。" }
+    ]
+  },
+  {
+    id: "w2899", english: "storming", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["震盪期","風暴期"] ] }
+    ],
+    examples: [
+      { en:"Disagreements over work methods are common during the storming stage.", zh:"在震盪期，對工作方式產生歧見很常見。" }
+    ]
+  },
+  {
+    id: "w2900", english: "student syndrome", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["學生症候群"] ] }
+    ],
+    examples: [
+      { en:"Student syndrome makes people wait until the deadline is near before starting a task.", zh:"學生症候群使人們拖到截止日將近才開始著手任務。" }
+    ]
+  },
+  {
+    id: "w2901", english: "success criteria", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成功標準","成功準則"] ] }
+    ],
+    examples: [
+      { en:"The sponsor and the team agreed on measurable success criteria at kickoff.", zh:"發起人與團隊在啟動會議上就可衡量的成功標準達成共識。" }
+    ]
+  },
+  {
+    id: "w2902", english: "three-point estimate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["三點估算","三點估計值"] ] }
+    ],
+    examples: [
+      { en:"The three-point estimate combines optimistic, most likely, and pessimistic durations.", zh:"三點估算結合了樂觀、最可能與悲觀三種工期。" }
+    ]
+  },
+  {
+    id: "w2903", english: "time and materials", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["工時與材料合約","實報實銷合約"] ] }
+    ],
+    examples: [
+      { en:"Under a time and materials contract, the client pays hourly rates plus the cost of supplies.", zh:"在工時與材料合約下，客戶需支付時薪加上材料費用。" }
+    ]
+  },
+  {
+    id: "w2904", english: "to-complete performance index", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工尚需績效指數"] ] }
+    ],
+    examples: [
+      { en:"A to-complete performance index above one means the team must work more efficiently.", zh:"完工尚需績效指數大於一，表示團隊必須更有效率地工作。" }
+    ]
+  },
+  {
+    id: "w2905", english: "turnover", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["人員流動","離職率"], ["營業額","週轉率"] ] }
+    ],
+    examples: [
+      { en:"High team turnover led to a serious loss of project knowledge.", zh:"團隊人員流動率高，導致專案知識大量流失。" },
+      { en:"The retailer's annual turnover grew by twelve percent.", zh:"這家零售商的年營業額成長了百分之十二。" }
+    ]
+  },
+  {
+    id: "w2906", english: "unanimity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["全體一致","一致同意"] ] }
+    ],
+    examples: [
+      { en:"The proposal passed only with unanimity, so one objection would have blocked it.", zh:"這項提案必須全體一致才能通過，只要有一人反對就會被否決。" }
+    ]
+  },
+  {
+    id: "w2907", english: "unknown unknown", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["未知的未知"] ] }
+    ],
+    examples: [
+      { en:"The groundwater problem was an unknown unknown that no one anticipated.", zh:"地下水問題是沒有人預料到的未知的未知。" }
+    ]
+  },
+  {
+    id: "w2908", english: "user story", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["使用者故事"] ] }
+    ],
+    examples: [
+      { en:"Each user story describes a feature from the customer's point of view.", zh:"每則使用者故事都從客戶的角度描述一項功能。" }
+    ]
+  },
+  {
+    id: "w2909", english: "variance at completion", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完工差異","完工變異"] ] }
+    ],
+    examples: [
+      { en:"A negative variance at completion means the project is forecast to exceed its budget.", zh:"完工差異為負值，表示預測專案將超出預算。" }
+    ]
+  },
+  {
+    id: "w2910", english: "walkthrough", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["逐步檢視","走查"] ] }
+    ],
+    examples: [
+      { en:"The customer joined a formal walkthrough of the completed deliverable.", zh:"客戶參加了對已完成可交付成果的正式逐步檢視。" }
+    ]
+  },
+  {
+    id: "w2911", english: "weak matrix", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["弱矩陣組織"] ] }
+    ],
+    examples: [
+      { en:"In a weak matrix, the project manager acts more like a coordinator than a decision-maker.", zh:"在弱矩陣組織中，專案經理更像協調者而非決策者。" }
+    ]
+  },
+  {
+    id: "w2912", english: "weighted-average", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["加權平均的"] ] }
+    ],
+    examples: [
+      { en:"We used a weighted-average formula to estimate the activity cost.", zh:"我們用加權平均公式來估算該活動的成本。" }
+    ]
+  },
+  {
+    id: "w2913", english: "work in progress", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["在製品","進行中的工作"] ] }
+    ],
+    examples: [
+      { en:"Kanban limits work in progress so that the team finishes tasks before starting new ones.", zh:"看板限制在製品數量，讓團隊先完成手上的任務再開始新的。" }
+    ]
+  },
+  {
+    id: "w2914", english: "work performance information", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["工作績效資訊"] ] }
+    ],
+    examples: [
+      { en:"The report provides work performance information describing the extent of the scope variance.", zh:"這份報告提供了說明範疇差異程度的工作績效資訊。" }
+    ]
+  },
+  {
+    id: "w2915", english: "working norms", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["工作規範","共同作業準則"] ] }
+    ],
+    examples: [
+      { en:"The new team set clear working norms during its kickoff meeting.", zh:"新團隊在啟動會議上訂定了明確的工作規範。" }
+    ]
+  },
+  {
+    id: "w2916", english: "XP", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Extreme Programming",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["極限程式設計"] ] }
+    ],
+    examples: [
+      { en:"The software team adopted XP (extreme programming) to deliver code in short cycles.", zh:"軟體團隊採用極限程式設計，以短週期交付程式碼。" }
+    ]
+  },
+  {
+    id: "w2917", english: "accountability", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["問責","課責"], ["當責"] ] }
+    ],
+    examples: [
+      { en:"Clear accountability ensures every task has an owner.", zh:"明確的問責機制確保每項工作都有負責人。" }
+    ]
+  },
+  {
+    id: "w2918", english: "consolidate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["整合","合併"], ["鞏固","加強"] ] }
+    ],
+    examples: [
+      { en:"The project manager consolidated all the feedback into a single document.", zh:"專案經理把所有意見整合成一份文件。" },
+      { en:"The firm consolidated its leading position in the regional market.", zh:"這家公司鞏固了它在區域市場的領先地位。" }
+    ]
+  },
+  {
+    id: "w2919", english: "credibility", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["可信度","公信力"] ] }
+    ],
+    examples: [
+      { en:"Missing several deadlines damaged the team's credibility with senior leadership.", zh:"數次錯過期限損害了團隊在高階主管心中的可信度。" }
+    ]
+  },
+  {
+    id: "w2920", english: "deprioritize", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["降低優先順序","往後排"] ] }
+    ],
+    examples: [
+      { en:"The team decided to deprioritize minor features to meet the deadline.", zh:"團隊決定降低次要功能的優先順序以趕上期限。" }
+    ]
+  },
+  {
+    id: "w2921", english: "disciplinary action", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["懲處","紀律處分"] ] }
+    ],
+    examples: [
+      { en:"HR may take disciplinary action if the misconduct is confirmed.", zh:"若不當行為屬實，人資部門可能採取懲處措施。" }
+    ]
+  },
+  {
+    id: "w2922", english: "disclosure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["揭露","披露"] ] }
+    ],
+    examples: [
+      { en:"Full disclosure of any conflict of interest is required under the code of conduct.", zh:"依據行為準則，任何利益衝突都必須完整揭露。" }
+    ]
+  },
+  {
+    id: "w2923", english: "empathy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["同理心","共感"] ] }
+    ],
+    examples: [
+      { en:"The manager showed empathy by listening to the client's concerns.", zh:"經理藉由傾聽客戶的顧慮展現了同理心。" }
+    ]
+  },
+  {
+    id: "w2924", english: "fraud", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["詐欺","詐騙"] ] }
+    ],
+    examples: [
+      { en:"The auditors uncovered a case of fraud in the accounting department.", zh:"稽核人員在會計部門發現一起詐欺案。" }
+    ]
+  },
+  {
+    id: "w2925", english: "integrity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["誠信","正直"], ["完整性"] ] }
+    ],
+    examples: [
+      { en:"Team members trust the manager because of his integrity.", zh:"團隊成員信任這位經理，是因為他的正直誠信。" },
+      { en:"The audit confirmed the integrity of the financial data.", zh:"稽核確認了財務資料的完整性。" }
+    ]
+  },
+  {
+    id: "w2926", english: "mutually exclusive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["互斥的","互不相容的"] ] }
+    ],
+    examples: [
+      { en:"The two proposals are mutually exclusive, so the board can fund only one.", zh:"這兩項提案互相排斥，因此董事會只能資助其中一項。" }
+    ]
+  },
+  {
+    id: "w2927", english: "obligation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["義務","責任"] ] }
+    ],
+    examples: [
+      { en:"The vendor has a contractual obligation to deliver the goods by the end of June.", zh:"供應商負有在六月底前交貨的合約義務。" }
+    ]
+  },
+  {
+    id: "w2928", english: "outset", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["開端","起初"] ] }
+    ],
+    examples: [
+      { en:"We defined the approval process at the outset of the project.", zh:"我們在專案之初就訂定了核准流程。" }
+    ]
+  },
+  {
+    id: "w2929", english: "phenomenon", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["現象"] ] }
+    ],
+    examples: [
+      { en:"Scope creep is a common phenomenon in poorly controlled projects.", zh:"範疇蔓延是管控不佳的專案中常見的現象。" }
+    ]
+  },
+  {
+    id: "w2930", english: "reach consensus", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "phr.", meaningGroups: [ ["達成共識"] ] }
+    ],
+    examples: [
+      { en:"A facilitated workshop helped the stakeholders reach consensus on the requirements.", zh:"一場有人引導的工作坊協助利害關係人就需求達成共識。" }
+    ]
+  },
+  {
+    id: "w2931", english: "resilience", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["韌性","復原力"] ] }
+    ],
+    examples: [
+      { en:"The team showed great resilience after the project setback.", zh:"專案遭遇挫折後，團隊展現出強大的韌性。" }
+    ]
+  },
+  {
+    id: "w2932", english: "seniority", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["資歷","年資"] ] }
+    ],
+    examples: [
+      { en:"Promotions at the firm are based on performance rather than seniority.", zh:"這家公司的升遷是依表現而非年資。" }
+    ]
+  },
+  {
+    id: "w2933", english: "undermine", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["削弱","暗中破壞"] ] }
+    ],
+    examples: [
+      { en:"Constant interruptions undermined the product owner's ability to manage the backlog.", zh:"不斷的干擾削弱了產品負責人管理待辦事項清單的能力。" }
+    ]
+  },
+  {
+    id: "w2934", english: "withhold", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["扣留","拒絕給予"] ] }
+    ],
+    examples: [
+      { en:"The client threatened to withhold payment until the defects were fixed.", zh:"客戶威脅在缺陷修正前扣留款項。" }
+    ]
+  },
+  {
+    id: "w2935", english: "ADM", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Arrow Diagramming Method",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["箭線圖法"] ] }
+    ],
+    examples: [
+      { en:"The ADM (Arrow Diagramming Method) shows activities as arrows between event nodes.", zh:"箭線圖法以事件節點之間的箭線來表示活動。" }
+    ]
+  },
+  {
+    id: "w2936", english: "aggregation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["彙總","匯總","聚合"] ] }
+    ],
+    examples: [
+      { en:"Cost aggregation rolls work package estimates up to a total budget.", zh:"成本彙總把工作包的估算逐層加總成總預算。" }
+    ]
+  },
+  {
+    id: "w2937", english: "auditor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["稽核員","審計員"] ] }
+    ],
+    examples: [
+      { en:"The external auditor reviewed the project's financial records.", zh:"外部稽核員檢閱了該專案的財務紀錄。" }
+    ]
+  },
+  {
+    id: "w2938", english: "avoidance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["規避","避免"] ] }
+    ],
+    examples: [
+      { en:"Risk avoidance means changing the plan to eliminate the threat entirely.", zh:"風險規避是指修改計畫以完全消除該威脅。" }
+    ]
+  },
+  {
+    id: "w2939", english: "BCR", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Benefit-Cost Ratio",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["效益成本比"] ] }
+    ],
+    examples: [
+      { en:"A BCR (benefit-cost ratio) above one means the benefits exceed the costs.", zh:"效益成本比大於一，代表效益超過成本。" }
+    ]
+  },
+  {
+    id: "w2940", english: "benefit-cost", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["效益成本的"] ] }
+    ],
+    examples: [
+      { en:"The board reviewed the benefit-cost ratio before approving the investment.", zh:"董事會在核准投資前先檢視了效益成本比。" }
+    ]
+  },
+  {
+    id: "w2941", english: "burnout", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["職業倦怠","過勞"] ] }
+    ],
+    examples: [
+      { en:"Excessive overtime can lead to burnout and higher turnover.", zh:"過度加班可能導致職業倦怠與離職率上升。" }
+    ]
+  },
+  {
+    id: "w2942", english: "closeout", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["結案","收尾"] ] }
+    ],
+    examples: [
+      { en:"Lessons learned are documented during project closeout.", zh:"經驗教訓會在專案結案時記錄下來。" }
+    ]
+  },
+  {
+    id: "w2943", english: "command-and-control", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["命令與控制式的","指揮管控式的"] ] }
+    ],
+    examples: [
+      { en:"A command-and-control approach rarely works well with self-directed agile teams.", zh:"命令與控制式的做法很少適用於自主導向的敏捷團隊。" }
+    ]
+  },
+  {
+    id: "w2944", english: "cost S-curve", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本累積曲線"] ] }
+    ],
+    examples: [
+      { en:"The cumulative cost S-curve shows spending over the life of the project.", zh:"累計成本曲線顯示專案生命週期內的支出情形。" }
+    ]
+  },
+  {
+    id: "w2945", english: "cost-benefit analysis", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本效益分析"] ] }
+    ],
+    examples: [
+      { en:"The committee requested a cost-benefit analysis before approving the investment.", zh:"委員會在核准投資前要求提供成本效益分析。" }
+    ]
+  },
+  {
+    id: "w2946", english: "cost-reimbursable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["成本補償式的","實報實銷的"] ] }
+    ],
+    examples: [
+      { en:"Under a cost-reimbursable contract, the buyer bears most of the cost overrun risk.", zh:"在成本補償式合約下，買方承擔大部分的成本超支風險。" }
+    ]
+  },
+  {
+    id: "w2947", english: "CPFF", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Cost Plus Fixed Fee",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["成本加固定費用合約","成本加固定費用"] ] }
+    ],
+    examples: [
+      { en:"Under a CPFF (cost plus fixed fee) contract, the seller's fee stays the same.", zh:"在成本加固定費用合約下，賣方的費用維持不變。" }
+    ]
+  },
+  {
+    id: "w2948", english: "cross-functional", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["跨職能的","跨部門的"] ] }
+    ],
+    examples: [
+      { en:"A cross-functional team of engineers and marketers designed the new product.", zh:"由工程師與行銷人員組成的跨職能團隊設計了這款新產品。" }
+    ]
+  },
+  {
+    id: "w2949", english: "DA", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Disciplined Agile",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["自律敏捷","紀律敏捷"] ] }
+    ],
+    examples: [
+      { en:"DA (Disciplined Agile) offers a toolkit for choosing among agile and lean practices.", zh:"自律敏捷提供一套工具組，協助在各種敏捷與精實做法中做選擇。" }
+    ]
+  },
+  {
+    id: "w2950", english: "delphi technique", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["德爾菲技術","德爾菲法"] ] }
+    ],
+    examples: [
+      { en:"The team used the Delphi technique to reach anonymous expert consensus on the risks.", zh:"團隊使用德爾菲技術，就風險取得專家匿名的共識。" }
+    ]
+  },
+  {
+    id: "w2951", english: "DoD", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Definition of Done",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["完成定義"] ] }
+    ],
+    examples: [
+      { en:"The team revised the DoD (Definition of Done) to include automated testing.", zh:"團隊修訂了完成定義，將自動化測試納入其中。" }
+    ]
+  },
+  {
+    id: "w2952", english: "EI", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Emotional Intelligence",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["情緒智力","情緒智商"] ] }
+    ],
+    examples: [
+      { en:"Strong EI (emotional intelligence) helps managers resolve conflicts calmly.", zh:"良好的情緒智力有助於管理者冷靜化解衝突。" }
+    ]
+  },
+  {
+    id: "w2953", english: "epic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["史詩","大型需求項目"] ] }
+    ],
+    examples: [
+      { en:"The product owner split the epic into several smaller user stories.", zh:"產品負責人把這個史詩拆成數個較小的使用者故事。" }
+    ]
+  },
+  {
+    id: "w2954", english: "estimable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可估算的","可估計的"], ["值得敬重的","值得稱道的"] ] }
+    ],
+    examples: [
+      { en:"Each user story should be estimable so the team can plan the sprint accurately.", zh:"每個使用者故事都應該是可估算的，團隊才能準確規劃衝刺。" }
+    ]
+  },
+  {
+    id: "w2955", english: "ESVP", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Explorer, Shopper, Vacationer, Prisoner",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["回顧會議參與者類型調查（探險者、購物者、度假者、囚犯）"] ] }
+    ],
+    examples: [
+      { en:"The facilitator used ESVP (Explorer, Shopper, Vacationer, Prisoner) to gauge attendees' attitudes.", zh:"引導者用探險者、購物者、度假者、囚犯的分類來了解與會者的態度。" }
+    ]
+  },
+  {
+    id: "w2956", english: "expediter", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["協調員","催辦員"] ] }
+    ],
+    examples: [
+      { en:"In a weak matrix, the project manager acts as an expediter rather than a decision-maker.", zh:"在弱矩陣組織中，專案經理的角色更像協調員而非決策者。" }
+    ]
+  },
+  {
+    id: "w2957", english: "grooming", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["待辦清單梳理","需求梳理"] ] }
+    ],
+    examples: [
+      { en:"Backlog grooming keeps user stories clear and properly prioritized.", zh:"待辦清單梳理能讓使用者故事維持清晰並妥善排定優先順序。" }
+    ]
+  },
+  {
+    id: "w2958", english: "handover", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["移交","交接"] ] }
+    ],
+    examples: [
+      { en:"The handover of the system to the operations team is scheduled for Friday.", zh:"系統移交給營運團隊的時程排在星期五。" }
+    ]
+  },
+  {
+    id: "w2959", english: "HRM", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Human Resource Management",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["人力資源管理"] ] }
+    ],
+    examples: [
+      { en:"Green HRM (Human Resource Management) encourages remote work to reduce commuting emissions.", zh:"綠色人力資源管理鼓勵遠距工作以減少通勤排放。" }
+    ]
+  },
+  {
+    id: "w2960", english: "hygiene", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["衛生","保健"] ] }
+    ],
+    examples: [
+      { en:"Herzberg considered salary a hygiene factor rather than a motivator.", zh:"赫茲伯格認為薪資是保健因子，而非激勵因子。" }
+    ]
+  },
+  {
+    id: "w2961", english: "insourcing", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["內製","自行承辦"] ] }
+    ],
+    examples: [
+      { en:"The company chose insourcing to keep control over its core capabilities.", zh:"公司選擇內製，以掌握核心能力。" }
+    ]
+  },
+  {
+    id: "w2962", english: "KPI", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Key Performance Indicator",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["關鍵績效指標"] ] }
+    ],
+    examples: [
+      { en:"We set a complaint-count KPI (key performance indicator) for every customer service representative.", zh:"我們為每位客服人員設定了客訴件數的關鍵績效指標。" }
+    ]
+  },
+  {
+    id: "w2963", english: "lightweight", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["輕量的","精簡的"] ] }
+    ],
+    examples: [
+      { en:"For a small initiative, we propose a lightweight approach with fewer review points.", zh:"對於小型專案，我們建議採用審查節點較少的精簡做法。" }
+    ]
+  },
+  {
+    id: "w2964", english: "LS", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Late Start",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["最晚開始","最晚開始時間"] ] }
+    ],
+    examples: [
+      { en:"The LS (late start) of the activity is Day 9 without delaying the project.", zh:"該活動在不延誤專案的前提下，最晚開始時間為第九天。" }
+    ]
+  },
+  {
+    id: "w2965", english: "MMF", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Minimal Marketable Feature",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["最小可上市功能","最小可銷售功能"] ] }
+    ],
+    examples: [
+      { en:"The team released the MMF (Minimal Marketable Feature) first to start generating revenue.", zh:"團隊先釋出最小可上市功能，以便開始創造營收。" }
+    ]
+  },
+  {
+    id: "w2966", english: "motivator", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["激勵因子","激勵因素"] ] }
+    ],
+    examples: [
+      { en:"In Herzberg's theory, recognition is a motivator while salary is a hygiene factor.", zh:"在赫茲伯格的理論中，肯定是激勵因子，而薪資是保健因子。" }
+    ]
+  },
+  {
+    id: "w2967", english: "non-value-adding", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["無附加價值的","不增值的"] ] }
+    ],
+    examples: [
+      { en:"Lean methods aim to remove non-value-adding steps from the process.", zh:"精實方法旨在從流程中移除無附加價值的步驟。" }
+    ]
+  },
+  {
+    id: "w2968", english: "osmotic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["滲透式的","潛移默化的"] ] }
+    ],
+    examples: [
+      { en:"Osmotic communication happens when team members share one workspace.", zh:"團隊成員共用同一個工作空間時，就會產生滲透式溝通。" }
+    ]
+  },
+  {
+    id: "w2969", english: "outsource", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["外包","委外"] ] }
+    ],
+    examples: [
+      { en:"The firm decided to outsource its payroll processing to a specialist provider.", zh:"公司決定把薪資作業外包給專業供應商。" }
+    ]
+  },
+  {
+    id: "w2970", english: "PDCA", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Plan-Do-Check-Act",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["戴明循環","計畫執行查核行動循環"] ] }
+    ],
+    examples: [
+      { en:"The PDCA (plan-do-check-act) cycle helps the team verify results and institutionalize improvements.", zh:"計畫執行查核行動循環能協助團隊驗證成果並將改善措施制度化。" }
+    ]
+  },
+  {
+    id: "w2971", english: "persona", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["使用者角色","人物誌"], ["表面形象","人設"] ] }
+    ],
+    examples: [
+      { en:"The designers created a persona to represent a typical customer.", zh:"設計師建立了一個使用者角色來代表典型客戶。" }
+    ]
+  },
+  {
+    id: "w2972", english: "plan-do-check-act", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["戴明循環","計畫執行查核行動循環"] ] }
+    ],
+    examples: [
+      { en:"The plan-do-check-act cycle helps the team improve the process step by step.", zh:"計畫執行查核行動循環協助團隊逐步改善流程。" }
+    ]
+  },
+  {
+    id: "w2973", english: "pre-assignment", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["預先指派","事先指派"] ] }
+    ],
+    examples: [
+      { en:"Pre-assignment is used when key team members are promised in the project proposal.", zh:"當專案提案中已承諾特定關鍵成員時，會採用預先指派。" }
+    ]
+  },
+  {
+    id: "w2974", english: "pre-mortem", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["事前驗屍","事前剖析"] ] }
+    ],
+    examples: [
+      { en:"The team held a pre-mortem to imagine how the project could fail before work began.", zh:"團隊在開工前進行了事前驗屍，設想專案可能如何失敗。" }
+    ]
+  },
+  {
+    id: "w2975", english: "preventive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["預防性的","預防的"] ] }
+    ],
+    examples: [
+      { en:"Preventive action addresses a possible problem before it ever occurs.", zh:"預防措施會在潛在問題發生之前就先處理。" }
+    ]
+  },
+  {
+    id: "w2976", english: "self-awareness", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自我覺察","自我認知"] ] }
+    ],
+    examples: [
+      { en:"Self-awareness helps leaders understand how their behavior affects others.", zh:"自我覺察能幫助領導者了解自己的行為如何影響他人。" }
+    ]
+  },
+  {
+    id: "w2977", english: "slack", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["浮時","寬鬆時間"] ] },
+      { pos: "adj", meaningGroups: [ ["鬆弛的","懈怠的"] ] }
+    ],
+    examples: [
+      { en:"The activity has seven days of slack before it affects the finish date.", zh:"這項活動有七天浮時，才會影響完工日期。" },
+      { en:"Slack oversight of the vendor allowed small errors to pile up.", zh:"對供應商的監督鬆散，使小錯誤不斷累積。" }
+    ]
+  },
+  {
+    id: "w2978", english: "speedboat", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["快艇","快艇回顧遊戲"] ] }
+    ],
+    examples: [
+      { en:"In the speedboat game, the anchors represent the risks that slow the product down.", zh:"在快艇遊戲中，船錨代表拖慢產品進度的風險。" }
+    ]
+  },
+  {
+    id: "w2979", english: "stacey matrix", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["史黛西矩陣"] ] }
+    ],
+    examples: [
+      { en:"The Stacey matrix helps decide which development approach fits the project.", zh:"史黛西矩陣有助於決定專案適合哪種開發方法。" }
+    ]
+  },
+  {
+    id: "w2980", english: "start-to-finish", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["開始到完成"] ] }
+    ],
+    examples: [
+      { en:"A start-to-finish relationship is rare because the successor must start before the predecessor can finish.", zh:"開始到完成的關係相當少見，因為後續活動必須先開始，前置活動才能完成。" }
+    ]
+  },
+  {
+    id: "w2981", english: "start-to-start", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["開始到開始"] ] }
+    ],
+    examples: [
+      { en:"In a start-to-start relationship, the successor cannot begin until the predecessor has begun.", zh:"在開始到開始的關係中，後續活動須等前置活動開始後才能開始。" }
+    ]
+  },
+  {
+    id: "w2982", english: "successor activity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["後續活動","後繼活動"] ] }
+    ],
+    examples: [
+      { en:"A successor activity cannot start until its predecessor has been completed.", zh:"後續活動必須等其前置活動完成後才能開始。" }
+    ]
+  },
+  {
+    id: "w2983", english: "SWOT", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Strengths, Weaknesses, Opportunities, Threats",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["優劣勢與機會威脅分析","強弱危機分析"] ] }
+    ],
+    examples: [
+      { en:"The planning team ran a SWOT (strengths, weaknesses, opportunities, threats) analysis before entering the new market.", zh:"規劃團隊在進軍新市場前進行了強弱危機分析。" }
+    ]
+  },
+  {
+    id: "w2984", english: "t-shirt sizing", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["衣服尺寸估算法","相對尺寸估算"] ] }
+    ],
+    examples: [
+      { en:"The team used t-shirt sizing to roughly compare the effort of each story.", zh:"團隊用衣服尺寸估算法大致比較各使用者故事的工作量。" }
+    ]
+  },
+  {
+    id: "w2985", english: "timesheet", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["工時表"] ] }
+    ],
+    examples: [
+      { en:"Contractors must submit weekly timesheets tied to specific deliverables.", zh:"承包人必須每週提交與特定交付項目連結的工時表。" }
+    ]
+  },
+  {
+    id: "w2986", english: "top-down", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["由上而下的","自上而下的"] ] },
+      { pos: "adv", meaningGroups: [ ["由上而下地"] ] }
+    ],
+    examples: [
+      { en:"Management adopted a top-down approach in which senior leaders set all the targets.", zh:"管理階層採取由上而下的做法，所有目標都由高層領導者設定。" },
+      { en:"In this organization, decisions are made top-down by a single controlling authority.", zh:"在這個組織中，決策由單一的管控權威由上而下地做出。" }
+    ]
+  },
+  {
+    id: "w2987", english: "triple constraint", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["三重限制","鐵三角"] ] }
+    ],
+    examples: [
+      { en:"The sponsor must accept trade-offs among the triple constraint of scope, time, and cost.", zh:"發起人必須接受在範疇、時間與成本這三重限制之間的取捨。" }
+    ]
+  },
+  {
+    id: "w2988", english: "UAT", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "User Acceptance Testing",
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["使用者驗收測試"] ] }
+    ],
+    examples: [
+      { en:"The customer signed off the system after UAT (user acceptance testing) was completed.", zh:"使用者驗收測試完成後，客戶簽核了該系統。" }
+    ]
+  },
+  {
+    id: "w2989", english: "unknown-known", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["已知卻未被察覺的事項","未被意識到的已知事項"] ] }
+    ],
+    examples: [
+      { en:"An unknown-known is something the team already knows but has not recognized or documented.", zh:"未被意識到的已知事項，指團隊其實已掌握但未察覺或未記錄的資訊。" }
+    ]
+  },
+  {
+    id: "w2990", english: "verification", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["驗證","查證"] ] }
+    ],
+    examples: [
+      { en:"Verification confirms that each requirement was actually met by the deliverable.", zh:"驗證能確認可交付成果確實滿足每項需求。" }
+    ]
+  },
+  {
+    id: "w2991", english: "wireframe", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["線框圖","網頁骨架圖"] ] }
+    ],
+    examples: [
+      { en:"The designer shared a wireframe of the app's main screen for early feedback.", zh:"設計師分享了應用程式主畫面的線框圖，以便及早取得意見。" }
+    ]
+  },
+  {
+    id: "w2992", english: "work-in-progress", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["在製品","進行中的工作"] ] }
+    ],
+    examples: [
+      { en:"Limiting work-in-progress helps the team finish tasks faster.", zh:"限制進行中的工作有助於團隊更快完成任務。" }
+    ]
+  },
+  {
+    id: "w2993", english: "workaround", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["權宜方案","變通辦法"] ] }
+    ],
+    examples: [
+      { en:"The developer implemented a workaround without informing the project manager.", zh:"開發人員在未告知專案經理的情況下採用了變通辦法。" }
+    ]
+  },
+  {
+    id: "w2994", english: "workstream", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["工作流","工作主線"] ] }
+    ],
+    examples: [
+      { en:"The migration project has four workstreams that must be coordinated closely.", zh:"這個遷移專案有四條工作主線，必須密切協調。" }
+    ]
+  },
+  {
+    id: "w2995", english: "amid", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "prep", meaningGroups: [ ["在…之中","處於…的氛圍下"] ] }
+    ],
+    examples: [
+      { en:"The company expanded overseas amid growing market uncertainty.", zh:"在市場不確定性日益升高之際，公司拓展了海外業務。" }
+    ]
+  },
+  {
+    id: "w2996", english: "bandwagon", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["跟風","從眾"] ] }
+    ],
+    examples: [
+      { en:"Anonymous voting prevents the bandwagon effect in group estimation.", zh:"匿名投票可避免團體估算時的從眾效應。" }
+    ]
+  },
+  {
+    id: "w2997", english: "causation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["因果關係"] ] }
+    ],
+    examples: [
+      { en:"Correlation between two metrics does not prove causation.", zh:"兩項指標相關，並不能證明兩者有因果關係。" }
+    ]
+  },
+  {
+    id: "w2998", english: "characterize", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["描述特性","刻畫"], ["以…為特徵"] ] }
+    ],
+    examples: [
+      { en:"The report characterizes the main risks and their likely impact.", zh:"這份報告描述了主要風險及其可能的影響。" },
+      { en:"Frequent scope changes characterized the early phase of the project.", zh:"頻繁的範疇變更是這個專案早期階段的特徵。" }
+    ]
+  },
+  {
+    id: "w2999", english: "charismatic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["有魅力的","具領袖魅力的"] ] }
+    ],
+    examples: [
+      { en:"The charismatic CEO inspired employees during the company's restructuring.", zh:"這位富有魅力的執行長在公司重整期間鼓舞了員工。" }
+    ]
+  },
+  {
+    id: "w3000", english: "conceivable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可想像的","可能的"] ] }
+    ],
+    examples: [
+      { en:"We considered every conceivable risk before launching the pilot.", zh:"在推出試行計畫前，我們考慮了所有可能想得到的風險。" }
+    ]
+  },
+  {
+    id: "w3001", english: "concurrent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["同時發生的","並行的"] ] }
+    ],
+    examples: [
+      { en:"Concurrent activities can shorten the schedule but increase risk.", zh:"並行的活動可以縮短時程，但會提高風險。" }
+    ]
+  },
+  {
+    id: "w3002", english: "disclose", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["揭露","披露"] ] }
+    ],
+    examples: [
+      { en:"You must disclose any conflict of interest to the sponsor right away.", zh:"你必須立即向發起人揭露任何利益衝突。" }
+    ]
+  },
+  {
+    id: "w3003", english: "disengaged", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["不投入的","疏離的"] ] }
+    ],
+    examples: [
+      { en:"Employees with repetitive tasks often become disengaged from their work.", zh:"從事重複性工作的員工常會對工作失去投入感。" }
+    ]
+  },
+  {
+    id: "w3004", english: "dissent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["異議","不同意見"] ] },
+      { pos: "vi", meaningGroups: [ ["持異議","表示反對"] ] }
+    ],
+    examples: [
+      { en:"The manager welcomed dissent because it exposed risks the team had overlooked.", zh:"經理歡迎不同意見，因為它揭露了團隊忽略的風險。" },
+      { en:"Two board members dissented from the decision to delay the launch.", zh:"兩位董事對延後上市的決定表示反對。" }
+    ]
+  },
+  {
+    id: "w3005", english: "elaborate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["詳細闡述","細化"] ] },
+      { pos: "vi", meaningGroups: [ ["詳述","詳細說明"] ] },
+      { pos: "adj", meaningGroups: [ ["精心設計的","繁複的"] ] }
+    ],
+    examples: [
+      { en:"The team will progressively elaborate the scope as requirements become clearer.", zh:"隨著需求越來越清楚，團隊將逐步細化範疇。" },
+      { en:"Could you elaborate on the risks you mentioned?", zh:"你可以詳細說明你提到的那些風險嗎？" }
+    ]
+  },
+  {
+    id: "w3006", english: "exhaustively", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adv", meaningGroups: [ ["徹底地","詳盡地"] ] }
+    ],
+    examples: [
+      { en:"The auditors exhaustively reviewed every transaction from the past year.", zh:"稽核人員徹底審查了過去一年的每一筆交易。" }
+    ]
+  },
+  {
+    id: "w3007", english: "expenditure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["支出","經費"] ] }
+    ],
+    examples: [
+      { en:"Any capital expenditure above ten thousand dollars requires director approval.", zh:"任何超過一萬美元的資本支出都需要主管核准。" }
+    ]
+  },
+  {
+    id: "w3008", english: "fluctuation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["波動","起伏"] ] }
+    ],
+    examples: [
+      { en:"Currency fluctuation increased the cost of imported materials.", zh:"匯率波動提高了進口材料的成本。" }
+    ]
+  },
+  {
+    id: "w3009", english: "foreseeable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可預見的","可預料的"] ] }
+    ],
+    examples: [
+      { en:"The contract covers all foreseeable risks during the construction period.", zh:"合約涵蓋施工期間所有可預見的風險。" }
+    ]
+  },
+  {
+    id: "w3010", english: "holistic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["整體的","全面性的"] ] }
+    ],
+    examples: [
+      { en:"The company takes a holistic approach to employee well-being, both at work and at home.", zh:"公司對員工福祉採取全面性的做法，涵蓋工作與家庭。" }
+    ]
+  },
+  {
+    id: "w3011", english: "institutional", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["機構的","制度上的"] ] }
+    ],
+    examples: [
+      { en:"Long-serving staff hold valuable institutional knowledge about our systems.", zh:"資深員工掌握著關於我們系統的寶貴組織知識。" }
+    ]
+  },
+  {
+    id: "w3012", english: "institutionalize", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["制度化"] ] }
+    ],
+    examples: [
+      { en:"The company wants to institutionalize the new review process across all departments.", zh:"公司希望將新的審查流程在所有部門制度化。" }
+    ]
+  },
+  {
+    id: "w3013", english: "interference", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["干預","干涉"], ["干擾"] ] }
+    ],
+    examples: [
+      { en:"Sponsor interference was identified as a risk during planning.", zh:"規劃階段已將發起人的干預列為一項風險。" }
+    ]
+  },
+  {
+    id: "w3014", english: "legislation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["立法","法令"] ] }
+    ],
+    examples: [
+      { en:"The legal team is monitoring new data privacy legislation that may affect the product.", zh:"法務團隊正在關注可能影響產品的新資料隱私法令。" }
+    ]
+  },
+  {
+    id: "w3015", english: "legitimacy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["正當性","合法性"] ] }
+    ],
+    examples: [
+      { en:"The new policy gained legitimacy once employees were consulted about it.", zh:"新政策在徵詢員工意見後取得了正當性。" }
+    ]
+  },
+  {
+    id: "w3016", english: "malleable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可塑的","易於調整的"] ] }
+    ],
+    examples: [
+      { en:"A malleable plan can be adjusted as new information emerges.", zh:"有彈性的計畫能隨新資訊出現而調整。" }
+    ]
+  },
+  {
+    id: "w3017", english: "micromanage", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["過度管控","事事干預"] ] }
+    ],
+    examples: [
+      { en:"Managers who micromanage their staff often reduce morale and productivity.", zh:"事事干預員工的主管往往會降低士氣與生產力。" }
+    ]
+  },
+  {
+    id: "w3018", english: "momentum", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["動能","氣勢"] ] }
+    ],
+    examples: [
+      { en:"The team wanted to keep the momentum going after the successful product launch.", zh:"產品成功上市後，團隊希望持續保持這股動能。" }
+    ]
+  },
+  {
+    id: "w3019", english: "originate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["起源於","源自"] ] },
+      { pos: "vt", meaningGroups: [ ["創始","發起"] ] }
+    ],
+    examples: [
+      { en:"The delay seems to originate from the supplier's factory.", zh:"這次延誤似乎源自供應商的工廠。" },
+      { en:"Our design team originated the concept for the new product line.", zh:"我們的設計團隊構思出這條新產品線的概念。" }
+    ]
+  },
+  {
+    id: "w3020", english: "pinpoint", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["精確找出","明確指出"] ] }
+    ],
+    examples: [
+      { en:"The engineers pinpointed the exact cause of the system failure.", zh:"工程師精確找出系統故障的確切原因。" }
+    ]
+  },
+  {
+    id: "w3021", english: "proactive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["積極主動的","前瞻性的"] ] }
+    ],
+    examples: [
+      { en:"A proactive manager addresses risks before they become issues.", zh:"積極主動的經理會在風險變成問題之前就加以處理。" }
+    ]
+  },
+  {
+    id: "w3022", english: "recuse", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["迴避","自請迴避"] ] }
+    ],
+    examples: [
+      { en:"She recused herself from the vendor selection because of a personal relationship.", zh:"由於有私人關係，她在廠商遴選時自行迴避。" }
+    ]
+  },
+  {
+    id: "w3023", english: "resentment", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["怨恨","不滿"] ] }
+    ],
+    examples: [
+      { en:"Unequal workloads created resentment among team members.", zh:"工作量不均在團隊成員之間造成怨懟。" }
+    ]
+  },
+  {
+    id: "w3024", english: "simultaneous", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["同時發生的","同步的"] ] }
+    ],
+    examples: [
+      { en:"The two product launches took place at simultaneous events in different cities.", zh:"兩項產品發表會在不同城市同時舉行。" }
+    ]
+  },
+  {
+    id: "w3025", english: "slippage", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["進度延誤","落後"] ] }
+    ],
+    examples: [
+      { en:"The organization tolerates schedule slippage of up to two weeks.", zh:"組織可容忍最多兩週的進度延誤。" }
+    ]
+  },
+  {
+    id: "w3026", english: "statutory", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["法定的","依法規定的"] ] }
+    ],
+    examples: [
+      { en:"Employers must provide statutory sick leave to all full-time employees.", zh:"雇主必須提供所有全職員工法定病假。" }
+    ]
+  },
+  {
+    id: "w3027", english: "subsidiary", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["附屬的","輔助的"] ] },
+      { pos: "nc", meaningGroups: [ ["子公司"] ] }
+    ],
+    examples: [
+      { en:"The subsidiary plans are combined into one project management plan.", zh:"各項附屬計畫被整合成一份專案管理計畫。" },
+      { en:"The firm opened a subsidiary in Singapore last year.", zh:"該公司去年在新加坡設立了一家子公司。" }
+    ]
+  },
+  {
+    id: "w3028", english: "tariff", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["關稅"] ] }
+    ],
+    examples: [
+      { en:"The new tariff on imported steel raised our production costs.", zh:"進口鋼材的新關稅提高了我們的生產成本。" }
+    ]
+  },
+  {
+    id: "w3029", english: "transparency", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["透明度","公開透明"] ] }
+    ],
+    examples: [
+      { en:"Regular status reports promote transparency with all stakeholders.", zh:"定期的狀態報告能增進對所有利害關係人的透明度。" }
+    ]
+  },
+  {
+    id: "w3030", english: "well-intentioned", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["善意的","出於好意的"] ] }
+    ],
+    examples: [
+      { en:"The developer was well-intentioned, but the unrequested feature added extra cost.", zh:"開發人員出於好意，但這項未被要求的功能增加了額外成本。" }
+    ]
+  },
+  {
+    id: "w3031", english: "as-built", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["竣工的","依實際施作的"] ] }
+    ],
+    examples: [
+      { en:"The contractor submitted the as-built drawings after construction was complete.", zh:"營造商在施工完成後提交了竣工圖。" }
+    ]
+  },
+  {
+    id: "w3032", english: "assertiveness", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自信果斷","堅定自信的表達"] ] }
+    ],
+    examples: [
+      { en:"Assertiveness lets a manager state expectations clearly without being aggressive.", zh:"自信果斷讓管理者能清楚表達期望而不顯得咄咄逼人。" }
+    ]
+  },
+  {
+    id: "w3033", english: "async", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "asynchronous",
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["非同步的"] ] }
+    ],
+    examples: [
+      { en:"The team relies on async communication to work across time zones.", zh:"團隊靠非同步溝通來跨時區協作。" }
+    ]
+  },
+  {
+    id: "w3034", english: "audit-trail", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["稽核軌跡","稽核追蹤紀錄"] ] }
+    ],
+    examples: [
+      { en:"The system keeps a complete audit-trail of every change made to the financial records.", zh:"系統會完整保留對財務紀錄所做的每項變更的稽核軌跡。" }
+    ]
+  },
+  {
+    id: "w3035", english: "backward-compatible", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["向下相容的","向後相容的"] ] }
+    ],
+    examples: [
+      { en:"The new software release is backward-compatible with older file formats.", zh:"新版軟體可相容於舊的檔案格式。" }
+    ]
+  },
+  {
+    id: "w3036", english: "burnup", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["燃起圖"] ] }
+    ],
+    examples: [
+      { en:"The burnup chart shows how much scope the team has completed so far.", zh:"燃起圖顯示團隊目前已完成多少範疇的工作。" }
+    ]
+  },
+  {
+    id: "w3037", english: "contingent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["應變的","備用的"], ["取決於…的","視情況而定的"] ] }
+    ],
+    examples: [
+      { en:"The team prepared a contingent response plan in case the vendor failed to deliver.", zh:"團隊準備了應變回應計畫，以防廠商無法交貨。" },
+      { en:"Final approval is contingent on the results of the safety review.", zh:"最終核准取決於安全審查的結果。" }
+    ]
+  },
+  {
+    id: "w3038", english: "criticality", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["關鍵程度","重要性"] ] }
+    ],
+    examples: [
+      { en:"The level of process rigor should match the criticality of the system.", zh:"流程的嚴謹程度應與系統的關鍵程度相稱。" }
+    ]
+  },
+  {
+    id: "w3039", english: "delighter", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["魅力品質","驚喜功能"] ] }
+    ],
+    examples: [
+      { en:"A free upgrade is a delighter that exceeds customer expectations.", zh:"免費升級是超出顧客期待的驚喜功能。" }
+    ]
+  },
+  {
+    id: "w3040", english: "disposition", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["處置結果","裁決"], ["性情","性格"], ["傾向","意向"] ] }
+    ],
+    examples: [
+      { en:"The board recorded the disposition of each change request in the log.", zh:"委員會把每項變更請求的處置結果記錄在日誌中。" },
+      { en:"Her cheerful disposition made her popular with clients.", zh:"她開朗的性情讓她深受客戶喜愛。" }
+    ]
+  },
+  {
+    id: "w3041", english: "DoR", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Definition of Ready",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["就緒定義","準備就緒標準"] ] }
+    ],
+    examples: [
+      { en:"A story must meet the DoR (definition of ready) before it can enter the sprint backlog.", zh:"使用者故事必須符合就緒定義，才能進入衝刺待辦清單。" }
+    ]
+  },
+  {
+    id: "w3042", english: "downtime", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["停機時間","停工期"] ] }
+    ],
+    examples: [
+      { en:"Scheduled maintenance should minimize downtime for customers.", zh:"排定的維護作業應將客戶的停機時間降到最低。" }
+    ]
+  },
+  {
+    id: "w3043", english: "dummy activity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["虛擬活動"] ] }
+    ],
+    examples: [
+      { en:"The planner inserted a dummy activity to show the logical dependency between tasks.", zh:"規劃人員加入一個虛擬活動，以表示任務之間的邏輯相依關係。" }
+    ]
+  },
+  {
+    id: "w3044", english: "gantt chart", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["甘特圖"] ] }
+    ],
+    examples: [
+      { en:"The Gantt chart displays each activity's start and finish dates as horizontal bars.", zh:"甘特圖以橫條顯示每項活動的起訖日期。" }
+    ]
+  },
+  {
+    id: "w3045", english: "glossary", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["詞彙表","術語表"] ] }
+    ],
+    examples: [
+      { en:"The project glossary defines all the technical terms used in the specifications.", zh:"專案詞彙表定義了規格書中使用的所有技術術語。" }
+    ]
+  },
+  {
+    id: "w3046", english: "groupthink", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["團體迷思"] ] }
+    ],
+    examples: [
+      { en:"Groupthink can cause a team to overlook risks because no one wants to disagree.", zh:"團體迷思可能讓團隊忽略風險，因為沒有人想唱反調。" }
+    ]
+  },
+  {
+    id: "w3047", english: "icebreaker", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["破冰活動","打破僵局的開場話題"] ] }
+    ],
+    examples: [
+      { en:"The facilitator started the workshop with a short icebreaker.", zh:"主持人以一個簡短的破冰活動開始工作坊。" }
+    ]
+  },
+  {
+    id: "w3048", english: "instrumentality", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["工具性"], ["手段","媒介"] ] }
+    ],
+    examples: [
+      { en:"In expectancy theory, instrumentality is the belief that good performance will be rewarded.", zh:"在期望理論中，工具性是指相信良好績效會獲得獎賞。" }
+    ]
+  },
+  {
+    id: "w3049", english: "just-in-time", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["及時的","適時的"] ] }
+    ],
+    examples: [
+      { en:"Agile teams use just-in-time planning, detailing work shortly before each sprint begins.", zh:"敏捷團隊採用及時規劃，在每次衝刺開始前才將工作細節化。" }
+    ]
+  },
+  {
+    id: "w3050", english: "kaizen", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["改善","持續改善"] ] }
+    ],
+    examples: [
+      { en:"The factory adopted kaizen to remove non-value-adding activities.", zh:"工廠採用持續改善來消除不增值的活動。" }
+    ]
+  },
+  {
+    id: "w3051", english: "latency", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["延遲","延遲時間"] ] }
+    ],
+    examples: [
+      { en:"High network latency slowed down the response time of the application.", zh:"網路延遲過高拖慢了應用程式的回應時間。" }
+    ]
+  },
+  {
+    id: "w3052", english: "LCL", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Lower Control Limit",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["管制下限"] ] }
+    ],
+    examples: [
+      { en:"A data point below the LCL (Lower Control Limit) signals that the process may be out of control.", zh:"資料點落在管制下限之下，顯示流程可能失控。" }
+    ]
+  },
+  {
+    id: "w3053", english: "liquidated", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["預定賠償的"], ["已清算的"] ] }
+    ],
+    examples: [
+      { en:"The contract specifies liquidated damages of $1,000 for each day of delay.", zh:"合約規定每延遲一天須支付 1,000 美元的預定違約賠償金。" },
+      { en:"The liquidated assets were used to repay the company's debts.", zh:"已清算的資產被用來償還公司的債務。" }
+    ]
+  },
+  {
+    id: "w3054", english: "lock-in", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["鎖定效應","被綁定"] ] }
+    ],
+    examples: [
+      { en:"Vendor lock-in makes it costly to switch to another supplier later.", zh:"供應商鎖定效應使日後更換其他供應商的成本很高。" }
+    ]
+  },
+  {
+    id: "w3055", english: "metadata", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["元資料","後設資料"] ] }
+    ],
+    examples: [
+      { en:"Each document in the archive includes metadata such as author and date.", zh:"檔案庫中的每份文件都附有作者與日期等元資料。" }
+    ]
+  },
+  {
+    id: "w3056", english: "multicriteria", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["多準則的","多標準的"] ] }
+    ],
+    examples: [
+      { en:"The team used multicriteria decision analysis to rank the vendors.", zh:"團隊使用多準則決策分析來為供應商排序。" }
+    ]
+  },
+  {
+    id: "w3057", english: "MVP", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Minimum Viable Product",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["最小可行產品"] ] }
+    ],
+    examples: [
+      { en:"The startup released an MVP (minimum viable product) to test the idea with real customers.", zh:"這家新創公司推出最小可行產品，向真實客戶測試構想。" }
+    ]
+  },
+  {
+    id: "w3058", english: "nominal", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["名義上的","象徵性的"] ] }
+    ],
+    examples: [
+      { en:"The company charges only a nominal fee for the training course.", zh:"公司對這門訓練課程僅收取象徵性的費用。" }
+    ]
+  },
+  {
+    id: "w3059", english: "non-compliance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["不遵守","不合規"] ] }
+    ],
+    examples: [
+      { en:"Non-compliance with safety regulations can lead to heavy fines.", zh:"不遵守安全法規可能招致重罰。" }
+    ]
+  },
+  {
+    id: "w3060", english: "non-disclosure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["保密","不洩漏"] ] }
+    ],
+    examples: [
+      { en:"All council members must sign a non-disclosure agreement.", zh:"所有委員會成員都必須簽署保密協議。" }
+    ]
+  },
+  {
+    id: "w3061", english: "non-functional", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["非功能性的","非功能的"] ] }
+    ],
+    examples: [
+      { en:"Performance and security are typical non-functional requirements of the system.", zh:"效能與安全性是系統典型的非功能性需求。" }
+    ]
+  },
+  {
+    id: "w3062", english: "non-linearity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["非線性"] ] }
+    ],
+    examples: [
+      { en:"Non-linearity in complex systems means a small change can have a huge impact.", zh:"複雜系統中的非線性意謂著微小的改變也可能造成巨大影響。" }
+    ]
+  },
+  {
+    id: "w3063", english: "not-to-exceed", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["不得超過的","設有上限的"] ] }
+    ],
+    examples: [
+      { en:"The contract includes a not-to-exceed amount of two hundred thousand dollars.", zh:"合約訂有不得超過二十萬美元的上限金額。" }
+    ]
+  },
+  {
+    id: "w3064", english: "ordinal", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["序數的","順序的"] ] }
+    ],
+    examples: [
+      { en:"Ordinal scales rank risks as low, medium, or high without exact values.", zh:"序數尺度將風險排為低、中、高，但不給出精確數值。" }
+    ]
+  },
+  {
+    id: "w3065", english: "pivot", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["轉向","調整策略方向"], ["轉動","旋轉"] ] },
+      { pos: "nc", meaningGroups: [ ["策略轉向","轉折點"], ["支點","樞軸"], ["關鍵人物","樞紐"] ] }
+    ],
+    examples: [
+      { en:"After poor feedback, the company decided to pivot to a subscription-based model.", zh:"在收到不佳的回饋後，公司決定轉向訂閱制模式。" },
+      { en:"The pivot from retail to online sales saved the business.", zh:"從實體零售轉向線上銷售的策略轉向挽救了這門生意。" }
+    ]
+  },
+  {
+    id: "w3066", english: "plan-driven", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["計畫驅動的"] ] }
+    ],
+    examples: [
+      { en:"A plan-driven approach defines the full scope before work begins.", zh:"計畫驅動的方法在工作開始前就定義好完整的範疇。" }
+    ]
+  },
+  {
+    id: "w3067", english: "plurality", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["相對多數","得票最多"] ] }
+    ],
+    examples: [
+      { en:"Under plurality, the option with the most votes is chosen even without a majority.", zh:"在相對多數決下，即使未過半，得票最多的選項仍會獲選。" }
+    ]
+  },
+  {
+    id: "w3068", english: "PMP", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Project Management Professional",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["專案管理專業人士","專案管理師"] ] }
+    ],
+    examples: [
+      { en:"She earned her PMP (Project Management Professional) certification last year.", zh:"她去年取得了專案管理專業人士認證。" }
+    ]
+  },
+  {
+    id: "w3069", english: "predecessor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["前置活動","前置作業"], ["前任","前輩"] ] }
+    ],
+    examples: [
+      { en:"The predecessor activity must finish before the next task can begin.", zh:"前置活動必須先完成，下一項工作才能開始。" },
+      { en:"My predecessor left detailed notes about the vendor contracts.", zh:"我的前任留下了關於廠商合約的詳細筆記。" }
+    ]
+  },
+  {
+    id: "w3070", english: "punch-list", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["缺失清單","驗收待辦清單"] ] }
+    ],
+    examples: [
+      { en:"The inspector gave the contractor a punch-list of minor items to fix before handover.", zh:"檢驗員在交屋前給了營造商一份需修正的細項缺失清單。" }
+    ]
+  },
+  {
+    id: "w3071", english: "re-baseline", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["重新訂定基準","重設基準"] ] }
+    ],
+    examples: [
+      { en:"The sponsor approved a request to re-baseline the schedule after the delay.", zh:"延誤之後，發起人核准了重新訂定時程基準的請求。" }
+    ]
+  },
+  {
+    id: "w3072", english: "refactor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["重構"] ] }
+    ],
+    examples: [
+      { en:"The developers will refactor the legacy code to make it easier to maintain.", zh:"開發人員將重構舊有程式碼，使其更容易維護。" }
+    ]
+  },
+  {
+    id: "w3073", english: "regression", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["迴歸","退步"] ] }
+    ],
+    examples: [
+      { en:"The team runs regression tests to make sure new changes do not break existing features.", zh:"團隊進行迴歸測試，確保新的變更不會破壞既有功能。" }
+    ]
+  },
+  {
+    id: "w3074", english: "rollback", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["回滾","還原"] ] }
+    ],
+    examples: [
+      { en:"We prepared a rollback procedure in case the migration fails.", zh:"我們準備了回滾程序，以防遷移失敗。" }
+    ]
+  },
+  {
+    id: "w3075", english: "rolling-wave", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["滾動式的"] ] }
+    ],
+    examples: [
+      { en:"The team uses rolling-wave planning to detail near-term work and keep future work high-level.", zh:"團隊採用滾動式規劃，對近期工作詳細規劃，遠期工作則維持概略。" }
+    ]
+  },
+  {
+    id: "w3076", english: "sandbagging", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["刻意藏拙","預估灌水"] ] }
+    ],
+    examples: [
+      { en:"Sandbagging occurs when team members pad their estimates to protect themselves.", zh:"當團隊成員為自保而在預估中灌水時，就是刻意藏拙。" }
+    ]
+  },
+  {
+    id: "w3077", english: "segregation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["分離","區隔"] ] }
+    ],
+    examples: [
+      { en:"Segregation of duties prevents one person from controlling an entire financial process.", zh:"職責分離能避免單一人員掌控整個財務流程。" }
+    ]
+  },
+  {
+    id: "w3078", english: "self-governance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自我治理","自治"] ] }
+    ],
+    examples: [
+      { en:"Self-governance gives the development team authority over how it plans and does its work.", zh:"自我治理讓開發團隊有權決定如何規劃與執行工作。" }
+    ]
+  },
+  {
+    id: "w3079", english: "self-regulation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["自我調節","自我管理"], ["自律管理"] ] }
+    ],
+    examples: [
+      { en:"Self-regulation helps a manager stay calm under pressure.", zh:"自我調節能幫助管理者在壓力下保持冷靜。" }
+    ]
+  },
+  {
+    id: "w3080", english: "SME", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Subject Matter Expert",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["主題專家"] ] }
+    ],
+    examples: [
+      { en:"We invited an SME (subject matter expert) to review the data architecture.", zh:"我們邀請一位主題專家來審查資料架構。" }
+    ]
+  },
+  {
+    id: "w3081", english: "test-driven", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["測試驅動的"] ] }
+    ],
+    examples: [
+      { en:"Our developers follow a test-driven approach and write the tests before the code.", zh:"我們的開發人員採用測試驅動的做法，先寫測試再寫程式。" }
+    ]
+  },
+  {
+    id: "w3082", english: "time-bound", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["有時限的","設有期限的"] ] }
+    ],
+    examples: [
+      { en:"A good KPI is specific, measurable, and time-bound.", zh:"好的關鍵績效指標必須具體、可衡量且有時限。" }
+    ]
+  },
+  {
+    id: "w3083", english: "time-to-market", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["上市時間"] ] }
+    ],
+    examples: [
+      { en:"Automation shortened our time-to-market by several weeks.", zh:"自動化讓我們的上市時間縮短了好幾週。" }
+    ]
+  },
+  {
+    id: "w3084", english: "tornado", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["龍捲風"], ["龍捲風圖"] ] }
+    ],
+    examples: [
+      { en:"A tornado diagram ranks risks by how strongly each affects the project outcome.", zh:"龍捲風圖依各項風險對專案結果的影響程度排序。" }
+    ]
+  },
+  {
+    id: "w3085", english: "touchpoints", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["接觸點","互動環節"] ] }
+    ],
+    examples: [
+      { en:"Regular touchpoints with stakeholders keep the project aligned with their expectations.", zh:"與利害關係人定期的接觸點，能讓專案持續符合他們的期望。" }
+    ]
+  },
+  {
+    id: "w3086", english: "transformational", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["轉型的","變革型的"] ] }
+    ],
+    examples: [
+      { en:"Transformational leaders motivate teams by sharing a compelling vision.", zh:"變革型領導者透過分享引人入勝的願景來激勵團隊。" }
+    ]
+  },
+  {
+    id: "w3087", english: "triage", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["分類排序","檢傷分類"] ] },
+      { pos: "vt", meaningGroups: [ ["依緊急程度分類處理"] ] }
+    ],
+    examples: [
+      { en:"The support team uses triage to decide which tickets to handle first.", zh:"支援團隊透過分類排序來決定先處理哪些工單。" },
+      { en:"We need to triage the defects before the release.", zh:"發布前我們必須依緊急程度對缺陷進行分類處理。" }
+    ]
+  },
+  {
+    id: "w3088", english: "UCL", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Upper Control Limit",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["管制上限"] ] }
+    ],
+    examples: [
+      { en:"A point above the UCL (upper control limit) signals that the process is out of control.", zh:"超過管制上限的資料點，表示該流程失控。" }
+    ]
+  },
+  {
+    id: "w3089", english: "undiscounted", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["未折現的","未貼現的"] ] }
+    ],
+    examples: [
+      { en:"The undiscounted payback period ignores the time value of money.", zh:"未折現的回收期忽略了金錢的時間價值。" }
+    ]
+  },
+  {
+    id: "w3090", english: "valence", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["效價","誘意性"] ] }
+    ],
+    examples: [
+      { en:"In expectancy theory, valence refers to how much a person values the reward.", zh:"在期望理論中，效價指的是個人對獎勵重視的程度。" }
+    ]
+  },
+  {
+    id: "w3091", english: "WoW", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Way of Working",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["工作方式"] ] }
+    ],
+    examples: [
+      { en:"Each team tailors its WoW (way of working) to fit the project context.", zh:"各團隊依專案情境調整自己的工作方式。" }
+    ]
+  },
+  {
+    id: "w3092", english: "abundant", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["充足的","豐富的"] ] }
+    ],
+    examples: [
+      { en:"The activity has abundant float, so a short delay will not affect the end date.", zh:"這項活動的浮時很充足，所以短暫延誤不會影響完工日。" }
+    ]
+  },
+  {
+    id: "w3093", english: "accordance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["一致","符合"] ] }
+    ],
+    examples: [
+      { en:"All expenses must be reported in accordance with company policy.", zh:"所有費用都必須依照公司政策申報。" }
+    ]
+  },
+  {
+    id: "w3094", english: "actionable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可執行的","可付諸行動的"] ] }
+    ],
+    examples: [
+      { en:"The report ends with actionable recommendations for cutting costs.", zh:"報告最後提出可執行的降低成本建議。" }
+    ]
+  },
+  {
+    id: "w3095", english: "adequacy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["充足","適當"] ] }
+    ],
+    examples: [
+      { en:"The auditor reviewed the adequacy of the reserve for unexpected costs.", zh:"稽核員檢視了應對意外成本的準備金是否充足。" }
+    ]
+  },
+  {
+    id: "w3096", english: "adhere", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["遵守","恪守"], ["黏附","附著"] ] }
+    ],
+    examples: [
+      { en:"All team members must adhere to the approved quality standards.", zh:"所有團隊成員都必須遵守核准的品質標準。" },
+      { en:"The label did not adhere properly to the damp surface.", zh:"標籤沒有確實黏附在潮濕的表面上。" }
+    ]
+  },
+  {
+    id: "w3097", english: "adjacent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["相鄰的","鄰近的"] ] }
+    ],
+    examples: [
+      { en:"The meeting room is adjacent to the main conference hall.", zh:"這間會議室緊鄰大型會議廳。" }
+    ]
+  },
+  {
+    id: "w3098", english: "adjudication", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["裁決","判決"] ] }
+    ],
+    examples: [
+      { en:"The dispute was sent to adjudication after negotiations failed.", zh:"談判失敗後，爭議被提交裁決。" }
+    ]
+  },
+  {
+    id: "w3099", english: "adverse", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["不利的","有害的"] ] }
+    ],
+    examples: [
+      { en:"Adverse weather conditions delayed the construction schedule.", zh:"惡劣的天候狀況延誤了施工進度。" }
+    ]
+  },
+  {
+    id: "w3100", english: "affiliation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["隸屬關係","所屬機構"] ] }
+    ],
+    examples: [
+      { en:"Please state your name and company affiliation when you register.", zh:"報名時請填寫姓名及所屬公司。" }
+    ]
+  },
+  {
+    id: "w3101", english: "aggregate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["彙總","合計"] ] },
+      { pos: "adj", meaningGroups: [ ["總計的","合計的"] ] }
+    ],
+    examples: [
+      { en:"The analyst aggregated the estimates of all work packages into a project budget.", zh:"分析師把所有工作包的估算彙總成專案預算。" },
+      { en:"The aggregate cost of the three phases came to two million dollars.", zh:"三個階段的總成本達到兩百萬美元。" }
+    ]
+  },
+  {
+    id: "w3102", english: "alleviate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["減輕","緩解"] ] }
+    ],
+    examples: [
+      { en:"Hiring temporary staff will help alleviate the pressure on the support team.", zh:"僱用臨時人員將有助於減輕客服團隊的壓力。" }
+    ]
+  },
+  {
+    id: "w3103", english: "ambient", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["周遭的","環境的"] ] }
+    ],
+    examples: [
+      { en:"Ambient noise in the open office makes it hard to concentrate.", zh:"開放式辦公室的環境噪音使人難以專心。" }
+    ]
+  },
+  {
+    id: "w3104", english: "ambiguity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["模糊","含糊不清"] ] },
+      { pos: "nc", meaningGroups: [ ["歧義","模稜兩可之處"] ] }
+    ],
+    examples: [
+      { en:"Ambiguity in the requirements led to repeated rework.", zh:"需求含糊不清導致反覆重工。" },
+      { en:"The contract contains several ambiguities that need to be clarified.", zh:"這份合約有幾處模稜兩可的地方需要釐清。" }
+    ]
+  },
+  {
+    id: "w3105", english: "ample", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["充裕的","充足的"] ] }
+    ],
+    examples: [
+      { en:"The schedule leaves ample time for testing before the product launch.", zh:"這份時程在產品上市前預留了充裕的測試時間。" }
+    ]
+  },
+  {
+    id: "w3106", english: "anomaly", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["異常","反常現象"] ] }
+    ],
+    examples: [
+      { en:"The auditor flagged an anomaly in the quarterly expense report.", zh:"稽核人員標示出季度費用報告中的異常。" }
+    ]
+  },
+  {
+    id: "w3107", english: "answerable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["負有責任的","須負責的"] ] }
+    ],
+    examples: [
+      { en:"The project manager is answerable to the steering committee for the final result.", zh:"專案經理須就最終成果向指導委員會負責。" }
+    ]
+  },
+  {
+    id: "w3108", english: "applicability", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["適用性","適用範圍"] ] }
+    ],
+    examples: [
+      { en:"The training explained the applicability of the export control rules.", zh:"這場訓練說明了出口管制規定的適用範圍。" }
+    ]
+  },
+  {
+    id: "w3109", english: "articulate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["清楚表達","明確說明"] ] },
+      { pos: "adj", meaningGroups: [ ["表達清晰的","口才好的"] ] }
+    ],
+    examples: [
+      { en:"Stakeholders were asked to articulate the features that matter most to them.", zh:"利害關係人被要求清楚說明對他們最重要的功能。" },
+      { en:"She is an articulate speaker who explains complex ideas simply.", zh:"她是表達清晰的講者，能把複雜的概念說得簡單易懂。" }
+    ]
+  },
+  {
+    id: "w3110", english: "assert", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["主張","斷言"] ] }
+    ],
+    examples: [
+      { en:"The auditor asserted that the report contained several material errors.", zh:"稽核員斷言這份報告含有數處重大錯誤。" }
+    ]
+  },
+  {
+    id: "w3111", english: "atypical", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["非典型的","不尋常的"] ] }
+    ],
+    examples: [
+      { en:"The sales spike last quarter was atypical and should not be used as a forecast.", zh:"上一季的銷售暴增並不尋常，不應作為預測依據。" }
+    ]
+  },
+  {
+    id: "w3112", english: "auditable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可稽核的","可審計的"] ] }
+    ],
+    examples: [
+      { en:"Every revision of the drawing is tracked and fully auditable.", zh:"圖面的每一次修訂都有紀錄，並且完全可稽核。" }
+    ]
+  },
+  {
+    id: "w3113", english: "authorization", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["授權","核准"] ] }
+    ],
+    examples: [
+      { en:"You need written authorization from the sponsor before approving any overtime.", zh:"核准任何加班前，你需要取得發起人的書面授權。" }
+    ]
+  },
+  {
+    id: "w3114", english: "backstop", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["後盾","保障機制"] ] },
+      { pos: "vt", meaningGroups: [ ["作為後盾","提供把關"] ] }
+    ],
+    examples: [
+      { en:"The reserve fund acts as a financial backstop for the project.", zh:"這筆準備金為專案提供財務後盾。" },
+      { en:"An automated check will backstop the manual review.", zh:"自動化檢查將為人工審查提供把關。" }
+    ]
+  },
+  {
+    id: "w3115", english: "beneficial", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["有益的","有利的"] ] }
+    ],
+    examples: [
+      { en:"Both parties reached a mutually beneficial agreement.", zh:"雙方達成了互惠的協議。" }
+    ]
+  },
+  {
+    id: "w3116", english: "blanket", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["全面的","一律的"] ] },
+      { pos: "nc", meaningGroups: [ ["毯子"] ] }
+    ],
+    examples: [
+      { en:"The manager rejected a blanket freeze on all further requests.", zh:"經理否決了對所有後續請求一律凍結的做法。" },
+      { en:"Each guest room is supplied with an extra blanket.", zh:"每間客房都備有一條額外的毯子。" }
+    ]
+  },
+  {
+    id: "w3117", english: "bureaucracy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["官僚體制","官僚作風"] ] }
+    ],
+    examples: [
+      { en:"Excessive bureaucracy slowed down the approval of the new project.", zh:"過度的官僚作風拖慢了新專案的核准。" }
+    ]
+  },
+  {
+    id: "w3118", english: "cognitive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["認知的"] ] }
+    ],
+    examples: [
+      { en:"Too many simultaneous tasks can increase an employee's cognitive load.", zh:"同時處理過多任務會增加員工的認知負荷。" }
+    ]
+  },
+  {
+    id: "w3119", english: "cohesion", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["凝聚力","團結"] ] }
+    ],
+    examples: [
+      { en:"Regular team-building activities strengthen cohesion among members.", zh:"定期的團隊建立活動強化了成員之間的凝聚力。" }
+    ]
+  },
+  {
+    id: "w3120", english: "coincide", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["同時發生","重疊"], ["吻合","一致"] ] }
+    ],
+    examples: [
+      { en:"The product launch will coincide with the annual trade show.", zh:"產品上市時間將與年度商展重疊。" },
+      { en:"The auditor's findings coincide with our internal review.", zh:"稽核員的發現與我們的內部審查結果一致。" }
+    ]
+  },
+  {
+    id: "w3121", english: "compensate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["補償","酬償"] ] },
+      { pos: "vi", meaningGroups: [ ["彌補","抵銷"] ] }
+    ],
+    examples: [
+      { en:"The company will compensate employees for the extra hours they worked over the weekend.", zh:"公司會補償員工在週末額外付出的工時。" },
+      { en:"Faster delivery cannot compensate for poor product quality.", zh:"較快的交貨速度無法彌補不佳的產品品質。" }
+    ]
+  },
+  {
+    id: "w3122", english: "competency", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["能力","勝任力"] ] }
+    ],
+    examples: [
+      { en:"Emotional intelligence is a key competency for project managers.", zh:"情緒智力是專案經理的一項關鍵能力。" }
+    ]
+  },
+  {
+    id: "w3123", english: "competent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["稱職的","有能力的"] ] }
+    ],
+    examples: [
+      { en:"We need a competent engineer to lead the migration project.", zh:"我們需要一位稱職的工程師來領導遷移專案。" }
+    ]
+  },
+  {
+    id: "w3124", english: "conform", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["符合","遵循"] ] }
+    ],
+    examples: [
+      { en:"All products must conform to the safety standards.", zh:"所有產品都必須符合安全標準。" }
+    ]
+  },
+  {
+    id: "w3125", english: "confrontation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["對抗","衝突"] ] }
+    ],
+    examples: [
+      { en:"The manager tried to resolve the issue without a direct confrontation.", zh:"經理試圖在不發生正面衝突的情況下解決這個問題。" }
+    ]
+  },
+  {
+    id: "w3126", english: "connectivity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["連線能力","連通性"] ] }
+    ],
+    examples: [
+      { en:"Poor connectivity in the remote office disrupted the video conference.", zh:"遠端辦公室的連線品質不佳，干擾了視訊會議。" }
+    ]
+  },
+  {
+    id: "w3127", english: "constituent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["組成要素","成分"], ["選民","支持者"] ] },
+      { pos: "adj", meaningGroups: [ ["構成的","組成的"] ] }
+    ],
+    examples: [
+      { en:"Each constituent of the system was tested separately.", zh:"系統的每個組成部分都經過單獨測試。" }
+    ]
+  },
+  {
+    id: "w3128", english: "contradict", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["與…矛盾","抵觸"], ["反駁","駁斥"] ] }
+    ],
+    examples: [
+      { en:"The new data contradict the assumptions made in the original plan.", zh:"新的數據與原計畫中的假設相互矛盾。" },
+      { en:"One member dared to contradict the majority opinion in the meeting.", zh:"有位成員在會議中敢於反駁多數人的意見。" }
+    ]
+  },
+  {
+    id: "w3129", english: "converge", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["匯聚","趨於一致"] ] }
+    ],
+    examples: [
+      { en:"The team used a voting technique to converge on the final set of requirements.", zh:"團隊運用投票技巧，把意見集中到最終的需求清單。" }
+    ]
+  },
+  {
+    id: "w3130", english: "counsel", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["法律顧問","律師"], ["建議","勸告"] ] },
+      { pos: "vt", meaningGroups: [ ["建議","輔導"] ] }
+    ],
+    examples: [
+      { en:"Please consult legal counsel before signing the contract.", zh:"簽署合約前請先諮詢法律顧問。" },
+      { en:"The mentor counseled her to document every change request.", zh:"導師建議她記錄每一項變更請求。" }
+    ]
+  },
+  {
+    id: "w3131", english: "counterpart", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["對應項","對等職位的人"] ] }
+    ],
+    examples: [
+      { en:"Each threat response has a counterpart strategy for positive risks.", zh:"每一種威脅因應策略都有對應的正面風險策略。" }
+    ]
+  },
+  {
+    id: "w3132", english: "criterion", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["標準","準則"] ] }
+    ],
+    examples: [
+      { en:"Cost is the main criterion for selecting a vendor.", zh:"成本是選擇供應商的主要標準。" }
+    ]
+  },
+  {
+    id: "w3133", english: "custodian", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["保管人","管理人"] ] }
+    ],
+    examples: [
+      { en:"The IT department acts as the custodian of all customer records.", zh:"資訊部門擔任所有客戶紀錄的保管人。" }
+    ]
+  },
+  {
+    id: "w3134", english: "defensible", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["站得住腳的","可辯護的"] ] }
+    ],
+    examples: [
+      { en:"Our pricing decision is defensible because it is based on market data.", zh:"我們的定價決策是站得住腳的，因為它以市場資料為依據。" }
+    ]
+  },
+  {
+    id: "w3135", english: "demoralization", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["士氣低落","喪失鬥志"] ] }
+    ],
+    examples: [
+      { en:"Unrealistic deadlines can lead to demoralization among staff.", zh:"不切實際的期限可能導致員工士氣低落。" }
+    ]
+  },
+  {
+    id: "w3136", english: "deterministic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["確定性的","決定論的"] ] }
+    ],
+    examples: [
+      { en:"A deterministic estimate gives a single value rather than a range.", zh:"確定性的估算只給出單一數值，而非範圍。" }
+    ]
+  },
+  {
+    id: "w3137", english: "differentiate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["區分","辨別"] ] },
+      { pos: "vi", meaningGroups: [ ["區別","分辨"] ] }
+    ],
+    examples: [
+      { en:"It is important to differentiate a project from ongoing operations.", zh:"把專案與日常營運區分開來很重要。" },
+      { en:"Customers cannot differentiate between the two products because they look so similar.", zh:"這兩項產品看起來太相似，顧客無法分辨。" }
+    ]
+  },
+  {
+    id: "w3138", english: "discontinue", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["停止","停產"] ] }
+    ],
+    examples: [
+      { en:"The manufacturer decided to discontinue the older product model.", zh:"製造商決定停產舊款產品。" }
+    ]
+  },
+  {
+    id: "w3139", english: "discrete", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["個別的","獨立的"], ["離散的"] ] }
+    ],
+    examples: [
+      { en:"The project was divided into three discrete phases.", zh:"專案被劃分為三個各自獨立的階段。" },
+      { en:"The number of defects is discrete data because it can only be counted in whole numbers.", zh:"缺陷數量是離散資料，因為只能以整數計算。" }
+    ]
+  },
+  {
+    id: "w3140", english: "disengagement", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["不再投入","抽離"] ] }
+    ],
+    examples: [
+      { en:"The executive's disengagement left the project without strategic direction.", zh:"這位主管不再投入，使專案缺乏策略方向。" }
+    ]
+  },
+  {
+    id: "w3141", english: "disproportionate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["不成比例的","失衡的"] ] }
+    ],
+    examples: [
+      { en:"A small number of features generate a disproportionate share of customer satisfaction.", zh:"少數幾項功能帶來了與其數量不成比例的客戶滿意度。" }
+    ]
+  },
+  {
+    id: "w3142", english: "diverge", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["偏離","背離"], ["產生分歧"] ] }
+    ],
+    examples: [
+      { en:"The final design began to diverge from the approved requirements.", zh:"最終設計開始偏離已核准的需求。" },
+      { en:"Opinions diverge on whether we should delay the launch.", zh:"對於是否該延後上市，大家意見分歧。" }
+    ]
+  },
+  {
+    id: "w3143", english: "divert", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["轉移","挪用"], ["使轉向","使分心"] ] }
+    ],
+    examples: [
+      { en:"The manager diverted funds from marketing to cover the repair costs.", zh:"經理把行銷經費挪用來支付維修費用。" }
+    ]
+  },
+  {
+    id: "w3144", english: "downstream", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["下游的","後續的"] ] },
+      { pos: "adv", meaningGroups: [ ["往下游","在後續環節"] ] }
+    ],
+    examples: [
+      { en:"The change could have a major downstream impact on testing.", zh:"這項變更可能對後續的測試造成重大影響。" },
+      { en:"Defects found downstream are far more expensive to fix.", zh:"在後續環節才發現的缺陷，修正成本高得多。" }
+    ]
+  },
+  {
+    id: "w3145", english: "drawback", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["缺點","弊端"] ] }
+    ],
+    examples: [
+      { en:"The main drawback of this approach is the higher upfront cost.", zh:"這種做法的主要缺點是前期成本較高。" }
+    ]
+  },
+  {
+    id: "w3146", english: "earmark", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["指定用途","撥出專款"] ] }
+    ],
+    examples: [
+      { en:"The board earmarked $200,000 for staff training next year.", zh:"董事會撥出二十萬美元作為明年員工訓練的專款。" }
+    ]
+  },
+  {
+    id: "w3147", english: "elapsed", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["已經過的","已耗用的"] ] }
+    ],
+    examples: [
+      { en:"The elapsed time between the request and the delivery was ten days.", zh:"從提出需求到交付之間經過的時間是十天。" }
+    ]
+  },
+  {
+    id: "w3148", english: "end-to-end", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["端到端的","全程的"] ] }
+    ],
+    examples: [
+      { en:"The vendor provides an end-to-end logistics solution.", zh:"該供應商提供端到端的物流解決方案。" }
+    ]
+  },
+  {
+    id: "w3149", english: "enforce", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["執行","強制實施"] ] }
+    ],
+    examples: [
+      { en:"The compliance officer is responsible for enforcing the company's safety policies.", zh:"法遵人員負責強制執行公司的安全政策。" }
+    ]
+  },
+  {
+    id: "w3150", english: "equitable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["公平的","公正合理的"] ] }
+    ],
+    examples: [
+      { en:"We need an equitable way to share the workload across time zones.", zh:"我們需要一個公平的方式，在不同時區之間分攤工作量。" }
+    ]
+  },
+  {
+    id: "w3151", english: "erode", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["侵蝕","逐漸削弱"] ] },
+      { pos: "vi", meaningGroups: [ ["逐漸受損","漸漸流失"] ] }
+    ],
+    examples: [
+      { en:"Repeated missed deadlines will erode the client's trust.", zh:"一再錯過期限將侵蝕客戶的信任。" },
+      { en:"Profit margins began to erode as material costs climbed.", zh:"隨著原料成本攀升，利潤率開始逐漸流失。" }
+    ]
+  },
+  {
+    id: "w3152", english: "exempt", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["豁免的","免除的"] ] },
+      { pos: "vt", meaningGroups: [ ["豁免","免除"] ] }
+    ],
+    examples: [
+      { en:"Small contracts are exempt from the formal bidding process.", zh:"小額合約可免除正式招標程序。" },
+      { en:"The policy exempts emergency repairs from prior approval.", zh:"該政策讓緊急維修免於事先核准。" }
+    ]
+  },
+  {
+    id: "w3153", english: "exemption", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["豁免","免除"] ] }
+    ],
+    examples: [
+      { en:"The company applied to the agency for an exemption from the new reporting rule.", zh:"公司向主管機關申請豁免適用新的申報規定。" }
+    ]
+  },
+  {
+    id: "w3154", english: "experimentation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["實驗","試驗"] ] }
+    ],
+    examples: [
+      { en:"The right solution can only be found through experimentation.", zh:"正確的解決方案只能透過實驗來找到。" }
+    ]
+  },
+  {
+    id: "w3155", english: "falsify", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["偽造","竄改"] ] }
+    ],
+    examples: [
+      { en:"The employee was dismissed for falsifying expense reports.", zh:"該員工因偽造費用報告而遭解僱。" }
+    ]
+  },
+  {
+    id: "w3156", english: "favoritism", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["偏袒","徇私"] ] }
+    ],
+    examples: [
+      { en:"Evaluators must avoid any appearance of favoritism toward a vendor.", zh:"評審必須避免對任何供應商有偏袒的表象。" }
+    ]
+  },
+  {
+    id: "w3157", english: "flagship", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["旗艦的","主力的"] ] },
+      { pos: "nc", meaningGroups: [ ["旗艦","招牌產品"] ] }
+    ],
+    examples: [
+      { en:"The company will unveil its flagship product at next month's trade show.", zh:"公司將在下個月的商展上發表其旗艦產品。" },
+      { en:"The new smartphone is the flagship of the brand's lineup.", zh:"這款新智慧型手機是該品牌產品線的旗艦機種。" }
+    ]
+  },
+  {
+    id: "w3158", english: "full-blown", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["全面爆發的","發展成熟的"] ] }
+    ],
+    examples: [
+      { en:"A minor delay can grow into a full-blown crisis if no one acts.", zh:"輕微延誤若無人處理，可能演變成全面危機。" }
+    ]
+  },
+  {
+    id: "w3159", english: "grievance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["不滿","申訴","抱怨"] ] }
+    ],
+    examples: [
+      { en:"Employees can file a grievance with the human resources department.", zh:"員工可向人力資源部門提出申訴。" }
+    ]
+  },
+  {
+    id: "w3160", english: "hackathon", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["黑客松"] ] }
+    ],
+    examples: [
+      { en:"The company hosted a two-day hackathon to prototype new product ideas.", zh:"公司舉辦了為期兩天的黑客松，為新產品構想製作原型。" }
+    ]
+  },
+  {
+    id: "w3161", english: "hazard", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["危害","危險因素"] ] }
+    ],
+    examples: [
+      { en:"A loose wire on the factory floor is a serious safety hazard for workers.", zh:"工廠地面上鬆脫的電線對工人來說是嚴重的安全危害。" }
+    ]
+  },
+  {
+    id: "w3162", english: "hazardous", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["有危險的","有害的"] ] }
+    ],
+    examples: [
+      { en:"Workers must wear protective gear when handling hazardous materials.", zh:"員工處理危險物品時必須穿戴防護裝備。" }
+    ]
+  },
+  {
+    id: "w3163", english: "hesitant", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["猶豫的","遲疑的"] ] }
+    ],
+    examples: [
+      { en:"Some team members were hesitant to raise concerns in front of the executives.", zh:"部分團隊成員不太敢在高階主管面前提出疑慮。" }
+    ]
+  },
+  {
+    id: "w3164", english: "hindsight", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["後見之明","事後回顧"] ] }
+    ],
+    examples: [
+      { en:"In hindsight, we should have raised the risk much earlier.", zh:"事後回想，我們當初應該更早提出這項風險。" }
+    ]
+  },
+  {
+    id: "w3165", english: "imbalance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["失衡","不平衡"] ] }
+    ],
+    examples: [
+      { en:"The manager redistributed tasks to fix the workload imbalance in the team.", zh:"經理重新分配工作，以改善團隊工作量失衡的問題。" }
+    ]
+  },
+  {
+    id: "w3166", english: "inclusive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["包容的","兼容並蓄的"], ["包含在內的","涵蓋的"] ] }
+    ],
+    examples: [
+      { en:"The manager created an inclusive environment where everyone felt heard.", zh:"這位經理營造了讓每個人都覺得被傾聽的包容環境。" },
+      { en:"The quoted price is inclusive of shipping and handling.", zh:"報價已包含運費與處理費。" }
+    ]
+  },
+  {
+    id: "w3167", english: "incompatibility", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["不相容","不協調"] ] },
+      { pos: "nc", meaningGroups: [ ["不相容之處"] ] }
+    ],
+    examples: [
+      { en:"The incompatibility between the two systems delayed the data migration.", zh:"兩套系統之間的不相容延誤了資料遷移。" }
+    ]
+  },
+  {
+    id: "w3168", english: "incur", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["招致","承擔（費用）"] ] }
+    ],
+    examples: [
+      { en:"The project incurs equipment lease payments every month.", zh:"該專案每個月都要承擔設備租賃費用。" }
+    ]
+  },
+  {
+    id: "w3169", english: "interchangeable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可互換的","可交換使用的"] ] }
+    ],
+    examples: [
+      { en:"Management and leadership are not interchangeable terms, because they involve different activities.", zh:"管理與領導並非可以互換的詞彙，因為兩者涉及不同的活動。" }
+    ]
+  },
+  {
+    id: "w3170", english: "interchangeably", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adv", meaningGroups: [ ["可互換地","交替地"] ] }
+    ],
+    examples: [
+      { en:"The two terms are often used interchangeably in daily conversation.", zh:"這兩個詞在日常對話中經常被交替使用。" }
+    ]
+  },
+  {
+    id: "w3171", english: "interim", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["暫時的","臨時的"] ] },
+      { pos: "nc", meaningGroups: [ ["過渡期","中間時期"] ] }
+    ],
+    examples: [
+      { en:"An interim manager will lead the department until a permanent hire is made.", zh:"在找到正式人選之前，將由一位臨時經理領導該部門。" },
+      { en:"In the interim, the team will use a manual workaround.", zh:"在過渡期間，團隊將採用手動的權宜做法。" }
+    ]
+  },
+  {
+    id: "w3172", english: "intervene", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["介入","干預"], ["調解"] ] }
+    ],
+    examples: [
+      { en:"The sponsor intervened to resolve the dispute with the functional manager.", zh:"發起人出面介入，解決了與職能經理之間的爭議。" }
+    ]
+  },
+  {
+    id: "w3173", english: "jurisdiction", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["轄區","管轄範圍"] ] },
+      { pos: "nu", meaningGroups: [ ["管轄權","司法權"] ] }
+    ],
+    examples: [
+      { en:"The product must comply with the privacy laws in each jurisdiction where it is sold.", zh:"產品必須遵守其銷售的每個轄區的隱私法規。" },
+      { en:"The court has no jurisdiction over this contract dispute.", zh:"法院對這起合約糾紛沒有管轄權。" }
+    ]
+  },
+  {
+    id: "w3174", english: "know-how", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["專門知識","實務技術"] ] }
+    ],
+    examples: [
+      { en:"The engineer's technical know-how was critical to solving the production issue.", zh:"這位工程師的專業技術對解決生產問題至關重要。" }
+    ]
+  },
+  {
+    id: "w3175", english: "liable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["負有法律責任的","須承擔責任的"], ["易於……的"] ] }
+    ],
+    examples: [
+      { en:"The supplier is liable for any damage caused during delivery.", zh:"供應商須對運送過程中造成的任何損壞負責。" }
+    ]
+  },
+  {
+    id: "w3176", english: "liaise", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["聯絡","聯繫協調"] ] }
+    ],
+    examples: [
+      { en:"The coordinator will liaise with the contractor to find out why the work is late.", zh:"協調人員會與承包商聯繫，了解工作延誤的原因。" }
+    ]
+  },
+  {
+    id: "w3177", english: "looming", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["迫近的","即將來臨的"] ] }
+    ],
+    examples: [
+      { en:"With the looming deadline, the team agreed to work extra hours this week.", zh:"截止日期迫近，團隊同意本週加班。" }
+    ]
+  },
+  {
+    id: "w3178", english: "lose-lose", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["雙輸的","兩敗俱傷的"] ] }
+    ],
+    examples: [
+      { en:"A lose-lose outcome leaves both parties unhappy with the deal.", zh:"雙輸的結果會讓雙方都對這筆交易感到不滿。" }
+    ]
+  },
+  {
+    id: "w3179", english: "magnitude", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["規模","大小","量級"] ] }
+    ],
+    examples: [
+      { en:"The team underestimated the magnitude of the problem.", zh:"團隊低估了這個問題的嚴重規模。" }
+    ]
+  },
+  {
+    id: "w3180", english: "manifesto", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["宣言"] ] }
+    ],
+    examples: [
+      { en:"The Agile Manifesto values working software over comprehensive documentation.", zh:"敏捷宣言重視可運作的軟體勝過詳盡的文件。" }
+    ]
+  },
+  {
+    id: "w3181", english: "mechanism", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["機制","運作方式"] ] }
+    ],
+    examples: [
+      { en:"The project needs a clear mechanism for approving scope changes.", zh:"專案需要一套明確的機制來核准範疇變更。" }
+    ]
+  },
+  {
+    id: "w3182", english: "mediator", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["調解人","調停者"] ] }
+    ],
+    examples: [
+      { en:"A neutral mediator helped the two departments settle their dispute.", zh:"一位中立的調解人協助兩個部門解決了爭端。" }
+    ]
+  },
+  {
+    id: "w3183", english: "misalignment", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["不一致","失準","目標不對齊"] ] }
+    ],
+    examples: [
+      { en:"Misalignment between sales and engineering caused repeated rework.", zh:"業務與工程部門的目標不一致造成了反覆的重工。" }
+    ]
+  },
+  {
+    id: "w3184", english: "mobilize", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["動員","調度"] ] }
+    ],
+    examples: [
+      { en:"The manager mobilized extra staff to meet the deadline.", zh:"經理動員額外人力以趕上截止日期。" }
+    ]
+  },
+  {
+    id: "w3185", english: "near-term", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["近期的","短期的"] ] }
+    ],
+    examples: [
+      { en:"Near-term work is planned in detail, while later phases are outlined only at a high level.", zh:"近期的工作會詳細規劃，而後續階段只做概要規劃。" }
+    ]
+  },
+  {
+    id: "w3186", english: "non-compliant", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["不合規的","不符合規定的"] ] }
+    ],
+    examples: [
+      { en:"The audit found that several suppliers were non-compliant with safety rules.", zh:"稽核發現數家供應商不符合安全規定。" }
+    ]
+  },
+  {
+    id: "w3187", english: "nonetheless", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adv", meaningGroups: [ ["儘管如此","然而"] ] }
+    ],
+    examples: [
+      { en:"The budget was tight; nonetheless, the team delivered on time.", zh:"預算很吃緊，儘管如此，團隊仍準時交付。" }
+    ]
+  },
+  {
+    id: "w3188", english: "nuanced", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["細膩的","微妙的"], ["有細微差別的"] ] }
+    ],
+    examples: [
+      { en:"Use video calls for nuanced discussions so that tone is not lost.", zh:"進行較為微妙的討論時請使用視訊通話，以免語氣流失。" }
+    ]
+  },
+  {
+    id: "w3189", english: "objectivity", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["客觀性","客觀"] ] }
+    ],
+    examples: [
+      { en:"An external auditor was hired to ensure the objectivity of the review.", zh:"公司聘請外部稽核人員，以確保審查的客觀性。" }
+    ]
+  },
+  {
+    id: "w3190", english: "obligated", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["有義務的","必須的"] ] }
+    ],
+    examples: [
+      { en:"The company is legally obligated to disclose the data breach to customers.", zh:"公司在法律上有義務向客戶揭露資料外洩事件。" }
+    ]
+  },
+  {
+    id: "w3191", english: "obsolete", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["過時的","已淘汰的"] ] }
+    ],
+    examples: [
+      { en:"The old software became obsolete once the new platform was released.", zh:"新平台推出後，舊軟體便被淘汰了。" }
+    ]
+  },
+  {
+    id: "w3192", english: "outage", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["中斷","停機","停電"] ] }
+    ],
+    examples: [
+      { en:"The system outage disrupted critical business operations for two hours.", zh:"系統中斷使關鍵業務運作停擺了兩小時。" }
+    ]
+  },
+  {
+    id: "w3193", english: "permissible", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["允許的","容許的"] ] }
+    ],
+    examples: [
+      { en:"The new zoning law changed the permissible building height in the project area.", zh:"新的分區法規改變了專案區域內容許的建築高度。" }
+    ]
+  },
+  {
+    id: "w3194", english: "physiological", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["生理的","生理上的"] ] }
+    ],
+    examples: [
+      { en:"Basic physiological needs include food, water, and rest.", zh:"基本的生理需求包括食物、水和休息。" }
+    ]
+  },
+  {
+    id: "w3195", english: "precaution", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["預防措施","防範措施"] ] }
+    ],
+    examples: [
+      { en:"As a precaution, the plant lowered the operating load of the crane.", zh:"作為預防措施，工廠調降了起重機的運轉負載。" }
+    ]
+  },
+  {
+    id: "w3196", english: "predetermined", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["預先決定的","既定的"] ] }
+    ],
+    examples: [
+      { en:"The committee worked toward a predetermined outcome rather than a fair evaluation.", zh:"委員會朝著預先決定的結果進行，而非公正的評估。" }
+    ]
+  },
+  {
+    id: "w3197", english: "prematurely", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adv", meaningGroups: [ ["過早地","草率地"] ] }
+    ],
+    examples: [
+      { en:"The team released the software prematurely and had to fix many bugs afterward.", zh:"團隊過早發布軟體，事後得修正許多錯誤。" }
+    ]
+  },
+  {
+    id: "w3198", english: "proficiency", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["熟練度","精通程度"] ] }
+    ],
+    examples: [
+      { en:"Applicants must demonstrate proficiency in spreadsheet software.", zh:"應徵者必須證明自己精通試算表軟體。" }
+    ]
+  },
+  {
+    id: "w3199", english: "prohibit", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["禁止","不准"] ] }
+    ],
+    examples: [
+      { en:"Company policy prohibits employees from accepting gifts from vendors.", zh:"公司政策禁止員工收受供應商的禮物。" }
+    ]
+  },
+  {
+    id: "w3200", english: "prolong", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["延長","拖長"] ] }
+    ],
+    examples: [
+      { en:"Lengthy debates will only prolong the meeting unnecessarily.", zh:"冗長的辯論只會讓會議不必要地拖長。" }
+    ]
+  },
+  {
+    id: "w3201", english: "proxy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["代理人","代表"], ["替代指標","代理變數"] ] }
+    ],
+    examples: [
+      { en:"A customer proxy reviewed the prototype while the primary customer was unavailable.", zh:"在主要客戶無法出席時，由客戶代理人審閱了原型。" },
+      { en:"The team used website traffic as a proxy for customer interest.", zh:"團隊以網站流量作為客戶興趣的替代指標。" }
+    ]
+  },
+  {
+    id: "w3202", english: "punitive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["懲罰性的","處罰的"] ] }
+    ],
+    examples: [
+      { en:"Punitive measures alone rarely improve long-term team performance.", zh:"光靠懲罰性措施很難提升團隊的長期績效。" }
+    ]
+  },
+  {
+    id: "w3203", english: "quantify", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["量化"] ] }
+    ],
+    examples: [
+      { en:"It is hard to quantify the benefits of improved employee morale.", zh:"員工士氣提升所帶來的效益很難量化。" }
+    ]
+  },
+  {
+    id: "w3204", english: "rapport", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["融洽關係","默契"] ] }
+    ],
+    examples: [
+      { en:"Video calls help the manager build rapport with remote team members.", zh:"視訊通話有助經理與遠端團隊成員建立融洽的關係。" }
+    ]
+  },
+  {
+    id: "w3205", english: "ratification", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["批准","追認"] ] }
+    ],
+    examples: [
+      { en:"The emergency fix still required formal ratification by the change control board.", zh:"這項緊急修正仍需經變更控制委員會正式追認。" }
+    ]
+  },
+  {
+    id: "w3206", english: "rationale", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["理由","基本原理"] ] }
+    ],
+    examples: [
+      { en:"Please document the rationale behind each major decision in the project log.", zh:"請在專案日誌中記錄每項重大決策背後的理由。" }
+    ]
+  },
+  {
+    id: "w3207", english: "reallocation", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["重新分配","重新配置"] ] }
+    ],
+    examples: [
+      { en:"The reallocation of staff helped the team meet the deadline.", zh:"人員的重新配置幫助團隊趕上了期限。" }
+    ]
+  },
+  {
+    id: "w3208", english: "recurrence", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["再次發生","復發"] ] }
+    ],
+    examples: [
+      { en:"Additional training was provided to prevent recurrence of the error.", zh:"公司提供額外培訓，以防止錯誤再次發生。" }
+    ]
+  },
+  {
+    id: "w3209", english: "recusal", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["迴避","利益迴避"] ] }
+    ],
+    examples: [
+      { en:"Her recusal from the vendor evaluation was recorded in accordance with the code of conduct.", zh:"她迴避供應商評選一事，已依行為準則記錄在案。" }
+    ]
+  },
+  {
+    id: "w3210", english: "resourcefulness", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["足智多謀","應變能力"] ] }
+    ],
+    examples: [
+      { en:"The engineer's resourcefulness saved the project when the supplier failed.", zh:"供應商出狀況時，工程師的應變能力挽救了專案。" }
+    ]
+  },
+  {
+    id: "w3211", english: "retroactive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["追溯的","有追溯效力的"] ] }
+    ],
+    examples: [
+      { en:"The pay raise is retroactive to the first of January.", zh:"這次加薪追溯自一月一日起生效。" }
+    ]
+  },
+  {
+    id: "w3212", english: "retrofit", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["改裝","翻新"] ] },
+      { pos: "nc", meaningGroups: [ ["改裝工程","加裝"] ] }
+    ],
+    examples: [
+      { en:"The plant will retrofit its production line with automated equipment.", zh:"工廠將為生產線加裝自動化設備。" },
+      { en:"The automation retrofit is scheduled to finish by June.", zh:"自動化改裝工程預定六月前完工。" }
+    ]
+  },
+  {
+    id: "w3213", english: "revamp", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["改造","翻新"] ] },
+      { pos: "nc", meaningGroups: [ ["改造","翻修"] ] }
+    ],
+    examples: [
+      { en:"The airline is revamping its loyalty program to attract more frequent flyers.", zh:"這家航空公司正在改造其會員忠誠方案，以吸引更多常客。" },
+      { en:"The website revamp is scheduled for completion by the end of the quarter.", zh:"網站改版預定在本季底前完成。" }
+    ]
+  },
+  {
+    id: "w3214", english: "ridicule", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["嘲笑","譏諷"] ] },
+      { pos: "vt", meaningGroups: [ ["嘲笑","取笑"] ] }
+    ],
+    examples: [
+      { en:"Team members should feel free to ask questions without fear of ridicule.", zh:"團隊成員應能自在提問，不必擔心被嘲笑。" },
+      { en:"It is unprofessional to ridicule a colleague's ideas in public.", zh:"在公開場合嘲笑同事的想法是不專業的行為。" }
+    ]
+  },
+  {
+    id: "w3215", english: "rigor", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["嚴謹","嚴格程度"] ] }
+    ],
+    examples: [
+      { en:"The audit was conducted with great rigor.", zh:"這次稽核以高度嚴謹的態度進行。" }
+    ]
+  },
+  {
+    id: "w3216", english: "rigorous", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["嚴謹的","嚴格的"] ] }
+    ],
+    examples: [
+      { en:"The approval process is more rigorous, with formal review points.", zh:"核准流程更為嚴謹，設有正式的審查節點。" }
+    ]
+  },
+  {
+    id: "w3217", english: "shortlist", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["列入候選名單","選入決選名單"] ] },
+      { pos: "nc", meaningGroups: [ ["候選名單","入圍名單"] ] }
+    ],
+    examples: [
+      { en:"The committee shortlisted three vendors for the final round of evaluation.", zh:"委員會把三家供應商列入候選名單，進入最後一輪評選。" },
+      { en:"Our proposal made it onto the shortlist for the contract.", zh:"我們的提案入圍了這份合約的候選名單。" }
+    ]
+  },
+  {
+    id: "w3218", english: "skeptical", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["持懷疑態度的","存疑的"] ] }
+    ],
+    examples: [
+      { en:"Some executives remain skeptical about the shift to agile delivery.", zh:"部分主管對於轉向敏捷交付仍抱持懷疑。" }
+    ]
+  },
+  {
+    id: "w3219", english: "sophisticated", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["精密的","先進的"], ["老練的","世故的"] ] }
+    ],
+    examples: [
+      { en:"The company uses sophisticated software to forecast demand.", zh:"公司使用精密的軟體來預測需求。" },
+      { en:"Our clients are sophisticated investors who expect detailed analysis.", zh:"我們的客戶是老練的投資人，期待詳盡的分析。" }
+    ]
+  },
+  {
+    id: "w3220", english: "sparingly", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adv", meaningGroups: [ ["節制地","少量地"] ] }
+    ],
+    examples: [
+      { en:"Coercive power should be used sparingly because it erodes trust.", zh:"強制權力應該節制使用，因為它會侵蝕信任。" }
+    ]
+  },
+  {
+    id: "w3221", english: "speculative", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["推測性的","投機性的"] ] }
+    ],
+    examples: [
+      { en:"The manager refused to act on speculative rumors about future scope changes.", zh:"經理拒絕根據有關未來範疇變更的推測性傳聞採取行動。" }
+    ]
+  },
+  {
+    id: "w3222", english: "spontaneous", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["自發的","自然產生的"] ] }
+    ],
+    examples: [
+      { en:"Working in the same room encourages spontaneous discussion among team members.", zh:"在同一間辦公室工作能促進團隊成員之間自發性的討論。" }
+    ]
+  },
+  {
+    id: "w3223", english: "stipulate", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["規定","明訂"] ] }
+    ],
+    examples: [
+      { en:"The contract stipulates that payment is due within thirty days.", zh:"合約明訂款項須於三十天內支付。" }
+    ]
+  },
+  {
+    id: "w3224", english: "stockpile", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["囤積","儲備"] ] },
+      { pos: "nc", meaningGroups: [ ["儲備物資","庫存量"] ] }
+    ],
+    examples: [
+      { en:"The company decided to stockpile components before the tariff takes effect.", zh:"公司決定在關稅生效前囤積零組件。" },
+      { en:"The warehouse holds a large stockpile of spare parts.", zh:"倉庫裡存放著大量備用零件。" }
+    ]
+  },
+  {
+    id: "w3225", english: "streamline", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["精簡","簡化"] ] }
+    ],
+    examples: [
+      { en:"The new software will streamline the approval process and cut waiting time.", zh:"新軟體將精簡核准流程並縮短等待時間。" }
+    ]
+  },
+  {
+    id: "w3226", english: "stringent", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["嚴格的","嚴苛的"] ] }
+    ],
+    examples: [
+      { en:"The pharmaceutical industry follows stringent quality standards.", zh:"製藥業遵循嚴格的品質標準。" }
+    ]
+  },
+  {
+    id: "w3227", english: "subjective", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["主觀的"] ] }
+    ],
+    examples: [
+      { en:"Performance reviews should not rely on subjective impressions alone.", zh:"績效考核不應僅憑主觀印象。" }
+    ]
+  },
+  {
+    id: "w3228", english: "subtle", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["細微的","微妙的"], ["不易察覺的"] ] }
+    ],
+    examples: [
+      { en:"The team noticed subtle changes in the client's tone during the call.", zh:"團隊在通話中察覺到客戶語氣的細微變化。" }
+    ]
+  },
+  {
+    id: "w3229", english: "supplemental", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["補充的","追加的"] ] }
+    ],
+    examples: [
+      { en:"The sponsor requested a supplemental budget to cover the added features.", zh:"發起人要求編列追加預算，以支應新增的功能。" }
+    ]
+  },
+  {
+    id: "w3230", english: "synchronize", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["使同步","使協調一致"] ] },
+      { pos: "vi", meaningGroups: [ ["同步","協調一致"] ] }
+    ],
+    examples: [
+      { en:"We hold a daily meeting to synchronize the work of all developers.", zh:"我們每天開會，讓所有開發人員的工作保持同步。" },
+      { en:"The two systems synchronize automatically every night.", zh:"這兩套系統每晚會自動同步。" }
+    ]
+  },
+  {
+    id: "w3231", english: "systemic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["系統性的","體制性的"] ] }
+    ],
+    examples: [
+      { en:"The audit revealed a systemic weakness in the approval process.", zh:"稽核發現核准流程存在系統性的缺陷。" }
+    ]
+  },
+  {
+    id: "w3232", english: "tenure", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["年資","任期","任職期間"] ] }
+    ],
+    examples: [
+      { en:"Employees with longer tenure receive additional vacation days.", zh:"年資較長的員工可獲得額外休假日。" }
+    ]
+  },
+  {
+    id: "w3233", english: "tier", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["層級","階層"] ] }
+    ],
+    examples: [
+      { en:"We tailor the level of engagement to each tier of stakeholders.", zh:"我們依每個層級的利害關係人來調整參與程度。" }
+    ]
+  },
+  {
+    id: "w3234", english: "traceable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["可追溯的","可追蹤的"] ] }
+    ],
+    examples: [
+      { en:"Each requirement must be traceable to a business objective.", zh:"每項需求都必須可追溯至某個商業目標。" }
+    ]
+  },
+  {
+    id: "w3235", english: "transcend", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["超越","超出"] ] }
+    ],
+    examples: [
+      { en:"The new platform aims to transcend the limits of traditional methods.", zh:"這個新平台旨在超越傳統方法的限制。" }
+    ]
+  },
+  {
+    id: "w3236", english: "unbudgeted", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["預算外的","未編列預算的"] ] }
+    ],
+    examples: [
+      { en:"Gold plating often leads to unbudgeted costs and schedule delays.", zh:"過度加料常導致預算外的成本與進度延誤。" }
+    ]
+  },
+  {
+    id: "w3237", english: "underperformance", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["績效不佳","表現欠佳"] ] }
+    ],
+    examples: [
+      { en:"Repeated underperformance led the manager to arrange a coaching plan for the employee.", zh:"一再的績效不佳，讓經理為該員工安排了輔導計畫。" }
+    ]
+  },
+  {
+    id: "w3238", english: "undertake", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["著手進行","承擔","從事"] ] }
+    ],
+    examples: [
+      { en:"The firm will undertake a full review of its supply chain this quarter.", zh:"公司本季將著手對整個供應鏈進行全面檢討。" }
+    ]
+  },
+  {
+    id: "w3239", english: "unduly", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adv", meaningGroups: [ ["過度地","不當地"] ] }
+    ],
+    examples: [
+      { en:"The team should not be unduly influenced by the loudest voice in the room.", zh:"團隊不應被會議中最大聲的人過度左右。" }
+    ]
+  },
+  {
+    id: "w3240", english: "unfounded", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["毫無根據的","無事實依據的"] ] }
+    ],
+    examples: [
+      { en:"The rumor about layoffs turned out to be completely unfounded.", zh:"關於裁員的傳言最後證實完全沒有根據。" }
+    ]
+  },
+  {
+    id: "w3241", english: "unilateral", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["單方面的","片面的"] ] }
+    ],
+    examples: [
+      { en:"The manager made a unilateral decision without consulting the team.", zh:"經理在沒有徵詢團隊的情況下做出單方面的決定。" }
+    ]
+  },
+  {
+    id: "w3242", english: "unsalvageable", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["無法挽救的","無可救藥的"] ] }
+    ],
+    examples: [
+      { en:"The relationship between the two vendors seemed unsalvageable.", zh:"這兩家供應商之間的關係似乎已無法挽回。" }
+    ]
+  },
+  {
+    id: "w3243", english: "volatility", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["波動性","變動性"] ] }
+    ],
+    examples: [
+      { en:"Market volatility made it difficult to forecast next quarter's revenue.", zh:"市場波動使得預測下一季營收十分困難。" }
+    ]
+  },
+  {
+    id: "w3244", english: "vulnerability", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["弱點","漏洞"] ] }
+    ],
+    examples: [
+      { en:"The security audit uncovered a serious vulnerability in the payment system.", zh:"資安稽核發現付款系統中有一個嚴重漏洞。" }
+    ]
+  },
+  {
+    id: "w3245", english: "sexist", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["性別歧視的"] ] },
+      { pos: "nc", meaningGroups: [ ["性別歧視者"] ] }
+    ],
+    examples: [
+      { en:"The company apologized for the sexist remarks made during the training session.", zh:"公司為培訓課程中出現的性別歧視言論道歉。" },
+      { en:"HR launched an investigation after employees reported the manager as a sexist.", zh:"員工舉報該主管有性別歧視後，人資部門展開了調查。" }
     ]
   }
 ]

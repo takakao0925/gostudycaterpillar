@@ -85,6 +85,14 @@
 - 第七十九批:w2321 ~ w2330(擴充字庫範圍接續批次；w2297~w2320、w2326~w2327 為缺號)
 - 第八十批:w2399 ~ w2407(擴充字庫範圍最終批次，字庫至此全部稽核完畢)
 - 第八十一批:w2408 ~ w2415(2026-10-02 新增的 8 個字，全部稽核完成)
+- 第八十二批:w2416 ~ w2515(2026-10-05 新增的 829 個字之一)
+- 第八十三批:w2516 ~ w2615(2026-10-05 新增的 829 個字之一)
+- 第八十四批:w2616 ~ w2715(2026-10-05 新增的 829 個字之一)
+- 第八十五批:w2716 ~ w2815(2026-10-05 新增的 829 個字之一)
+- 第八十六批:w2816 ~ w2915(2026-10-05 新增的 829 個字之一)
+- 第八十七批:w2916 ~ w3015(2026-10-05 新增的 829 個字之一)
+- 第八十八批:w3016 ~ w3115(2026-10-05 新增的 829 個字之一)
+- 第八十九批:w3116 ~ w3244(2026-10-05 新增的 829 個字之一)
 
 補充說明:經 git log 與逐段閱讀 vocab-bank.md 確認，字庫實際總數為 2193 個詞條(非原先認知的 2115+68=2183)，id 編號在 w854 之後出現大量非連續的新增職場/商業詞彙(w855 起)，另有 w2009~2188、w2220~2296、w2321~2407 等範圍。後續將依檔案中的實際順序繼續稽核所有詞條。
 
@@ -656,6 +664,62 @@
 - ⚠️ 需要修正:1 個
 - ❓ 劍橋查不到:0 個
 - ➕ 有缺漏義項:0 個
+
+**第八十二批 w2416~w2515(2026-10-05 新增字彙，已全部完成)**
+- 已稽核:100 個字
+- ✅ 一致:62 個
+- ⚠️ 需要修正:0 個
+- ❓ 劍橋查不到:38 個
+- ➕ 有缺漏義項:0 個
+
+**第八十三批 w2516~w2615(2026-10-05 新增字彙，已全部完成)**
+- 已稽核:100 個字
+- ✅ 一致:54 個
+- ⚠️ 需要修正:0 個
+- ❓ 劍橋查不到:46 個
+- ➕ 有缺漏義項:0 個
+
+**第八十四批 w2616~w2715(2026-10-05 新增字彙，已全部完成)**
+- 已稽核:100 個字
+- ✅ 一致:54 個
+- ⚠️ 需要修正:0 個
+- ❓ 劍橋查不到:46 個
+- ➕ 有缺漏義項:0 個
+
+**第八十五批 w2716~w2815(2026-10-05 新增字彙，已全部完成)**
+- 已稽核:100 個字
+- ✅ 一致:52 個
+- ⚠️ 需要修正:0 個
+- ❓ 劍橋查不到:48 個
+- ➕ 有缺漏義項:0 個
+
+**第八十六批 w2816~w2915(2026-10-05 新增字彙，已全部完成)**
+- 已稽核:100 個字
+- ✅ 一致:28 個
+- ⚠️ 需要修正:0 個
+- ❓ 劍橋查不到:71 個
+- ➕ 有缺漏義項:1 個
+
+**第八十七批 w2916~w3015(2026-10-05 新增字彙，已全部完成)**
+- 已稽核:100 個字
+- ✅ 一致:68 個
+- ⚠️ 需要修正:0 個
+- ❓ 劍橋查不到:30 個
+- ➕ 有缺漏義項:2 個
+
+**第八十八批 w3016~w3115(2026-10-05 新增字彙，已全部完成)**
+- 已稽核:100 個字
+- ✅ 一致:69 個
+- ⚠️ 需要修正:1 個
+- ❓ 劍橋查不到:28 個
+- ➕ 有缺漏義項:2 個
+
+**第八十九批 w3116~w3244(2026-10-05 新增字彙，已全部完成)**
+- 已稽核:129 個字
+- ✅ 一致:128 個
+- ⚠️ 需要修正:0 個
+- ❓ 劍橋查不到:0 個
+- ➕ 有缺漏義項:1 個
 
 ---
 
@@ -3267,6 +3331,1678 @@
 
 ---
 
+# 第八十二批次:w2416 ~ w2515(2026-10-05 新增字彙)
+
+## ❓ 劍橋查不到
+
+### w2425 nonconformance
+- 現有:`(nc) 不符合；不合格`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/nonconformance
+
+### w2426 activity list
+- 現有:`(nc) 活動清單`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"activity list" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=activity+list
+
+### w2429 derived
+- 現有:`(adj) 衍生的；派生的`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:derived非獨立詞條(僅plant-derived)
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/derived
+
+### w2430 RFQ
+- 現有:`(nc) 詢價單`(全稱:Request for Quotation)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「RFQ」為專案管理/敏捷開發領域的專業縮寫，全稱為 Request for Quotation，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=RFQ
+
+### w2431 WBS
+- 現有:`(nc) 工作分解結構`(全稱:Work Breakdown Structure)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:WBS僅對應waybill縮寫
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=WBS
+
+### w2433 MQL
+- 現有:`(nc) 行銷合格潛在客戶`(全稱:Marketing Qualified Lead)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「MQL」為專案管理/敏捷開發領域的專業縮寫，全稱為 Marketing Qualified Lead，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=MQL
+
+### w2435 SOW
+- 現有:`(nc) 工作說明書`(全稱:Statement of Work)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:SOW僅對應sow(播種/母豬)
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=SOW
+
+### w2437 MoSCoW
+- 現有:`(nc) 需求優先順序排序法`(全稱:Must have / Should have / Could have / Won't have)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:MoSCoW僅為地名Moscow
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/moscow
+
+### w2454 risk register
+- 現有:`(nc) 風險登錄表；風險登記冊`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk register" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+register
+
+### w2457 change request
+- 現有:`(nc) 變更請求；變更申請`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"change request" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=change+request
+
+### w2459 EV
+- 現有:`(nu) 實獲值；已完成工作的價值`(全稱:Earned Value)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:EV在劍橋=electric vehicle，與Earned Value不符
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=EV
+
+### w2460 AC
+- 現有:`(nc) 實際成本`(全稱:Actual Cost)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:AC在劍橋=alternating current/air conditioner，與Actual Cost不符
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=AC
+
+### w2462 product owner
+- 現有:`(nc) 產品負責人`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"product owner" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=product+owner
+
+### w2465 project charter
+- 現有:`(nc) 專案章程`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"project charter" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=project+charter
+
+### w2469 project sponsor
+- 現有:`(nc) 專案發起人；專案贊助者`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"project sponsor" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=project+sponsor
+
+### w2472 product backlog
+- 現有:`(nc) 產品待辦清單；產品需求清單`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"product backlog" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=product+backlog
+
+### w2474 work package
+- 現有:`(nc) 工作包`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"work package" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=work+package
+
+### w2475 acceptance criteria
+- 現有:`(nc) 驗收標準；接受標準`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"acceptance criteria" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=acceptance+criteria
+
+### w2476 cost baseline
+- 現有:`(nc) 成本基準`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"cost baseline" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=cost+baseline
+
+### w2477 CPI
+- 現有:`(nc) 成本績效指標`(全稱:Cost Performance Index)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:CPI在劍橋=consumer price index，與Cost Performance Index不符
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=CPI
+
+### w2479 scope baseline
+- 現有:`(nc) 範疇基準`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"scope baseline" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=scope+baseline
+
+### w2482 PV
+- 現有:`(nc) 計畫價值；規劃價值`(全稱:Planned Value)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:PV在劍橋=present value，與Planned Value不符
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=PV
+
+### w2483 root cause
+- 現有:`(nc) 根本原因；根因`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"root cause" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=root+cause
+
+### w2484 stakeholder engagement
+- 現有:`(nu) 利害關係人參與`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"stakeholder engagement" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=stakeholder+engagement
+
+### w2490 status date
+- 現有:`(nc) 狀態日期；報告基準日`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"status date" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=status+date
+
+### w2491 total float
+- 現有:`(nu) 總浮時`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"total float" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=total+float
+
+### w2493 BAC
+- 現有:`(nc) 完工預算；總預算`(全稱:Budget at Completion)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「BAC」為專案管理/敏捷開發領域的專業縮寫，全稱為 Budget at Completion，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=BAC
+
+### w2500 lessons learned
+- 現有:`(nc) 經驗教訓`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"lessons learned" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=lessons+learned
+
+### w2501 validate scope
+- 現有:`(nu) 確認範疇`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"validate scope" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=validate+scope
+
+### w2504 change control board
+- 現有:`(nc) 變更控制委員會`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"change control board" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=change+control+board
+
+### w2505 EMV
+- 現有:`(nc) 預期貨幣價值`(全稱:Expected Monetary Value)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:EMV查無
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=EMV
+
+### w2506 issue log
+- 現有:`(nc) 議題日誌；問題紀錄表`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"issue log" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=issue+log
+
+### w2507 management reserve
+- 現有:`(nc) 管理準備金`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"management reserve" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=management+reserve
+
+### w2508 scope statement
+- 現有:`(nc) 範疇說明書`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"scope statement" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=scope+statement
+
+### w2510 stakeholder register
+- 現有:`(nc) 利害關係人登錄表；利害關係人登記冊`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"stakeholder register" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=stakeholder+register
+
+### w2511 functional manager
+- 現有:`(nc) 職能經理；部門主管`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"functional manager" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=functional+manager
+
+### w2513 earned value
+- 現有:`(nu) 實獲值；贏得值`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"earned value" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=earned+value
+
+### w2514 schedule baseline
+- 現有:`(nc) 時程基準`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"schedule baseline" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=schedule+baseline
+
+## ✅ 一致(w2416 ~ w2515，除上述 38 個字外皆一致)
+
+本批次其餘 62 個字經查證與劍橋詞典核心義項、詞性、中文翻譯皆一致，未發現需要修正之處。字(依編號):w2416 impediment、w2417 consecutive、w2418 intricate、w2419 headcount、w2420 radiologist(劍橋「放射學家」；放射科醫師為同義常用譯法)、w2421 bloat(vt/膨脹一致；nu名詞義項劍橋僅收動詞)、w2422 pitfall、w2423 surplus、w2424 sign off(劍橋收結束寫信/廣播義；簽核批准義(sign off on)英漢頁面未列)、w2427 critical path method(英文單語詞典critical path method)、w2428 derive、w2432 SLA(英文單語SLA=service level agreement)、w2434 inbound(入境義一致；集客式(inbound marketing)義劍橋未收)、w2436 decompose、w2438 elaboration(詳細說明一致；精心製作義劍橋未列)、w2439 consumable、w2440 resuscitate、w2441 tracheostomy、w2442 euthanasia、w2443 tumultuous、w2444 discretion、w2445 adjuster(劍橋僅收loss adjuster(損失評估師))、w2446 stakeholder、w2447 scope、w2448 sponsor(劍橋sponsor動詞資助一致)、w2449 baseline、w2450 sprint(sprint名詞衝刺一致；衝刺週期(Scrum)義劍橋未收)、w2451 deliverable、w2452 register、w2453 escalate(劍橋收惡化/升級；呈報義未列)、w2455 backlog(積壓工作一致；待辦清單(Scrum)義劍橋未收)、w2456 governance、w2458 critical path(英文單語critical path)、w2461 compliance、w2463 regulatory、w2464 reserve(準備金義未列於中文頁)、w2466 scrum、w2467 change control(英文單語change control)、w2468 predictive、w2470 contingency reserve(英文單語contingency reserve=contingency fund)、w2471 prioritize、w2473 exceed、w2478 iteration、w2480 facilitate(促進一致；主持引導義未列)、w2481 defect、w2485 validate、w2486 variance、w2487 business case(英文單語business case)、w2488 adaptive、w2489 crash(vi當機一致；vt趕工(專案管理)義劍橋未收)、w2492 expertise、w2494 steering committee、w2495 constraint、w2496 milestone、w2497 mitigate、w2498 oversee、w2499 forecast、w2502 align、w2503 audit、w2509 scrum master(劍橋scrum master=流程管理員)、w2512 authorize、w2515 specification。
+
+---
+
+# 第八十三批次:w2516 ~ w2615(2026-10-05 新增字彙)
+
+## ❓ 劍橋查不到
+
+### w2516 SPI
+- 現有:`(nc) 時程績效指標`(全稱:Schedule Performance Index)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:SPI在劍橋=Swiss Performance Index，與Schedule Performance Index不符
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=SPI
+
+### w2523 kanban
+- 現有:`(nu) 看板；看板方法`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:kanban劍橋無詞條
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/kanban
+
+### w2524 PMO
+- 現有:`(nc) 專案管理辦公室`(全稱:Project Management Office)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「PMO」為專案管理/敏捷開發領域的專業縮寫，全稱為 Project Management Office，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=PMO
+
+### w2525 probability and impact
+- 現有:`(nu) 機率與衝擊`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"probability and impact" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=probability+and+impact
+
+### w2526 story point
+- 現有:`(nc) 故事點；故事點數`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"story point" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=story+point
+
+### w2527 unknown-unknown
+- 現有:`(nc) 未知的未知風險；無法預見的風險`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"unknown-unknown" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=unknown-unknown
+
+### w2531 resource leveling
+- 現有:`(nu) 資源撫平；資源平衡`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"resource leveling" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=resource+leveling
+
+### w2532 sprint planning
+- 現有:`(nu) 衝刺規劃；衝刺規劃會議`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"sprint planning" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=sprint+planning
+
+### w2533 sprint review
+- 現有:`(nc) 衝刺審查會議；衝刺成果檢視會議`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"sprint review" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=sprint+review
+
+### w2536 communications management plan
+- 現有:`(nc) 溝通管理計畫`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"communications management plan" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=communications+management+plan
+
+### w2537 control chart
+- 現有:`(nc) 管制圖`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"control chart" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=control+chart
+
+### w2539 EAC
+- 現有:`(nc) 完工估算；完工時總成本預估`(全稱:Estimate at Completion)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「EAC」為專案管理/敏捷開發領域的專業縮寫，全稱為 Estimate at Completion，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=EAC
+
+### w2540 expected monetary value
+- 現有:`(nu) 預期貨幣價值`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"expected monetary value" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=expected+monetary+value
+
+### w2541 project scope statement
+- 現有:`(nc) 專案範疇說明書`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"project scope statement" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=project+scope+statement
+
+### w2542 RACI
+- 現有:`(nc) 責任分派矩陣；權責矩陣`(全稱:Responsible, Accountable, Consulted, Informed)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「RACI」為專案管理/敏捷開發領域的專業縮寫，全稱為 Responsible, Accountable, Consulted, Informed，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=RACI
+
+### w2543 resource smoothing
+- 現有:`(nu) 資源平滑化；資源平順化`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"resource smoothing" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=resource+smoothing
+
+### w2545 risk management plan
+- 現有:`(nc) 風險管理計畫`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk management plan" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+management+plan
+
+### w2546 risk response
+- 現有:`(nc) 風險因應；風險回應`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk response" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+response
+
+### w2551 organizational process asset
+- 現有:`(nc) 組織程序資產`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"organizational process asset" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=organizational+process+asset
+
+### w2552 project management plan
+- 現有:`(nc) 專案管理計畫`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"project management plan" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=project+management+plan
+
+### w2554 work breakdown structure
+- 現有:`(nc) 工作分解結構`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"work breakdown structure" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=work+breakdown+structure
+
+### w2560 corrective action
+- 現有:`(nc) 矯正措施；糾正行動`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"corrective action" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=corrective+action
+
+### w2562 enterprise environmental factor
+- 現有:`(nc) 事業環境因素`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"enterprise environmental factor" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=enterprise+environmental+factor
+
+### w2563 gold plating
+- 現有:`(nu) 鍍金；過度加工`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收gold plate(鍍金)，無gold plating條目
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=gold+plating
+
+### w2565 PMBOK
+- 現有:`(nu) 專案管理知識體系`(全稱:Project Management Body of Knowledge)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「PMBOK」為專案管理/敏捷開發領域的專業縮寫，全稱為 Project Management Body of Knowledge，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=PMBOK
+
+### w2566 regulatory compliance
+- 現有:`(nu) 法規遵循；法規遵從`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"regulatory compliance" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=regulatory+compliance
+
+### w2571 conflict resolution
+- 現有:`(nu) 衝突解決；衝突化解`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"conflict resolution" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=conflict+resolution
+
+### w2572 cost variance
+- 現有:`(nc) 成本偏差`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"cost variance" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=cost+variance
+
+### w2573 governance framework
+- 現有:`(nc) 治理架構；治理框架`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"governance framework" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=governance+framework
+
+### w2576 known-unknown
+- 現有:`(nc) 已知的未知；已識別但不確定的風險`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"known-unknown" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=known-unknown
+
+### w2577 performance domain
+- 現有:`(nc) 績效領域`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"performance domain" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=performance+domain
+
+### w2579 RBS
+- 現有:`(nc) 風險分解結構`(全稱:Risk Breakdown Structure)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「RBS」為專案管理/敏捷開發領域的專業縮寫，全稱為 Risk Breakdown Structure，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=RBS
+
+### w2580 requirements traceability matrix
+- 現有:`(nc) 需求追溯矩陣`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"requirements traceability matrix" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=requirements+traceability+matrix
+
+### w2582 risk threshold
+- 現有:`(nc) 風險門檻；風險臨界值`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk threshold" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+threshold
+
+### w2583 scope creep
+- 現有:`(nu) 範疇潛變；範圍蔓延`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"scope creep" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=scope+creep
+
+### w2584 servant leadership
+- 現有:`(nu) 僕人式領導；服務型領導`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"servant leadership" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=servant+leadership
+
+### w2586 stakeholder engagement plan
+- 現有:`(nc) 利害關係人參與計畫`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"stakeholder engagement plan" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=stakeholder+engagement+plan
+
+### w2587 three-point
+- 現有:`(adj) 三點的；三點式的`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:僅收three-point turn
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=three-point
+
+### w2588 timebox
+- 現有:`(nc) 時間盒；固定時限` `(vt) 限定時間；設定時間盒`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/timebox
+
+### w2589 traceability
+- 現有:`(nu) 可追溯性；追溯能力`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋無詞條
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/traceability
+
+### w2595 CV
+- 現有:`(nc) 成本差異`(全稱:Cost Variance)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:CV在劍橋=curriculum vitae，與Cost Variance不符
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=CV
+
+### w2597 estimate at completion
+- 現有:`(nc) 完工估算；完工預估成本`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"estimate at completion" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=estimate+at+completion
+
+### w2604 risk breakdown structure
+- 現有:`(nc) 風險分解結構`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk breakdown structure" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+breakdown+structure
+
+### w2605 rolling wave planning
+- 現有:`(nu) 滾動式規劃`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"rolling wave planning" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=rolling+wave+planning
+
+### w2609 virtual team
+- 現有:`(nc) 虛擬團隊`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"virtual team" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=virtual+team
+
+### w2615 CCB
+- 現有:`(nc) 變更控制委員會`(全稱:Change Control Board)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「CCB」為專案管理/敏捷開發領域的專業縮寫，全稱為 Change Control Board，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=CCB
+
+## ✅ 一致(w2516 ~ w2615，除上述 46 個字外皆一致)
+
+本批次其餘 54 個字經查證與劍橋詞典核心義項、詞性、中文翻譯皆一致，未發現需要修正之處。字(依編號):w2517 threshold、w2518 velocity、w2519 allocate、w2520 reassign、w2521 compromise、w2522 escalation(劍橋收「升級,上升」；呈報義未列)、w2528 accommodate、w2529 closure(劍橋收「停業,倒閉,關閉」；專案結案/收尾義未列)、w2530 mandatory、w2534 monetary、w2535 postpone、w2538 dependency(依賴義見英文單語；相依關係(PM)義未列)、w2544 rework(劍橋rework僅收「重寫,修訂」(文字)；製造返工與名詞義未列)、w2547 waterfall(瀑布一致；瀑布式開發(PM)義未列)、w2548 metric(英文單語metric noun=衡量系統)、w2549 hybrid(英文單語hybrid adj)、w2550 node(劍橋node=交點/節)、w2553 trade-off、w2555 terminate、w2556 upfront(英文單語upfront(adj/adv)含預付義)、w2557 assumption、w2558 bottom-up、w2559 corrective、w2561 decomposition、w2564 NPV(英文單語NPV=net present value)、w2567 threat、w2568 trigger、w2569 absorb、w2570 communication channels(英文單語communication channel)、w2574 initiate、w2575 kickoff(劍橋收kick off(開始)；啟動會議名詞用法未列)、w2578 portfolio、w2581 return on investment(英文單語return on investment)、w2585 spike(名詞激增一致；vi動詞義未列)、w2590 distinguish、w2591 hierarchy、w2592 morale、w2593 accountable、w2594 contractor、w2596 deviation、w2598 fast-track(劍橋僅收fast track名詞/形容詞；vt動詞用法未列)、w2599 incremental、w2600 iterative、w2601 overrun(劍橋收overrun動詞(超過期限或費用)；名詞nc未列)、w2602 payback period、w2603 QA、w2606 tacit、w2607 tolerance、w2608 uncertainty、w2610 cumulative、w2611 halt、w2612 infrastructure、w2613 reinforce、w2614 benchmark。
+
+---
+
+# 第八十四批次:w2616 ~ w2715(2026-10-05 新增字彙)
+
+## ❓ 劍橋查不到
+
+### w2619 EEF
+- 現有:`(nc) 事業環境因素`(全稱:Enterprise Environmental Factors)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「EEF」為專案管理/敏捷開發領域的專業縮寫，全稱為 Enterprise Environmental Factors，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=EEF
+
+### w2620 escalation path
+- 現有:`(nc) 呈報路徑；上報管道`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"escalation path" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=escalation+path
+
+### w2624 lessons learned register
+- 現有:`(nc) 經驗教訓登錄冊`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"lessons learned register" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=lessons+learned+register
+
+### w2625 matrix organization
+- 現有:`(nc) 矩陣式組織`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"matrix organization" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=matrix+organization
+
+### w2628 OPA
+- 現有:`(nc) 組織流程資產`(全稱:Organizational Process Assets)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「OPA」為專案管理/敏捷開發領域的專業縮寫，全稱為 Organizational Process Assets，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=OPA
+
+### w2633 risk owner
+- 現有:`(nc) 風險負責人；風險責任人`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk owner" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+owner
+
+### w2634 root cause analysis
+- 現有:`(nu) 根本原因分析`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"root cause analysis" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=root+cause+analysis
+
+### w2635 scrum team
+- 現有:`(nc) 敏捷衝刺團隊；敏捷開發團隊`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"scrum team" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=scrum+team
+
+### w2638 TCPI
+- 現有:`(nc) 完工尚需績效指數`(全稱:To-Complete Performance Index)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「TCPI」為專案管理/敏捷開發領域的專業縮寫，全稱為 To-Complete Performance Index，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=TCPI
+
+### w2639 trend analysis
+- 現有:`(nu) 趨勢分析`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"trend analysis" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=trend+analysis
+
+### w2648 beta distribution
+- 現有:`(nc) 貝他分配；貝他分布`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"beta distribution" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=beta+distribution
+
+### w2649 budget at completion
+- 現有:`(nc) 完工預算`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"budget at completion" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=budget+at+completion
+
+### w2650 cost performance index
+- 現有:`(nc) 成本績效指標；成本績效指數`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"cost performance index" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=cost+performance+index
+
+### w2651 data migration
+- 現有:`(nu) 資料遷移`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"data migration" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=data+migration
+
+### w2654 go-live
+- 現有:`(nc) 上線；正式啟用`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"go-live" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=go-live
+
+### w2657 Monte Carlo simulation
+- 現有:`(nc) 蒙地卡羅模擬`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"Monte Carlo simulation" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=Monte+Carlo+simulation
+
+### w2659 PERT
+- 現有:`(nu) 計畫評核術；專案評核技術`(全稱:Program Evaluation and Review Technique)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 pert(形容詞,小巧的;俏皮的),無專案管理縮寫 PERT
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=PERT
+
+### w2661 quantitative risk analysis
+- 現有:`(nu) 定量風險分析；量化風險分析`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"quantitative risk analysis" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=quantitative+risk+analysis
+
+### w2664 risk response strategy
+- 現有:`(nc) 風險因應策略；風險回應策略`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk response strategy" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+response+strategy
+
+### w2666 schedule variance
+- 現有:`(nc) 時程差異；時程變異`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"schedule variance" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=schedule+variance
+
+### w2669 SV
+- 現有:`(nc) 時程差異；進度差異`(全稱:Schedule Variance)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「SV」為專案管理/敏捷開發領域的專業縮寫，全稱為 Schedule Variance，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=SV
+
+### w2670 team charter
+- 現有:`(nc) 團隊章程`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"team charter" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=team+charter
+
+### w2674 work performance data
+- 現有:`(nu) 工作績效資料`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"work performance data" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=work+performance+data
+
+### w2682 base of power
+- 現有:`(nc) 權力基礎；權力來源`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"base of power" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=base+of+power
+
+### w2685 burndown
+- 現有:`(nc) 燃盡圖；工作量遞減趨勢`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/burndown
+
+### w2686 cash inflow
+- 現有:`(nc) 現金流入；資金流入`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"cash inflow" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=cash+inflow
+
+### w2687 critical chain
+- 現有:`(nc) 關鍵鏈`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"critical chain" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=critical+chain
+
+### w2688 critical chain method
+- 現有:`(nu) 要徑鏈法；關鍵鏈法`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"critical chain method" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=critical+chain+method
+
+### w2689 early start
+- 現有:`(nc) 最早開始時間`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"early start" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=early+start
+
+### w2690 engagement assessment matrix
+- 現有:`(nc) 參與評估矩陣；參與度評估矩陣`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"engagement assessment matrix" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=engagement+assessment+matrix
+
+### w2692 ETC
+- 現有:`(nc) 完工尚須估算`(全稱:Estimate to Complete)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 etc.(et cetera 的縮寫:等等),與專案管理縮寫 ETC 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=ETC
+
+### w2693 FF
+- 現有:`(nc) 完成到完成`(全稱:Finish-to-Finish)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 ff(and the following pages 的縮寫:及其後幾頁),與專案管理縮寫 FF 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=FF
+
+### w2694 finish-to-start
+- 現有:`(nc) 完成到開始；完成後開始`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"finish-to-start" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=finish-to-start
+
+### w2695 FS
+- 現有:`(nc) 完成到開始`(全稱:Finish-to-Start)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄字母 F,無專案管理縮寫 FS
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=FS
+
+### w2699 integrated change control
+- 現有:`(nu) 整合變更控制`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"integrated change control" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=integrated+change+control
+
+### w2700 kanban board
+- 現有:`(nc) 看板`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"kanban board" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=kanban+board
+
+### w2701 laissez-faire leadership
+- 現有:`(nu) 放任式領導`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"laissez-faire leadership" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=laissez-faire+leadership
+
+### w2703 network diagram
+- 現有:`(nc) 網路圖；網絡圖`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"network diagram" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=network+diagram
+
+### w2705 phase-gate
+- 現有:`(nc) 階段關卡；階段審查`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"phase-gate" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=phase-gate
+
+### w2706 positive risk
+- 現有:`(nc) 正面風險；機會`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"positive risk" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=positive+risk
+
+### w2708 qualitative risk analysis
+- 現有:`(nu) 定性風險分析`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"qualitative risk analysis" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=qualitative+risk+analysis
+
+### w2710 requirements documentation
+- 現有:`(nu) 需求文件；需求說明文件`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"requirements documentation" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=requirements+documentation
+
+### w2711 resource calendar
+- 現有:`(nc) 資源行事曆`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"resource calendar" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=resource+calendar
+
+### w2712 risk appetite
+- 現有:`(nu) 風險胃納；風險偏好`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk appetite" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+appetite
+
+### w2713 risk exposure
+- 現有:`(nu) 風險曝險；風險暴露程度`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk exposure" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+exposure
+
+### w2714 risk tolerance
+- 現有:`(nu) 風險容忍度`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk tolerance" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+tolerance
+
+## ✅ 一致(w2616 ~ w2715，除上述 46 個字外皆一致)
+
+本批次其餘 54 個字經查證與劍橋詞典核心義項、詞性、中文翻譯皆一致，未發現需要修正之處。字(依編號):w2616 cost overrun(英文單語cost overrun)、w2617 cycle time(英文單語cycle time)、w2618 decision tree(英文單語decision tree)、w2621 facilitator、w2622 ground rules、w2623 IRR(英文單語IRR=internal rate of return)、w2626 mitigation(劍橋收「減少」；減緩減輕一致)、w2627 net present value(英文單語net present value)、w2629 present value(英文單語present value)、w2630 prototype、w2631 qualitative、w2632 quality control、w2636 simulation、w2637 tacit knowledge、w2640 acknowledge、w2641 compensation、w2642 consensus、w2643 disrupt、w2644 incorporate、w2645 norms、w2646 reallocate、w2647 autocratic、w2652 exploit(劍橋另有名詞 exploit(英勇事蹟),本詞條僅列動詞,不影響)、w2653 feasibility、w2655 laissez-faire(劍橋標為名詞[U]但說明可作形容詞用)、w2656 lump sum、w2658 parametric、w2660 quality assurance、w2662 rate of return、w2663 reconciliation、w2665 ROI、w2667 sensitivity、w2668 successor(「後續活動」為專案管理專門義(劍橋無))、w2671 throughput、w2672 validation、w2673 WIP、w2675 applicable、w2676 compile、w2677 disruption、w2678 methodology、w2679 sustainability、w2680 acquisition、w2681 appetite、w2683 bias、w2684 buffer、w2691 estimation、w2696 histogram、w2697 incentive、w2698 inflow、w2702 lifecycle(劍橋收錄為 life cycle(兩個字))、w2704 onboard、w2707 precedence、w2709 refine、w2715 roadmap。
+
+---
+
+# 第八十五批次:w2716 ~ w2815(2026-10-05 新增字彙)
+
+## ❓ 劍橋查不到
+
+### w2716 schedule performance index
+- 現有:`(nc) 時程績效指標`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"schedule performance index" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=schedule+performance+index
+
+### w2717 self-organizing
+- 現有:`(adj) 自我組織的；自主管理的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"self-organizing" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=self-organizing
+
+### w2719 sign-off
+- 現有:`(nu) 正式簽核；簽字核准`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"sign-off" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=sign-off
+
+### w2720 sprint goal
+- 現有:`(nc) 衝刺目標`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"sprint goal" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=sprint+goal
+
+### w2721 stakeholder engagement assessment
+- 現有:`(nc) 利害關係人參與度評估`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"stakeholder engagement assessment" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=stakeholder+engagement+assessment
+
+### w2722 stand-up
+- 現有:`(nc) 站立會議；每日站會`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"stand-up" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=stand-up
+
+### w2726 zero float
+- 現有:`(nu) 零浮時；零時差`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"zero float" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=zero+float
+
+### w2737 backlog refinement
+- 現有:`(nu) 待辦事項清單精煉；待辦事項梳理`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"backlog refinement" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=backlog+refinement
+
+### w2738 backward pass
+- 現有:`(nc) 逆推；逆向推算`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"backward pass" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=backward+pass
+
+### w2741 business value
+- 現有:`(nu) 商業價值；業務價值`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"business value" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=business+value
+
+### w2745 configuration management
+- 現有:`(nu) 配置管理；組態管理`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"configuration management" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=configuration+management
+
+### w2746 cost of quality
+- 現有:`(nu) 品質成本`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"cost of quality" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=cost+of+quality
+
+### w2748 daily stand-up
+- 現有:`(nc) 每日站立會議`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"daily stand-up" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=daily+stand-up
+
+### w2751 early finish
+- 現有:`(nc) 最早完成時間`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"early finish" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=early+finish
+
+### w2752 EF
+- 現有:`(nc) 最早完成時間`(全稱:Early Finish)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「EF」為專案管理/敏捷開發領域的專業縮寫，全稱為 Early Finish，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=EF
+
+### w2754 ES
+- 現有:`(nc) 最早開始時間`(全稱:Early Start)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄字母 E,無專案管理縮寫 ES
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=ES
+
+### w2755 EVM
+- 現有:`(nu) 實獲值管理`(全稱:Earned Value Management)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「EVM」為專案管理/敏捷開發領域的專業縮寫，全稱為 Earned Value Management，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=EVM
+
+### w2756 fishbone
+- 現有:`(nc) 魚骨圖`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅有「魚骨/魚骨形狀」,「魚骨圖」為品管工具專門義
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/fishbone
+
+### w2758 free float
+- 現有:`(nu) 自由浮時；自由時差`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"free float" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=free+float
+
+### w2759 funding limit reconciliation
+- 現有:`(nu) 撥款限制調節；資金限制調節`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"funding limit reconciliation" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=funding+limit+reconciliation
+
+### w2761 information radiator
+- 現有:`(nc) 資訊發射器；資訊看板`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"information radiator" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=information+radiator
+
+### w2762 iteration review
+- 現有:`(nc) 迭代審查；迭代檢討會`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"iteration review" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=iteration+review
+
+### w2763 kano model
+- 現有:`(nc) 狩野模型；卡諾模型`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"kano model" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=kano+model
+
+### w2764 kickoff meeting
+- 現有:`(nc) 啟動會議`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"kickoff meeting" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=kickoff+meeting
+
+### w2767 Little's law
+- 現有:`(nu) 利特爾法則`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"Little's law" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=Little's+law
+
+### w2768 logical relationship
+- 現有:`(nc) 邏輯關係；活動間相依關係`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"logical relationship" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=logical+relationship
+
+### w2770 make-or-buy analysis
+- 現有:`(nu) 自製或外購分析`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"make-or-buy analysis" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=make-or-buy+analysis
+
+### w2771 multi-criteria
+- 現有:`(adj) 多準則的；多重標準的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"multi-criteria" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=multi-criteria
+
+### w2772 multi-criteria decision analysis
+- 現有:`(nu) 多準則決策分析`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"multi-criteria decision analysis" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=multi-criteria+decision+analysis
+
+### w2773 over-allocation
+- 現有:`(nu) 過度分配；資源超載`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"over-allocation" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=over-allocation
+
+### w2774 PDM
+- 現有:`(nc) 前置圖法；優先順序圖示法`(全稱:Precedence Diagramming Method)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「PDM」為專案管理/敏捷開發領域的專業縮寫，全稱為 Precedence Diagramming Method，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=PDM
+
+### w2775 phase gate
+- 現有:`(nc) 階段關卡；階段審查點`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"phase gate" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=phase+gate
+
+### w2776 precedence diagramming method
+- 現有:`(nu) 前置圖法；先行順序圖法`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"precedence diagramming method" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=precedence+diagramming+method
+
+### w2777 probability distribution
+- 現有:`(nc) 機率分布`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"probability distribution" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=probability+distribution
+
+### w2778 product scope
+- 現有:`(nc) 產品範疇`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"product scope" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=product+scope
+
+### w2779 progressive elaboration
+- 現有:`(nu) 漸進明細；逐步細化`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"progressive elaboration" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=progressive+elaboration
+
+### w2780 resource histogram
+- 現有:`(nc) 資源直方圖`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"resource histogram" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=resource+histogram
+
+### w2781 risk report
+- 現有:`(nc) 風險報告`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk report" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+report
+
+### w2782 RTM
+- 現有:`(nc) 需求追溯矩陣；需求可追溯性矩陣`(全稱:Requirements Traceability Matrix)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「RTM」為專案管理/敏捷開發領域的專業縮寫，全稱為 Requirements Traceability Matrix，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=RTM
+
+### w2784 salience model
+- 現有:`(nc) 顯著性模型；利害關係人顯著性模式`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"salience model" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=salience+model
+
+### w2785 scope management plan
+- 現有:`(nc) 範疇管理計畫`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"scope management plan" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=scope+management+plan
+
+### w2786 SF
+- 現有:`(nc) 開始到完成關係；開始至完成`(全稱:Start-to-Finish)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 SF(science fiction 的縮寫:科幻小說),與專案管理縮寫 SF 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=SF
+
+### w2787 sprint velocity
+- 現有:`(nu) 衝刺速率；衝刺速度`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"sprint velocity" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=sprint+velocity
+
+### w2788 SS
+- 現有:`(nc) 開始到開始`(全稱:Start-to-Start)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 SS(steamship 的縮寫:蒸汽機船),與專案管理縮寫 SS 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=SS
+
+### w2789 technical spike
+- 現有:`(nc) 技術探索；技術預研`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"technical spike" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=technical+spike
+
+### w2793 VAC
+- 現有:`(nc) 完工變異`(全稱:Variance at Completion)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 vac(vacation/vacuum 的非正式說法),與專案管理縮寫 VAC 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=VAC
+
+### w2794 variance analysis
+- 現有:`(nu) 差異分析`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"variance analysis" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=variance+analysis
+
+### w2815 analogous estimating
+- 現有:`(nu) 類比估算`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"analogous estimating" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=analogous+estimating
+
+## ✅ 一致(w2716 ~ w2815，除上述 48 個字外皆一致)
+
+本批次其餘 52 個字經查證與劍橋詞典核心義項、詞性、中文翻譯皆一致，未發現需要修正之處。字(依編號):w2718 sensitivity analysis、w2723 subcontractor、w2724 sunk cost、w2725 withdraw、w2727 convene、w2728 course of action、w2729 defer、w2730 designate、w2731 enacted(劍橋收錄原形 enact)、w2732 explicit、w2733 outright、w2734 reconcile、w2735 unauthorized、w2736 analogous、w2739 blocker(「阻礙事項」為敏捷開發專門義,劍橋義為阻撓者/阻礙物)、w2740 bottleneck、w2742 clause、w2743 coercive、w2744 compression、w2747 crowdfunding、w2749 directive(劍橋僅列名詞;形容詞義為額外補充)、w2750 discretionary、w2753 elicitation、w2757 fixed-price(劍橋收錄 fixed price(英文單語))、w2760 indicator、w2765 lead time、w2766 lean、w2769 make-or-buy(劍橋(英文單語)標為形容詞 make-or-buy;本詞條詞性為名詞,概念一致)、w2783 salience(劍橋義為「與…的重要性/相關性」,本詞條「顯著性」為通用譯法)、w2790 transactional(劍橋為英文單語解釋(relating to buying and selling))、w2791 transactional leadership(劍橋為英文單語收錄)、w2792 utilization、w2795 autonomy、w2796 disbursement、w2797 disciplinary、w2798 discrepancy、w2799 dismiss(劍橋另有「遣散;解散」義(如解散會議/班級),本詞條未收,不影響主要用法)、w2800 emergent(劍橋英文單語:starting to exist or to become known(中文翻譯只列植物義))、w2801 granular、w2802 hierarchical、w2803 incurred(劍橋收錄原形 incur)、w2804 justification、w2805 leverage、w2806 likelihood、w2807 materialize、w2808 override、w2809 periodic、w2810 reassess、w2811 unforeseen、w2812 viable、w2813 warrant(劍橋另有名詞 warrant(搜查令;理由),本詞條僅列動詞)、w2814 affinity。
+
+---
+
+# 第八十六批次:w2816 ~ w2915(2026-10-05 新增字彙)
+
+## ➕ 有缺漏義項
+
+### w2824 capitalize
+- 現有:`(vt) 資本化；列為資本支出` `(vi) 利用；趁機獲利`
+- 劍橋顯示:`verb`——[LETTER]「用大寫字母書寫」;[MONEY]「給(企業)提供資金」;另有會計用法「將部分支出列為資產入帳(資本化)」(to include part of the money spent on equipment, buildings, etc. as an asset in your accounts)。
+- 說明:原字庫僅收會計「資本化」與 capitalize on「利用」義項，缺漏 capitalize 最基本的「用大寫字母書寫」及「提供資金」兩義項，予以補充。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/capitalize
+- **✅ 已於 2026-10-05 修正**:已於 `vocab-bank.md` 及 `cycle_mode_mvp.html` 的 vt 新增 meaningGroup `["以大寫字母書寫","大寫"]` 與 `["提供資金"]`。
+
+## ❓ 劍橋查不到
+
+### w2816 appraisal cost
+- 現有:`(nc) 鑑定成本；評鑑成本`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"appraisal cost" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=appraisal+cost
+
+### w2817 assumption log
+- 現有:`(nc) 假設日誌`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"assumption log" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=assumption+log
+
+### w2818 benefits management plan
+- 現有:`(nc) 效益管理計畫`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"benefits management plan" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=benefits+management+plan
+
+### w2820 bottom-up estimating
+- 現有:`(nu) 由下而上估算`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"bottom-up estimating" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=bottom-up+estimating
+
+### w2822 burndown chart
+- 現有:`(nc) 燃盡圖；工作燃盡圖`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"burndown chart" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=burndown+chart
+
+### w2826 change log
+- 現有:`(nc) 變更日誌；變更紀錄`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"change log" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=change+log
+
+### w2828 co-located
+- 現有:`(adj) 集中辦公的；同地辦公的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"co-located" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=co-located
+
+### w2829 co-location
+- 現有:`(nu) 集中辦公；同地辦公`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"co-location" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=co-location
+
+### w2830 COCOMO
+- 現有:`(nc) 建構成本模型`(全稱:Constructive Cost Model)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「COCOMO」為專案管理/敏捷開發領域的專業縮寫，全稱為 Constructive Cost Model，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=COCOMO
+
+### w2832 control threshold
+- 現有:`(nc) 管制門檻；控制門檻`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"control threshold" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=control+threshold
+
+### w2833 cost of conformance
+- 現有:`(nu) 符合成本`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"cost of conformance" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=cost+of+conformance
+
+### w2835 CPIF
+- 現有:`(nc) 成本加獎勵費用合約；成本加激勵費用`(全稱:Cost Plus Incentive Fee)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「CPIF」為專案管理/敏捷開發領域的專業縮寫，全稱為 Cost Plus Incentive Fee，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=CPIF
+
+### w2839 discretionary dependency
+- 現有:`(nc) 選擇性依賴關係；軟邏輯`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"discretionary dependency" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=discretionary+dependency
+
+### w2840 earned value analysis
+- 現有:`(nu) 實獲值分析；贏得值分析`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"earned value analysis" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=earned+value+analysis
+
+### w2842 estimate to complete
+- 現有:`(nc) 完工尚需成本估算；剩餘成本估算`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"estimate to complete" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=estimate+to+complete
+
+### w2844 expert power
+- 現有:`(nu) 專家權力`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"expert power" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=expert+power
+
+### w2846 external dependency
+- 現有:`(nc) 外部依存關係；外部相依性`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"external dependency" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=external+dependency
+
+### w2847 external failure cost
+- 現有:`(nc) 外部失敗成本`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"external failure cost" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=external+failure+cost
+
+### w2848 extreme programming
+- 現有:`(nu) 極限編程；極限程式設計`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"extreme programming" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=extreme+programming
+
+### w2849 FDD
+- 現有:`(nu) 特徵驅動開發`(全稱:Feature-Driven Development)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「FDD」為專案管理/敏捷開發領域的專業縮寫，全稱為 Feature-Driven Development，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=FDD
+
+### w2850 feature-driven development
+- 現有:`(nu) 功能驅動開發`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"feature-driven development" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=feature-driven+development
+
+### w2851 finish-to-finish
+- 現有:`(nu) 完成到完成；結束到結束`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"finish-to-finish" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=finish-to-finish
+
+### w2852 firm fixed price
+- 現有:`(nu) 固定總價`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"firm fixed price" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=firm+fixed+price
+
+### w2853 fixed price contract
+- 現有:`(nc) 固定價格合約；總價合約`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"fixed price contract" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=fixed+price+contract
+
+### w2855 hurdle rate
+- 現有:`(nc) 最低要求報酬率；門檻報酬率`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"hurdle rate" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=hurdle+rate
+
+### w2857 internal failure cost
+- 現有:`(nc) 內部失敗成本`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"internal failure cost" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=internal+failure+cost
+
+### w2858 known unknown
+- 現有:`(nc) 已知的未知`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"known unknown" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=known+unknown
+
+### w2859 known-known
+- 現有:`(nc) 已知的已知`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"known-known" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=known-known
+
+### w2861 legitimate power
+- 現有:`(nu) 合法權力；職位權力`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"legitimate power" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=legitimate+power
+
+### w2862 LF
+- 現有:`(nc) 最晚完成時間；最晚結束時間`(全稱:Late Finish)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「LF」為專案管理/敏捷開發領域的專業縮寫，全稱為 Late Finish，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=LF
+
+### w2863 life-cycle costing
+- 現有:`(nu) 生命週期成本計算`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"life-cycle costing" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=life-cycle+costing
+
+### w2864 non-conformance
+- 現有:`(nu) 不符合；不合格` `(nc) 不符合項`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"non-conformance" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=non-conformance
+
+### w2865 norming
+- 現有:`(nu) 規範期；規範階段`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/norming
+
+### w2867 overallocation
+- 現有:`(nu) 資源過度分配；超額分派`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/overallocation
+
+### w2869 parametric estimating
+- 現有:`(nu) 參數估算`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"parametric estimating" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=parametric+estimating
+
+### w2871 performing organization
+- 現有:`(nc) 執行組織`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"performing organization" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=performing+organization
+
+### w2872 planned value
+- 現有:`(nu) 計畫價值；預定完成工作價值`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"planned value" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=planned+value
+
+### w2873 planning poker
+- 現有:`(nu) 規劃撲克`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"planning poker" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=planning+poker
+
+### w2874 prevention cost
+- 現有:`(nc) 預防成本`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"prevention cost" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=prevention+cost
+
+### w2875 product roadmap
+- 現有:`(nc) 產品路線圖`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"product roadmap" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=product+roadmap
+
+### w2876 project buffer
+- 現有:`(nc) 專案緩衝`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"project buffer" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=project+buffer
+
+### w2877 projectized
+- 現有:`(adj) 專案型的；專案導向的`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/projectized
+
+### w2878 psychological safety
+- 現有:`(nu) 心理安全感；心理安全`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"psychological safety" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=psychological+safety
+
+### w2879 push communication
+- 現有:`(nu) 推播式溝通`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"push communication" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=push+communication
+
+### w2880 QC
+- 現有:`(nu) 品質管制；品管`(全稱:Quality Control)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 QC(Queen's Counsel 的縮寫:王室法律顧問),與品質管制縮寫 QC 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=QC
+
+### w2881 referent
+- 現有:`(adj) 參照的`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅列名詞 referent(所指事物);本詞條為形容詞「參照的」(用於 referent power)
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/referent
+
+### w2882 referent power
+- 現有:`(nu) 參照權力；敬仰權`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"referent power" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=referent+power
+
+### w2883 reimbursable
+- 現有:`(adj) 可報銷的；可償付的`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/reimbursable
+
+### w2885 residual risk
+- 現有:`(nc) 殘餘風險`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"residual risk" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=residual+risk
+
+### w2886 resource breakdown structure
+- 現有:`(nc) 資源分解結構；資源分解架構`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"resource breakdown structure" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=resource+breakdown+structure
+
+### w2887 resource management plan
+- 現有:`(nc) 資源管理計畫`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"resource management plan" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=resource+management+plan
+
+### w2888 resource-constrained
+- 現有:`(adj) 資源受限的；資源有限的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"resource-constrained" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=resource-constrained
+
+### w2889 reward power
+- 現有:`(nu) 獎賞權力`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"reward power" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=reward+power
+
+### w2890 risk audit
+- 現有:`(nc) 風險稽核`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk audit" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+audit
+
+### w2891 risk trigger
+- 現有:`(nc) 風險觸發條件；風險預警訊號`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"risk trigger" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=risk+trigger
+
+### w2892 roles and responsibilities
+- 現有:`(nc) 角色與職責`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"roles and responsibilities" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=roles+and+responsibilities
+
+### w2893 schedule network
+- 現有:`(nc) 時程網絡圖；進度網路圖`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"schedule network" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=schedule+network
+
+### w2895 self-organization
+- 現有:`(nu) 自我組織；自主運作`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"self-organization" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=self-organization
+
+### w2897 SMART
+- 現有:`(adj) 符合目標設定原則的`(全稱:Specific, Measurable, Achievable, Relevant, Time-bound)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「SMART」為專案管理/敏捷開發領域的專業縮寫，全稱為 Specific, Measurable, Achievable, Relevant, Time-bound，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=SMART
+
+### w2899 storming
+- 現有:`(nu) 震盪期；風暴期`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋 storming 僅列形容詞(風暴式的),「震盪期」為團隊發展階段專門義
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/storming
+
+### w2900 student syndrome
+- 現有:`(nu) 學生症候群`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"student syndrome" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=student+syndrome
+
+### w2901 success criteria
+- 現有:`(nc) 成功標準；成功準則`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"success criteria" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=success+criteria
+
+### w2902 three-point estimate
+- 現有:`(nc) 三點估算；三點估計值`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"three-point estimate" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=three-point+estimate
+
+### w2903 time and materials
+- 現有:`(nc) 工時與材料合約；實報實銷合約`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"time and materials" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=time+and+materials
+
+### w2904 to-complete performance index
+- 現有:`(nc) 完工尚需績效指數`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"to-complete performance index" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=to-complete+performance+index
+
+### w2907 unknown unknown
+- 現有:`(nc) 未知的未知`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"unknown unknown" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=unknown+unknown
+
+### w2908 user story
+- 現有:`(nc) 使用者故事`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"user story" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=user+story
+
+### w2909 variance at completion
+- 現有:`(nc) 完工差異；完工變異`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"variance at completion" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=variance+at+completion
+
+### w2911 weak matrix
+- 現有:`(nc) 弱矩陣組織`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"weak matrix" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=weak+matrix
+
+### w2914 work performance information
+- 現有:`(nu) 工作績效資訊`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"work performance information" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=work+performance+information
+
+### w2915 working norms
+- 現有:`(nc) 工作規範；共同作業準則`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"working norms" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=working+norms
+
+## ✅ 一致(w2816 ~ w2915，除上述 72 個字外皆一致)
+
+本批次其餘 28 個字經查證與劍橋詞典核心義項、詞性、中文翻譯皆一致，未發現需要修正之處。字(依編號):w2819 board of directors(劍橋為英文單語收錄)、w2821 breakeven(劍橋為英文單語收錄(breakeven))、w2823 cadence(劍橋僅列嗓音抑揚/樂曲終止;「固定步調」為敏捷專案延伸義)、w2825 cash flow、w2827 change management、w2831 coercive power(劍橋為英文單語收錄)、w2834 cost plus(劍橋收錄為形容詞 cost-plus)、w2836 CPM(劍橋(英文單語)收錄縮寫 CPM = critical path method)、w2837 decode、w2838 discount rate(劍橋為英文單語收錄)、w2841 emotional intelligence、w2843 expected value(劍橋為英文單語收錄)、w2845 explicit knowledge(劍橋為英文單語收錄)、w2854 Herzberg's two-factor theory(劍橋為英文單語收錄)、w2856 incentive fee(劍橋為英文單語收錄)、w2860 lease、w2866 opportunity cost(劍橋為英文單語收錄)、w2868 overhead、w2870 Parkinson's law、w2884 residual、w2894 self-actualization(劍橋為英文單語收錄)、w2896 severity、w2898 stage-gate(劍橋(英文單語)標為形容詞 stage-gate;本詞條詞性為名詞,概念一致)、w2905 turnover、w2906 unanimity、w2910 walkthrough(劍橋義為「排練/逐步指令」,「逐步檢視/走查」為軟體審查延伸義)、w2912 weighted-average(劍橋(英文單語)收錄名詞 weighted average;本詞條詞性為形容詞,概念一致)、w2913 work in progress(劍橋為英文單語收錄)。
+
+---
+
+# 第八十七批次:w2916 ~ w3015(2026-10-05 新增字彙)
+
+## ➕ 有缺漏義項
+
+### w2954 estimable
+- 現有:`(adj) 可估算的；可估計的`
+- 劍橋顯示:`adjective`「值得敬重的，值得稱道的」(of a person or their behaviour, considered to be good and deserving respect)。劍橋未收「可估算的」義項。
+- 說明:原字庫僅收專案管理語境的「可估算的」(INVEST 原則中 Estimable)，缺漏劍橋收錄的主要義項「值得敬重的」，予以補充;原有義項保留。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/estimable
+- **✅ 已於 2026-10-05 修正**:已於 `vocab-bank.md` 及 `cycle_mode_mvp.html` 的 adj 新增 meaningGroup `["值得敬重的","值得稱道的"]`。
+
+### w2971 persona
+- 現有:`(nc) 使用者角色；人物誌`
+- 劍橋顯示:`noun [ C ]`「(與本人真實品格不一致的)表面形象，外表性格」(the particular type of character that a person shows to other people, which is not their real character)。
+- 說明:原字庫僅收 UX/敏捷語境的「使用者角色/人物誌」，缺漏劍橋收錄的主要義項「表面形象/人設」，予以補充;原有義項保留。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/persona
+- **✅ 已於 2026-10-05 修正**:已於 `vocab-bank.md` 及 `cycle_mode_mvp.html` 的 nc 新增 meaningGroup `["表面形象","人設"]`。
+
+## ❓ 劍橋查不到
+
+### w2916 XP
+- 現有:`(nu) 極限程式設計`(全稱:Extreme Programming)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「XP」為專案管理/敏捷開發領域的專業縮寫，全稱為 Extreme Programming，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=XP
+
+### w2920 deprioritize
+- 現有:`(vt) 降低優先順序；往後排`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/deprioritize
+
+### w2930 reach consensus
+- 現有:`(phr.) 達成共識`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"reach consensus" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=reach+consensus
+
+### w2935 ADM
+- 現有:`(nc) 箭線圖法`(全稱:Arrow Diagramming Method)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「ADM」為專案管理/敏捷開發領域的專業縮寫，全稱為 Arrow Diagramming Method，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=ADM
+
+### w2939 BCR
+- 現有:`(nc) 效益成本比`(全稱:Benefit-Cost Ratio)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「BCR」為專案管理/敏捷開發領域的專業縮寫，全稱為 Benefit-Cost Ratio，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=BCR
+
+### w2940 benefit-cost
+- 現有:`(adj) 效益成本的`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋收錄的是 cost-benefit(英文單語),無 benefit-cost
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=benefit-cost
+
+### w2942 closeout
+- 現有:`(nu) 結案；收尾`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅列「清倉甩賣」義,「結案/收尾」為專案管理專門義
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/closeout
+
+### w2944 cost S-curve
+- 現有:`(nc) 成本累積曲線`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"cost S-curve" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=cost+S-curve
+
+### w2946 cost-reimbursable
+- 現有:`(adj) 成本補償式的；實報實銷的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"cost-reimbursable" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=cost-reimbursable
+
+### w2947 CPFF
+- 現有:`(nc) 成本加固定費用合約；成本加固定費用`(全稱:Cost Plus Fixed Fee)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「CPFF」為專案管理/敏捷開發領域的專業縮寫，全稱為 Cost Plus Fixed Fee，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=CPFF
+
+### w2949 DA
+- 現有:`(nc) 自律敏捷；紀律敏捷`(全稱:Disciplined Agile)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 DA(district attorney 的縮寫:地方檢察官),與 Disciplined Agile 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=DA
+
+### w2951 DoD
+- 現有:`(nc) 完成定義`(全稱:Definition of Done)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「DoD」為專案管理/敏捷開發領域的專業縮寫，全稱為 Definition of Done，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dod
+
+### w2955 ESVP
+- 現有:`(nc) 回顧會議參與者類型調查（探險者、購物者、度假者、囚犯）`(全稱:Explorer, Shopper, Vacationer, Prisoner)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「ESVP」為專案管理/敏捷開發領域的專業縮寫，全稱為 Explorer, Shopper, Vacationer, Prisoner，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=ESVP
+
+### w2956 expediter
+- 現有:`(nc) 協調員；催辦員`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/expediter
+
+### w2957 grooming
+- 現有:`(nu) 待辦清單梳理；需求梳理`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅列「打扮/誘姦兒童」義,「待辦清單梳理」為敏捷專門義
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/grooming
+
+### w2964 LS
+- 現有:`(nc) 最晚開始；最晚開始時間`(全稱:Late Start)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 a/s/l(age, sex, location 的縮寫),與專案管理縮寫 LS 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=LS
+
+### w2965 MMF
+- 現有:`(nc) 最小可上市功能；最小可銷售功能`(全稱:Minimal Marketable Feature)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「MMF」為專案管理/敏捷開發領域的專業縮寫，全稱為 Minimal Marketable Feature，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=MMF
+
+### w2967 non-value-adding
+- 現有:`(adj) 無附加價值的；不增值的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"non-value-adding" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=non-value-adding
+
+### w2970 PDCA
+- 現有:`(nc) 戴明循環；計畫執行查核行動循環`(全稱:Plan-Do-Check-Act)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「PDCA」為專案管理/敏捷開發領域的專業縮寫，全稱為 Plan-Do-Check-Act，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=PDCA
+
+### w2972 plan-do-check-act
+- 現有:`(nc) 戴明循環；計畫執行查核行動循環`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"plan-do-check-act" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=plan-do-check-act
+
+### w2973 pre-assignment
+- 現有:`(nu) 預先指派；事先指派`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"pre-assignment" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=pre-assignment
+
+### w2974 pre-mortem
+- 現有:`(nc) 事前驗屍；事前剖析`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"pre-mortem" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=pre-mortem
+
+### w2979 stacey matrix
+- 現有:`(nc) 史黛西矩陣`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"stacey matrix" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=stacey+matrix
+
+### w2980 start-to-finish
+- 現有:`(nc) 開始到完成`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"start-to-finish" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=start-to-finish
+
+### w2981 start-to-start
+- 現有:`(nc) 開始到開始`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"start-to-start" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=start-to-start
+
+### w2982 successor activity
+- 現有:`(nc) 後續活動；後繼活動`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"successor activity" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=successor+activity
+
+### w2984 t-shirt sizing
+- 現有:`(nu) 衣服尺寸估算法；相對尺寸估算`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"t-shirt sizing" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=t-shirt+sizing
+
+### w2987 triple constraint
+- 現有:`(nc) 三重限制；鐵三角`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"triple constraint" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=triple+constraint
+
+### w2989 unknown-known
+- 現有:`(nc) 已知卻未被察覺的事項；未被意識到的已知事項`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"unknown-known" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=unknown-known
+
+### w2994 workstream
+- 現有:`(nc) 工作流；工作主線`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/workstream
+
+## ✅ 一致(w2916 ~ w3015，除上述 32 個字外皆一致)
+
+本批次其餘 68 個字經查證與劍橋詞典核心義項、詞性、中文翻譯皆一致，未發現需要修正之處。字(依編號):w2917 accountability、w2918 consolidate、w2919 credibility、w2921 disciplinary action(劍橋為英文單語收錄)、w2922 disclosure、w2923 empathy、w2924 fraud(劍橋另有「騙子」義(可數名詞),本詞條未收,不影響主要用法)、w2925 integrity、w2926 mutually exclusive(劍橋為英文單語收錄)、w2927 obligation、w2928 outset、w2929 phenomenon、w2931 resilience、w2932 seniority、w2933 undermine、w2934 withhold、w2936 aggregation、w2937 auditor、w2938 avoidance、w2941 burnout(劍橋為英文單語收錄)、w2943 command-and-control(劍橋(英文單語)標為名詞 command and control;本詞條詞性為形容詞,概念一致)、w2945 cost-benefit analysis(劍橋為英文單語收錄)、w2948 cross-functional(劍橋為英文單語收錄)、w2950 delphi technique(劍橋為英文單語收錄(Delphi technique))、w2952 EI(劍橋(英文單語)收錄縮寫 EI = emotional intelligence)、w2953 epic(劍橋另有形容詞用法,本詞條僅列名詞)、w2958 handover、w2959 HRM(劍橋為英文單語收錄)、w2960 hygiene、w2961 insourcing(劍橋為英文單語收錄)、w2962 KPI、w2963 lightweight(劍橋另有「膚淺的」義及名詞義,本詞條未收,不影響主要用法)、w2966 motivator(劍橋為英文單語收錄)、w2968 osmotic、w2969 outsource、w2975 preventive、w2976 self-awareness、w2977 slack(劍橋另有動詞 slack(鬆懈)等義,本詞條未收,不影響主要用法)、w2978 speedboat(「快艇回顧遊戲」為敏捷延伸義)、w2983 SWOT、w2985 timesheet、w2986 top-down(劍橋僅列形容詞;副詞用法為額外補充)、w2988 UAT(劍橋(英文單語)收錄縮寫 UAT = user acceptance test)、w2990 verification、w2991 wireframe、w2992 work-in-progress(劍橋為英文單語收錄(work in progress))、w2993 workaround、w2995 amid、w2996 bandwagon、w2997 causation、w2998 characterize、w2999 charismatic、w3000 conceivable、w3001 concurrent、w3002 disclose、w3003 disengaged、w3004 dissent、w3005 elaborate、w3006 exhaustively、w3007 expenditure、w3008 fluctuation、w3009 foreseeable、w3010 holistic、w3011 institutional、w3012 institutionalize、w3013 interference、w3014 legislation、w3015 legitimacy。
+
+---
+
+# 第八十八批次:w3016 ~ w3115(2026-10-05 新增字彙)
+
+## ⚠️ 需要修正
+
+### w3060 non-disclosure
+- 現有:`(adj) 保密的；不得揭露的`
+- 劍橋顯示:`noun [ C or U ]`「保密，不洩漏」(a situation in which information is not made known to others)。劍橋僅列名詞，未收形容詞。
+- 說明:字庫將 non-disclosure 標為形容詞(adj)並譯為「保密的」，與劍橋詞性不符(non-disclosure agreement 為名詞作修飾語)，應更正為不可數名詞，義項改為「保密，不洩漏」。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english/non-disclosure
+- **✅ 已於 2026-10-05 修正**:已於 `vocab-bank.md` 及 `cycle_mode_mvp.html` 將 `{ pos: "adj", meaningGroups: [ ["保密的","不得揭露的"] ] }` 更正為 `{ pos: "nu", meaningGroups: [ ["保密","不洩漏"] ] }`。
+
+## ➕ 有缺漏義項
+
+### w3040 disposition
+- 現有:`(nc) 處置結果；裁決 ｜ 性情；性格`
+- 劍橋顯示:`noun`——「性格，性情」;「傾向，意向」(a natural tendency to do something)。
+- 說明:原字庫收「處置結果/裁決」(專案管理語境)與「性情/性格」，缺漏劍橋收錄的第二義項「傾向，意向」，予以補充。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/disposition
+- **✅ 已於 2026-10-05 修正**:已於 `vocab-bank.md` 及 `cycle_mode_mvp.html` 的 nc 新增 meaningGroup `["傾向","意向"]`。
+
+### w3065 pivot
+- 現有:`(vi) 轉向；調整策略方向` `(nc) 策略轉向；轉折點`
+- 劍橋顯示:`noun [ C ]`「樞軸；支點」「關鍵人物；樞紐」,另有「方向或選擇的轉變」義;`verb`「轉動；扭曲」「改變觀點、做法」。
+- 說明:原字庫僅收商業語境的「轉向/策略轉向」，缺漏劍橋收錄的名詞「支點/樞軸」「關鍵人物/樞紐」及動詞「轉動/旋轉」義項，予以補充。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/pivot
+- **✅ 已於 2026-10-05 修正**:已於 `vocab-bank.md` 及 `cycle_mode_mvp.html` 的 vi 新增 `["轉動","旋轉"]`;nc 新增 `["支點","樞軸"]` 與 `["關鍵人物","樞紐"]`。
+
+## ❓ 劍橋查不到
+
+### w3031 as-built
+- 現有:`(adj) 竣工的；依實際施作的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"as-built" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=as-built
+
+### w3033 async
+- 現有:`(adj) 非同步的`(全稱:asynchronous)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋查無 async(縮寫 asynchronous 無詞條)
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/async
+
+### w3036 burnup
+- 現有:`(nc) 燃起圖`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/burnup
+
+### w3039 delighter
+- 現有:`(nc) 魅力品質；驚喜功能`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/delighter
+
+### w3041 DoR
+- 現有:`(nc) 就緒定義；準備就緒標準`(全稱:Definition of Ready)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「DoR」為專案管理/敏捷開發領域的專業縮寫，全稱為 Definition of Ready，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/dor
+
+### w3043 dummy activity
+- 現有:`(nc) 虛擬活動`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"dummy activity" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=dummy+activity
+
+### w3052 LCL
+- 現有:`(nc) 管制下限`(全稱:Lower Control Limit)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「LCL」為專案管理/敏捷開發領域的專業縮寫，全稱為 Lower Control Limit，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=LCL
+
+### w3056 multicriteria
+- 現有:`(adj) 多準則的；多標準的`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/multicriteria
+
+### w3057 MVP
+- 現有:`(nc) 最小可行產品`(全稱:Minimum Viable Product)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 MVP(most valuable player 的縮寫:最有價值球員),與 Minimum Viable Product 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=MVP
+
+### w3062 non-linearity
+- 現有:`(nu) 非線性`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"non-linearity" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=non-linearity
+
+### w3063 not-to-exceed
+- 現有:`(adj) 不得超過的；設有上限的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"not-to-exceed" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=not-to-exceed
+
+### w3064 ordinal
+- 現有:`(adj) 序數的；順序的`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅列名詞 ordinal(序數詞);形容詞用法為延伸
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/ordinal
+
+### w3066 plan-driven
+- 現有:`(adj) 計畫驅動的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"plan-driven" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=plan-driven
+
+### w3068 PMP
+- 現有:`(nc) 專案管理專業人士；專案管理師`(全稱:Project Management Professional)
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅收錄 PMP(portable music player 的縮寫:可攜式音樂播放機),與專案管理師認證 PMP 無關
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=PMP
+
+### w3071 re-baseline
+- 現有:`(vt) 重新訂定基準；重設基準`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"re-baseline" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=re-baseline
+
+### w3072 refactor
+- 現有:`(vt) 重構`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/refactor
+
+### w3075 rolling-wave
+- 現有:`(adj) 滾動式的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"rolling-wave" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=rolling-wave
+
+### w3076 sandbagging
+- 現有:`(nu) 刻意藏拙；預估灌水`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅有 sandbag(沙袋),「刻意藏拙」為延伸義
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/sandbagging
+
+### w3078 self-governance
+- 現有:`(nu) 自我治理；自治`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"self-governance" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=self-governance
+
+### w3081 test-driven
+- 現有:`(adj) 測試驅動的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"test-driven" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=test-driven
+
+### w3082 time-bound
+- 現有:`(adj) 有時限的；設有期限的`
+- 說明:劍橋詞典(英漢繁體及英文單語)皆查無此確切詞條。"time-bound" 為專案管理/敏捷開發/商業領域的專業術語或詞語的自由組合，語意清楚合理，非劍橋收錄的固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=time-bound
+
+### w3085 touchpoints
+- 現有:`(nc) 接觸點；互動環節`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/touchpoints
+
+### w3088 UCL
+- 現有:`(nc) 管制上限`(全稱:Upper Control Limit)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「UCL」為專案管理/敏捷開發領域的專業縮寫，全稱為 Upper Control Limit，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/search/english-chinese-traditional/direct/?q=UCL
+
+### w3089 undiscounted
+- 現有:`(adj) 未折現的；未貼現的`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/undiscounted
+
+### w3090 valence
+- 現有:`(nu) 效價；誘意性`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅有 valency(原子價);valence 無詞條
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/valence
+
+### w3091 WoW
+- 現有:`(nc) 工作方式`(全稱:Way of Working)
+- 說明:劍橋詞典查無此縮寫詞條(或僅收錄與專案管理無關的同形縮寫)。「WoW」為專案管理/敏捷開發領域的專業縮寫，全稱為 Way of Working，非劍橋收錄之固定詞條。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/wow
+
+### w3112 auditable
+- 現有:`(adj) 可稽核的；可審計的`
+- 說明:劍橋詞典查無此單字詞條，屬專案管理/商業領域專業用詞。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/auditable
+
+### w3114 backstop
+- 現有:`(nc) 後盾；保障機制` `(vt) 作為後盾；提供把關`
+- 說明:劍橋詞典查無此確切詞條或僅收錄不同義項:劍橋僅列棒球相關義(捕手/擋球網);「後盾/保障機制」為商業延伸義
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/backstop
+
+## ✅ 一致(w3016 ~ w3115，除上述 31 個字外皆一致)
+
+本批次其餘 69 個字經查證與劍橋詞典核心義項、詞性、中文翻譯皆一致，未發現需要修正之處。字(依編號):w3016 malleable、w3017 micromanage、w3018 momentum、w3019 originate、w3020 pinpoint、w3021 proactive、w3022 recuse、w3023 resentment、w3024 simultaneous、w3025 slippage、w3026 statutory、w3027 subsidiary、w3028 tariff、w3029 transparency、w3030 well-intentioned、w3032 assertiveness、w3034 audit-trail(劍橋為英文單語收錄(audit trail))、w3035 backward-compatible、w3037 contingent(劍橋另有名詞義「代表團」,本詞條未收,不影響主要用法)、w3038 criticality、w3042 downtime、w3044 gantt chart、w3045 glossary、w3046 groupthink(劍橋為英文單語收錄)、w3047 icebreaker、w3048 instrumentality(劍橋為英文單語收錄)、w3049 just-in-time、w3050 kaizen、w3051 latency(劍橋英文單語有電腦領域「傳輸延遲」義(中文翻譯列為「潛伏」))、w3053 liquidated(劍橋收錄原形 liquidate;「預定賠償」為 liquidated damages 搭配)、w3054 lock-in(劍橋收錄名詞 lock-in(財務協議鎖定期間),「鎖定效應」為延伸義)、w3055 metadata、w3058 nominal、w3059 non-compliance、w3061 non-functional(劍橋為英文單語收錄)、w3067 plurality(劍橋另有「複數/眾多」義,本詞條未收,不影響主要用法)、w3069 predecessor、w3070 punch-list(劍橋為英文單語收錄(punch list))、w3073 regression、w3074 rollback、w3077 segregation、w3079 self-regulation、w3080 SME(劍橋(英文單語)收錄縮寫 SME = subject matter expert)、w3083 time-to-market(劍橋為英文單語收錄(time to market))、w3084 tornado、w3086 transformational(劍橋為英文單語收錄(transformational))、w3087 triage、w3092 abundant、w3093 accordance、w3094 actionable(劍橋(英文單語)含「able to be used as a reason for doing something」)、w3095 adequacy、w3096 adhere、w3097 adjacent、w3098 adjudication、w3099 adverse、w3100 affiliation、w3101 aggregate(劍橋另有名詞義,本詞條未收,不影響主要用法)、w3102 alleviate、w3103 ambient、w3104 ambiguity、w3105 ample、w3106 anomaly、w3107 answerable、w3108 applicability、w3109 articulate、w3110 assert、w3111 atypical、w3113 authorization、w3115 beneficial。
+
+---
+
+# 第八十九批次:w3116 ~ w3244(2026-10-05 新增字彙)
+
+## ➕ 有缺漏義項
+
+### w3130 counsel
+- 現有:`(nu) 法律顧問；律師` `(vt) 建議；輔導`
+- 劍橋顯示:`noun`「建議；勸告；忠告」(advice)及「(參與案件的)律師」;`verb [ T ]`「建議，勸告」。
+- 說明:原字庫的名詞(nu)僅收「法律顧問/律師」，缺漏 counsel 最基本的名詞義項「建議；勸告」，予以補充。
+- 查詢網址:https://dictionary.cambridge.org/dictionary/english-chinese-traditional/counsel
+- **✅ 已於 2026-10-05 修正**:已於 `vocab-bank.md` 及 `cycle_mode_mvp.html` 的 nu 新增 meaningGroup `["建議","勸告"]`。
+
+## ✅ 一致(w3116 ~ w3244，除上述 1 個字外皆一致)
+
+本批次其餘 128 個字經查證與劍橋詞典核心義項、詞性、中文翻譯皆一致，未發現需要修正之處。字(依編號):w3116 blanket、w3117 bureaucracy、w3118 cognitive、w3119 cohesion、w3120 coincide、w3121 compensate、w3122 competency、w3123 competent、w3124 conform、w3125 confrontation、w3126 connectivity、w3127 constituent(劍橋僅列名詞;形容詞義為額外補充)、w3128 contradict、w3129 converge、w3131 counterpart、w3132 criterion、w3133 custodian、w3134 defensible、w3135 demoralization、w3136 deterministic、w3137 differentiate、w3138 discontinue、w3139 discrete、w3140 disengagement、w3141 disproportionate、w3142 diverge、w3143 divert、w3144 downstream、w3145 drawback、w3146 earmark、w3147 elapsed(劍橋收錄原形 elapse(vi))、w3148 end-to-end、w3149 enforce、w3150 equitable、w3151 erode、w3152 exempt、w3153 exemption、w3154 experimentation、w3155 falsify、w3156 favoritism(劍橋標示為 favouritism 的美式拼寫)、w3157 flagship、w3158 full-blown、w3159 grievance、w3160 hackathon、w3161 hazard、w3162 hazardous、w3163 hesitant、w3164 hindsight、w3165 imbalance、w3166 inclusive、w3167 incompatibility、w3168 incur、w3169 interchangeable、w3170 interchangeably、w3171 interim、w3172 intervene、w3173 jurisdiction、w3174 know-how、w3175 liable、w3176 liaise、w3177 looming、w3178 lose-lose、w3179 magnitude、w3180 manifesto、w3181 mechanism、w3182 mediator、w3183 misalignment、w3184 mobilize、w3185 near-term(劍橋為英文單語收錄)、w3186 non-compliant、w3187 nonetheless、w3188 nuanced、w3189 objectivity、w3190 obligated(劍橋導向 oblige(責成/迫使);obligated 為其過去分詞形容詞用法)、w3191 obsolete、w3192 outage、w3193 permissible、w3194 physiological、w3195 precaution、w3196 predetermined、w3197 prematurely、w3198 proficiency、w3199 prohibit、w3200 prolong、w3201 proxy(「替代指標/代理變數」為統計延伸義)、w3202 punitive、w3203 quantify、w3204 rapport、w3205 ratification、w3206 rationale、w3207 reallocation(劍橋為英文單語收錄)、w3208 recurrence、w3209 recusal、w3210 resourcefulness、w3211 retroactive、w3212 retrofit、w3213 revamp、w3214 ridicule、w3215 rigor(劍橋收錄英式拼寫 rigour)、w3216 rigorous、w3217 shortlist、w3218 skeptical、w3219 sophisticated、w3220 sparingly、w3221 speculative、w3222 spontaneous、w3223 stipulate、w3224 stockpile、w3225 streamline、w3226 stringent、w3227 subjective、w3228 subtle、w3229 supplemental(劍橋收錄 supplementary(額外))、w3230 synchronize、w3231 systemic、w3232 tenure、w3233 tier、w3234 traceable、w3235 transcend、w3236 unbudgeted(劍橋為英文單語收錄)、w3237 underperformance(劍橋為英文單語收錄)、w3238 undertake、w3239 unduly、w3240 unfounded、w3241 unilateral、w3242 unsalvageable(劍橋為英文單語收錄)、w3243 volatility、w3244 vulnerability。
+
+---
+
 # 稽核總結
 
-本次稽核至第八十一批次(w2408~w2415)全數完成，`vocab-bank.md` 字庫中原編號 w1~w2115 及其後續擴充範圍 w2009~w2415(含新增商業、辦公、生活、健康、自然、教育等主題詞彙)已逐批全部稽核完畢，未再有尚未查核之詞條。後續若字庫再新增詞彙，將接續以批次方式稽核並更新本報告。
+本次稽核至第八十九批次(w3244)全數完成，`vocab-bank.md` 字庫中原編號 w1~w2115 及其後續擴充範圍 w2009~w3244(含新增商業、辦公、生活、健康、自然、教育、專案管理等主題詞彙)已逐批全部稽核完畢，未再有尚未查核之詞條。後續若字庫再新增詞彙，將接續以批次方式稽核並更新本報告。
