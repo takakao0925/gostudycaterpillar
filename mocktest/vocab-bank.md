@@ -25942,6 +25942,213 @@
       { en:"The company apologized for the sexist remarks made during the training session.", zh:"公司為培訓課程中出現的性別歧視言論道歉。" },
       { en:"HR launched an investigation after employees reported the manager as a sexist.", zh:"員工舉報該主管有性別歧視後，人資部門展開了調查。" }
     ]
+  },
+  {
+    id: "w3246", english: "hospitality", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["款待","好客"], ["旅館餐飲業","服務接待業"] ] }
+    ],
+    examples: [
+      { en:"The visiting delegation was impressed by the warm hospitality of their hosts.", zh:"來訪的代表團對主人的熱情款待印象深刻。" },
+      { en:"She has built a successful career in the hospitality industry.", zh:"她在旅館餐飲業建立了成功的職涯。" }
+    ]
+  },
+  {
+    id: "w3247", english: "sinister", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["邪惡的","不祥的","陰險的"] ] }
+    ],
+    examples: [
+      { en:"The investigators found no sinister motive behind the sudden resignation.", zh:"調查人員沒有發現這次突然辭職背後有任何不可告人的動機。" }
+    ]
+  },
+  {
+    id: "w3248", english: "LTV", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "Customer Lifetime Value",
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["客戶終身價值"] ] }
+    ],
+    examples: [
+      { en:"The marketing team compared the LTV (customer lifetime value) of each segment before setting the ad budget.", zh:"行銷團隊在訂定廣告預算前，先比較了各客群的客戶終身價值。" }
+    ]
+  },
+  {
+    id: "w3249", english: "riff", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["即興重複樂段"], ["（對既有構想的）變奏","改編版"] ] },
+      { pos: "vi", meaningGroups: [ ["即興發揮","即興演奏"] ] }
+    ],
+    examples: [
+      { en:"The new campaign is a clever riff on the brand's classic slogan.", zh:"這波新廣告活動是對品牌經典標語的巧妙改編。" },
+      { en:"During the brainstorming session, the team riffed on each other's ideas until a concept emerged.", zh:"在腦力激盪會議中，團隊成員彼此接續發揮點子，直到一個概念成形。" }
+    ]
+  },
+  {
+    id: "w3250", english: "attic", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["閣樓","頂樓儲藏室"] ] }
+    ],
+    examples: [
+      { en:"The old company records were stored in the attic of the headquarters building.", zh:"公司的舊檔案被存放在總部大樓的閣樓裡。" }
+    ]
+  },
+  {
+    id: "w3251", english: "snatch", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vt", meaningGroups: [ ["奪取","一把抓走"], ["趁機爭取到","搶下"] ] },
+      { pos: "nc", meaningGroups: [ ["片段","短暫的一段時間"] ] }
+    ],
+    examples: [
+      { en:"A thief snatched the courier's laptop bag and ran into the crowd.", zh:"小偷一把搶走快遞員的筆電包，跑進了人群中。" },
+      { en:"The startup snatched the contract from a much larger competitor.", zh:"這家新創公司從規模大得多的競爭對手手中搶下了這份合約。" },
+      { en:"She worked on the report in snatches between meetings.", zh:"她利用會議之間零碎的時間處理這份報告。" }
+    ]
+  },
+  {
+    id: "w3252", english: "troupe", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["劇團","巡迴演出團"] ] }
+    ],
+    examples: [
+      { en:"The theater troupe has been invited to perform at the company's annual gala.", zh:"這個劇團受邀在公司的年度晚宴上演出。" }
+    ]
+  },
+  {
+    id: "w3253", english: "scamper", createdAt: new Date().toISOString(), wrongCount: 0, stats: null, note: "（創意技巧 SCAMPER）Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse",
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["小跑","急匆匆地跑"] ] },
+      { pos: "nu", meaningGroups: [ ["（創意發想）七問檢核法"] ] }
+    ],
+    examples: [
+      { en:"The children scampered across the lobby while their parents checked in.", zh:"家長辦理入住時，孩子們在大廳裡蹦蹦跳跳地跑來跑去。" },
+      { en:"The design team used SCAMPER to generate new ideas for the existing product.", zh:"設計團隊運用七問檢核法，為現有產品激發出新的點子。" }
+    ]
+  },
+  {
+    id: "w3254", english: "prefix", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["字首","前綴"] ] },
+      { pos: "vt", meaningGroups: [ ["在…前面加上"] ] }
+    ],
+    examples: [
+      { en:"All internal project codes carry the department prefix, such as FIN or HR.", zh:"所有內部專案代碼都帶有部門前綴，例如 FIN 或 HR。" },
+      { en:"Please prefix each file name with the date so the records stay in order.", zh:"請在每個檔名前面加上日期，讓紀錄保持順序。" }
+    ]
+  },
+  {
+    id: "w3255", english: "cardinality", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["基數","集合的元素個數"], ["關聯基數","一對多、多對多等關係的數量"] ] }
+    ],
+    examples: [
+      { en:"The cardinality of a set is simply the number of elements it contains.", zh:"集合的基數就是它所包含的元素數量。" },
+      { en:"The database diagram shows a one-to-many cardinality between customers and orders.", zh:"資料庫圖表顯示客戶與訂單之間為一對多的關聯基數。" }
+    ]
+  },
+  {
+    id: "w3256", english: "quarry", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["採石場"], ["獵物","追捕的目標"] ] },
+      { pos: "vt", meaningGroups: [ ["開採","採掘（石材）"] ] }
+    ],
+    examples: [
+      { en:"The company has applied for a permit to expand its limestone quarry.", zh:"這家公司已申請許可，要擴建其石灰岩採石場。" },
+      { en:"The investigators closed in on their quarry after tracing the fraudulent transfers.", zh:"調查人員在追查出詐欺轉帳後，逼近了他們鎖定的目標。" },
+      { en:"The firm quarries granite for use in high-end construction projects.", zh:"這家公司開採花崗岩，供高階建築工程使用。" }
+    ]
+  },
+  {
+    id: "w3257", english: "mosey", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "vi", meaningGroups: [ ["閒晃","慢悠悠地走"] ] }
+    ],
+    examples: [
+      { en:"Several employees moseyed into the conference room a few minutes after the meeting began.", zh:"會議開始幾分鐘後，幾位員工才慢悠悠地晃進會議室。" }
+    ]
+  },
+  {
+    id: "w3258", english: "squire", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["（中世紀的）騎士侍從"], ["鄉紳","地方上的大地主"] ] },
+      { pos: "vt", meaningGroups: [ ["護送","陪同（女士）"] ] }
+    ],
+    examples: [
+      { en:"In medieval times, a young squire served a knight before being knighted himself.", zh:"在中世紀，年輕的侍從會先侍奉騎士，之後才受封為騎士。" },
+      { en:"The village squire donated land for the new community library.", zh:"這位村裡的鄉紳捐出土地，興建新的社區圖書館。" },
+      { en:"The host squired the visiting guests through the gallery.", zh:"主人陪同來訪的賓客參觀了美術館。" }
+    ]
+  },
+  {
+    id: "w3259", english: "decoy", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["誘餌","幌子","假目標"] ] },
+      { pos: "vt", meaningGroups: [ ["誘騙","引誘"] ] }
+    ],
+    examples: [
+      { en:"The fraudulent invoice was a decoy meant to distract auditors from the real transfers.", zh:"那張不實發票是個幌子，目的是讓稽核人員分心，不去注意真正的轉帳。" },
+      { en:"Scammers decoyed several employees into revealing their login credentials.", zh:"詐騙者誘騙了數名員工洩漏登入憑證。" }
+    ]
+  },
+  {
+    id: "w3260", english: "foulness", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nu", meaningGroups: [ ["惡臭","污穢"], ["邪惡","卑劣"] ] }
+    ],
+    examples: [
+      { en:"Residents complained about the foulness of the air near the waste processing plant.", zh:"居民抱怨廢棄物處理廠附近的空氣惡臭難聞。" },
+      { en:"The court was shocked by the foulness of the language used in the threatening emails.", zh:"法院對這些恐嚇電子郵件中用語的下流感到震驚。" }
+    ]
+  },
+  {
+    id: "w3261", english: "prescriptive", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "adj", meaningGroups: [ ["規定性的","指示性的"], ["（語言學）規範性的"] ] }
+    ],
+    examples: [
+      { en:"The regulator issued prescriptive rules that spell out exactly how each safety check must be done.", zh:"主管機關發布了規定性的規則，明確列出每項安全檢查必須如何執行。" },
+      { en:"A prescriptive grammar book tells readers how language should be used, not how it is used.", zh:"規範性的文法書告訴讀者語言應該如何使用，而不是實際上如何使用。" }
+    ]
+  },
+  {
+    id: "w3262", english: "prerequisite", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["先決條件","前提"] ] },
+      { pos: "adj", meaningGroups: [ ["先決的","必備的"] ] }
+    ],
+    examples: [
+      { en:"Completing the safety course is a prerequisite for operating the machinery.", zh:"完成安全課程是操作這台機械的先決條件。" },
+      { en:"A prerequisite course in statistics is required before enrolling in the advanced class.", zh:"修習進階課程前，必須先修統計學這門先修課程。" }
+    ]
+  },
+  {
+    id: "w3263", english: "verdict", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["（陪審團的）裁決","判決"], ["定論","評斷"] ] }
+    ],
+    examples: [
+      { en:"The jury reached a unanimous verdict after two days of deliberation.", zh:"陪審團經過兩天的審議後，達成一致的裁決。" },
+      { en:"The board's verdict on the proposal will be announced at the end of the month.", zh:"董事會對這項提案的定論將在月底公布。" }
+    ]
+  },
+  {
+    id: "w3264", english: "interval", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["間隔","間隔時間"], ["（統計）區間"] ] }
+    ],
+    examples: [
+      { en:"The system backs up its data at regular intervals throughout the day.", zh:"系統在一整天內每隔固定時間就會備份資料。" },
+      { en:"The report gives a confidence interval of 95 percent for the sales forecast.", zh:"這份報告為銷售預測提供了百分之九十五的信賴區間。" }
+    ]
+  },
+  {
+    id: "w3265", english: "console", createdAt: new Date().toISOString(), wrongCount: 0, stats: null,
+    posGroups: [
+      { pos: "nc", meaningGroups: [ ["控制台","操控台"], ["（遊戲）主機"] ] },
+      { pos: "vt", meaningGroups: [ ["安慰","慰問"] ] }
+    ],
+    examples: [
+      { en:"The operator monitored the production line from the central control console.", zh:"操作員在中央控制台監看生產線。" },
+      { en:"The manager tried to console the team after the contract was lost to a rival.", zh:"合約被對手搶走後，經理試著安慰團隊。" }
+    ]
   }
 ]
 ```
